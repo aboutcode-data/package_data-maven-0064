@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.arquillian.testenricher",
+    "name": "arquillian-testenricher-resource",
+    "version": "1.1.10.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "42e412d2-63c0-49c0-aa45-e0f8b9966e95",
+            "packages": [
+                "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-resource@1.1.10.Final?uuid=58b03e60-4a36-4ccf-8272-2b9baf49e57c",
+                "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-resource@1.1.10.Final?classifier=sources&uuid=2d1ba4a1-2a45-4aaa-9ca1-72939e1b3fef"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Arquillian TestEnricher Resource\nResource TestEnricher for the Arquillian Project",
+    "release_date": "2015-10-19T12:57:40Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.1.10.Final/arquillian-testenricher-resource-1.1.10.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c91f5bdee7096e9c197ea0e8b20cea385fa8ee7d",
+    "sha256": "0e7bf5ba51f4921b4792210f1b3ec06e9b8d85b45b0fd3ed4b0c803d43094c7d",
+    "sha512": "1158c0d93ca35a0491e060970b54d53a3925c3188544ce110bbae551557924528c94894e21d0631e9edf1310c8cf305742885b042f7f331ff22b0300d7fa9e12",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-resource@1.1.10.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.test/arquillian-test-spi@1.1.10.Final",
+            "extracted_requirement": "1.1.10.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi@1.1.10.Final",
+            "extracted_requirement": "1.1.10.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.annotation/jsr250-api@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-resource@1.1.10.Final?classifier=sources&uuid=2d1ba4a1-2a45-4aaa-9ca1-72939e1b3fef",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-resource@1.1.10.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.1.10.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.1.10.Final/arquillian-testenricher-resource-1.1.10.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.1.10.Final/arquillian-testenricher-resource-1.1.10.Final.pom",
+    "file_references": []
+}

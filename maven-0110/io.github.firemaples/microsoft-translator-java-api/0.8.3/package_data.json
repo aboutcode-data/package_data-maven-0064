@@ -1,0 +1,102 @@
+{
+    "type": "maven",
+    "namespace": "io.github.firemaples",
+    "name": "microsoft-translator-java-api",
+    "version": "0.8.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b4619825-bba8-4bb7-aa24-e155e3797d2e",
+            "packages": [
+                "pkg:maven/io.github.firemaples/microsoft-translator-java-api@0.8.3?uuid=223d43a4-55b9-4aa2-8c41-72497fbbce8a",
+                "pkg:maven/io.github.firemaples/microsoft-translator-java-api@0.8.3?classifier=sources&uuid=5a1404e8-633a-41fe-830c-b0a210dc698e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "microsoft-translator-java-api\nA Java wrapper for the Microsoft Translator API",
+    "release_date": "2017-03-20T11:54:53Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Louis Chen",
+            "email": "firemaples@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/firemaples/microsoft-translator-java-api",
+    "download_url": "https://repo1.maven.org/maven2/io/github/firemaples/microsoft-translator-java-api/0.8.3/microsoft-translator-java-api-0.8.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e6f33eac69a751e2e0f308c3bcb2eb398e8f4f1f",
+    "sha256": "742a530c9207060d0c9172d3d8df7d8606bea4063e5ab8a2427fbb4d60f10790",
+    "sha512": "814f16aed4379c24b933699b0d6011b91e7d70fd8bddee7f2a9fa2c8e487d4ee1e616bce3e80c1948f3ad3d42b2666da8fd715ec9a44cb9f63fec4a36616988c",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/firemaples/microsoft-translator-java-api",
+    "vcs_url": "https://github.com/firemaples/microsoft-translator-java-api.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.github.firemaples/microsoft-translator-java-api@0.8.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.googlecode.json-simple/json-simple@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.github.firemaples/microsoft-translator-java-api@0.8.3?classifier=sources&uuid=5a1404e8-633a-41fe-830c-b0a210dc698e",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.github.firemaples/microsoft-translator-java-api@0.8.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/github/firemaples/microsoft-translator-java-api/0.8.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/github/firemaples/microsoft-translator-java-api/0.8.3/microsoft-translator-java-api-0.8.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/github/firemaples/microsoft-translator-java-api/0.8.3/microsoft-translator-java-api-0.8.3.pom",
+    "file_references": []
+}

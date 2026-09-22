@@ -1,0 +1,167 @@
+{
+    "type": "maven",
+    "namespace": "org.caffinitas.ohc",
+    "name": "ohc-core-j8",
+    "version": "0.5.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2d428a79-04a8-4a17-8843-ab07730daa4d",
+            "packages": [
+                "pkg:maven/org.caffinitas.ohc/ohc-core-j8@0.5.1?uuid=5a8af0a4-9634-46e0-bae8-a995f0859a0b",
+                "pkg:maven/org.caffinitas.ohc/ohc-core-j8@0.5.1?classifier=sources&uuid=f64d8bd0-a046-4b20-8721-7b302fe2d0e2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OHC core - Java8 optimization\nOff-Heap concurrent hash map intended to store GBs of serialized data",
+    "release_date": "2016-08-27T17:58:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robert Stupp",
+            "email": "robert@caffinitas.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Benedict Elliott Smith",
+            "email": "belliottsmith@datastax.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ariel Weisberg",
+            "email": "ariel.weisberg@datastax.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Robert Stupp, Koeln, Germany, robert-stupp.de",
+            "email": null,
+            "url": "http://caffinitas.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://caffinitas.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/caffinitas/ohc/ohc-core-j8/0.5.1/ohc-core-j8-0.5.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a3a8370a2372d9aaeaabb6b125cc45714dc49992",
+    "sha256": "468cd2acaef63e639e4a2d85634be434072f5767919688cf7dac8ef322340671",
+    "sha512": "e789f7266109c5a2906f57a7ed4e9bb68452ee36b7f9947ea2b348e7ce0120d1ec52b0e0445bedc45da94020b0b69d13ce5ceff15d4d925eaccae281b8886630",
+    "bug_tracking_url": "https://github.com/snazy/ohc",
+    "code_view_url": "https://github.com/snazy/ohc",
+    "vcs_url": "git+https://github.com/snazy/ohc.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_217.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_217.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-fbaf518c-fb9f-cb75-362a-c4984ded4901",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-428c1364-ecb5-f806-7a2e-77d10737a7ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: Apache License Version 2.0\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.caffinitas.ohc/ohc-core-j8@0.5.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.caffinitas.ohc/ohc-core@0.5.1",
+            "extracted_requirement": "0.5.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.xerial.snappy/snappy-java",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.caffinitas.ohc/ohc-core-j8@0.5.1?classifier=sources&uuid=f64d8bd0-a046-4b20-8721-7b302fe2d0e2",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.caffinitas.ohc/ohc-core-j8@0.5.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/caffinitas/ohc/ohc-core-j8/0.5.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/caffinitas/ohc/ohc-core-j8/0.5.1/ohc-core-j8-0.5.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/caffinitas/ohc/ohc-core-j8/0.5.1/ohc-core-j8-0.5.1.pom",
+    "file_references": []
+}

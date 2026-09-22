@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "xdoclet-plugin-beaninfo",
+    "name": "xdoclet-plugin-beaninfo",
+    "version": "20051012.090849",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "xdoclet-plugin-beaninfo",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Laurent Etiemble",
+            "email": "no.spam.letiemble@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Aslak Helles?y",
+            "email": "no.spam.rinkrank@users.sourceforge.net",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/xdoclet-plugin-beaninfo/xdoclet-plugin-beaninfo/20051012.090849/xdoclet-plugin-beaninfo-20051012.090849.jar",
+    "size": null,
+    "md5": null,
+    "sha1": null,
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xdoclet-plugin-beaninfo/xdoclet-plugin-beaninfo@20051012.090849?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/xdoclet-plugin-beaninfo/xdoclet-plugin-qtags",
+            "extracted_requirement": "20051012.090849",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xdoclet-plugin-beaninfo/xdoclet-testapp-pojo",
+            "extracted_requirement": "20051012.090849",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/xdoclet-plugin-beaninfo/xdoclet-plugin-beaninfo@20051012.090849?uuid=050f057c-4501-40ef-81c8-36f770ff2ea0",
+    "datasource_id": null,
+    "purl": "pkg:maven/xdoclet-plugin-beaninfo/xdoclet-plugin-beaninfo@20051012.090849",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

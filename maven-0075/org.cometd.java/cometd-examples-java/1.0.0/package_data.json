@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.cometd.java",
+    "name": "cometd-examples-java",
+    "version": "1.0.0",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "CometD :: Java :: Examples",
+    "release_date": "2009-11-27T13:46:55Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/cometd/java/cometd-examples-java/1.0.0/cometd-examples-java-1.0.0.war",
+    "size": 285167,
+    "md5": null,
+    "sha1": "ce8ed8c3ede241b2006dd8ecf5b4387e73d7ce9a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.cometd.java/cometd-examples-java@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.cometd.java/cometd-java-server",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet",
+            "extracted_requirement": "${jetty-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.cometd.java/cometd-examples-java@1.0.0?type=war&uuid=16267c1e-2dc0-4a8d-adb4-dd2b50b97657",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.cometd.java/cometd-examples-java@1.0.0?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/cometd/java/cometd-examples-java/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/cometd/java/cometd-examples-java/1.0.0/cometd-examples-java-1.0.0.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/cometd/java/cometd-examples-java/1.0.0/cometd-examples-java-1.0.0.pom",
+    "file_references": []
+}

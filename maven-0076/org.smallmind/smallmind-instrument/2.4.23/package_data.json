@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.smallmind",
+    "name": "smallmind-instrument",
+    "version": "2.4.23",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Instrument\nCode Instrumentation Frameworks",
+    "release_date": "2017-05-21T13:43:17Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/smallmind/smallmind-instrument/2.4.23/smallmind-instrument-2.4.23.jar",
+    "size": 146556,
+    "md5": null,
+    "sha1": "ace9214f20d07c9c02674524a222ad7bee73b0dd",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.smallmind/smallmind-instrument@2.4.23?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.smallmind/smallmind-nutsnbolts",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.smallmind/scribe-pen",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.rrd4j/rrd4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.smallmind/smallmind-instrument@2.4.23?uuid=45f29ce5-8f26-48ad-8a2a-91511e7a404f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.smallmind/smallmind-instrument@2.4.23",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/smallmind/smallmind-instrument/2.4.23/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/smallmind/smallmind-instrument/2.4.23/smallmind-instrument-2.4.23.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/smallmind/smallmind-instrument/2.4.23/smallmind-instrument-2.4.23.pom",
+    "file_references": []
+}

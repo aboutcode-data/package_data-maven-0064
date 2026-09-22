@@ -1,0 +1,212 @@
+{
+    "type": "maven",
+    "namespace": "javax.faces",
+    "name": "jsf-api",
+    "version": "1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3656b5aa-448d-440a-b2b4-d627383bcff7",
+            "packages": [
+                "pkg:maven/javax.faces/jsf-api@1.2?uuid=84af2ba3-bbdc-42ba-8a3c-a24a94dbf3c3",
+                "pkg:maven/javax.faces/jsf-api@1.2?classifier=sources&uuid=3c8237e3-bad3-42f9-b832-c3fde8551f14"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "This is the master POM file for Sun's Implementation of\n  the JSF 1.2 Specification.",
+    "release_date": "2006-11-17T19:15:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ed Burns",
+            "email": "ed.burns@sun.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ryan Lubke",
+            "email": "Ryan.Lubke@sun.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Roger.Kitain",
+            "email": "Roger.Kitain@sun.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Craig McClanahan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Deepak Gothe",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Gregory Murray",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Justyna Horwat",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jayashri Visvanathan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jennifer Ball",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jacob Hookom",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Raj Premkumar",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Stan Silvert",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mike Youngstrom",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Sun Microsystems, Inc",
+            "email": null,
+            "url": "http://www.sun.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.sun.com/javaee/javaserverfaces/",
+    "download_url": "https://repo1.maven.org/maven2/javax/faces/jsf-api/1.2/jsf-api-1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "565aea3205df71253dc584123371ce0111036d09",
+    "sha256": "3c6ebc9bbbb1a4c6d6b4d382e6b97c236594012cff817399b92c267c1b3be03e",
+    "sha512": "1bd9395ac1b3d485bd0a41c78d6e440cb95774ca6370ba2b4a008699d309efd0d5256b44d01b1532505301858a9ebdd7ecbee2a3b4d99e56dbaf241200a70404",
+    "bug_tracking_url": "https://javaserverfaces-spec-public.dev.java.net/servlets/ProjectIssues",
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.0",
+    "declared_license_expression_spdx": "CDDL-1.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.0_47.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.0_47.RULE",
+                    "license_expression": "cddl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.0_10.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/cddl1.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.0_10.RULE",
+                    "license_expression": "cddl-1.0"
+                }
+            ],
+            "identifier": "cddl_1_0-00bbb9d2-e972-21ab-71c0-2fd34b255e12",
+            "license_expression": "cddl-1.0"
+        }
+    ],
+    "other_license_expression": "cddl-1.0 AND sun-prop-non-commercial AND proprietary-license",
+    "other_license_expression_spdx": "CDDL-1.0 AND LicenseRef-scancode-sun-prop-non-commercial AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0\n  url: http://www.opensource.org/licenses/cddl1.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.faces/jsf-api@1.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.5",
+            "extracted_requirement": "2.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet.jsp/jsp-api@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet.jsp.jstl/jstl@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.faces/jsf-api@1.2?classifier=sources&uuid=3c8237e3-bad3-42f9-b832-c3fde8551f14",
+    "datasource_id": null,
+    "purl": "pkg:maven/javax.faces/jsf-api@1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/faces/jsf-api/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/faces/jsf-api/1.2/jsf-api-1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/faces/jsf-api/1.2/jsf-api-1.2.pom",
+    "file_references": []
+}

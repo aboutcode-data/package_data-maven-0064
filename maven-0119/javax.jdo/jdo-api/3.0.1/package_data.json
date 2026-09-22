@@ -1,0 +1,192 @@
+{
+    "type": "maven",
+    "namespace": "javax.jdo",
+    "name": "jdo-api",
+    "version": "3.0.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "02ffcbcc-323f-47d3-a30d-6265f2e6a12f",
+            "packages": [
+                "pkg:maven/javax.jdo/jdo-api@3.0.1?uuid=f4e46b2b-dd55-4f17-9d2f-9baf61ae0b83",
+                "pkg:maven/javax.jdo/jdo-api@3.0.1?classifier=sources&uuid=6ec4ca7a-bd47-4213-80b8-11a83688ff05"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JDO API\nThe Java Data Objects (JDO) API is a standard interface-based Java model abstraction of persistence, developed as Java Specification Request 243 under the auspices of the Java Community Process.",
+    "release_date": "2012-02-09T14:01:07Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Craig Russell",
+            "email": "Craig.Russell@Sun.COM",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael Bouschen",
+            "email": "mbo.tech@spree.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael Watzek",
+            "email": "mwa.tech@spree.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michelle Caisse",
+            "email": "Michelle.Caisse@Sun.COM",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matthew Adams",
+            "email": "matthew@matthewadams.me",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Zaun",
+            "email": "martin.zaun@Sun.COM",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Erik Bengtson",
+            "email": "erik@jpox.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Geir Magnusson, Jr.",
+            "email": "geirm@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian McCallister",
+            "email": "brianm@apache.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://db.apache.org/jdo",
+    "download_url": "https://repo1.maven.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1bb91e3f83af904aa1c82fa83095b44245552d8e",
+    "sha256": "52d2475252ebb423d99adc08b23534a7053e7513bbc25226b01d6be256449988",
+    "sha512": "8d47ae268b9e0f89ef4aeca62a070344d6f9fa41b75b24dc1757b0675dde549a1e36d0344c1902d3852716cf0e74442832d08e2c5f418e4842d19a871629346d",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewcvs.cgi/db/jdo",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/db/jdo/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_217.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_217.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-9dee21f1-7230-6e88-8a62-5950d8f6d6ed",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.jdo/jdo-api@3.0.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.transaction/jta@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant@1.7.0",
+            "extracted_requirement": "1.7.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jpa_3.0_spec@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.jdo/jdo-api@3.0.1?classifier=sources&uuid=6ec4ca7a-bd47-4213-80b8-11a83688ff05",
+    "datasource_id": null,
+    "purl": "pkg:maven/javax.jdo/jdo-api@3.0.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/jdo/jdo-api/3.0.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.pom",
+    "file_references": []
+}

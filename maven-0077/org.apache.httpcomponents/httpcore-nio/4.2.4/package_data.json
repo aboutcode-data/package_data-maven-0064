@@ -1,0 +1,229 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.httpcomponents",
+    "name": "httpcore-nio",
+    "version": "4.2.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "50b46a2d-1c8c-41a8-9e86-ea53c0c3d52b",
+            "packages": [
+                "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.2.4?uuid=e531db76-777f-44d3-9d1c-d42222eea01d",
+                "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.2.4?classifier=sources&uuid=b82e17d6-8e21-4369-9c6e-5f38939ebaac"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "HttpCore NIO\nHttpComponents Core (non-blocking I/O)",
+    "release_date": "2013-03-20T16:13:04Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ortwin Glueck",
+            "email": "oglueck -at- apache.org",
+            "url": "http://www.odi.ch/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Oleg Kalnichevski",
+            "email": "olegk -at- apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Asankha C. Perera",
+            "email": "asankha -at- apache.org",
+            "url": "http://www.adroitlogic.org/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sebastian Bazley",
+            "email": "sebb -at- apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Erik Abele",
+            "email": "erikabele -at- apache.org",
+            "url": "http://www.codefaktor.de/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ant Elder",
+            "email": "antelder -at- apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Paul Fremantle",
+            "email": "pzf -at- apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Roland Weber",
+            "email": "rolandw -at- apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sam Berlin",
+            "email": "sberlin -at- apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sean C. Sullivan",
+            "email": "sullis -at- apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jonathan Moore",
+            "email": "jonm -at- apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Julius Davies",
+            "email": "juliusdavies -at- cucbc.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Andrea Selva",
+            "email": "selva.andre -at- gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Steffen Pingel",
+            "email": "spingel -at- limewire.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Quintin Beukes",
+            "email": "quintin -at- last.za.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marc Beyerle",
+            "email": "marc.beyerle -at- de.ibm.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "James Abley",
+            "email": "james.abley -at- gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michajlo Matijkiw",
+            "email": "michajlo_matijkiw -at- comcast.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://hc.apache.org/httpcomponents-core-ga",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.2.4/httpcore-nio-4.2.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b21b69044df67888990e5ef60a3d51afc743be65",
+    "sha256": "11176c824008cda9fa243830caa2ce463b98bc02b59fca84e1a9616b31b8f3ed",
+    "sha512": "9dd4ded4f36a201c96fddbc3ac284dd3184cd69fab67029de01f421a2665db2d94c6208293b987024f07ae0563abbaee5535da01c29224dd3a2210912ee8f8e5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND cc-by-2.5",
+    "other_license_expression_spdx": "Apache-2.0 AND CC-BY-2.5",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.2.4?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.httpcomponents/project@6",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.httpcomponents/project@6",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.httpcomponents/httpcomponents-core@4.2.4"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.2.4",
+            "extracted_requirement": "4.2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.2.4?classifier=sources&uuid=b82e17d6-8e21-4369-9c6e-5f38939ebaac",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.2.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.2.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.2.4/httpcore-nio-4.2.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.2.4/httpcore-nio-4.2.4.pom",
+    "file_references": []
+}

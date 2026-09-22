@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.vertexium",
+    "name": "vertexium-tools",
+    "version": "2.5.7",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Vertexium: Tools",
+    "release_date": "2017-05-26T19:53:08Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/vertexium/vertexium-tools/2.5.7/vertexium-tools-2.5.7.jar",
+    "size": 13762,
+    "md5": null,
+    "sha1": "00fa8a0fa6c92d511b4982879615317bbcc88650",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.vertexium/vertexium-tools@2.5.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.vertexium/vertexium-core",
+            "extracted_requirement": "2.5.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.vertexium/vertexium-accumulo",
+            "extracted_requirement": "2.5.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.vertexium/vertexium-elasticsearch-singledocument",
+            "extracted_requirement": "2.5.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.json/json",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.beust/jcommander",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.vertexium/vertexium-inmemory",
+            "extracted_requirement": "2.5.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.vertexium/vertexium-test",
+            "extracted_requirement": "2.5.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.vertexium/vertexium-tools@2.5.7?uuid=369a088b-9e6c-4a00-9787-3c4f89ee12f9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.vertexium/vertexium-tools@2.5.7",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/vertexium/vertexium-tools/2.5.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/vertexium/vertexium-tools/2.5.7/vertexium-tools-2.5.7.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/vertexium/vertexium-tools/2.5.7/vertexium-tools-2.5.7.pom",
+    "file_references": []
+}

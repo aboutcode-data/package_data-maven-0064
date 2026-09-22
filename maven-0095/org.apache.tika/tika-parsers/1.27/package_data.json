@@ -1,0 +1,760 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tika",
+    "name": "tika-parsers",
+    "version": "1.27",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2ea68030-c951-4ba3-85ec-5037022ed0f4",
+            "packages": [
+                "pkg:maven/org.apache.tika/tika-parsers@1.27?uuid=9c4d65fe-53c0-4d0d-86f4-27e0c129d686",
+                "pkg:maven/org.apache.tika/tika-parsers@1.27?classifier=sources&uuid=db9cc81e-741f-4c81-a149-396276ebfacb"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Tika parsers",
+    "release_date": "2021-06-30T19:15:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://tika.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.27/tika-parsers-1.27-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7ff0d8f3f4f1200e5ea688127617c0c53443562a",
+    "sha256": "7649d09f958afd99d0ce4338ad720420464d4bb13253776805c994ce7c224420",
+    "sha512": "449f7fa3d836848be847642b0b0adafa8518509ace5548008bf84915f6db0136e7dc7d08800fa9484970c4e83e7a2d12a62e4c9d020a08f4fd085ae3ae699071",
+    "bug_tracking_url": "https://issues.apache.org/jira/browse/TIKA",
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND unicode AND (apache-2.0 AND mit) AND ((apache-2.0 AND bsd-new AND mpl-1.1 AND mit AND lgpl-3.0 AND lgpl-2.1 AND epl-1.0 AND cddl-1.0 AND lgpl-2.1-plus AND public-domain AND sax-pd AND w3c AND epl-2.0 AND gpl-2.0 AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND classpath-exception-2.0 AND bsd-3-clause-no-nuclear-warranty AND jdom) AND (apache-2.0 AND bsd-new AND mit AND netcdf)) AND (apache-2.0 AND (lgpl-2.0-plus AND unknown-license-reference)) AND (apache-2.0 AND x11 AND (unrar AND public-domain)) AND (unicode AND ngpl)",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unicode AND (Apache-2.0 AND MIT) AND ((Apache-2.0 AND BSD-3-Clause AND MPL-1.1 AND MIT AND LGPL-3.0-only AND LGPL-2.1-only AND EPL-1.0 AND CDDL-1.0 AND LGPL-2.1-or-later AND LicenseRef-scancode-public-domain AND SAX-PD AND W3C AND EPL-2.0 AND GPL-2.0-only AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Classpath-exception-2.0 AND BSD-3-Clause-No-Nuclear-Warranty AND LicenseRef-scancode-jdom) AND (Apache-2.0 AND BSD-3-Clause AND MIT AND NetCDF)) AND (Apache-2.0 AND (LGPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference)) AND (Apache-2.0 AND ICU AND (LicenseRef-scancode-unrar AND LicenseRef-scancode-public-domain)) AND (LicenseRef-scancode-unicode AND NGPL)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tika/tika-parsers@1.27?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codelibs/jhighlight@1.0.3",
+            "extracted_requirement": "1.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": "${osgi.core.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.scr.annotations",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.luben/zstd-jni@1.5.0-2",
+            "extracted_requirement": "1.5.0-2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.xerial/sqlite-jdbc@3.36.0",
+            "extracted_requirement": "3.36.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ctakes/ctakes-core@4.0.0.1",
+            "extracted_requirement": "4.0.0.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/uimafit-core@3.2.0",
+            "extracted_requirement": "3.2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/uimaj-core@3.2.0",
+            "extracted_requirement": "3.2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tika/tika-core@1.27",
+            "extracted_requirement": "1.27",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xerces/xercesImpl@2.12.1",
+            "extracted_requirement": "2.12.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.2.6",
+            "extracted_requirement": "6.2.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": "${commons.lang3.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+            "extracted_requirement": "1.3.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.gagravarr/vorbis-java-tika@0.8",
+            "extracted_requirement": "0.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.tallison/jmatio@1.5",
+            "extracted_requirement": "1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.james/apache-mime4j-core@0.8.4",
+            "extracted_requirement": "0.8.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.james/apache-mime4j-dom@0.8.4",
+            "extracted_requirement": "0.8.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.googlecode.plist/dd-plist@1.23",
+            "extracted_requirement": "1.23",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-compress",
+            "extracted_requirement": "${commons.compress.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.tukaani/xz@1.9",
+            "extracted_requirement": "1.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.epam/parso@2.0.14",
+            "extracted_requirement": "2.0.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.brotli/dec@0.1.2",
+            "extracted_requirement": "0.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec@1.15",
+            "extracted_requirement": "1.15",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.pdfbox/pdfbox@2.0.24",
+            "extracted_requirement": "2.0.24",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.pdfbox/pdfbox-tools@2.0.24",
+            "extracted_requirement": "2.0.24",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.pdfbox/preflight@2.0.24",
+            "extracted_requirement": "2.0.24",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.pdfbox/jempbox@1.8.16",
+            "extracted_requirement": "1.8.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.pdfbox/xmpbox@2.0.24",
+            "extracted_requirement": "2.0.24",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcmail-jdk15on@1.69",
+            "extracted_requirement": "1.69",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.69",
+            "extracted_requirement": "1.69",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.poi/poi",
+            "extracted_requirement": "${poi.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.poi/poi-scratchpad",
+            "extracted_requirement": "${poi.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.poi/poi-ooxml",
+            "extracted_requirement": "${poi.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.healthmarketscience.jackcess/jackcess@4.0.1",
+            "extracted_requirement": "4.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.healthmarketscience.jackcess/jackcess-encrypt@4.0.1",
+            "extracted_requirement": "4.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm@9.2",
+            "extracted_requirement": "9.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.tallison/isoparser@1.9.41.7",
+            "extracted_requirement": "1.9.41.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.tallison/metadata-extractor@2.15.0.1",
+            "extracted_requirement": "2.15.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/de.l3s.boilerpipe/boilerpipe@1.1.0",
+            "extracted_requirement": "1.1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.rometools/rome@1.15.0",
+            "extracted_requirement": "1.15.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.gagravarr/vorbis-java-core@0.8",
+            "extracted_requirement": "0.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3",
+            "extracted_requirement": "1.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.pff/java-libpst@0.9.3",
+            "extracted_requirement": "0.9.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.junrar/junrar@7.4.0",
+            "extracted_requirement": "7.4.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-client",
+            "extracted_requirement": "${cxf.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jaxb/jaxb-runtime",
+            "extracted_requirement": "${jaxb.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-exec@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.opennlp/opennlp-tools",
+            "extracted_requirement": "${opennlp.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "${commons.io.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.googlecode.json-simple/json-simple@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.openjson/openjson@1.0.12",
+            "extracted_requirement": "1.0.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson",
+            "extracted_requirement": "${gson.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jul-to-slf4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/edu.ucar/netcdf4@4.5.5",
+            "extracted_requirement": "4.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jdom/jdom2@2.0.6",
+            "extracted_requirement": "2.0.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "${guava.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/edu.ucar/grib@4.5.5",
+            "extracted_requirement": "4.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.jcip/jcip-annotations@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.beust/jcommander@1.81",
+            "extracted_requirement": "1.81",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna@5.8.0",
+            "extracted_requirement": "5.8.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jsoup/jsoup@1.13.1",
+            "extracted_requirement": "1.13.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java@3.15.6",
+            "extracted_requirement": "3.15.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/edu.ucar/cdm@4.5.5",
+            "extracted_requirement": "4.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.quartz-scheduler/quartz@2.3.2",
+            "extracted_requirement": "2.3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.mchange/c3p0@0.9.5.5",
+            "extracted_requirement": "0.9.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/edu.ucar/httpservices@4.5.5",
+            "extracted_requirement": "4.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13",
+            "extracted_requirement": "4.5.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpmime@4.5.13",
+            "extracted_requirement": "4.5.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-csv@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.sis.core/sis-utility@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.sis.storage/sis-netcdf@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.sis.core/sis-metadata@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opengis/geoapi@3.0.1",
+            "extracted_requirement": "3.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/edu.usc.ir/sentiment-analysis-parser@0.1",
+            "extracted_requirement": "0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": "${jackson.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "${jackson.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+            "extracted_requirement": "${jackson.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.pdfbox/jbig2-imageio@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jai-imageio/jai-imageio-core@1.4.0",
+            "extracted_requirement": "1.4.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tika/tika-core@1.27",
+            "extracted_requirement": "1.27",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "${mockito.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.jai-imageio/jai-imageio-jpeg2000@1.4.0",
+            "extracted_requirement": "1.4.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tika/tika-parsers@1.27?classifier=sources&uuid=db9cc81e-741f-4c81-a149-396276ebfacb",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.tika/tika-parsers@1.27?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-ec2",
+    "version": "1.11.271",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "af940806-c049-409d-9f54-324d14b38095",
+            "packages": [
+                "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.11.271?uuid=d750206f-8a4f-4bc2-abe0-d1e149e50f2b",
+                "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.11.271?classifier=sources&uuid=4fe6b641-0cbe-4570-87eb-a87c69f076d4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK for Amazon EC2\nThe AWS Java SDK for Amazon EC2 module holds the client classes that are used for communicating with Amazon EC2 Service",
+    "release_date": "2018-01-27T00:05:26Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.11.271/aws-java-sdk-ec2-1.11.271-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f01045c34311211b893bd7a1fc1f1a7e0a955397",
+    "sha256": "5b16d2df91d0b0f12a357a15291ea27a954a06690918b36efb0dbd260a7d7c6f",
+    "sha512": "a9002c3a80a28f492f72de6dec8e3ef35979437e92a689f84d5631b3c8d43108889a380e387bd637561d02b60d49cb513fae0af3da680b65803b9231ad6d5902",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.11.271?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/jmespath-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.11.271?classifier=sources&uuid=4fe6b641-0cbe-4570-87eb-a87c69f076d4",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.11.271?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.11.271/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.11.271/aws-java-sdk-ec2-1.11.271-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.11.271/aws-java-sdk-ec2-1.11.271.pom",
+    "file_references": []
+}

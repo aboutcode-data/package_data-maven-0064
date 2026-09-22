@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven.wagon",
+    "name": "wagon-provider-test",
+    "version": "2.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e6bfb7fd-fab5-4add-9267-d00790131dbe",
+            "packages": [
+                "pkg:maven/org.apache.maven.wagon/wagon-provider-test@2.6?uuid=f44f37b4-29e5-428b-85f7-be49d8103355",
+                "pkg:maven/org.apache.maven.wagon/wagon-provider-test@2.6?classifier=sources&uuid=18e59853-f9c2-47e0-ba08-bbbc463c9dc8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Maven Wagon :: Provider Test\nSuite of tests for Wagon implementations",
+    "release_date": "2013-12-30T02:27:18Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-test/2.6/wagon-provider-test-2.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "26a87342590718fe0992781a1558c559170ca226",
+    "sha256": "2ec00639af653cbac145b1d6dcd70acb9ae0f91ad12a034754f786822c48c64c",
+    "sha512": "72ae3a652cbeae76854b6698f1776249a273b724651db6edc02312e4bb5367680e5eb2f7771c7614c865b5de18170aa3504158709b7e8b60ac3661ddfb69866e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND cpl-1.0 AND epl-1.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND CPL-1.0 AND EPL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven.wagon/wagon-provider-test@2.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.wagon/wagon-provider-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-container-default",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mortbay.jetty/jetty",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven.wagon/wagon-provider-test@2.6?classifier=sources&uuid=18e59853-f9c2-47e0-ba08-bbbc463c9dc8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven.wagon/wagon-provider-test@2.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-test/2.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-test/2.6/wagon-provider-test-2.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-test/2.6/wagon-provider-test-2.6.pom",
+    "file_references": []
+}

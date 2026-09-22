@@ -1,0 +1,192 @@
+{
+    "type": "maven",
+    "namespace": "com.lightbend.akka",
+    "name": "akka-stream-alpakka-s3_2.12",
+    "version": "2.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "57e5463b-46e8-48a1-b5e8-040719b9f6e0",
+            "packages": [
+                "pkg:maven/com.lightbend.akka/akka-stream-alpakka-s3_2.12@2.0.2?uuid=44758e71-8e43-43f5-9c97-6d891c457e0b",
+                "pkg:maven/com.lightbend.akka/akka-stream-alpakka-s3_2.12@2.0.2?classifier=sources&uuid=97b86e12-0770-4bc1-b285-98dc07ca4f1c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "akka-stream-alpakka-s3\nAlpakka is a Reactive Enterprise Integration library for Java and Scala, based on Reactive Streams and Akka.",
+    "release_date": "2020-09-18T07:30:32Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Contributors",
+            "email": "https://gitter.im/akka/dev",
+            "url": "https://github.com/akka/alpakka/graphs/contributors"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Lightbend Inc.",
+            "email": null,
+            "url": "https://www.lightbend.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://doc.akka.io/docs/alpakka/current",
+    "download_url": "https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-s3_2.12/2.0.2/akka-stream-alpakka-s3_2.12-2.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2af0a8d0d578660b8c58d5b9f240ce48c399c2e8",
+    "sha256": "6ff62eba7045718ddb8cfee7751498f8855b05bcb39ef7cdf6da28c58837a486",
+    "sha512": "4e2bd7feff1e96333834bc082b75ea9c7453524a5865a157a1fd11102abf71b1fe522c9b8e846a1f578fc56c3fd2024fe8d89dc9e813109f6d4c0b9ab6783eb0",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/akka/alpakka",
+    "vcs_url": "git@github.com:akka/alpakka.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-81405729-7e02-18ac-3730-53333d31533c",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lightbend.akka/akka-stream-alpakka-s3_2.12@2.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.11",
+            "extracted_requirement": "2.12.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-stream_2.12@2.5.31",
+            "extracted_requirement": "2.5.31",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-http_2.12@10.1.11",
+            "extracted_requirement": "10.1.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-http-xml_2.12@10.1.11",
+            "extracted_requirement": "10.1.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/auth@2.11.14",
+            "extracted_requirement": "2.11.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.5",
+            "extracted_requirement": "2.10.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.5",
+            "extracted_requirement": "2.10.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.akka/akka-stream-alpakka-testkit_2.12@2.0.2",
+            "extracted_requirement": "2.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.jimfs/jimfs@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.tomakehurst/wiremock-jre8@2.26.3",
+            "extracted_requirement": "2.26.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.ghik/silencer-lib_2.12.11@1.7.1",
+            "extracted_requirement": "1.7.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.lightbend.akka/akka-stream-alpakka-s3_2.12@2.0.2?classifier=sources&uuid=97b86e12-0770-4bc1-b285-98dc07ca4f1c",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lightbend.akka/akka-stream-alpakka-s3_2.12@2.0.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-s3_2.12/2.0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-s3_2.12/2.0.2/akka-stream-alpakka-s3_2.12-2.0.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-s3_2.12/2.0.2/akka-stream-alpakka-s3_2.12-2.0.2.pom",
+    "file_references": []
+}

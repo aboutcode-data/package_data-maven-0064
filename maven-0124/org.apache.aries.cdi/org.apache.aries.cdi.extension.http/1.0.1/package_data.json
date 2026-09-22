@@ -1,0 +1,207 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.aries.cdi",
+    "name": "org.apache.aries.cdi.extension.http",
+    "version": "1.0.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bd71189e-81f7-4704-9c67-c479a012df54",
+            "packages": [
+                "pkg:maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.http@1.0.1?uuid=3dcfb8ec-1602-4970-b201-26a69964c9ac",
+                "pkg:maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.http@1.0.1?classifier=sources&uuid=69ab9fa4-bc5e-4ab9-8d35-069d5abd0a04"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Aries CDI - Http Extension\nProvides support to CDI bundles for http servlet scopes; @RequestScoped,\n\t\t@SessionScoped and @ConversationScoped.",
+    "release_date": "2019-03-07T20:37:33Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extension.http/1.0.1/org.apache.aries.cdi.extension.http-1.0.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7d3cbe43afad5b201b2c6d04648286adadb009ee",
+    "sha256": "713d932f7e9196f577ff63344c7b551ac95d34d6cfe863b33405099fef89a570",
+    "sha512": "d5ad6a5a82c061b140ed16adfc6c7c06107cfe47b22bb7e160d59aaa01478f9b14849e415be9902c820155f56f865da7fb7fe09241fdb5904f73c29ea30f3ce5",
+    "bug_tracking_url": null,
+    "code_view_url": "https://svn.apache.org/viewvc/aries/tags/org.apache.aries.cdi-1.0.1/cdi-extension-http",
+    "vcs_url": "svn+https://svn.apache.org/repos/asf/aries/tags/org.apache.aries.cdi-1.0.1/cdi-extension-http",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 95.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_531.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: ASL 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 95,
+                    "rule_identifier": "apache-2.0_531.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-2df1a8e1-b62b-52a0-cf3d-85dad8ce6bd1",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND (apache-2.0 AND cddl-1.0) AND cddl-1.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND (Apache-2.0 AND CDDL-1.0) AND CDDL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: ASL 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.http@1.0.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.aries.cdi/org.apache.aries.cdi.extra@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.http.servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-interceptor_1.2_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jcdi_2.0_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld/weld-osgi-bundle",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.namespace.extender",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.namespace.implementation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.namespace.service",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.service.cdi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.service.http.whiteboard",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/osgi.annotation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/osgi.core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.http@1.0.1?classifier=sources&uuid=69ab9fa4-bc5e-4ab9-8d35-069d5abd0a04",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.http@1.0.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extension.http/1.0.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extension.http/1.0.1/org.apache.aries.cdi.extension.http-1.0.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extension.http/1.0.1/org.apache.aries.cdi.extension.http-1.0.1.pom",
+    "file_references": []
+}

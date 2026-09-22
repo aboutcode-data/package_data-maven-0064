@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.typeframed",
+    "name": "typeframed-protobuf",
+    "version": "1.2.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Typeframed\nA library for polymorphic protobuf streaming.",
+    "release_date": "2015-04-12T09:44:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Lars J. Nilsson",
+            "email": "contact@larsan.net",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://bitbucket.org/fungrim/typeframed",
+    "download_url": "https://repo1.maven.org/maven2/org/typeframed/typeframed-protobuf/1.2.0/typeframed-protobuf-1.2.0.jar",
+    "size": 29739,
+    "md5": null,
+    "sha1": "52f24d5c1bb9fc62f164272a578cb51e0ff3e559",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.typeframed/typeframed-protobuf@1.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "1.9.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.parboiled/parboiled-java",
+            "extracted_requirement": "1.1.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java",
+            "extracted_requirement": "2.5.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "14.0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typeframed/typeframed-api",
+            "extracted_requirement": "1.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.typeframed/typeframed-protobuf@1.2.0?uuid=8a2b957e-e8f2-4c6c-bba0-9230ce57633d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.typeframed/typeframed-protobuf@1.2.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/typeframed/typeframed-protobuf/1.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/typeframed/typeframed-protobuf/1.2.0/typeframed-protobuf-1.2.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/typeframed/typeframed-protobuf/1.2.0/typeframed-protobuf-1.2.0.pom",
+    "file_references": []
+}

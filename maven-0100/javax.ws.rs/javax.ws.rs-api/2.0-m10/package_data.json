@@ -1,0 +1,145 @@
+{
+    "type": "maven",
+    "namespace": "javax.ws.rs",
+    "name": "javax.ws.rs-api",
+    "version": "2.0-m10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1eeb775c-bebf-4620-9a79-50ca8d69faa5",
+            "packages": [
+                "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0-m10?uuid=a0267156-f01d-4f74-8359-1b86dcae6d73",
+                "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0-m10?classifier=sources&uuid=10d81983-e287-4ecc-8d9d-1791cbbe5cfc"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "javax.ws.rs-api",
+    "release_date": "2012-08-27T10:29:05Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marek Potociar",
+            "email": "m_potociar@java.net",
+            "url": "http://marek.potociar.net/topics/web-services/rest/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Santiago Pericas-Geertsen",
+            "email": "spericas@java.net",
+            "url": "http://www.java.net/blogs/spericas/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jax-rs-spec.java.net",
+    "download_url": "https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0-m10/javax.ws.rs-api-2.0-m10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "63116d0a7e86b9c8c8aade325d98ce23cac16015",
+    "sha256": "4657648b5cc0e01e86689c6b7f4a1b13674e47639503d4bc160927781de78415",
+    "sha512": "e445d9a0156fd3fc01ae116a112be3306a07fce2f32df1c28651d5784015a66b6e2dcdf4c8868a6b62b0148b1e6ba412e15f9f70fcd3d2541d2affa971ed7ef0",
+    "bug_tracking_url": "http://java.net/jira/browse/JAX_RS_SPEC",
+    "code_view_url": "http://java.net/projects/jax-rs-spec/sources/git/show",
+    "vcs_url": "git://java.net/jax-rs-spec~git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.1 AND gpl-2.0",
+    "declared_license_expression_spdx": "CDDL-1.1 AND GPL-2.0-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 95.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_cddl-1.1_for_cddl-1.1.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: CDDL 1.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 95,
+                    "rule_identifier": "spdx_license_id_cddl-1.1_for_cddl-1.1.RULE",
+                    "license_expression": "cddl-1.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.1.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.1.RULE",
+                    "license_expression": "cddl-1.1"
+                },
+                {
+                    "score": 50.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl2_bare_word_only.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: GPL2 w/ CPE",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 50,
+                    "rule_identifier": "gpl2_bare_word_only.RULE",
+                    "license_expression": "gpl-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.1.RULE",
+                    "start_line": 4,
+                    "matched_text": "  url: http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.1.RULE",
+                    "license_expression": "cddl-1.1"
+                }
+            ],
+            "identifier": "cddl_1_1_and_gpl_2_0-2cf7bf2d-80f2-77df-62e6-c9fdf20f6ea8",
+            "license_expression": "cddl-1.1 AND gpl-2.0"
+        }
+    ],
+    "other_license_expression": "(cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND ((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0)",
+    "other_license_expression_spdx": "(CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND ((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: CDDL 1.1\n  url: http://glassfish.java.net/public/CDDL+GPL_1_1.html\n- name: GPL2 w/ CPE\n  url: http://glassfish.java.net/public/CDDL+GPL_1_1.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0-m10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0-m10?classifier=sources&uuid=10d81983-e287-4ecc-8d9d-1791cbbe5cfc",
+    "datasource_id": null,
+    "purl": "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0-m10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0-m10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0-m10/javax.ws.rs-api-2.0-m10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0-m10/javax.ws.rs-api-2.0-m10.pom",
+    "file_references": []
+}

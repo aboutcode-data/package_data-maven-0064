@@ -1,0 +1,182 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.aether",
+    "name": "aether-transport-wagon",
+    "version": "1.0.0.v20140518",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "52de28dc-380c-4f22-831b-646c67a76300",
+            "packages": [
+                "pkg:maven/org.eclipse.aether/aether-transport-wagon@1.0.0.v20140518?uuid=c7b05ccb-777b-4953-9f69-e79de4aa8119",
+                "pkg:maven/org.eclipse.aether/aether-transport-wagon@1.0.0.v20140518?classifier=sources&uuid=b1513dba-bbc7-44df-814b-001d00647d47"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Aether Transport Wagon\nA transport implementation based on Maven Wagon.",
+    "release_date": "2014-05-18T18:01:52Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jason Van Zyl",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Benjamin Bentmann",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Eclipse Foundation",
+            "email": null,
+            "url": "http://www.eclipse.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org/aether/",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/aether/aether-transport-wagon/1.0.0.v20140518/aether-transport-wagon-1.0.0.v20140518-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bf78a8d96f1bf9635445c066ac5064fe3a90b3ed",
+    "sha256": "2979b59573f542881c211497a6d9329b4fa9c396a86620398237a98fb1447c4b",
+    "sha512": "651bf71b45f736865b1e2f38bcec77ba768e53485d24c391572b150dcf8aa7658cb5748d4a4203675a5ec1a3cc88185a30a48214edffe9ed767c58ab61d28d14",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.aether/aether-transport-wagon@1.0.0.v20140518?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.aether/aether-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.aether/aether-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.aether/aether-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.wagon/wagon-provider-api@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.inject/javax.inject",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-component-annotations",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.sisu/sisu-guice",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.aether/aether-test-util",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.aether/aether-transport-wagon@1.0.0.v20140518?classifier=sources&uuid=b1513dba-bbc7-44df-814b-001d00647d47",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.aether/aether-transport-wagon@1.0.0.v20140518?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/aether/aether-transport-wagon/1.0.0.v20140518/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/aether/aether-transport-wagon/1.0.0.v20140518/aether-transport-wagon-1.0.0.v20140518-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/aether/aether-transport-wagon/1.0.0.v20140518/aether-transport-wagon-1.0.0.v20140518.pom",
+    "file_references": []
+}

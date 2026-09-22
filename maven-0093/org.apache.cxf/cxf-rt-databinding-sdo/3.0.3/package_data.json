@@ -1,0 +1,151 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-rt-databinding-sdo",
+    "version": "3.0.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d6d6b965-d08b-485c-91dc-f472935e43a0",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-rt-databinding-sdo@3.0.3?uuid=c13cdadd-0d2e-4821-9ccf-4883dc4f6f56",
+                "pkg:maven/org.apache.cxf/cxf-rt-databinding-sdo@3.0.3?classifier=sources&uuid=47af79c6-b725-42a6-a175-c50c25c07185"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF Runtime SDO DataBinding",
+    "release_date": "2014-12-03T02:23:22Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "http://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-sdo/3.0.3/cxf-rt-databinding-sdo-3.0.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "87c8ffe05bd600b0b37e5989873f04e4f9cf8c6b",
+    "sha256": "a349f4b7c4a9d434c840491647b76475215f9b4f33c6e0f49d3cb8bd5343d00d",
+    "sha512": "beef3afa693c8f6265fd2a0c0353f9759bc647a84231421b18095e7b5be6f7be9bd223bae0aa7a737727a480bddbebc701e1f28160d1465d29dd76bfc849dced",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND cc-pd AND bsd-new",
+    "other_license_expression_spdx": "Apache-2.0 AND CC-PDDC AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-rt-databinding-sdo@3.0.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sdo/tuscany-sdo-impl@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sdo/tuscany-sdo-tools@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-core@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-tools-wsdlto-core@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-testutils@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-tools-wsdlto-frontend-jaxws@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-local@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxws@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-rt-databinding-sdo@3.0.3?classifier=sources&uuid=47af79c6-b725-42a6-a175-c50c25c07185",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.cxf/cxf-rt-databinding-sdo@3.0.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-sdo/3.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-sdo/3.0.3/cxf-rt-databinding-sdo-3.0.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-sdo/3.0.3/cxf-rt-databinding-sdo-3.0.3.pom",
+    "file_references": []
+}

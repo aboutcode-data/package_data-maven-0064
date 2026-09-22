@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.mina",
+    "name": "mina-filter-compression",
+    "version": "2.0.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d4a21a51-ce0f-44ac-9f48-0bee1c658af7",
+            "packages": [
+                "pkg:maven/org.apache.mina/mina-filter-compression@2.0.9?uuid=2140eab3-131f-43c1-88c1-0e7c52a0c07d",
+                "pkg:maven/org.apache.mina/mina-filter-compression@2.0.9?classifier=sources&uuid=1ef53e7d-5306-491d-a59c-97dfac210b69"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache MINA Compression Filter",
+    "release_date": "2014-10-21T17:30:55Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/mina/mina-filter-compression/2.0.9/mina-filter-compression-2.0.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "98cfa709f7416b60fa6c9d622215b027b3de59a8",
+    "sha256": "c521a157acb6cccd0809b8bea61b8987b14e329c1a94a9675cac00b6b3f5a164",
+    "sha512": "f81d9df8199a15a4727355c836efb53b46187ad6d780d9b2cbc9ec3d56502def6b5308212de86ad4f9713b6c2c63a0604da04cad9049833baf87d69c591f7525",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND bsd-new AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND BSD-3-Clause AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.mina/mina-filter-compression@2.0.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.mina/mina-core@2.0.9",
+            "extracted_requirement": "2.0.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.jcraft/jzlib",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.mina/mina-filter-compression@2.0.9?classifier=sources&uuid=1ef53e7d-5306-491d-a59c-97dfac210b69",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.mina/mina-filter-compression@2.0.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/mina/mina-filter-compression/2.0.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/mina/mina-filter-compression/2.0.9/mina-filter-compression-2.0.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/mina/mina-filter-compression/2.0.9/mina-filter-compression-2.0.9.pom",
+    "file_references": []
+}

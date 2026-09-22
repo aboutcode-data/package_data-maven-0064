@@ -1,0 +1,393 @@
+{
+    "type": "maven",
+    "namespace": "commons-jelly",
+    "name": "commons-jelly",
+    "version": "1.0-RC2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "commons-jelly\nJelly is a Java and XML based scripting engine. Jelly combines the best ideas from JSTL, Velocity, DVSL, Ant and Cocoon all together in a simple yet powerful scripting engine.",
+    "release_date": "2005-10-15T06:08:24Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Strachan",
+            "email": "jstrachan@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Geir Magnusson Jr.",
+            "email": "geirm@adeptra.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bob McWhirter",
+            "email": "bob@eng.werken.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "dIon Gillard",
+            "email": "dion@multitask.com.au",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Morgan Delagrange",
+            "email": "morgand@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rodney Waldhoff",
+            "email": "rwaldhoff@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Royal",
+            "email": "proyal@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin van den Bemt",
+            "email": "martin@mvdb.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Paul Libbrecht",
+            "email": "paul@activemath.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robert Burrell Donkin",
+            "email": "rdonkin@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Daniel F. Savarese",
+            "email": "dfs -> apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brett Porter",
+            "email": "brett@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Hans Gilde",
+            "email": "hgilde@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Erik Fransen",
+            "email": "erik167@xs4all.nl",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Calvin Yu",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Stephen Haberman",
+            "email": "stephenh@chase3000.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Vinay Chandran",
+            "email": "sahilvinay@yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Theo Niemeijer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Joe Walnes",
+            "email": "joew@thoughtworks.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Otto von Wachter",
+            "email": "vonwao@yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Robert Leftwich",
+            "email": "robert@leftwich.info",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jim Birchfield",
+            "email": "jim.birchfield@genscape.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jason Horman",
+            "email": "jhorman@musicmatch.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tim Anderson",
+            "email": "tima@intalio.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Theo Niemeijer",
+            "email": "theo.niemeijer@getthere.nl",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "J. Matthew Pryor",
+            "email": "matthew_pryor@versata.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Knut Wannheden",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kelvin Tan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Todd Jonker",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Christiaan ten Klooster",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Pete Kazmier",
+            "email": "kaz@apache.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://jakarta.apache.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jakarta.apache.org/commons/jelly/",
+    "download_url": "https://repo1.maven.org/maven2/commons-jelly/commons-jelly/1.0-RC2/commons-jelly-1.0-RC2.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e1d95323098aef796ce443c1236ed14cbc055e19",
+    "sha256": "4a3f221121e6df8d38d539d40e7625f7f34ef9fa03bffabe7b1ff5dc80cb5b15",
+    "sha512": "4c2945607ec620b63266da3db44282695ff2167fbb9abe0a22d23390b56396b381b7e6410e2263f14f22e66f7654ea09ac5e6c4cce3055d9ce980385a389ee40",
+    "bug_tracking_url": "http://issues.apache.org/jira/secure/BrowseProject.jspa?id=10012",
+    "code_view_url": "http://svn.apache.org/viewcvs.cgi/jakarta/commons/proper/jelly/trunk",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/jakarta/commons/proper/jelly/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-jelly/commons-jelly@1.0-RC2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/servletapi/servletapi@2.3",
+            "extracted_requirement": "2.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-cli/commons-cli@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-discovery/commons-discovery@20030211.213356",
+            "extracted_requirement": "20030211.213356",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/forehead/forehead@1.0-beta-5",
+            "extracted_requirement": "1.0-beta-5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jstl/jstl@1.0.6",
+            "extracted_requirement": "1.0.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-jexl/commons-jexl@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis@1.0.b2",
+            "extracted_requirement": "1.0.b2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.6",
+            "extracted_requirement": "1.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-collections/commons-collections@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.0.3",
+            "extracted_requirement": "1.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/dom4j/dom4j@1.5.2",
+            "extracted_requirement": "1.5.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jaxen/jaxen@1.1-beta-4",
+            "extracted_requirement": "1.1-beta-4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xerces/xerces@2.2.1",
+            "extracted_requirement": "2.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/commons-jelly/commons-jelly@1.0-RC2?uuid=79fb5102-aa1f-4454-b482-f9064c1e18a0",
+    "datasource_id": null,
+    "purl": "pkg:maven/commons-jelly/commons-jelly@1.0-RC2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-jelly/commons-jelly/1.0-RC2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-jelly/commons-jelly/1.0-RC2/commons-jelly-1.0-RC2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-jelly/commons-jelly/1.0-RC2/commons-jelly-1.0-RC2.pom",
+    "file_references": []
+}

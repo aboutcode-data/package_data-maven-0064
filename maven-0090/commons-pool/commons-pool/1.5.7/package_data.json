@@ -1,0 +1,140 @@
+{
+    "type": "maven",
+    "namespace": "commons-pool",
+    "name": "commons-pool",
+    "version": "1.5.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2ecf7074-2eff-4043-94b6-8e923110b474",
+            "packages": [
+                "pkg:maven/commons-pool/commons-pool@1.5.7?uuid=451a5d58-2d89-4088-97b5-1702d1422df4",
+                "pkg:maven/commons-pool/commons-pool@1.5.7?classifier=sources&uuid=7a56ea8c-eec9-4c92-8357-213dab64383a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Commons Pool\nCommons Object Pooling Library",
+    "release_date": "2011-12-10T23:35:53Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Morgan Delagrange",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Geir Magnusson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Craig McClanahan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rodney Waldhoff",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Weinrich",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dirk Verbeeck",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robert Burrell Donkin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sandy McArthur",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Phil Steitz",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Todd Carmichael",
+            "email": "toddc@concur.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://commons.apache.org/pool/",
+    "download_url": "https://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.7/commons-pool-1.5.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "68f7fb08e70d1f35ebfa45d643b90ce84974ff23",
+    "sha256": "aacd8af4796f84e11f8f84f9250fd3ae62c43bd6f2d14ec7cfc7ff3faa243a25",
+    "sha512": "525ff9ade20f81a31c12e56e0cffe9e252eb9d2cf7b50195887e416d968e84b8def4330754216a51ce8df89d03ef00c85b019358b87b04e6e2ec5acb0cf48cc1",
+    "bug_tracking_url": "http://issues.apache.org/jira/browse/POOL",
+    "code_view_url": "http://svn.apache.org/viewvc/commons/proper/pool/trunk",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/commons/proper/pool/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-pool/commons-pool@1.5.7?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@9"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/commons-pool/commons-pool@1.5.7?classifier=sources&uuid=7a56ea8c-eec9-4c92-8357-213dab64383a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/commons-pool/commons-pool@1.5.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.7/commons-pool-1.5.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.7/commons-pool-1.5.7.pom",
+    "file_references": []
+}

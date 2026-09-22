@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "com.google.api-client",
+    "name": "google-api-client-servlet",
+    "version": "1.21.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ec244cdc-e166-449e-9649-f54feb0dc664",
+            "packages": [
+                "pkg:maven/com.google.api-client/google-api-client-servlet@1.21.0?uuid=9200b5a7-a649-4f4c-bca6-12d3665630b3",
+                "pkg:maven/com.google.api-client/google-api-client-servlet@1.21.0?classifier=sources&uuid=24f66533-dce6-4894-a33f-feae234fec01"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Servlet and JDO extensions to the Google API Client Library for Java.",
+    "release_date": "2015-11-19T22:20:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yaniv Inbar",
+            "email": "yanivi@google.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/google/api-client/google-api-client-servlet/1.21.0/google-api-client-servlet-1.21.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8fa5e49c905c0c87b388d4e3dc31232b7824de30",
+    "sha256": "9137df81470b4548b3ade87a0957affe31c2603644d2c439483a8379080e3d48",
+    "sha512": "fa157390e8bf0ff7b73a56a2b70fc5c5f66194a567d957d599c228fc4b02c9773b21c635ceb578b9d6c20ee9dc129d8dd8fc883bf6c6bb577d994d06783329f7",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.api-client/google-api-client-servlet@1.21.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.oauth-client/google-oauth-client-servlet",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api-client/google-api-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.jdo/jdo2-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.api-client/google-api-client-servlet@1.21.0?classifier=sources&uuid=24f66533-dce6-4894-a33f-feae234fec01",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.api-client/google-api-client-servlet@1.21.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/api-client/google-api-client-servlet/1.21.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/api-client/google-api-client-servlet/1.21.0/google-api-client-servlet-1.21.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/api-client/google-api-client-servlet/1.21.0/google-api-client-servlet-1.21.0.pom",
+    "file_references": []
+}

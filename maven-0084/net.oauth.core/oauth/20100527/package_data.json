@@ -1,0 +1,77 @@
+{
+    "type": "maven",
+    "namespace": "net.oauth.core",
+    "name": "oauth",
+    "version": "20100527",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a546952f-6794-4135-96ca-013710a9a157",
+            "packages": [
+                "pkg:maven/net.oauth.core/oauth@20100527?uuid=4d23e5ef-2061-4762-868c-2e93dc1b9c82",
+                "pkg:maven/net.oauth.core/oauth@20100527?classifier=sources&uuid=e57e8454-e98a-4b86-b1e9-1289c84498ea"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OAuth Core",
+    "release_date": "2011-03-15T17:07:24Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sean Sullivan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JM Kristian",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://oauth.net/code/",
+    "download_url": "https://repo1.maven.org/maven2/net/oauth/core/oauth/20100527/oauth-20100527-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "77528b5b523803cd44917fec25e193fff061c780",
+    "sha256": "4363810e62ae1e3daaec9a5a23615266f5357788051c183757fdd3700c14512a",
+    "sha512": "67ccabf578706b2e60b10bf2656cdfdb812f206dfd77a25202d2e1587a9cbcbc069cdbbef51352c98256ce97011c037afd7ca6c1712e04d03c12efc19ce20f44",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.oauth.core/oauth@20100527?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/net.oauth/oauth-parent@20090531",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/net.oauth/oauth-parent@20090531",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/net.oauth/oauth-parent@20090531"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/net.oauth.core/oauth@20100527?classifier=sources&uuid=e57e8454-e98a-4b86-b1e9-1289c84498ea",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.oauth.core/oauth@20100527?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/oauth/core/oauth/20100527/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/oauth/core/oauth/20100527/oauth-20100527-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/oauth/core/oauth/20100527/oauth-20100527.pom",
+    "file_references": []
+}

@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "com.google.http-client",
+    "name": "google-http-client",
+    "version": "1.22.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fce6637d-d3f6-4bb4-bc4d-c941fe85a0bb",
+            "packages": [
+                "pkg:maven/com.google.http-client/google-http-client@1.22.0?uuid=0bb1bd05-02b6-4a65-a15c-943c2ffbb2cd",
+                "pkg:maven/com.google.http-client/google-http-client@1.22.0?classifier=sources&uuid=b623f1d9-2569-47d2-936a-3d997f36386a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Google HTTP Client Library for Java\nGoogle HTTP Client Library for Java. Functionality that works on all supported Java platforms,\n    including Java 5 (or higher) desktop (SE) and web (EE), Android, and Google App Engine.",
+    "release_date": "2016-05-02T22:43:28Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yaniv Inbar",
+            "email": "yanivi@google.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "354d5dd5f75febe40347abfa2d9517bae6281e73",
+    "sha256": "7da8c0ed2203e84cf8c2248af98de177348dfeac92fc032e7aa220e78f2f80ba",
+    "sha512": "6dd85ff3bd9d3d7a261be62a0820f9b21d4628c2e57eae41329eb33917ada13843aedcfb948f97eb275bcab4c80bf53cbde21c51344b4a3e707fb84ec07d22d3",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.http-client/google-http-client@1.22.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava-jdk5",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.android/android@1.5_r4",
+            "extracted_requirement": "1.5_r4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.http-client/google-http-client@1.22.0?classifier=sources&uuid=b623f1d9-2569-47d2-936a-3d997f36386a",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.http-client/google-http-client@1.22.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.22.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,102 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.httpcomponents",
+    "name": "httpcore-nio",
+    "version": "4.4.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1af9d965-0dcc-47dc-8d40-f3d16c062344",
+            "packages": [
+                "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.6?uuid=35eec6cd-404e-441c-8834-e992171a64fb",
+                "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.6?classifier=sources&uuid=9cb5e83b-bf4c-4f12-bd8e-f01c9f8053ae"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache HttpCore NIO\nApache HttpComponents Core (non-blocking I/O)",
+    "release_date": "2017-01-07T13:51:12Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://hc.apache.org/httpcomponents-core-ga",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.6/httpcore-nio-4.4.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "da8fed83943c9049123fac6d553680551ce294ff",
+    "sha256": "ce2b16033c189735af488dc9a1b44010cb2a46457c443a284fe4957d57ceffb2",
+    "sha512": "a750dc65c9ee390a0b372a971ea536a5d6c29d68ea45525439217d7e7b3659ca4369996e90989db859789ababe696f783b85bbc06480f8477cb43a969623c3f2",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.6?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.6",
+            "extracted_requirement": "4.4.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.6?classifier=sources&uuid=9cb5e83b-bf4c-4f12-bd8e-f01c9f8053ae",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.6/httpcore-nio-4.4.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.6/httpcore-nio-4.4.6.pom",
+    "file_references": []
+}

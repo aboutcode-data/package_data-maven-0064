@@ -1,0 +1,125 @@
+{
+    "type": "maven",
+    "namespace": "org.elasticsearch.plugin",
+    "name": "rank-eval-client",
+    "version": "7.16.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f6635e35-c740-4662-89cc-080229b4243d",
+            "packages": [
+                "pkg:maven/org.elasticsearch.plugin/rank-eval-client@7.16.3?uuid=c223433a-85f1-46b1-920d-543e8f477b12",
+                "pkg:maven/org.elasticsearch.plugin/rank-eval-client@7.16.3?classifier=sources&uuid=a0b2c1c8-a9c1-483b-95b8-8e20b7c0204b",
+                "pkg:github/elastic/elasticsearch@v7.16.3?uuid=dca9753b-04a2-4326-b136-177b75b6095f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "rank-eval\nThe Rank Eval module adds APIs to evaluate ranking quality.",
+    "release_date": "2022-01-12T19:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elastic",
+            "email": null,
+            "url": "https://www.elastic.co"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/elastic/elasticsearch",
+    "download_url": "https://repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.16.3/rank-eval-client-7.16.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "58631ca2ebbbd7fc84588784a0defbf73c524045",
+    "sha256": "60262cb0e641d7451f236b4f9b903507229db71fdf43ccf041dc1fec4726d389",
+    "sha512": "bdb12f10af3fc98b8078750cec15575d59d4d389cfa3114c0453a10d3d7f9d496cef631c921ddfb89be22d77aec737cd1d577cbc73cd8326266a1dd578dcadc8",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/elastic/elasticsearch.git",
+    "vcs_url": "https://github.com/elastic/elasticsearch.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "elastic-license-v2 AND mongodb-sspl-1.0",
+    "declared_license_expression_spdx": "Elastic-2.0 AND SSPL-1.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_3.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Elastic License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_3.RULE",
+                    "license_expression": "elastic-license-v2"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_2.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.3/licenses/ELASTIC-LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_2.RULE",
+                    "license_expression": "elastic-license-v2"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mongodb-sspl-1.0_13.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: Server Side Public License, v 1",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mongodb-sspl-1.0_13.RULE",
+                    "license_expression": "mongodb-sspl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mongodb-sspl-1.0_7.RULE",
+                    "start_line": 4,
+                    "matched_text": "  url: https://www.mongodb.com/licensing/server-side-public-license",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mongodb-sspl-1.0_7.RULE",
+                    "license_expression": "mongodb-sspl-1.0"
+                }
+            ],
+            "identifier": "elastic_license_v2_and_mongodb_sspl_1_0-1ef52e23-8928-8379-5e32-b1c571383a6a",
+            "license_expression": "elastic-license-v2 AND mongodb-sspl-1.0"
+        }
+    ],
+    "other_license_expression": "(elastic-license-v2 OR mongodb-sspl-1.0) AND apache-2.0 AND (mongodb-sspl-1.0 AND elastic-license-v2)",
+    "other_license_expression_spdx": "(Elastic-2.0 OR SSPL-1.0) AND Apache-2.0 AND (SSPL-1.0 AND Elastic-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Elastic License 2.0\n  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.3/licenses/ELASTIC-LICENSE-2.0.txt\n- name: Server Side Public License, v 1\n  url: https://www.mongodb.com/licensing/server-side-public-license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.elasticsearch.plugin/rank-eval-client@7.16.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.elasticsearch.plugin/rank-eval-client@7.16.3?classifier=sources&uuid=a0b2c1c8-a9c1-483b-95b8-8e20b7c0204b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.elasticsearch.plugin/rank-eval-client@7.16.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.16.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.16.3/rank-eval-client-7.16.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.16.3/rank-eval-client-7.16.3.pom",
+    "file_references": []
+}

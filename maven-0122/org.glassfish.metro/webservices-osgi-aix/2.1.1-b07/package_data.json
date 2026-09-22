@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.metro",
+    "name": "webservices-osgi-aix",
+    "version": "2.1.1-b07",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Metro Web Services Runtime OSGi Bundle for AIX",
+    "release_date": "2011-06-21T10:03:22Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/metro/webservices-osgi-aix/2.1.1-b07/webservices-osgi-aix-2.1.1-b07.jar",
+    "size": 11025549,
+    "md5": null,
+    "sha1": "aea03cefe8dcd00d6fb56b412d60d7462dceaf6e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.metro/webservices-osgi-aix@2.1.1-b07?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.xml/jaxr-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.metro/webservices-rt",
+            "extracted_requirement": "2.1.1-b07",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.security/jsr105-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.metro/webservices-extra",
+            "extracted_requirement": "2.1.1-b07",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.metro/webservices-tools",
+            "extracted_requirement": "2.1.1-b07",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-osgi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.metro/webservices-api-osgi",
+            "extracted_requirement": "2.1.1-b07",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.xml/jaxrpc-api-osgi",
+            "extracted_requirement": "1.1-b01",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.woodstox/woodstox-core-asl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jvnet/mimepull",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.metro/webservices-osgi-aix@2.1.1-b07?uuid=1b6d5394-cff9-466a-abbf-52cf8648d882",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.metro/webservices-osgi-aix@2.1.1-b07",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/metro/webservices-osgi-aix/2.1.1-b07/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/metro/webservices-osgi-aix/2.1.1-b07/webservices-osgi-aix-2.1.1-b07.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/metro/webservices-osgi-aix/2.1.1-b07/webservices-osgi-aix-2.1.1-b07.pom",
+    "file_references": []
+}

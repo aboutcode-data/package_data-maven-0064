@@ -1,0 +1,155 @@
+{
+    "type": "maven",
+    "namespace": "commons-pool",
+    "name": "commons-pool",
+    "version": "1.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e03f7b43-2fc2-4379-b71d-e05686f62e74",
+            "packages": [
+                "pkg:maven/commons-pool/commons-pool@1.3?uuid=166582d1-5584-4139-ae10-020a066139fd",
+                "pkg:maven/commons-pool/commons-pool@1.3?classifier=sources&uuid=8f363031-77ba-4b2c-a78b-96534b96eb7e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Commons Pool\nCommons Object Pooling Library",
+    "release_date": "2009-06-17T00:46:11Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Weinrich",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dirk Verbeeck",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Morgan Delagrange",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Geir Magnusson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Craig McClanahan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rodney Waldhoff",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robert Burrell Donkin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sandy McArthur",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Todd Carmichael",
+            "email": "toddc@concur.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://jakarta.apache.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jakarta.apache.org/commons/pool/",
+    "download_url": "https://repo1.maven.org/maven2/commons-pool/commons-pool/1.3/commons-pool-1.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "97f4c4b0144792c8173199cec14c3948c91aff81",
+    "sha256": "cf034b8f2e0d902b54158c8411cdbf46536d4ed034a5ec41236260745357a84b",
+    "sha512": "80a944c3289a470d66fd8ad1f75b75a3313afa51c9dd375979e7dfd2655d11e3e419c8c76102cd7815ab6bd66b7efccbadd8966dfc189ee53199ae1a7ffd211d",
+    "bug_tracking_url": "http://issues.apache.org/bugzilla/",
+    "code_view_url": "http://svn.apache.org/repos/asf/jakarta/commons/proper/pool/trunk",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/jakarta/commons/proper/pool/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: /LICENSE.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-pool/commons-pool@1.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/commons-pool/commons-pool@1.3?classifier=sources&uuid=8f363031-77ba-4b2c-a78b-96534b96eb7e",
+    "datasource_id": null,
+    "purl": "pkg:maven/commons-pool/commons-pool@1.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-pool/commons-pool/1.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-pool/commons-pool/1.3/commons-pool-1.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-pool/commons-pool/1.3/commons-pool-1.3.pom",
+    "file_references": []
+}

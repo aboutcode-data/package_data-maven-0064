@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "org.parboiled",
+    "name": "parboiled-core",
+    "version": "1.1.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "738812da-2d6f-499a-812a-ab873b3ea287",
+            "packages": [
+                "pkg:maven/org.parboiled/parboiled-core@1.1.6?uuid=e9c2bbf9-1568-4669-aa88-e99313bfe704",
+                "pkg:maven/org.parboiled/parboiled-core@1.1.6?classifier=sources&uuid=4ffe67ef-f4c7-4d86-a167-61fc26a9cf03",
+                "pkg:github/sirthias/parboiled@1.1.6?uuid=7c8b9325-296c-48d3-9273-641ef6c1c271"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "parboiled-core\nElegant parsing in Java and Scala - lightweight, easy-to-use, powerful",
+    "release_date": "2013-08-22T15:32:12Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mathias Doenitz",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.parboiled",
+            "email": null,
+            "url": "http://parboiled.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://parboiled.org",
+    "download_url": "https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e2e4949bc8206467a8826a9344b9f1cc671a4602",
+    "sha256": "7b12e0bdda10364307ea0c4c480d90c8bd3111d6fe0c59a2d641ba9301008a04",
+    "sha512": "e44805e94a97766c936925794fd74b8edc1ef7088b9d7dc5ce96c1b49c781c04edb1868aa5d789a6377df0c13291c40df3475175613eabec9a4777dbc670160a",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/sirthias/parboiled.git",
+    "vcs_url": "git+https://github.com/sirthias/parboiled.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_217.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_217.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-9dee21f1-7230-6e88-8a62-5950d8f6d6ed",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND bsd-new",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.parboiled/parboiled-core@1.1.6?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.testng/testng@5.14.1",
+            "extracted_requirement": "5.14.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.9.3@1.9.1",
+            "extracted_requirement": "1.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.parboiled/parboiled-core@1.1.6?classifier=sources&uuid=4ffe67ef-f4c7-4d86-a167-61fc26a9cf03",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.parboiled/parboiled-core@1.1.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom",
+    "file_references": []
+}

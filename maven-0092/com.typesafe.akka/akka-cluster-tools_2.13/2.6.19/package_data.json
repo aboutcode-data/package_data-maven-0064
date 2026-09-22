@@ -1,0 +1,158 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.akka",
+    "name": "akka-cluster-tools_2.13",
+    "version": "2.6.19",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "09962874-cc37-46b9-be8b-0a91b3cc25fa",
+            "packages": [
+                "pkg:maven/com.typesafe.akka/akka-cluster-tools_2.13@2.6.19?uuid=0b2566c3-2572-4966-8f6f-ec44145a1d9d",
+                "pkg:maven/com.typesafe.akka/akka-cluster-tools_2.13@2.6.19?classifier=sources&uuid=a0f5d0bd-568c-4350-9351-ce2d1278fa6d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "akka-cluster-tools\nAkka is a toolkit for building highly concurrent, distributed, and resilient message-driven applications for Java and Scala.",
+    "release_date": "2022-03-21T14:31:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Akka Contributors",
+            "email": "akka.official@gmail.com",
+            "url": "https://github.com/akka/akka/graphs/contributors"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Lightbend Inc.",
+            "email": null,
+            "url": "https://www.lightbend.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://akka.io/",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-tools_2.13/2.6.19/akka-cluster-tools_2.13-2.6.19-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "13e0687eb3e53d008549f074fb2dd308fb53a9d5",
+    "sha256": "c5bdd553cdf22dd0ace3a645787f41387cbbdefc7ef8036af3fec224df7906fe",
+    "sha512": "7902ff1b4088b9d89e1e57b77e226986925a5e68f78b93a7404ea128bb4de7bac29f92ae54900041c788e720fd4fbc95ff1c8f482ae87ee94bee5705633b5658",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/akka/akka",
+    "vcs_url": "git+https://github.com/akka/akka.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-d66ab77d-a5cc-7104-e702-dc7df61fe9e8",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_89.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_89.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-45ad56dd-3422-d541-60b6-b4f47b10e5b8",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.html\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.akka/akka-cluster-tools_2.13@2.6.19?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.13.8",
+            "extracted_requirement": "2.13.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-cluster_2.13@2.6.19",
+            "extracted_requirement": "2.6.19",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-coordination_2.13@2.6.19",
+            "extracted_requirement": "2.6.19",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-serialization-jackson_2.13@2.6.19",
+            "extracted_requirement": "2.6.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.2",
+            "extracted_requirement": "4.13.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.13@3.1.4",
+            "extracted_requirement": "3.1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.akka/akka-cluster-tools_2.13@2.6.19?classifier=sources&uuid=a0f5d0bd-568c-4350-9351-ce2d1278fa6d",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.akka/akka-cluster-tools_2.13@2.6.19?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

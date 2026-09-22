@@ -1,0 +1,78 @@
+{
+    "type": "maven",
+    "namespace": "com.fasterxml.jackson.datatype",
+    "name": "jackson-datatype-jsr310",
+    "version": "2.14.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d44a343f-e8e9-4ff0-9b56-26655e59c0df",
+            "packages": [
+                "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.1?uuid=ca764dfc-49a8-485a-af11-674698507b8c",
+                "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.1?classifier=sources&uuid=a867d3e8-95c0-4172-8a39-df3925546002"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jackson datatype: JSR310\nAdd-on module to support JSR-310 (Java 8 Date & Time API) data types.",
+    "release_date": "2022-11-22T00:02:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nick Williams",
+            "email": "nicholas@nicholaswilliams.net",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/FasterXML/",
+    "download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.1/jackson-datatype-jsr310-2.14.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7ad23250f9b151cf7f08ab3c23cb9991aafa5688",
+    "sha256": "d87c2cfaed3281794b89da9736b63701ec67a19dfeeb02fab8835a4a6ca0f2dd",
+    "sha512": "d038df01f6bbd385f78ab80f2949b68eaa39aead1f9e5a1b97441b72a56797490ba6b3c41c2790828500b4e7271d0ca68e03cf239c1bfe3d3c4f9ee29e965e79",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@48",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@48"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.1?classifier=sources&uuid=a867d3e8-95c0-4172-8a39-df3925546002",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.1/jackson-datatype-jsr310-2.14.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.1/jackson-datatype-jsr310-2.14.1.pom",
+    "file_references": []
+}

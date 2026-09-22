@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "jdom",
+    "name": "jdom",
+    "version": "1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "30a13ad0-5757-44b1-ada9-081dd9107267",
+            "packages": [
+                "pkg:maven/jdom/jdom@1.0?uuid=94d0d0b6-3991-4ff1-bc14-40a8f5cb4cb8",
+                "pkg:maven/jdom/jdom@1.0?classifier=sources&uuid=c0b3213f-9fb5-4614-a50f-571d1b57dbfd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2007-02-20T22:55:06Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "662abe0196cf554d4d7374f5d6382034171b652c",
+    "sha256": "a6f24a4acbc153d42f5f3dd933baa3a3117e802f2eca308b71cc09d471cc6b05",
+    "sha512": "7dd5c3f3514918462bebea93ca5c56710413342c829c436a0df7a1c9a57c6af7c9572791f70a05f94c5cc6b4315ea130a967617ed1483d57cf693a8a1496de54",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "jdom",
+    "other_license_expression_spdx": "LicenseRef-scancode-jdom",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/jdom/jdom@1.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/xerces/xercesImpl@2.6.0",
+            "extracted_requirement": "2.6.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis@1.0.b2",
+            "extracted_requirement": "1.0.b2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jaxen/jaxen@1.0-FCS",
+            "extracted_requirement": "1.0-FCS",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/saxpath/saxpath@1.0-FCS",
+            "extracted_requirement": "1.0-FCS",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xalan/xalan@2.5.0",
+            "extracted_requirement": "2.5.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/jdom/jdom@1.0?classifier=sources&uuid=c0b3213f-9fb5-4614-a50f-571d1b57dbfd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/jdom/jdom@1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/jdom/jdom/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.pom",
+    "file_references": []
+}

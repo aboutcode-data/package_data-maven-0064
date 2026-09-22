@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "io.keen",
+    "name": "keen-client-java-core",
+    "version": "5.2.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Keen IO Java Core Library\nJava Client Core Library for Keen IO",
+    "release_date": "2017-05-22T15:29:41Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Keen IO",
+            "email": "team@keen.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Keen IO",
+            "email": null,
+            "url": "http://www.keen.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "www.keen.io",
+    "download_url": "https://repo1.maven.org/maven2/io/keen/keen-client-java-core/5.2.0/keen-client-java-core-5.2.0.jar",
+    "size": 46530,
+    "md5": null,
+    "sha1": "b2cb0ecb314e94047a06e97b3b48e3a409ce20d3",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.keen/keen-client-java-core@5.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "2.3.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "2.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+            "extracted_requirement": "1.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "1.9.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.keen/keen-client-java-core@5.2.0?uuid=06b1aa0c-f3b8-4c15-90c8-97afd9a9ec9c",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.keen/keen-client-java-core@5.2.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/keen/keen-client-java-core/5.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/keen/keen-client-java-core/5.2.0/keen-client-java-core-5.2.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/keen/keen-client-java-core/5.2.0/keen-client-java-core-5.2.0.pom",
+    "file_references": []
+}

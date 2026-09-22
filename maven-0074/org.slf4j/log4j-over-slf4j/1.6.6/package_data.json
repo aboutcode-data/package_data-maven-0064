@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.slf4j",
+    "name": "log4j-over-slf4j",
+    "version": "1.6.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "708fe0be-3601-477b-b48f-81f9aaf04977",
+            "packages": [
+                "pkg:maven/org.slf4j/log4j-over-slf4j@1.6.6?uuid=af698e8e-4701-4c61-85f6-4cbdd996e054",
+                "pkg:maven/org.slf4j/log4j-over-slf4j@1.6.6?classifier=sources&uuid=8fc30ed0-dd29-4e0d-901f-67eb8b1007b5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Log4j Implemented Over SLF4J\nLog4j implemented over SLF4J",
+    "release_date": "2012-06-11T14:43:15Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.slf4j.org",
+    "download_url": "https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.6.6/log4j-over-slf4j-1.6.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "25816aea25ac789a7b02cb05adb82f26efa422c6",
+    "sha256": "2d0b64b1b63daa3f19f60275954ac4e4f02f1ae259bcbda726d648f67451ee5d",
+    "sha512": "14ceced39299252d842917b9417eed3e28b96819570561c6f1b0259fda295d535a3065dda99f9430b5643f661823da61cf01565b0c21708148e8566f13d64c7e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 95.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_582.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache Software Licenses",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 95,
+                    "rule_identifier": "apache-2.0_582.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-d09beaf5-f774-b225-4edc-dffeb8a5e4f1",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache Software Licenses\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.slf4j/log4j-over-slf4j@1.6.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-jdk14",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.slf4j/log4j-over-slf4j@1.6.6?classifier=sources&uuid=8fc30ed0-dd29-4e0d-901f-67eb8b1007b5",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.slf4j/log4j-over-slf4j@1.6.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.6.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.6.6/log4j-over-slf4j-1.6.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.6.6/log4j-over-slf4j-1.6.6.pom",
+    "file_references": []
+}

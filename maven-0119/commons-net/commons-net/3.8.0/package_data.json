@@ -1,0 +1,235 @@
+{
+    "type": "maven",
+    "namespace": "commons-net",
+    "name": "commons-net",
+    "version": "3.8.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "350d158b-388a-448f-bdb3-6768bb80ae6b",
+            "packages": [
+                "pkg:maven/commons-net/commons-net@3.8.0?uuid=1f8716a3-557b-4c49-9de4-4c38dbc60c17",
+                "pkg:maven/commons-net/commons-net@3.8.0?classifier=sources&uuid=64f31334-73ba-4065-9c4e-fdbf312e7285"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Commons Net\nApache Commons Net library contains a collection of network utilities and protocol implementations.\nSupported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Telnet, Whois",
+    "release_date": "2021-02-13T15:13:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeffrey D. Brekke",
+            "email": "Jeff.Brekke@qg.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steve Cohen",
+            "email": "scohen@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bruno D'Avanzo",
+            "email": "bruno.davanzo@hp.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Daniel F. Savarese",
+            "email": "dfs@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rory Winston",
+            "email": "rwinston@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rory Winston",
+            "email": "rwinston@checkfree.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Gary Gregory",
+            "email": "ggregory@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Henrik Sorensen",
+            "email": "henrik.sorensen@balcab.ch",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeff Nadler",
+            "email": "jnadler@srcginc.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "William Noto",
+            "email": "wnoto@openfinance.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Stephane ESTE-GRACIAS",
+            "email": "sestegra@free.fr",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dan Armbrust",
+            "email": "daniel.armbrust.list@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Yuval Kashtan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Joseph Hindsley",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Rob Hasselbaum",
+            "email": "rhasselbaum@alumni.ithaca.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mario Ivankovits",
+            "email": "mario@ops.co.at",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Naz Irizarry",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tapan Karecha",
+            "email": "tapan@india.hp.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jason Mathews",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Winston Ojeda",
+            "email": "Winston.Ojeda@qg.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ted Wise",
+            "email": "ctwise@bellsouth.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bogdan Drozdowski",
+            "email": "bogdandr # op dot pl",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://commons.apache.org/proper/commons-net/",
+    "download_url": "https://repo1.maven.org/maven2/commons-net/commons-net/3.8.0/commons-net-3.8.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "91695dcbcdc9d9ec9bed2533e26e13d9cc1a5499",
+    "sha256": "0424ac72aa3466af07d1d45fc62d78d16a2e62694f0b9945a03cd5b330a6d1a2",
+    "sha512": "a16ed8c2966541cc052fe963338efcc6f9c42ccd6fefe246547e66d9f46c35cf42bc6d13cb983a1829a378ebd7a676bcb812acbc3aa0ed30e6fa206748dae620",
+    "bug_tracking_url": "https://issues.apache.org/jira/browse/NET",
+    "code_view_url": "https://gitbox.apache.org/repos/asf/commons-net",
+    "vcs_url": "git+https://gitbox.apache.org/repos/asf/commons-net",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND public-domain-disclaimer",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-net/commons-net@3.8.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.13.1",
+            "extracted_requirement": "4.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ftpserver/ftpserver-core@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io@2.6",
+            "extracted_requirement": "2.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/commons-net/commons-net@3.8.0?classifier=sources&uuid=64f31334-73ba-4065-9c4e-fdbf312e7285",
+    "datasource_id": null,
+    "purl": "pkg:maven/commons-net/commons-net@3.8.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.yangtools",
+    "name": "concepts",
+    "version": "8.0.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f772bae8-f119-4baa-8453-f6abac863eb7",
+            "packages": [
+                "pkg:maven/org.opendaylight.yangtools/concepts@8.0.6?uuid=8735f640-0d15-4a62-8f22-0754e8f5dfb3",
+                "pkg:maven/org.opendaylight.yangtools/concepts@8.0.6?classifier=sources&uuid=0d4fbbc0-de9a-4951-8416-c1801a623b06"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "concepts\nCommon concepts",
+    "release_date": "2022-05-25T13:36:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/yangtools/concepts/8.0.6/concepts-8.0.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b0b538e5f1711778557bbf133aa740a12ae0b2dc",
+    "sha256": "9bdd92d749b11937a34309c43ce025eaef1bc3302fbfbc9869935c2e1516aaac",
+    "sha512": "6a4485e7d9ee4af71f0c9937504cb3198a8c408bb15f4c7f1017e86d3f955b6c25e142b8f3d2d82155d783b161b78a928a78c0fa19879e5f7d499304e07b97d2",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.yangtools/concepts@8.0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/mockito-configuration",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.checkerframework/checker-qual",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.yangtools/concepts@8.0.6?classifier=sources&uuid=0d4fbbc0-de9a-4951-8416-c1801a623b06",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.yangtools/concepts@8.0.6?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

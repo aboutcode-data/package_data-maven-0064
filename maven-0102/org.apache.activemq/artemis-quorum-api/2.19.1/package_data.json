@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.activemq",
+    "name": "artemis-quorum-api",
+    "version": "2.19.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f6ef5bdf-9cb2-4b23-a3ad-4dfe7f7ae413",
+            "packages": [
+                "pkg:maven/org.apache.activemq/artemis-quorum-api@2.19.1?uuid=46b6f615-f24a-4025-a6c5-a193e5c98b16",
+                "pkg:maven/org.apache.activemq/artemis-quorum-api@2.19.1?classifier=sources&uuid=5824d35d-fa0d-474a-bc07-3bad5660a5d1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ActiveMQ Artemis Quorum API",
+    "release_date": "2022-01-26T17:23:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/activemq/artemis-quorum-api/2.19.1/artemis-quorum-api-2.19.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "856adbde0da3d400ff9e1c8f7a70864ca8aa7cb7",
+    "sha256": "bb037aa3862d9373fed8209237a344676c8ace0e7d7ddeb897c005da94caa9eb",
+    "sha512": "6d29a92265819bf20aa2f0d9b700cbf8165c3d0d1943b435bb573dace3973751ab154a452323d386a2d101c9913e3c271288597febbfefc8fe9def007f0f9a74",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.activemq/artemis-quorum-api@2.19.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.errorprone/error_prone_core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.activemq/artemis-quorum-api@2.19.1?classifier=sources&uuid=5824d35d-fa0d-474a-bc07-3bad5660a5d1",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.activemq/artemis-quorum-api@2.19.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

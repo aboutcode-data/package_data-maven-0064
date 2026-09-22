@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.wildfly.security",
+    "name": "wildfly-elytron-security-manager-action",
+    "version": "1.20.1.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fe1266d1-750d-49c7-87db-1ba1e61ff2cf",
+            "packages": [
+                "pkg:maven/org.wildfly.security/wildfly-elytron-security-manager-action@1.20.1.Final?uuid=39ddfbf6-3e2a-4331-ae43-1b2b66dd8a93",
+                "pkg:maven/org.wildfly.security/wildfly-elytron-security-manager-action@1.20.1.Final?classifier=sources&uuid=fd32125d-656a-4e5a-b7f6-972e2594d736"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "WildFly Elytron - Security Manager Action\nWildFly Security Security Manager Action",
+    "release_date": "2022-08-17T15:37:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/wildfly/security/wildfly-elytron-security-manager-action/1.20.1.Final/wildfly-elytron-security-manager-action-1.20.1.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4407f03a53cc500d9b1296a03cc27e00b2313a23",
+    "sha256": "63d6765cbb09070412f8b6ba6d496dda174d3d1ed1646c2ccb77f348c54fbfae",
+    "sha512": "f80a409ed235f5f6161e8cf08d35624708938707be788cbb8ee221aefb3fa8d8941833d9004bc4f1992eab04f0ca8f20be83b4d1f4399e7d0c09d166c7ebc20c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc., and individual contributors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.wildfly.security/wildfly-elytron-security-manager-action@1.20.1.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.modules/jboss-modules",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.wildfly.security/wildfly-elytron-security-manager-action@1.20.1.Final?classifier=sources&uuid=fd32125d-656a-4e5a-b7f6-972e2594d736",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-security-manager-action@1.20.1.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

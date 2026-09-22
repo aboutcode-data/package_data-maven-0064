@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tuscany.sca",
+    "name": "tuscany-binding-rmi-runtime",
+    "version": "2.0-M3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Apache Tuscany SCA RMI Binding Extension",
+    "release_date": "2009-07-17T16:01:37Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tuscany/sca/tuscany-binding-rmi-runtime/2.0-M3/tuscany-binding-rmi-runtime-2.0-M3.jar",
+    "size": 22670,
+    "md5": null,
+    "sha1": "a17365515c86cd84e7a040caeb39e386e99c6244",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tuscany.sca/tuscany-binding-rmi-runtime@2.0-M3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-binding-rmi",
+            "extracted_requirement": "2.0-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-interface-java",
+            "extracted_requirement": "2.0-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-host-rmi",
+            "extracted_requirement": "2.0-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib",
+            "extracted_requirement": "2.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/asm/asm",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-implementation-java-runtime",
+            "extracted_requirement": "2.0-M3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-node-impl",
+            "extracted_requirement": "2.0-M3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tuscany.sca/tuscany-binding-rmi-runtime@2.0-M3?uuid=39cea7ed-0f73-486e-9805-cfced4ed6872",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-binding-rmi-runtime@2.0-M3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tuscany/sca/tuscany-binding-rmi-runtime/2.0-M3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tuscany/sca/tuscany-binding-rmi-runtime/2.0-M3/tuscany-binding-rmi-runtime-2.0-M3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tuscany/sca/tuscany-binding-rmi-runtime/2.0-M3/tuscany-binding-rmi-runtime-2.0-M3.pom",
+    "file_references": []
+}

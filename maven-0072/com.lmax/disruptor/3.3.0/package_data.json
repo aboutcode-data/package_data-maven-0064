@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "com.lmax",
+    "name": "disruptor",
+    "version": "3.3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "748d3657-737f-4dcf-9e56-9aaf8a5542f6",
+            "packages": [
+                "pkg:maven/com.lmax/disruptor@3.3.0?uuid=043901a1-3cc8-4bfb-9202-3930562716c9",
+                "pkg:maven/com.lmax/disruptor@3.3.0?classifier=sources&uuid=03b64be2-6f44-49b5-b954-250edabf130e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Disruptor Framework\nDisruptor - Concurrent Programming Framework",
+    "release_date": "2014-07-21T01:33:35Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "LMAX Disruptor Development Team",
+            "email": "lmax-disruptor@googlegroups.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://lmax-exchange.github.com/disruptor",
+    "download_url": "https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.0/disruptor-3.3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ad2dc894d8ea758baf2a845001c292787d27b0a3",
+    "sha256": "1ad3e5c17f2015eb2a271aaede98a8b173e8d934d921feac850ddd53b0161e2d",
+    "sha512": "3c76a7e0e40547ccfcd3cc24409faa753ffae1eefbe3719a3bed4fbec05ef21e0898a638403b72027fa4e24c2bf60ab53cc105399a12d0f439791b3f886942c7",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/scm:git@github.com:LMAX-Exchange/disruptor.git",
+    "vcs_url": "git@github.com+https://github.com/LMAX-Exchange/disruptor.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lmax/disruptor@3.3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jmock/jmock-junit4@2.5.1",
+            "extracted_requirement": "2.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jmock/jmock-legacy@2.5.1",
+            "extracted_requirement": "2.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.5",
+            "extracted_requirement": "4.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.lmax/disruptor@3.3.0?classifier=sources&uuid=03b64be2-6f44-49b5-b954-250edabf130e",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lmax/disruptor@3.3.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.0/disruptor-3.3.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.0/disruptor-3.3.0.pom",
+    "file_references": []
+}

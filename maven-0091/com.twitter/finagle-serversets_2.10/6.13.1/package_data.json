@@ -1,0 +1,175 @@
+{
+    "type": "maven",
+    "namespace": "com.twitter",
+    "name": "finagle-serversets_2.10",
+    "version": "6.13.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "finagle-serversets",
+    "release_date": "2014-03-25T05:59:59Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Twitter Inc.",
+            "email": null,
+            "url": "https://www.twitter.com/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.twitter",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/twitter/finagle",
+    "download_url": "https://repo1.maven.org/maven2/com/twitter/finagle-serversets_2.10/6.13.1/finagle-serversets_2.10-6.13.1.jar",
+    "size": 584443,
+    "md5": null,
+    "sha1": "647beefc1d2f8524c64e68b893b0ba00b682ad25",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.twitter/finagle-serversets_2.10@6.13.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.twitter.common.zookeeper/server-set",
+            "extracted_requirement": "1.0.67",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twitter/finagle-core_2.10",
+            "extracted_requirement": "6.13.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twitter/finagle-test_2.10",
+            "extracted_requirement": "6.13.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": "1.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twitter/util-zk-common_2.10",
+            "extracted_requirement": "6.13.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twitter.common.zookeeper/server-set",
+            "extracted_requirement": "1.0.69",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": "2.2.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "2.2.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.10",
+            "extracted_requirement": "2.2.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.10",
+            "extracted_requirement": "1.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-tools.testing/specs_2.10",
+            "extracted_requirement": "1.6.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "1.9.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.twitter/finagle-serversets_2.10@6.13.1?uuid=507d45c9-17f0-40e4-ba9e-3003536cc9dc",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.twitter/finagle-serversets_2.10@6.13.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/twitter/finagle-serversets_2.10/6.13.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/twitter/finagle-serversets_2.10/6.13.1/finagle-serversets_2.10-6.13.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/twitter/finagle-serversets_2.10/6.13.1/finagle-serversets_2.10-6.13.1.pom",
+    "file_references": []
+}

@@ -1,0 +1,55 @@
+{
+    "type": "maven",
+    "namespace": "jaxen",
+    "name": "jaxen",
+    "version": "1.0-FCS",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "37b2821f-29bb-4d44-8ccf-dc4812e3ccad",
+            "packages": [
+                "pkg:maven/jaxen/jaxen@1.0-FCS?uuid=3d940cc1-95d8-493b-8088-495b7eaaeadb",
+                "pkg:maven/jaxen/jaxen@1.0-FCS?classifier=sources&uuid=bbc6a157-4254-449f-a06d-6f4949988cce"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2006-05-11T00:05:40Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/jaxen/jaxen/1.0-FCS/jaxen-1.0-FCS-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8076b30bc673511974d230cbd57a4f019a1091bb",
+    "sha256": "299a886cc05dae6c9e738a77f3c09a8e972a7b31f3480d80389e35c2e189d999",
+    "sha512": "536508bacc697276275610c9c5ce9ccf6105486bb480022ece47488dffa83856dcfe8d49863087dc1b4df6c9b09445f05caf0e14567324f99200cf30634aa03b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "saxpath AND (public-domain AND warranty-disclaimer)",
+    "other_license_expression_spdx": "Saxpath AND (LicenseRef-scancode-public-domain AND LicenseRef-scancode-warranty-disclaimer)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/jaxen/jaxen@1.0-FCS?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/jaxen/jaxen@1.0-FCS?classifier=sources&uuid=bbc6a157-4254-449f-a06d-6f4949988cce",
+    "datasource_id": null,
+    "purl": "pkg:maven/jaxen/jaxen@1.0-FCS?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/jaxen/jaxen/1.0-FCS/",
+    "repository_download_url": "https://repo1.maven.org/maven2/jaxen/jaxen/1.0-FCS/jaxen-1.0-FCS-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/jaxen/jaxen/1.0-FCS/jaxen-1.0-FCS.pom",
+    "file_references": []
+}

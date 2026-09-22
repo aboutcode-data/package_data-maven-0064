@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "org.apache.felix.gogo.runtime",
+    "version": "1.1.2.LIFERAY-PATCHED-1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f9ba0375-654b-4fd3-86f2-24adde74fc2a",
+            "packages": [
+                "pkg:maven/com.liferay/org.apache.felix.gogo.runtime@1.1.2.LIFERAY-PATCHED-1?uuid=5b0fe028-b2ff-4830-87cf-af49a1c12107",
+                "pkg:maven/com.liferay/org.apache.felix.gogo.runtime@1.1.2.LIFERAY-PATCHED-1?classifier=sources&uuid=d8a46f75-991e-425a-bde4-30a06db0c13e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2021-09-28T09:35:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.felix.gogo.runtime/1.1.2.LIFERAY-PATCHED-1/org.apache.felix.gogo.runtime-1.1.2.LIFERAY-PATCHED-1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "baef52066e51a1ec276e8f8a7d70dfba2173dd98",
+    "sha256": "89d092dbbad2d0e1ca65fedcd27fbe120018a9ca062254f0b28e1d5799eda436",
+    "sha512": "277ac10fa12b7bbd917f6b5793bb6368655035f7a7b23f68c5903d4025e58a4ff1993aa23635b2307753744ff37c0a619fee05f9f614f8400c32058e6998c275",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/org.apache.felix.gogo.runtime@1.1.2.LIFERAY-PATCHED-1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/org.apache.felix.gogo.runtime@1.1.2.LIFERAY-PATCHED-1?classifier=sources&uuid=d8a46f75-991e-425a-bde4-30a06db0c13e",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/org.apache.felix.gogo.runtime@1.1.2.LIFERAY-PATCHED-1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.felix.gogo.runtime/1.1.2.LIFERAY-PATCHED-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.felix.gogo.runtime/1.1.2.LIFERAY-PATCHED-1/org.apache.felix.gogo.runtime-1.1.2.LIFERAY-PATCHED-1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.felix.gogo.runtime/1.1.2.LIFERAY-PATCHED-1/org.apache.felix.gogo.runtime-1.1.2.LIFERAY-PATCHED-1.pom",
+    "file_references": []
+}

@@ -1,0 +1,158 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.aether",
+    "name": "aether-impl",
+    "version": "1.0.2.v20150114",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "567ddb9c-a114-4bfb-b776-2d464c6f0f2c",
+            "packages": [
+                "pkg:maven/org.eclipse.aether/aether-impl@1.0.2.v20150114?uuid=c22a351f-7d40-496a-92c7-df44ffe12f09",
+                "pkg:maven/org.eclipse.aether/aether-impl@1.0.2.v20150114?classifier=sources&uuid=03f44616-362c-4c69-814e-f567535f95e0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Aether Implementation\nAn implementation of the repository system.",
+    "release_date": "2015-01-14T12:59:07Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Benjamin Bentmann",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jason Van Zyl",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Eclipse Foundation",
+            "email": null,
+            "url": "http://www.eclipse.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org/aether/",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/aether/aether-impl/1.0.2.v20150114/aether-impl-1.0.2.v20150114-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "89833da3565840d06428f6c163ff2d7e315620b7",
+    "sha256": "473114bc5cb09c7cbcc07986a6264d0cf85856c468bc8c3001f1565d5670fedf",
+    "sha512": "51031545c4d52039e08e4b0b87750168704e934bd454ec0148c7ba248008410a7886239a2c6b4d206674647ffe14d29e29a784dd11fc07acbbf0afb8277a9a73",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.aether/aether-impl@1.0.2.v20150114?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.aether/aether-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.aether/aether-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.aether/aether-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.inject/javax.inject",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.sisu/sisu-guice",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.aether/aether-test-util",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.aether/aether-impl@1.0.2.v20150114?classifier=sources&uuid=03f44616-362c-4c69-814e-f567535f95e0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.aether/aether-impl@1.0.2.v20150114?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/aether/aether-impl/1.0.2.v20150114/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/aether/aether-impl/1.0.2.v20150114/aether-impl-1.0.2.v20150114-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/aether/aether-impl/1.0.2.v20150114/aether-impl-1.0.2.v20150114.pom",
+    "file_references": []
+}

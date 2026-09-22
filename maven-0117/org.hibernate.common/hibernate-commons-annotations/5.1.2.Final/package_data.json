@@ -1,0 +1,121 @@
+{
+    "type": "maven",
+    "namespace": "org.hibernate.common",
+    "name": "hibernate-commons-annotations",
+    "version": "5.1.2.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ccdb765f-3056-4e79-acc5-c759876b8d9b",
+            "packages": [
+                "pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.1.2.Final?uuid=89f35d47-ac96-47ae-9912-227f90f7155d",
+                "pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.1.2.Final?classifier=sources&uuid=acb365da-abae-4588-85c3-86868187961f",
+                "pkg:github/hibernate/hibernate-commons-annotations@5.1.2.Final?uuid=ddbc9589-c422-4332-8f3f-d6d892cf0e0d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Hibernate Commons Annotations\nCommon reflection code used in support of annotation processing",
+    "release_date": "2020-10-30T16:12:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Hibernate Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Hibernate.org",
+            "email": null,
+            "url": "http://hibernate.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://hibernate.org",
+    "download_url": "https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f61bcf5c598d45f10dc79688ebce6b4d1c2c5bd5",
+    "sha256": "c468c39476241ed5853dfe4c95efaba22b159a85d98483638f25d7722f0d3bd2",
+    "sha512": "b2efa83bb7078aaf0bdf6f71303307b44597ac91d9bc59279bc2e6cf296571cb175ce357555bda21bea0fc2e2be449b089d3a1d68f19c6bb6932d639cea96620",
+    "bug_tracking_url": "https://hibernate.atlassian.net/browse/HCANN",
+    "code_view_url": "http://github.com/hibernate/hibernate-commons-annotations",
+    "vcs_url": "git+http://github.com/hibernate/hibernate-commons-annotations.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1-plus AND unknown",
+    "declared_license_expression_spdx": "LGPL-2.1-or-later AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 66.67,
+                    "matcher": "3-seq",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1-plus_467.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: GNU Library General Public License v2.1 or later\n  url: http://www.opensource.org/licenses/LGPL-2.1",
+                    "match_coverage": 66.67,
+                    "matched_length": 12,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1-plus_467.RULE",
+                    "license_expression": "lgpl-2.1-plus"
+                }
+            ],
+            "identifier": "lgpl_2_1_plus-7be8a81d-01cc-33bf-5378-254cc121a2e7",
+            "license_expression": "lgpl-2.1-plus"
+        },
+        {
+            "matches": [
+                {
+                    "score": 96.88,
+                    "matcher": "5-undetected",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-8123b1c7c71a3c6defeb63bd2f5c00674205ef52",
+                    "start_line": 1,
+                    "matched_text": "license - name: GNU Library General Public License v2.1 or later\n  url: http://www.opensource.org/licenses/LGPL-2.1\n  comments: See discussion at http://hibernate.org/community/license/ for more details.",
+                    "match_coverage": 100.0,
+                    "matched_length": 31,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-8123b1c7c71a3c6defeb63bd2f5c00674205ef52",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-cfb9c003-a5d5-c5b5-7a50-627b14e6f37b",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus AND lgpl-2.0-plus AND lgpl-2.1",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND LGPL-2.0-or-later AND LGPL-2.1-only",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU Library General Public License v2.1 or later\n  url: http://www.opensource.org/licenses/LGPL-2.1\n  comments: See discussion at http://hibernate.org/community/license/ for more details.\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.1.2.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final",
+            "extracted_requirement": "3.3.2.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.1.2.Final?classifier=sources&uuid=acb365da-abae-4588-85c3-86868187961f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.1.2.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.pom",
+    "file_references": []
+}

@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "io.reactivex.rxjava3",
+    "name": "rxjava",
+    "version": "3.1.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c4c00f08-37cd-4176-b9d2-fdf97055d30c",
+            "packages": [
+                "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.4?uuid=2de0a311-252c-4ab5-a79e-1284e55411e3",
+                "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.4?classifier=sources&uuid=0244b9fe-b68c-4676-95a2-964ce9905c42"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "RxJava\nReactive Extensions for Java",
+    "release_date": "2022-03-21T18:42:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Karnok",
+            "email": null,
+            "url": "https://github.com/akarnokd/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/ReactiveX/RxJava",
+    "download_url": "https://repo1.maven.org/maven2/io/reactivex/rxjava3/rxjava/3.1.4/rxjava-3.1.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "23eda9e5dab99bbeca669cbedab2ad65cf6bd56b",
+    "sha256": "d0255f22100cf8038a4eab7acc93f84cacb1fabc1985dadca90ff8e45e4420ff",
+    "sha512": "2da84e873d3f32cbb9b8d2b86e47b4e426454f63f7a126fc5926e612c7809df0e4fd2786dc9379be15644a67ab558f94c1ebcae749345b60c85b8f71f16f0aa4",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/ReactiveX/RxJava",
+    "vcs_url": "git://github.com/ReactiveX/RxJava.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_216.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_216.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-cb92a9c9-c5a5-5d61-20d0-95d854e3e244",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3",
+            "extracted_requirement": "1.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.4?classifier=sources&uuid=0244b9fe-b68c-4676-95a2-964ce9905c42",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.4?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

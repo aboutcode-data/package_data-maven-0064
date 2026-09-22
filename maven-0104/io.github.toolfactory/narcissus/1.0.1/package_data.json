@@ -1,0 +1,114 @@
+{
+    "type": "maven",
+    "namespace": "io.github.toolfactory",
+    "name": "narcissus",
+    "version": "1.0.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "59f839c8-71a1-4cbf-8be0-de64ad05cb28",
+            "packages": [
+                "pkg:maven/io.github.toolfactory/narcissus@1.0.1?uuid=bd0eacf0-c7eb-4c87-a76a-8b7987a5ac5b",
+                "pkg:maven/io.github.toolfactory/narcissus@1.0.1?classifier=sources&uuid=ac592047-d1fa-4874-9735-0f59952e0576"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Narcissus\nReflection API for circumventing Java security, visibility, and encapsulation mechanisms",
+    "release_date": "2021-09-28T17:44:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Luke Hutchison",
+            "email": "tool.factory.heads@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Roberto Gentili",
+            "email": "tool.factory.heads@gmail.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "ToolFactory",
+            "email": null,
+            "url": "https://github.com/toolfactory"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/toolfactory/narcissus",
+    "download_url": "https://repo1.maven.org/maven2/io/github/toolfactory/narcissus/1.0.1/narcissus-1.0.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d303f017038eb733e51cd84d06ded02b7d919d5d",
+    "sha256": "9f2661780096a315ee5cbdb2c7478d0f71875b93656e68081d57ca2cfe1174a5",
+    "sha512": "1977c74c7525476d9cb7f20827255dda62829510ff92518c9e946a62f9f92161673472d3a7ccb31789230079851e0ec81cd8e01756b2427daa4b6f9647711283",
+    "bug_tracking_url": "https://github.com/toolfactory/narcissus/issues",
+    "code_view_url": "https://toolfactory.github.io/narcissus",
+    "vcs_url": "git+https://toolfactory@github.com/toolfactory/narcissus.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_14.RULE",
+                    "start_line": 1,
+                    "matched_text": "MIT License",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_14.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-9967e727-165e-9bb5-f090-7de5e47a3929",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT License\n  url: https://github.com/toolfactory/narcissus/blob/master/LICENSE\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.github.toolfactory/narcissus@1.0.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.13.2",
+            "extracted_requirement": "4.13.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core@2.9.1",
+            "extracted_requirement": "2.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.github.toolfactory/narcissus@1.0.1?classifier=sources&uuid=ac592047-d1fa-4874-9735-0f59952e0576",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.github.toolfactory/narcissus@1.0.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,176 @@
+{
+    "type": "maven",
+    "namespace": "io.lighty.core",
+    "name": "lighty-clustering",
+    "version": "16.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fd1de29a-c4c1-47cb-bf01-9ececb3e0211",
+            "packages": [
+                "pkg:maven/io.lighty.core/lighty-clustering@16.0.0?uuid=178cdbfb-eea1-4098-8808-f01fd8d6d3ae",
+                "pkg:maven/io.lighty.core/lighty-clustering@16.0.0?classifier=sources&uuid=8f522b77-bf10-4cdb-9eed-7fd40c7103c2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "io.lighty.core:lighty-clustering",
+    "release_date": "2022-05-06T16:37:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robert Varga",
+            "email": "robert.varga@pantheon.tech",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/PANTHEONtech/lighty-core",
+    "download_url": "https://repo1.maven.org/maven2/io/lighty/core/lighty-clustering/16.0.0/lighty-clustering-16.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3fb8df317ddbdd0b82b87e44d36878d0ee3dd25a",
+    "sha256": "778eb22e74e4ae7c84e128178028c24ee91fd9a56169507e5cffa11e73afac11",
+    "sha512": "37e0e0c64dd2e21ea827634f06190a065441e855d4c746ddd50f61d620e760fe423bcfa235ae5b21cc1ef44a70dcff6c7f9c4d96cdb4a9dca6d5282aec391050",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) PANTHEON.tech s.r.o.",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.lighty.core/lighty-clustering@16.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.spotbugs/spotbugs-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.controller/sal-cluster-admin-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.controller/sal-distributed-datastore",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.controller/eos-dom-akka",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.akka.management/akka-management-cluster-bootstrap_2.13",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-stream_2.13",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-remote_2.13",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-slf4j_2.13",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-cluster_2.13",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-protobuf_2.13",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.akka.management/akka-management_2.13",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.akka.management/akka-management-cluster-http_2.13",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.akka.discovery/akka-discovery-kubernetes-api_2.13",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.lighty.core/lighty-clustering@16.0.0?classifier=sources&uuid=8f522b77-bf10-4cdb-9eed-7fd40c7103c2",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.lighty.core/lighty-clustering@16.0.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

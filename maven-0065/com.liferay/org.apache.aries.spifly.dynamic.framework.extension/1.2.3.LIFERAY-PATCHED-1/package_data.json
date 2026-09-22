@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "org.apache.aries.spifly.dynamic.framework.extension",
+    "version": "1.2.3.LIFERAY-PATCHED-1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6ce001b7-80ae-4fbe-b16f-806b10976867",
+            "packages": [
+                "pkg:maven/com.liferay/org.apache.aries.spifly.dynamic.framework.extension@1.2.3.LIFERAY-PATCHED-1?uuid=769a67f3-e0cb-4846-b8e5-eeebfe16a0c5",
+                "pkg:maven/com.liferay/org.apache.aries.spifly.dynamic.framework.extension@1.2.3.LIFERAY-PATCHED-1?classifier=sources&uuid=e1bd4d5c-0393-4ade-a03b-1d0bd9720a8a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2019-08-01T21:48:22Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.aries.spifly.dynamic.framework.extension/1.2.3.LIFERAY-PATCHED-1/org.apache.aries.spifly.dynamic.framework.extension-1.2.3.LIFERAY-PATCHED-1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "93a60383418c3150073c5a724eb23ab26061cd9b",
+    "sha256": "e4096b1fdfb10e352cc5819a2a6e1529a22272c03ac360954e6877511269ed3e",
+    "sha512": "d50d678ad0fd0dc6c82f11e6633b2aeae5f536fb91b2830ee313d6420cf729f878395bfaeaca04c6a9c22bdcb9f12e6023d50493403bd645aae3031302719aca",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/org.apache.aries.spifly.dynamic.framework.extension@1.2.3.LIFERAY-PATCHED-1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.aries.spifly/org.apache.aries.spifly.dynamic.framework.extension@1.2.3",
+            "extracted_requirement": "1.2.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/org.apache.aries.spifly.dynamic.framework.extension@1.2.3.LIFERAY-PATCHED-1?classifier=sources&uuid=e1bd4d5c-0393-4ade-a03b-1d0bd9720a8a",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/org.apache.aries.spifly.dynamic.framework.extension@1.2.3.LIFERAY-PATCHED-1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.aries.spifly.dynamic.framework.extension/1.2.3.LIFERAY-PATCHED-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.aries.spifly.dynamic.framework.extension/1.2.3.LIFERAY-PATCHED-1/org.apache.aries.spifly.dynamic.framework.extension-1.2.3.LIFERAY-PATCHED-1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.aries.spifly.dynamic.framework.extension/1.2.3.LIFERAY-PATCHED-1/org.apache.aries.spifly.dynamic.framework.extension-1.2.3.LIFERAY-PATCHED-1.pom",
+    "file_references": []
+}

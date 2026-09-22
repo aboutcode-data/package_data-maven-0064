@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "org.camunda.bpm.dmn",
+    "name": "camunda-engine-dmn",
+    "version": "7.7.0-alpha2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "camunda DMN - engine",
+    "release_date": "2017-05-19T08:57:34Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/camunda/bpm/dmn/camunda-engine-dmn/7.7.0-alpha2/camunda-engine-dmn-7.7.0-alpha2.jar",
+    "size": 143111,
+    "md5": null,
+    "sha1": "17e9a4cd21c79154d1cb04848d415bf261bca448",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.camunda.bpm.dmn/camunda-engine-dmn@7.7.0-alpha2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.camunda.commons/camunda-commons-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.camunda.commons/camunda-commons-typed-values",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.camunda.bpm.model/camunda-dmn-model",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.camunda.bpm.dmn/camunda-engine-feel-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.camunda.bpm.dmn/camunda-engine-feel-juel",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.odysseus.juel/juel-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.odysseus.juel/juel-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.odysseus.juel/juel-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.camunda.bpm.dmn/camunda-engine-dmn@7.7.0-alpha2?uuid=b535ceb8-a470-48dd-9f82-d17b8369bf2e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.camunda.bpm.dmn/camunda-engine-dmn@7.7.0-alpha2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/camunda/bpm/dmn/camunda-engine-dmn/7.7.0-alpha2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/camunda/bpm/dmn/camunda-engine-dmn/7.7.0-alpha2/camunda-engine-dmn-7.7.0-alpha2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/camunda/bpm/dmn/camunda-engine-dmn/7.7.0-alpha2/camunda-engine-dmn-7.7.0-alpha2.pom",
+    "file_references": []
+}

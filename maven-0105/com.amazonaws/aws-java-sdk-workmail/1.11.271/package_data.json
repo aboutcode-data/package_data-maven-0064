@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-workmail",
+    "version": "1.11.271",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "238f16c5-17c5-4a7a-99e6-490c60a71e05",
+            "packages": [
+                "pkg:maven/com.amazonaws/aws-java-sdk-workmail@1.11.271?uuid=d7cffe58-10e3-4cb3-bead-30f2c7127a30",
+                "pkg:maven/com.amazonaws/aws-java-sdk-workmail@1.11.271?classifier=sources&uuid=bb1f688c-acb3-4e43-a308-711fbffd5d24"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK for Amazon WorkMail\nThe AWS Java SDK for Amazon WorkMail module holds the client classes that are used for communicating with Amazon WorkMail Service",
+    "release_date": "2018-01-27T00:05:24Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-workmail/1.11.271/aws-java-sdk-workmail-1.11.271-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "922c10b6f34a1b865b8adbd2e28ff5b8a96cc0d2",
+    "sha256": "a036c1d2b7874e53a48c89c715da9d19dc9e1bcc7be9d17dc8e9cdd063d755fe",
+    "sha512": "f5b67c323ebb8ebd18d6a8decd1266a418de06d12a3b6a33caa1687d3ddd02cacfe0ea15873939b01d2f5f4d5d92a5159d18fe21a057e10ef4e253de419dc9de",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-workmail@1.11.271?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/jmespath-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-workmail@1.11.271?classifier=sources&uuid=bb1f688c-acb3-4e43-a308-711fbffd5d24",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-workmail@1.11.271?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-workmail/1.11.271/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-workmail/1.11.271/aws-java-sdk-workmail-1.11.271-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-workmail/1.11.271/aws-java-sdk-workmail-1.11.271.pom",
+    "file_references": []
+}

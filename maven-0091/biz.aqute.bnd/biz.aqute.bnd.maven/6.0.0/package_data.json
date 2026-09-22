@@ -1,0 +1,287 @@
+{
+    "type": "maven",
+    "namespace": "biz.aqute.bnd",
+    "name": "biz.aqute.bnd.maven",
+    "version": "6.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9f5f9439-e777-445e-8b97-0734880f7b61",
+            "packages": [
+                "pkg:maven/biz.aqute.bnd/biz.aqute.bnd.maven@6.0.0?uuid=92a9fafa-f418-4129-9ad8-6e83ee87582d",
+                "pkg:maven/biz.aqute.bnd/biz.aqute.bnd.maven@6.0.0?classifier=sources&uuid=48394ae8-f921-4fa6-81a5-285e101a70a0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "biz.aQute.bnd.maven\nShared logic used by bnd maven plugins",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Kriens",
+            "email": "Peter.Kriens@aQute.biz",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "BJ Hargrave",
+            "email": "bj@hargrave.dev",
+            "url": "https://github.com/bjhargrave"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ray Aug\u00c3\u00a9",
+            "email": "raymond.auge@liferay.com",
+            "url": "https://rotty3000.github.io"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Bndtools",
+            "email": null,
+            "url": "https://bndtools.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://bnd.bndtools.org/",
+    "download_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.maven/6.0.0/biz.aQute.bnd.maven-6.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "D75DC345616DD8A78BFFC476449CC298AA66C14A",
+    "sha256": "32e875e4ea9c4bcdaa1dfd77847e51f20ea730a5de55c62ffa70b1256a18c5aa",
+    "sha512": "5830c99d640bf79d58542ebea993fadc0b1904579751c52ffdad148d568b95a8a3dfb7c596639410798c17517a3d189e1c575071dca7a55b6d020fd475defa5a",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/bndtools/bnd",
+    "vcs_url": "git+https://github.com/bndtools/bnd.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-2.0 AND free-unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-2.0 AND LicenseRef-scancode-free-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: (Apache-2.0 OR EPL-2.0)",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 50.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_epl-2.0_for_epl-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: (Apache-2.0 OR EPL-2.0)",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 50,
+                    "rule_identifier": "spdx_license_id_epl-2.0_for_epl-2.0.RULE",
+                    "license_expression": "epl-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_353.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://opensource.org/licenses/Apache-2.0,https://opensource.org/licenses/EPL-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_353.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown_95.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://opensource.org/licenses/Apache-2.0,https://opensource.org/licenses/EPL-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "free-unknown_95.RULE",
+                    "license_expression": "free-unknown"
+                },
+                {
+                    "score": 50.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_epl-2.0_for_epl-2.0.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://opensource.org/licenses/Apache-2.0,https://opensource.org/licenses/EPL-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 50,
+                    "rule_identifier": "spdx_license_id_epl-2.0_for_epl-2.0.RULE",
+                    "license_expression": "epl-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_2217.RULE",
+                    "start_line": 3,
+                    "matched_text": "  comments: This program and the accompanying materials are made available under the terms of\n    the Apache License, Version 2.0, or the Eclipse Public License 2.0.",
+                    "match_coverage": 100.0,
+                    "matched_length": 19,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_2217.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-2.0_30.RULE",
+                    "start_line": 4,
+                    "matched_text": "    the Apache License, Version 2.0, or the Eclipse Public License 2.0.",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-2.0_30.RULE",
+                    "license_expression": "epl-2.0"
+                }
+            ],
+            "identifier": "apache_2_0_and_epl_2_0_and_free_unknown-30498e2c-334a-3601-d992-654cb11a3d49",
+            "license_expression": "apache-2.0 AND epl-2.0 AND free-unknown"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: (Apache-2.0 OR EPL-2.0)\n  url: https://opensource.org/licenses/Apache-2.0,https://opensource.org/licenses/EPL-2.0\n  comments: This program and the accompanying materials are made available under the terms of\n    the Apache License, Version 2.0, or the Eclipse Public License 2.0.\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.maven@6.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.osgi/osgi.annotation@8.0.0",
+            "extracted_requirement": "8.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.util@6.0.0",
+            "extracted_requirement": "6.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@6.0.0",
+            "extracted_requirement": "6.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.resolve@6.0.0",
+            "extracted_requirement": "6.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.repository@6.0.0",
+            "extracted_requirement": "6.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-artifact@3.3.9",
+            "extracted_requirement": "3.3.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-core@3.3.9",
+            "extracted_requirement": "3.3.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-model@3.3.9",
+            "extracted_requirement": "3.3.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api@3.3.9",
+            "extracted_requirement": "3.3.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-repository-metadata@3.3.9",
+            "extracted_requirement": "3.3.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-settings@3.3.9",
+            "extracted_requirement": "3.3.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.22",
+            "extracted_requirement": "3.0.22",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.aether/aether-api@1.0.2.v20150114",
+            "extracted_requirement": "1.0.2.v20150114",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/biz.aqute.bnd/biz.aqute.bnd.maven@6.0.0?classifier=sources&uuid=48394ae8-f921-4fa6-81a5-285e101a70a0",
+    "datasource_id": null,
+    "purl": "pkg:maven/biz.aqute.bnd/biz.aqute.bnd.maven@6.0.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

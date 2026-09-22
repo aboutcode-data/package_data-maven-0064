@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jetty.websocket",
+    "name": "websocket-server",
+    "version": "9.2.18.v20160721",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Jetty :: Websocket :: Server",
+    "release_date": "2016-07-21T19:48:26Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.18.v20160721/websocket-server-9.2.18.v20160721.jar",
+    "size": 37721,
+    "md5": null,
+    "sha1": "d5b2f11506f943e34bc0a9390b2ac14b0634b33a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.2.18.v20160721?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common",
+            "extracted_requirement": "9.2.18.v20160721",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-client",
+            "extracted_requirement": "9.2.18.v20160721",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet",
+            "extracted_requirement": "9.2.18.v20160721",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet",
+            "extracted_requirement": "9.2.18.v20160721",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-http",
+            "extracted_requirement": "9.2.18.v20160721",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server",
+            "extracted_requirement": "9.2.18.v20160721",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common",
+            "extracted_requirement": "9.2.18.v20160721",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-test-helper",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.2.18.v20160721?uuid=9c9ef92b-f5eb-484f-951d-a62b62b50523",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.2.18.v20160721",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.18.v20160721/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.18.v20160721/websocket-server-9.2.18.v20160721.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.18.v20160721/websocket-server-9.2.18.v20160721.pom",
+    "file_references": []
+}

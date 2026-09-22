@@ -1,0 +1,131 @@
+{
+    "type": "maven",
+    "namespace": "com.github.jnr",
+    "name": "jnr-unixsocket",
+    "version": "0.17",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "631f90b2-e0d6-4047-9e71-26f61741b0cc",
+            "packages": [
+                "pkg:maven/com.github.jnr/jnr-unixsocket@0.17?uuid=12ace638-f562-4564-af1d-380a136a6094",
+                "pkg:maven/com.github.jnr/jnr-unixsocket@0.17?classifier=sources&uuid=3ccc98f1-5e67-4f30-9dd7-d14ae2217966"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jnr-unixsocket\nNative I/O access for java",
+    "release_date": "2017-03-05T19:40:52Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Wayne Meissner",
+            "email": "wmeissner@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Fritz Elfert",
+            "email": "fritz-github@fritz-elfert.de",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/jnr/jnr-unixsocket",
+    "download_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.17/jnr-unixsocket-0.17-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "807295d262d1fcfeb5fadbffdd0f562a6d6c97bd",
+    "sha256": "9982282e593899571b9d2c1916537dc21ec7eaf5cbf73ef821814d7291d4c7af",
+    "sha512": "b897b598aa42cde7feb49917e78cf18013fb5a64e5c94b9042fa4591987451112ea3ea5348c8b7c7b9032bce1238135ffcfcc59bea326da45ed6c8cb765431e1",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/jnr/jnr-unixsocket.git",
+    "vcs_url": "git+https://github.com/jnr/jnr-unixsocket.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.jnr/jnr-unixsocket@0.17?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jnr-ffi@2.1.4",
+            "extracted_requirement": "2.1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jnr-constants@0.9.8",
+            "extracted_requirement": "0.9.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jnr-enxio@0.16",
+            "extracted_requirement": "0.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jnr-posix@3.0.35",
+            "extracted_requirement": "3.0.35",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.jnr/jnr-unixsocket@0.17?classifier=sources&uuid=3ccc98f1-5e67-4f30-9dd7-d14ae2217966",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.jnr/jnr-unixsocket@0.17?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.17/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.17/jnr-unixsocket-0.17-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.17/jnr-unixsocket-0.17.pom",
+    "file_references": []
+}

@@ -1,0 +1,151 @@
+{
+    "type": "maven",
+    "namespace": "com.gluonhq",
+    "name": "cloudlink-enterprise-sdk-javaee",
+    "version": "1.1.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Gluon CloudLink Enterprise SDK - Java EE",
+    "release_date": "2017-07-19T19:27:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": null,
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Gluon",
+            "email": null,
+            "url": "https://gluonhq.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://gluonhq.com/cloudlink",
+    "download_url": "https://repo1.maven.org/maven2/com/gluonhq/cloudlink-enterprise-sdk-javaee/1.1.0/cloudlink-enterprise-sdk-javaee-1.1.0.jar",
+    "size": 15273,
+    "md5": null,
+    "sha1": "1cccf79a8b9d83f80685adfdb793d8cd84816b1b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new AND unknown",
+    "declared_license_expression_spdx": "BSD-3-Clause AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The 3-Clause BSD License\nhttp://www.opensource.org/licenses/bsd-license.php",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.gluonhq/cloudlink-enterprise-sdk-javaee@1.1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.gluonhq/cloudlink-enterprise-sdk-javabase",
+            "extracted_requirement": "1.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.ws.rs/javax.ws.rs-api",
+            "extracted_requirement": "2.0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.json.bind/javax.json.bind-api",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish/javax.json",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-core",
+            "extracted_requirement": "3.4.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.core/jersey-client",
+            "extracted_requirement": "2.22.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse/yasson",
+            "extracted_requirement": "1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate.validator/hibernate-validator",
+            "extracted_requirement": "6.0.0.Beta2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish/javax.el",
+            "extracted_requirement": "3.0.1-b08",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.gluonhq/cloudlink-enterprise-sdk-javaee@1.1.0?uuid=451b2467-06bb-48b0-bfc7-8cc83768b435",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.gluonhq/cloudlink-enterprise-sdk-javaee@1.1.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/gluonhq/cloudlink-enterprise-sdk-javaee/1.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/gluonhq/cloudlink-enterprise-sdk-javaee/1.1.0/cloudlink-enterprise-sdk-javaee-1.1.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/gluonhq/cloudlink-enterprise-sdk-javaee/1.1.0/cloudlink-enterprise-sdk-javaee-1.1.0.pom",
+    "file_references": []
+}

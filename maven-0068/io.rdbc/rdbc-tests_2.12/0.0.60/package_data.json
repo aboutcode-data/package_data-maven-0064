@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "io.rdbc",
+    "name": "rdbc-tests_2.12",
+    "version": "0.0.60",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "rdbc-tests",
+    "release_date": "2017-05-26T18:38:56Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Krzysztof Pado",
+            "email": "povder@gmail.com",
+            "url": "https://github.com/povder"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "io.rdbc",
+            "email": null,
+            "url": "https://github.com/rdbc-io/rdbc"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/rdbc-io/rdbc",
+    "download_url": "https://repo1.maven.org/maven2/io/rdbc/rdbc-tests_2.12/0.0.60/rdbc-tests_2.12-0.0.60.jar",
+    "size": 93732,
+    "md5": null,
+    "sha1": "72de8590ed95a66f7825c00892f865dfc6465c46",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttps://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.rdbc/rdbc-tests_2.12@0.0.60?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.rdbc/rdbc-api-scala_2.12",
+            "extracted_requirement": "0.0.60",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalactic/scalactic_2.12",
+            "extracted_requirement": "3.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12",
+            "extracted_requirement": "3.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams-tck",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-stream_2.12",
+            "extracted_requirement": "2.4.18",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.rdbc/rdbc-tests_2.12@0.0.60?uuid=717a4eb3-d2ab-442f-a79e-8c9759875cf3",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.rdbc/rdbc-tests_2.12@0.0.60",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/rdbc/rdbc-tests_2.12/0.0.60/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/rdbc/rdbc-tests_2.12/0.0.60/rdbc-tests_2.12-0.0.60.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/rdbc/rdbc-tests_2.12/0.0.60/rdbc-tests_2.12-0.0.60.pom",
+    "file_references": []
+}

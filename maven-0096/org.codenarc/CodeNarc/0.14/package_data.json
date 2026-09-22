@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.codenarc",
+    "name": "CodeNarc",
+    "version": "0.14",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f05b899c-02ee-4c22-a913-37d99fdbbf26",
+            "packages": [
+                "pkg:maven/org.codenarc/CodeNarc@0.14?uuid=5695ca51-0891-4d6a-ac45-95f18c2780f4",
+                "pkg:github/codenarc/codenarc@0.14?uuid=781c46d8-9587-4889-8dc2-768c3e4f025e"
+            ]
+        }
+    ],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "CodeNarc\nThe CodeNarc project provides a static analysis tool for Groovy code.",
+    "release_date": "2011-06-10T01:38:52Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://codenarc.sourceforge.net/",
+    "download_url": "https://repo1.maven.org/maven2/org/codenarc/CodeNarc/0.14/CodeNarc-0.14.jar",
+    "size": 2951948,
+    "md5": null,
+    "sha1": "fcb9dbca39800a102e3aed1bf1a0054fb3fbe301",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache 2\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codenarc/CodeNarc@0.14?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": "1.2.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.gmetrics/GMetrics",
+            "extracted_requirement": "0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-all",
+            "extracted_requirement": "1.7.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant",
+            "extracted_requirement": "1.7.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.cobertura/cobertura",
+            "extracted_requirement": "1.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codenarc/CodeNarc@0.14?uuid=5695ca51-0891-4d6a-ac45-95f18c2780f4",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codenarc/CodeNarc@0.14",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codenarc/CodeNarc/0.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codenarc/CodeNarc/0.14/CodeNarc-0.14.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codenarc/CodeNarc/0.14/CodeNarc-0.14.pom",
+    "file_references": []
+}

@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.jruby",
+    "name": "jruby",
+    "version": "9.1.10.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d2665258-0e4e-4e78-b794-9e39ee40183a",
+            "packages": [
+                "pkg:maven/org.jruby/jruby@9.1.10.0?uuid=d2203546-d72f-42af-a9fe-2ea433f87807",
+                "pkg:github/jruby/jruby@9.1.10.0?uuid=32a20c42-7524-4d4b-8820-6f0b2f30ba5c"
+            ]
+        }
+    ],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "JRuby Main Maven Artifact",
+    "release_date": "2017-05-25T19:44:10Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/jruby/jruby/9.1.10.0/jruby-9.1.10.0.jar",
+    "size": 46658,
+    "md5": null,
+    "sha1": "013eac48d327310865698843147e95bbdd97b1e7",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jruby/jruby@9.1.10.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jruby/jruby-core",
+            "extracted_requirement": "9.1.10.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jruby/jruby-stdlib",
+            "extracted_requirement": "9.1.10.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jruby/jruby@9.1.10.0?uuid=d2203546-d72f-42af-a9fe-2ea433f87807",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jruby/jruby@9.1.10.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jruby/jruby/9.1.10.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jruby/jruby/9.1.10.0/jruby-9.1.10.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jruby/jruby/9.1.10.0/jruby-9.1.10.0.pom",
+    "file_references": []
+}

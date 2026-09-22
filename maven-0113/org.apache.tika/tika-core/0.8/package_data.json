@@ -1,0 +1,78 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tika",
+    "name": "tika-core",
+    "version": "0.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "20e52b51-48a4-4556-9d1d-2db4bef312e4",
+            "packages": [
+                "pkg:maven/org.apache.tika/tika-core@0.8?uuid=7ad17af7-6f7d-48c9-995d-ed6a5d55d978",
+                "pkg:maven/org.apache.tika/tika-core@0.8?classifier=sources&uuid=c1a36f2c-9856-40e1-b07f-cd2069ce02a1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Tika core",
+    "release_date": "2010-11-07T21:18:56Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://tika.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-core/0.8/tika-core-0.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b317f7269e1363e0ea310f319af8fe073a30269d",
+    "sha256": "b8178a71b429d56604a5a765c76dad52cb7bc129b59fa9facab51e693a5e58e5",
+    "sha512": "fff2061d3403fed8e08de14d98d0c2d9d75ad6f1831ee6085d6c28e1d9a31e3c56370584938490917116d412a986539084bd03febd2413eabd3ec91229cd8b77",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-simplified-darwin",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-2-Clause-Darwin",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tika/tika-core@0.8?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@6",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@6"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tika/tika-core@0.8?classifier=sources&uuid=c1a36f2c-9856-40e1-b07f-cd2069ce02a1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.tika/tika-core@0.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-core/0.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-core/0.8/tika-core-0.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-core/0.8/tika-core-0.8.pom",
+    "file_references": []
+}

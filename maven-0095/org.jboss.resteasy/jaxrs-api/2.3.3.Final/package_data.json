@@ -1,0 +1,91 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.resteasy",
+    "name": "jaxrs-api",
+    "version": "2.3.3.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "23df451a-29d1-4788-a8e8-3111231c237c",
+            "packages": [
+                "pkg:maven/org.jboss.resteasy/jaxrs-api@2.3.3.Final?uuid=275244ae-8677-4113-b445-234cc88b26ac",
+                "pkg:maven/org.jboss.resteasy/jaxrs-api@2.3.3.Final?classifier=sources&uuid=08b701f1-d0b2-4fce-b515-bf8952abbcf1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JAX-RS Core API",
+    "release_date": "2012-04-30T23:46:03Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ryan J. McDonough",
+            "email": "ryan@damnhandy.com",
+            "url": "http://damnhandy.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bill Burke",
+            "email": "bill@burkecentral.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Heiko Braun",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Martin Algesten",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://rest-easy.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/jaxrs-api/2.3.3.Final/jaxrs-api-2.3.3.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3dc53f267fa1c544b924a82c65b5980fdad751cd",
+    "sha256": "e0c189d718429eb73d4cbfee7491869479dc6ca894b9e257924b5039e8db5bdb",
+    "sha512": "7e0871a50bb69e4a1d4e6499ee5fbba5f34d06a1440f9df842be239684b94e87f207cb037595cf4c38f7a3a403a0d89c4c839149eae57cfb51bd998265d0ddeb",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "cddl-1.0 AND apache-2.0 AND (cddl-1.1 AND apache-2.0 AND cddl-1.0)",
+    "other_license_expression_spdx": "CDDL-1.0 AND Apache-2.0 AND (CDDL-1.1 AND Apache-2.0 AND CDDL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.resteasy/jaxrs-api@2.3.3.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.jboss.resteasy/resteasy-jaxrs-all@2.3.3.Final",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.jboss.resteasy/resteasy-jaxrs-all@2.3.3.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jboss.resteasy/resteasy-jaxrs-all@2.3.3.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.jboss.resteasy/jaxrs-api@2.3.3.Final?classifier=sources&uuid=08b701f1-d0b2-4fce-b515-bf8952abbcf1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jboss.resteasy/jaxrs-api@2.3.3.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/jaxrs-api/2.3.3.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/jaxrs-api/2.3.3.Final/jaxrs-api-2.3.3.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/jaxrs-api/2.3.3.Final/jaxrs-api-2.3.3.Final.pom",
+    "file_references": []
+}

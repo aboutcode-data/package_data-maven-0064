@@ -1,0 +1,195 @@
+{
+    "type": "maven",
+    "namespace": "com.mchange",
+    "name": "mchange-commons-java",
+    "version": "0.2.19",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8961b7ba-e4f8-4578-8532-fc55902ad071",
+            "packages": [
+                "pkg:maven/com.mchange/mchange-commons-java@0.2.19?uuid=92bf87f5-a0d2-410e-9733-fdd478da4be2",
+                "pkg:maven/com.mchange/mchange-commons-java@0.2.19?classifier=sources&uuid=d545edb9-5b78-4092-aea4-c09590599f79"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "mchange-commons-java",
+    "release_date": "2019-11-09T07:06:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steve Waldman",
+            "email": "swaldman@mchange.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.mchange",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/swaldman/mchange-commons-java",
+    "download_url": "https://repo1.maven.org/maven2/com/mchange/mchange-commons-java/0.2.19/mchange-commons-java-0.2.19-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "91a05a2e27efc8e8b95638926d6e0bf41d1cdd2c",
+    "sha256": "595a72e0e9d8e2000f7e419ee00c13ee406d89cca0b42520bffddfac74e2b18d",
+    "sha512": "5403394cc352e48b30bf192ff060d1ade1893e87cc4e9d79457900c78730483011531e753f84fd734eb663985b7d67085d744bf908cb4c7f563ede9b2c4781c5",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/swaldman/mchange-commons-java.git",
+    "vcs_url": "git+https://github.com/swaldman/mchange-commons-java",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1 AND epl-1.0",
+    "declared_license_expression_spdx": "LGPL-2.1-only AND EPL-1.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_36.RULE",
+                    "start_line": 1,
+                    "matched_text": "GNU Lesser General Public License, Version 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_36.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-be3f3949-802d-9c3e-b5f0-b2466a0bd98b",
+            "license_expression": "lgpl-2.1"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_21.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.gnu.org/licenses/lgpl-2.1.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_21.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-50082ba3-f1f4-f466-00e0-9dda1e64b279",
+            "license_expression": "lgpl-2.1"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-1.0_23.RULE",
+                    "start_line": 1,
+                    "matched_text": "Eclipse Public License, Version 1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-1.0_23.RULE",
+                    "license_expression": "epl-1.0"
+                }
+            ],
+            "identifier": "epl_1_0-0822e277-eb66-5ba6-69ac-4d77b3ec6f27",
+            "license_expression": "epl-1.0"
+        }
+    ],
+    "other_license_expression": "((lgpl-2.1 AND epl-1.0) AND (lgpl-2.0 AND lgpl-2.1 AND lgpl-2.0-plus AND epl-1.0)) AND ((lgpl-2.1 AND epl-1.0) AND (gpl-2.0 AND lgpl-2.1 AND lgpl-2.0-plus AND epl-1.0))",
+    "other_license_expression_spdx": "((LGPL-2.1-only AND EPL-1.0) AND (LGPL-2.0-only AND LGPL-2.1-only AND LGPL-2.0-or-later AND EPL-1.0)) AND ((LGPL-2.1-only AND EPL-1.0) AND (GPL-2.0-only AND LGPL-2.1-only AND LGPL-2.0-or-later AND EPL-1.0))",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU Lesser General Public License, Version 2.1\n  url: http://www.gnu.org/licenses/lgpl-2.1.html\n  comments:\n  distribution: repo\n- name: Eclipse Public License, Version 1.0\n  url: http://www.eclipse.org/org/documents/epl-v10.html\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.mchange/mchange-commons-java@0.2.19?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.typesafe/config@1.3.0",
+            "extracted_requirement": "1.3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": "[1.2.14,1.2.15),[1.2.140,1.2.150),[1.2.1400,1.2.1500),[1.2.14000,1.2.15000),[1.2.140000,1.2.150000)",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.7",
+            "extracted_requirement": "2.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.7",
+            "extracted_requirement": "2.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "[1.7.5,1.7.6),[1.7.50,1.7.60),[1.7.500,1.7.600),[1.7.5000,1.7.6000),[1.7.50000,1.7.60000)",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "[4.1,4.2),[4.10,4.20),[4.100,4.200),[4.1000,4.2000),[4.10000,4.20000)",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.novocode/junit-interface@0.10-M3",
+            "extracted_requirement": "0.10-M3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.mchange/mchange-commons-java@0.2.19?classifier=sources&uuid=d545edb9-5b78-4092-aea4-c09590599f79",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.mchange/mchange-commons-java@0.2.19?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/mchange/mchange-commons-java/0.2.19/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/mchange/mchange-commons-java/0.2.19/mchange-commons-java-0.2.19-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/mchange/mchange-commons-java/0.2.19/mchange-commons-java-0.2.19.pom",
+    "file_references": []
+}

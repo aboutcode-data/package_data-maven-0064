@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "org.fusesource.leveldbjni",
+    "name": "leveldbjni-all",
+    "version": "1.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e6db34de-de41-458d-8165-75b477c399eb",
+            "packages": [
+                "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8?uuid=de0dc991-29fc-4f58-a3dd-4269d7cd3860",
+                "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8?classifier=sources&uuid=72e81804-d760-4426-9b1f-b29dec05b04c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "leveldbjni-all\nAn uber jar which contains all the leveldbjni platform libraries and dependencies",
+    "release_date": "2013-10-17T13:18:29Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "FuseSource Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "FuseSource, Corp.",
+            "email": null,
+            "url": "http://fusesource.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://fusesource.com/",
+    "download_url": "https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "70e814750abf3ca737d0d6cc0d478c1c8e5e0a02",
+    "sha256": "514a77a88aca4a07ba345d5f0a11d0cd8dc128a67e04cf62f8f00d41141b6c9f",
+    "sha512": "f343cb115587298e6faf45695ea517670f82e70b86cd00e9c9b342f2cfb305a89f64fdcd68664548e82cee7558fc2a1c3deb5b255ed1e8ffef8c205883b3590c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new AND apache-2.0 AND epl-1.0",
+    "other_license_expression_spdx": "BSD-3-Clause AND Apache-2.0 AND EPL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni-osx@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni-linux32@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni-linux64@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni-win32@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni-win64@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8?classifier=sources&uuid=72e81804-d760-4426-9b1f-b29dec05b04c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.pom",
+    "file_references": []
+}

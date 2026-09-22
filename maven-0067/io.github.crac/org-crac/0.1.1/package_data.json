@@ -1,0 +1,102 @@
+{
+    "type": "maven",
+    "namespace": "io.github.crac",
+    "name": "org-crac",
+    "version": "0.1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0b7c5b99-2bf3-45fa-9bfb-e117876b4e33",
+            "packages": [
+                "pkg:maven/io.github.crac/org-crac@0.1.1?uuid=57fddfe2-1d46-474e-baef-945230804fa3",
+                "pkg:maven/io.github.crac/org-crac@0.1.1?classifier=sources&uuid=9e54235d-3b67-4820-b097-4eb72a1103fd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org-crac\nA wrapper for OpenJDK CRaC API to build and run on any JDK",
+    "release_date": "2022-02-21T17:12:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Anton Kozlov",
+            "email": "akozlov@azul.com",
+            "url": "https://github.com/AntonKozlov"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/crac/org.crac",
+    "download_url": "https://repo1.maven.org/maven2/io/github/crac/org-crac/0.1.1/org-crac-0.1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fc977a0979f585ea571fc268c069414d68ba9778",
+    "sha256": "5d72851f61f9aefcaae9fa1df92f752a1b566d9f8c8ab232f335cdea715e1b24",
+    "sha512": "700d2281600d62a36be1fefe8bb607b861a85ec302758a03ce125819bbad2e7afb795f41c655e12612ca95eaf53385f8701d280e00a36d1c799b1117a6d43d06",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/CRaC/org.crac/tree/master",
+    "vcs_url": "git://github.com/CRaC/org.crac.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-simplified",
+    "declared_license_expression_spdx": "BSD-2-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+                    "start_line": 1,
+                    "matched_text": "BSD-2-Clause",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+                    "license_expression": "bsd-simplified"
+                }
+            ],
+            "identifier": "bsd_simplified-7cacd81a-0bdb-1c32-cf2d-2250f633f213",
+            "license_expression": "bsd-simplified"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_82.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://opensource.org/licenses/BSD-2-Clause",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-simplified_82.RULE",
+                    "license_expression": "bsd-simplified"
+                }
+            ],
+            "identifier": "bsd_simplified-4eff60f4-83fb-3a06-57d4-961efa01b215",
+            "license_expression": "bsd-simplified"
+        }
+    ],
+    "other_license_expression": "bsd-simplified AND gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "BSD-2-Clause AND GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD-2-Clause\n  url: https://opensource.org/licenses/BSD-2-Clause\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.github.crac/org-crac@0.1.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/io.github.crac/org-crac@0.1.1?classifier=sources&uuid=9e54235d-3b67-4820-b097-4eb72a1103fd",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.github.crac/org-crac@0.1.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

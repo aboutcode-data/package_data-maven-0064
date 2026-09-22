@@ -1,0 +1,258 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty",
+    "version": "3.10.6.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "37b95756-84f3-461a-bfea-2db34104f9fc",
+            "packages": [
+                "pkg:maven/io.netty/netty@3.10.6.Final?uuid=49e57d34-301d-4874-93c4-706bf1e7a75f",
+                "pkg:maven/io.netty/netty@3.10.6.Final?classifier=sources&uuid=afabec32-718a-49f6-88e4-5996e8efa91b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty\nThe Netty project is an effort to provide an asynchronous event-driven\n    network application framework and tools for rapid development of\n    maintainable high performance and high scalability protocol servers and\n    clients.  In other words, Netty is a NIO client server framework which\n    enables quick and easy development of network applications such as protocol\n    servers and clients. It greatly simplifies and streamlines network\n    programming such as TCP and UDP socket server.",
+    "release_date": "2016-06-29T12:45:31Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "http://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "http://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://netty.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "010104e11e8c0e4871440a5b999311b2a2f1c858",
+    "sha256": "c201e22d974e4607e467cd61b18361e64e7cea472b5c154b0bc82f4da9171ae3",
+    "sha512": "0ef526f2daa8edf3b15f19eb0e495473e0e9b163baefa8db464dec78f83add4ac7dc9ea37549094cd4c190edb8a050b7eb674a667e0aa0148bc5e47004d317e3",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/netty/netty",
+    "vcs_url": "git://github.com/netty/netty.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-7d19d6db-5271-9183-f2fe-699732078833",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND (bsd-new AND zlib)) AND ((apache-2.0 AND bsd-new) AND bsd-new) AND (apache-2.0 AND cc-pd) AND ((apache-2.0 AND cc-pd) AND public-domain) AND bsd-new AND cc-pd AND mit AND (apache-2.0 AND mit) AND (apache-2.0 AND public-domain AND bsd-new AND mit AND lgpl-2.1) AND lgpl-2.1 AND protobuf",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND (BSD-3-Clause AND Zlib)) AND ((Apache-2.0 AND BSD-3-Clause) AND BSD-3-Clause) AND (Apache-2.0 AND CC-PDDC) AND ((Apache-2.0 AND CC-PDDC) AND LicenseRef-scancode-public-domain) AND BSD-3-Clause AND CC-PDDC AND MIT AND (Apache-2.0 AND MIT) AND (Apache-2.0 AND LicenseRef-scancode-public-domain AND BSD-3-Clause AND MIT AND LGPL-2.1-only) AND LGPL-2.1-only AND LicenseRef-scancode-protobuf",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty@3.10.6.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-tcnative@1.1.30.Fork2",
+            "extracted_requirement": "1.1.30.Fork2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.marshalling/jboss-marshalling@1.3.14.GA",
+            "extracted_requirement": "1.3.14.GA",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+            "extracted_requirement": "2.5.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.50",
+            "extracted_requirement": "1.50",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.npn/npn-api@1.1.0.v20120525",
+            "extracted_requirement": "1.1.0.v20120525",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.5",
+            "extracted_requirement": "2.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.activation/activation@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.osgi.core@1.4.0",
+            "extracted_requirement": "1.4.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.osgi.compendium@1.4.0",
+            "extracted_requirement": "1.4.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.6.4",
+            "extracted_requirement": "1.6.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.1.4.GA",
+            "extracted_requirement": "3.1.4.GA",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.16",
+            "extracted_requirement": "1.2.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymockclassextension@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple@1.6.4",
+            "extracted_requirement": "1.6.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.marshalling/jboss-marshalling-serial@1.3.14.GA",
+            "extracted_requirement": "1.3.14.GA",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.marshalling/jboss-marshalling-river@1.3.14.GA",
+            "extracted_requirement": "1.3.14.GA",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty@3.10.6.Final?classifier=sources&uuid=afabec32-718a-49f6-88e4-5996e8efa91b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty@3.10.6.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom",
+    "file_references": []
+}

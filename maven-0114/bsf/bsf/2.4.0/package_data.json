@@ -1,0 +1,78 @@
+{
+    "type": "maven",
+    "namespace": "bsf",
+    "name": "bsf",
+    "version": "2.4.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Bean Scripting Framework",
+    "release_date": "2006-10-07T12:02:31Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jakarta.apache.org/bsf",
+    "download_url": "https://repo1.maven.org/maven2/bsf/bsf/2.4.0/bsf-2.4.0.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "658f324024bb473c4d15d18b855676fa817353e9",
+    "sha256": "f873773deb91c1a1c12150f6cdb13b8a2e1b496a75ac903c4bbfa103b363a7c7",
+    "sha512": "cf2ff6ea53cd13ea842cad398f1be24539bec68a5cbbd088492adab50bc782cde6d9f4c0b6a24deaeee537809c90631c43f9a680ff2826c28ccf1b39380954e3",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/jakarta/bsf/tags/bsf-2.4.0",
+    "vcs_url": "svn+http://svn.apache.org/jakarta/bsf/tags/bsf-2.4.0",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/bsf/bsf@2.4.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@3",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@3"
+        ],
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.0.4",
+            "extracted_requirement": "1.0.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/bsf/bsf@2.4.0?uuid=cb383060-b478-4a17-a3ed-b478854c7221",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/bsf/bsf@2.4.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/bsf/bsf/2.4.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/bsf/bsf/2.4.0/bsf-2.4.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/bsf/bsf/2.4.0/bsf-2.4.0.pom",
+    "file_references": []
+}

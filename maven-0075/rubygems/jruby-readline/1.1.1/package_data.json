@@ -1,0 +1,194 @@
+{
+    "type": "maven",
+    "namespace": "rubygems",
+    "name": "jruby-readline",
+    "version": "1.1.1",
+    "qualifiers": "type=gem",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "JRuby Readline\nreadline extension for JRuby",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JRuby contributors",
+            "email": "dev@jruby.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/jruby/jruby",
+    "download_url": "https://repo1.maven.org/maven2/rubygems/jruby-readline/1.1.1/jruby-readline-1.1.1.gem",
+    "size": null,
+    "md5": null,
+    "sha1": "b68b7fd09fb711acb04cee0078adc8c234ef27c0",
+    "sha256": "617c97770bcd1371c602dc2ca035a19e2ff8491b496bde46ab765f94568d3b7a",
+    "sha512": "bda8d53cb0bdf7e3f73aef5a449238a9bebb812273f266196f4cc1fc127a4baa41071e1f6edb5c731b1415ceb4fa6b7363efe10b53ce2cbab5553ac3910a36e8",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/jruby/jruby",
+    "vcs_url": "https://github.com/jruby/jruby.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "(epl-1.0 AND gpl-2.0 AND lgpl-2.1) AND unknown",
+    "declared_license_expression_spdx": "(EPL-1.0 AND GPL-2.0-only AND LGPL-2.1-only) AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-1.0_6.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: EPL-1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-1.0_6.RULE",
+                    "license_expression": "epl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-1.0_36.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://opensource.org/licenses/EPL-1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-1.0_36.RULE",
+                    "license_expression": "epl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-1.0_1.RULE",
+                    "start_line": 3,
+                    "matched_text": "  comments: Eclipse Public License 1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-1.0_1.RULE",
+                    "license_expression": "epl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0_52.RULE",
+                    "start_line": 4,
+                    "matched_text": "- name: GPL-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-2.0_52.RULE",
+                    "license_expression": "gpl-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 5,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0_1367.RULE",
+                    "start_line": 5,
+                    "matched_text": "  url: http://opensource.org/licenses/GPL-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-2.0_1367.RULE",
+                    "license_expression": "gpl-2.0"
+                },
+                {
+                    "score": 61.11,
+                    "matcher": "3-seq",
+                    "end_line": 8,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_430.RULE",
+                    "start_line": 6,
+                    "matched_text": "  comments: GNU General Public License version 2.0\n- name: LGPL-2.1\n  url: http://opensource.org/licenses/LGPL-2.1",
+                    "match_coverage": 61.11,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_430.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 7,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 7,
+                    "matched_text": "- name: LGPL-2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 80.0,
+                    "matcher": "3-seq",
+                    "end_line": 9,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_41.RULE",
+                    "start_line": 9,
+                    "matched_text": "  comments: GNU Library or \"Lesser\" General Public License version 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_41.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "epl_1_0_and_gpl_2_0_and_lgpl_2_1-ba37323b-2d9a-68cb-1a64-1b1416a448dc",
+            "license_expression": "epl-1.0 AND gpl-2.0 AND lgpl-2.1"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 9,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-61426c3458e0305eabd31dbb1f7592912b9ec3c1",
+                    "start_line": 1,
+                    "matched_text": "license - name: EPL-1.0\n  url: http://opensource.org/licenses/EPL-1.0\n  comments: Eclipse Public License 1.0\n- name: GPL-2.0\n  url: http://opensource.org/licenses/GPL-2.0\n  comments: GNU General Public License version 2.0\n- name: LGPL-2.1\n  url: http://opensource.org/licenses/LGPL-2.1\n  comments: GNU Library or \"Lesser\" General Public License version 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 62,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-61426c3458e0305eabd31dbb1f7592912b9ec3c1",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-6bbf24dc-da6a-e192-53f9-64722345c634",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: EPL-1.0\n  url: http://opensource.org/licenses/EPL-1.0\n  comments: Eclipse Public License 1.0\n- name: GPL-2.0\n  url: http://opensource.org/licenses/GPL-2.0\n  comments: GNU General Public License version 2.0\n- name: LGPL-2.1\n  url: http://opensource.org/licenses/LGPL-2.1\n  comments: GNU Library or \"Lesser\" General Public License version 2.1\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/rubygems/jruby-readline@1.1.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/jline/jline@2.11",
+            "extracted_requirement": "2.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/rubygems/jruby-readline@1.1.1?type=gem&uuid=9be87c9e-129f-4e5f-97d5-997f76babe6a",
+    "datasource_id": null,
+    "purl": "pkg:maven/rubygems/jruby-readline@1.1.1?type=gem",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

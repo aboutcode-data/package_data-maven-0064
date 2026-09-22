@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.infrautils",
+    "name": "infrautils-util",
+    "version": "3.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7dccd6ef-d438-41ea-9d01-1e84dd0fd908",
+            "packages": [
+                "pkg:maven/org.opendaylight.infrautils/infrautils-util@3.0.0?uuid=d4f5cf14-1178-41c3-9db0-aa4e3ef432ea",
+                "pkg:maven/org.opendaylight.infrautils/infrautils-util@3.0.0?classifier=sources&uuid=53d2249c-20ec-4953-9a5b-f29967683126"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ODL :: infrautils :: infrautils-util",
+    "release_date": "2022-03-04T08:05:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/infrautils/infrautils-util/3.0.0/infrautils-util-3.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c93dc1c3daab1f883a4ae45ccc3d8d2f4bf37e75",
+    "sha256": "bfbcdf4e626f88622af11eedcac883f2494e57722c499086b437cd696ff78330",
+    "sha512": "437101375f38c1e5c91a7ade21c129f3027dc39e4db60a4604ec8c7d5750e9c8654073e694553a6d7337dfef6328860ca8ef501e956f53ce55fc5a22a8b311fa",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.infrautils/infrautils-util@3.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.immutables/value",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.infrautils/infrautils-testutils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.infrautils/infrautils-util@3.0.0?classifier=sources&uuid=53d2249c-20ec-4953-9a5b-f29967683126",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.infrautils/infrautils-util@3.0.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

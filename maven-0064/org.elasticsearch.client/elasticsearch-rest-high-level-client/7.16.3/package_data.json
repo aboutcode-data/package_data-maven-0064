@@ -1,0 +1,156 @@
+{
+    "type": "maven",
+    "namespace": "org.elasticsearch.client",
+    "name": "elasticsearch-rest-high-level-client",
+    "version": "7.16.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2e9e658f-ca87-449b-8ea5-8e71f54c043d",
+            "packages": [
+                "pkg:maven/org.elasticsearch.client/elasticsearch-rest-high-level-client@7.16.3?uuid=48314189-9e29-4c2a-8cdd-0435d984a75b",
+                "pkg:maven/org.elasticsearch.client/elasticsearch-rest-high-level-client@7.16.3?classifier=sources&uuid=0ebe392d-c2fc-44a9-bb10-eaa2da7d2a76",
+                "pkg:github/elastic/elasticsearch@v7.16.3?uuid=dca9753b-04a2-4326-b136-177b75b6095f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "rest-high-level\nElasticsearch subproject :client:rest-high-level",
+    "release_date": "2022-01-12T19:50:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elastic",
+            "email": null,
+            "url": "https://www.elastic.co"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/elastic/elasticsearch",
+    "download_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.16.3/elasticsearch-rest-high-level-client-7.16.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "033ca492bb4cfdc5ebba9670802442302fbde5a3",
+    "sha256": "6951eff35087c3ef3959bb6bd4c136b30c07860de184095b094bbd00ba478148",
+    "sha512": "ea232b203bc0f96b32f9d7acfccfea68f466e9776a0236c61dc5f7553a7af6033a05c863bfc703541958f3749d480d9969cba0bebd324ce2c7a103cdc78169a8",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/elastic/elasticsearch.git",
+    "vcs_url": "https://github.com/elastic/elasticsearch.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "elastic-license-v2",
+    "declared_license_expression_spdx": "Elastic-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_3.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Elastic License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_3.RULE",
+                    "license_expression": "elastic-license-v2"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_2.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.3/licenses/ELASTIC-LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_2.RULE",
+                    "license_expression": "elastic-license-v2"
+                }
+            ],
+            "identifier": "elastic_license_v2-875ca8e4-ef16-cd07-6515-0eff439749ab",
+            "license_expression": "elastic-license-v2"
+        }
+    ],
+    "other_license_expression": "(elastic-license-v2 OR mongodb-sspl-1.0) AND ((elastic-license-v2 OR mongodb-sspl-1.0) AND elastic-license-v2) AND ((elastic-license-v2 OR mongodb-sspl-1.0) AND elastic-license-v2 AND json) AND apache-2.0 AND (mongodb-sspl-1.0 AND elastic-license-v2)",
+    "other_license_expression_spdx": "(Elastic-2.0 OR SSPL-1.0) AND ((Elastic-2.0 OR SSPL-1.0) AND Elastic-2.0) AND ((Elastic-2.0 OR SSPL-1.0) AND Elastic-2.0 AND JSON) AND Apache-2.0 AND (SSPL-1.0 AND Elastic-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Elastic License 2.0\n  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.3/licenses/ELASTIC-LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.elasticsearch.client/elasticsearch-rest-high-level-client@7.16.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.elasticsearch/elasticsearch@7.16.3",
+            "extracted_requirement": "7.16.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch.client/elasticsearch-rest-client@7.16.3",
+            "extracted_requirement": "7.16.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch.plugin/mapper-extras-client@7.16.3",
+            "extracted_requirement": "7.16.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch.plugin/parent-join-client@7.16.3",
+            "extracted_requirement": "7.16.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch.plugin/aggs-matrix-stats-client@7.16.3",
+            "extracted_requirement": "7.16.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch.plugin/rank-eval-client@7.16.3",
+            "extracted_requirement": "7.16.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch.plugin/lang-mustache-client@7.16.3",
+            "extracted_requirement": "7.16.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.elasticsearch.client/elasticsearch-rest-high-level-client@7.16.3?classifier=sources&uuid=0ebe392d-c2fc-44a9-bb10-eaa2da7d2a76",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.elasticsearch.client/elasticsearch-rest-high-level-client@7.16.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.16.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.16.3/elasticsearch-rest-high-level-client-7.16.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.16.3/elasticsearch-rest-high-level-client-7.16.3.pom",
+    "file_references": []
+}

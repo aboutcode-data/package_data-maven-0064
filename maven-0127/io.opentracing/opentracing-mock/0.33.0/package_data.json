@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "io.opentracing",
+    "name": "opentracing-mock",
+    "version": "0.33.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b6b0bdfd-14ed-4e82-b1bf-d737b766a224",
+            "packages": [
+                "pkg:maven/io.opentracing/opentracing-mock@0.33.0?uuid=29a25790-2a38-47e8-a5d0-91e601a43c6c",
+                "pkg:maven/io.opentracing/opentracing-mock@0.33.0?classifier=sources&uuid=547be3f7-7b0c-4ec1-9fa8-721a8498cc97"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OpenTracing-mock\nOpenTracing Mock Tracer",
+    "release_date": "2019-05-06T10:58:08Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "OpenTracing Gitter",
+            "email": null,
+            "url": "https://gitter.im/opentracing/public"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OpenTracing",
+            "email": null,
+            "url": "http://opentracing.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/opentracing/opentracing-java",
+    "download_url": "https://repo1.maven.org/maven2/io/opentracing/opentracing-mock/0.33.0/opentracing-mock-0.33.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0825113ee3429e631e0e6d9328b70f2534ec65cf",
+    "sha256": "0fa3f2cc4b700b95bb4cdeafc1a7555a8ae0b3b9509f676c03e2756a3152d92e",
+    "sha512": "73f3c85a032b1929d83acfddd895283a8c66a72e0481e264b11e5528d4e2c35fc94320a0ffb880741c0005e1ed85b189943bb44f408ecb9d680660a7a016a9e6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The OpenTracing Authors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.opentracing/opentracing-mock@0.33.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.opentracing/opentracing-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.opentracing/opentracing-noop",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.opentracing/opentracing-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.opentracing/opentracing-mock@0.33.0?classifier=sources&uuid=547be3f7-7b0c-4ec1-9fa8-721a8498cc97",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.opentracing/opentracing-mock@0.33.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/opentracing/opentracing-mock/0.33.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/opentracing/opentracing-mock/0.33.0/opentracing-mock-0.33.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/opentracing/opentracing-mock/0.33.0/opentracing-mock-0.33.0.pom",
+    "file_references": []
+}

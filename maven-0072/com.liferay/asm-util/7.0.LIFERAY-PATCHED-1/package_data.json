@@ -1,0 +1,90 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "asm-util",
+    "version": "7.0.LIFERAY-PATCHED-1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2019-02-19T22:23:43Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/asm-util/7.0.LIFERAY-PATCHED-1/asm-util-7.0.LIFERAY-PATCHED-1.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "31f0d3451d4193d10b1987052073ae0d3cb43095",
+    "sha256": "d69e6847c2641e2f0db97f8d4e814a1ba08ac45ff97b5494983db3949866bbd5",
+    "sha512": "6b21d586a65a60b458b6518e07158e4924f88060170785916393d6e9fc4be69946b760dcc36bd3f1b50da325591875dc611d132f3e231d23e8a3464c145723ac",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/asm-util@7.0.LIFERAY-PATCHED-1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/asm-util@7.0.LIFERAY-PATCHED-1?uuid=9c557624-9f30-4fa6-803e-aa930c8ab056",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/asm-util@7.0.LIFERAY-PATCHED-1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/asm-util/7.0.LIFERAY-PATCHED-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/asm-util/7.0.LIFERAY-PATCHED-1/asm-util-7.0.LIFERAY-PATCHED-1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/asm-util/7.0.LIFERAY-PATCHED-1/asm-util-7.0.LIFERAY-PATCHED-1.pom",
+    "file_references": []
+}

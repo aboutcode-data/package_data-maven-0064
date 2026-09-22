@@ -1,0 +1,56 @@
+{
+    "type": "maven",
+    "namespace": "net.java.dev.jna",
+    "name": "jna",
+    "version": "3.0.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0aea171f-663f-4f36-bbe5-34e42881feec",
+            "packages": [
+                "pkg:maven/net.java.dev.jna/jna@3.0.9?uuid=3410020f-1b0c-473a-b444-6a2838f53c0e",
+                "pkg:maven/net.java.dev.jna/jna@3.0.9?classifier=sources&uuid=1758ec9a-e7a9-4b28-af1b-e059c18bcf86",
+                "pkg:github/java-native-access/jna@3.0.9?uuid=60b51beb-50cd-479e-a318-da0b38ca1190"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Java Native Access",
+    "release_date": "2010-05-20T08:45:39Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.0.9/jna-3.0.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c7c7ea041d5ea273034b6bd7fa93f345cc3b2024",
+    "sha256": "b7ec0362823fcc99cda70090711d258e64af421fda291a4df2a768c8fd083f81",
+    "sha512": "121ed9c56f50f46235775278bb737f6c87290d37e6012f66f3ca9e341854d526164facf5413a37b8607140e66208e914a57ffd0936ab806eb131c33f628d1fbc",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Free Software Foundation",
+    "holder": null,
+    "declared_license_expression": "autoconf-simple-exception-2.0 AND fsf-free AND gpl-1.0-plus AND gpl-2.0-plus AND mit AND other-copyleft",
+    "declared_license_expression_spdx": "Autoconf-exception-generic AND FSFUL AND GPL-1.0-or-later AND GPL-2.0-or-later AND MIT AND LicenseRef-scancode-other-copyleft",
+    "license_detections": [],
+    "other_license_expression": "lgpl-2.1-plus AND mit AND fsf-unlimited AND gpl-2.0-plus WITH autoconf-simple-exception-2.0 AND gpl-2.0-plus AND fsf-free AND fsf-unlimited-no-warranty AND free-unknown AND cc-pd AND (free-unknown AND gpl-2.0-plus WITH autoconf-simple-exception-2.0) AND (fsf-unlimited-no-warranty AND fsf-unlimited) AND (gpl-2.0-plus AND gpl-1.0-plus AND other-copyleft AND autoconf-simple-exception-2.0) AND lgpl-2.1 AND (x11-xconsortium AND public-domain)",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND MIT AND FSFULLR AND GPL-2.0-or-later WITH Autoconf-exception-generic AND GPL-2.0-or-later AND FSFUL AND FSFULLRWD AND LicenseRef-scancode-free-unknown AND CC-PDDC AND (LicenseRef-scancode-free-unknown AND GPL-2.0-or-later WITH Autoconf-exception-generic) AND (FSFULLRWD AND FSFULLR) AND (GPL-2.0-or-later AND GPL-1.0-or-later AND LicenseRef-scancode-other-copyleft AND Autoconf-exception-generic) AND LGPL-2.1-only AND (X11 AND LicenseRef-scancode-public-domain)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.java.dev.jna/jna@3.0.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/net.java.dev.jna/jna@3.0.9?classifier=sources&uuid=1758ec9a-e7a9-4b28-af1b-e059c18bcf86",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.java.dev.jna/jna@3.0.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.0.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.0.9/jna-3.0.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.0.9/jna-3.0.9.pom",
+    "file_references": []
+}

@@ -1,0 +1,182 @@
+{
+    "type": "maven",
+    "namespace": "com.google.http-client",
+    "name": "google-http-client",
+    "version": "1.39.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "41c38381-7a45-44fd-9e1d-c128144f7e69",
+            "packages": [
+                "pkg:maven/com.google.http-client/google-http-client@1.39.0?uuid=ecfaae05-beee-45ca-8828-0efd76654511",
+                "pkg:maven/com.google.http-client/google-http-client@1.39.0?classifier=sources&uuid=3e541acc-5913-41f4-9ac7-f4215ac06d53"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Google HTTP Client Library for Java\nGoogle HTTP Client Library for Java. Functionality that works on all supported Java platforms,\n    including Java 7 (or higher) desktop (SE) and web (EE), Android, and Google App Engine.",
+    "release_date": "2021-02-24T23:14:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeff Ching",
+            "email": "chingor@google.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "https://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/googleapis/google-http-java-client",
+    "download_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.39.0/google-http-client-1.39.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d86902a23d56a6bfb448bae36abef02cc14e2d91",
+    "sha256": "1599499ad29d21d25344182ec84d9439d29206a46ad99ddeded1c5389dcf6f76",
+    "sha512": "332b9d7c7af9833502ac467ffe3908293043b3dc6607e8b75e861e1b8eb6f623bdd9da71aed00a38de8e464fa24866aca05ecb0b6d8b8863de8d01fdc7c26594",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.http-client/google-http-client@1.39.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.google.http-client/google-http-client-parent@1.39.0",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/com.google.http-client/google-http-client-parent@1.39.0",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.google.http-client/google-http-client-parent@1.39.0"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.j2objc/j2objc-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.opencensus/opencensus-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.opencensus/opencensus-contrib-http-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava-testlib",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.truth/truth",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.opencensus/opencensus-impl",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.opencensus/opencensus-testing",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.http-client/google-http-client@1.39.0?classifier=sources&uuid=3e541acc-5913-41f4-9ac7-f4215ac06d53",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.http-client/google-http-client@1.39.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.39.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.39.0/google-http-client-1.39.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.39.0/google-http-client-1.39.0.pom",
+    "file_references": []
+}

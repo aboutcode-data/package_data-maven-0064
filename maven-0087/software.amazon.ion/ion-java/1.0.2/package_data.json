@@ -1,0 +1,114 @@
+{
+    "type": "maven",
+    "namespace": "software.amazon.ion",
+    "name": "ion-java",
+    "version": "1.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "de21d571-6896-4a6e-b508-72792632f8d9",
+            "packages": [
+                "pkg:maven/software.amazon.ion/ion-java@1.0.2?uuid=bbef5812-d512-41d2-86d8-0adb0d80af4b",
+                "pkg:maven/software.amazon.ion/ion-java@1.0.2?classifier=sources&uuid=6a4915f1-e89c-485c-9bcb-c43ca092dc21",
+                "pkg:github/amznlabs/ion-java@v1.0.2?uuid=ffa8624c-c19a-4091-97a6-65c455964f12"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "software.amazon.ion:ion-java\nA Java implementation of the Amazon Ion data notation.",
+    "release_date": "2017-02-08T00:00:28Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Amazon Ion Team",
+            "email": "ion-team@amazon.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/amznlabs/ion-java/",
+    "download_url": "https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3077203a7e79dd126a480da0491ec60238bbb872",
+    "sha256": "d827fc9775443697bbcdfeb8ea2d3d75bf5ad7f2ca540dabda1a5f83cd0a39de",
+    "sha512": "4eb5414760bc08f5e0775d927147fb94bc8f2a15beb5ac56a3d7bc82536569d0feb9237967d5e64c26e1e78aef8cccac51435a6f9bfff583027782b63d5192bf",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/amznlabs/ion-java.git",
+    "vcs_url": "git+https://github.com/amznlabs/ion-java.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_182.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_182.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-3b481945-ec95-7509-0433-96af863c23f8",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/software.amazon.ion/ion-java@1.0.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/software.amazon.ion/ion-java@1.0.2?classifier=sources&uuid=6a4915f1-e89c-485c-9bcb-c43ca092dc21",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/software.amazon.ion/ion-java@1.0.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom",
+    "file_references": []
+}

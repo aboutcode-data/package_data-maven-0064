@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.project.templates.war.mvc.portlet",
+    "version": "1.0.180",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3d80b01c-9c96-49df-b3d5-37f3f013af07",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.project.templates.war.mvc.portlet@1.0.180?uuid=0754cc09-222d-4cc7-acfe-5332591cc8f8",
+                "pkg:maven/com.liferay/com.liferay.project.templates.war.mvc.portlet@1.0.180?classifier=sources&uuid=2ab21423-9b8f-446f-8380-e47fb03efa4c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Creates a Liferay WAR-style MVC portlet project.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.project.templates.war.mvc.portlet/1.0.180/com.liferay.project.templates.war.mvc.portlet-1.0.180-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4ebad4b42547fe3f9c7a7a6de8335c79c33be8fe",
+    "sha256": "be397507e0bb55c39544645e5613b64824e54e0cc56c91f6a541d3d53723e89b",
+    "sha512": "e8aa5ea48e5590028b4178020cba5bc1ba2ec3e9adffb7fb7601f784825c03b777f597205f884a1e22bd491c48626d61b72ebb8c4c2393a81d7ce07b122a1a34",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "(lgpl-2.1-plus OR liferay-dxp-eula-2.0.0-2023-06) AND lgpl-2.0-plus",
+    "other_license_expression_spdx": "(LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06) AND LGPL-2.0-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.project.templates.war.mvc.portlet@1.0.180?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.project.templates.war.mvc.portlet@1.0.180?classifier=sources&uuid=2ab21423-9b8f-446f-8380-e47fb03efa4c",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.project.templates.war.mvc.portlet@1.0.180?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

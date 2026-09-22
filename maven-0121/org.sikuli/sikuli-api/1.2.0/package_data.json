@@ -1,0 +1,126 @@
+{
+    "type": "maven",
+    "namespace": "org.sikuli",
+    "name": "sikuli-api",
+    "version": "1.2.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "14a73a1f-0c1f-4c14-a6c0-c64466c879c8",
+            "packages": [
+                "pkg:maven/org.sikuli/sikuli-api@1.2.0?uuid=fc2c7c30-576e-4511-a944-15882da47f99",
+                "pkg:maven/org.sikuli/sikuli-api@1.2.0?classifier=sources&uuid=335e8c6a-3ee6-4a5f-82a5-e7f6133f7048"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "sikuli-api",
+    "release_date": "2014-08-19T13:26:29Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tom Yeh",
+            "email": "tom.yeh@colorado.edu",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.sikuli.org",
+    "download_url": "https://repo1.maven.org/maven2/org/sikuli/sikuli-api/1.2.0/sikuli-api-1.2.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "13454b43552d172e884dacdb60b50404403b1451",
+    "sha256": "9446a0ebd8fe75233f7a60b4ab9590dce1fbc90568a60dd6d0e1b0124fa8bf74",
+    "sha512": "78503c192ce6c3b11ba111971fd87be51bfbc092399c7f6022e53165781944355218ffc401f7356947894816d6570050b6b446b7117b8d94763777daf5e505b4",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/sikuli/sikuli-api.git",
+    "vcs_url": "git+https://github.com/sikuli/sikuli-api.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_1106.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: MIT License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_1106.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-8b394b05-a8d3-7669-2b85-8e2313a00b22",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT License\n  url: http://www.sikuli.org/LICENSE.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.sikuli/sikuli-api@1.2.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.sikuli/sikuli-core@1.2.2",
+            "extracted_requirement": "1.2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.6.6",
+            "extracted_requirement": "1.6.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-all@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.6.6",
+            "extracted_requirement": "1.6.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.sikuli/sikuli-api@1.2.0?classifier=sources&uuid=335e8c6a-3ee6-4a5f-82a5-e7f6133f7048",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.sikuli/sikuli-api@1.2.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/sikuli/sikuli-api/1.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/sikuli/sikuli-api/1.2.0/sikuli-api-1.2.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/sikuli/sikuli-api/1.2.0/sikuli-api-1.2.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,107 @@
+{
+    "type": "maven",
+    "namespace": "javax.ws.rs",
+    "name": "jsr311-api",
+    "version": "1.1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "807fcfe7-a257-4e94-b683-12aa4279d64b",
+            "packages": [
+                "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?uuid=114b7f7b-7380-4401-8aaa-795c4ff5fe37",
+                "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?classifier=sources&uuid=b3b3b1ab-b933-4424-9315-bc19a8bb7839"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jsr311-api",
+    "release_date": "2009-11-09T12:56:05Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Sun Microsystems, Inc",
+            "email": null,
+            "url": "http://www.sun.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://jsr311.dev.java.net",
+    "download_url": "https://repo1.maven.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bcc4b7b569ef8bb9b82e48cf23b5aaac29a4fb4e",
+    "sha256": "99227bada18620d29406be240e7c749da68e646ce1d2a61d6f320863f05a30da",
+    "sha512": "4f32eb290aa312794ae91b3b4e2baa72efbcf2036962c7223320f7f7e7cd9b5de10c4acb1c92277df946b12710e0699bc1d3ddd7459903c43107437c21cb5542",
+    "bug_tracking_url": "https://jsr311.dev.java.net/servlets/ProjectIssues",
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.0 AND (cddl-1.0 OR gpl-2.0)",
+    "declared_license_expression_spdx": "CDDL-1.0 AND (CDDL-1.0 OR GPL-2.0-only)",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 66.67,
+                    "matcher": "3-seq",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.0_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: CDDL License\n  url: http://www.opensource.org/licenses/cddl1.php",
+                    "match_coverage": 66.67,
+                    "matched_length": 10,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.0_85.RULE",
+                    "license_expression": "cddl-1.0"
+                },
+                {
+                    "score": 17.65,
+                    "matcher": "3-seq",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.0_or_gpl-2.0_1.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: CDDL License\n  url: http://www.opensource.org/licenses/cddl1.php",
+                    "match_coverage": 17.65,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.0_or_gpl-2.0_1.RULE",
+                    "license_expression": "cddl-1.0 OR gpl-2.0"
+                }
+            ],
+            "identifier": "cddl_1_0_and__cddl_1_0_or_gpl_2_0-db8a69f2-dc6a-b6d0-4f05-11af98064b95",
+            "license_expression": "cddl-1.0 AND (cddl-1.0 OR gpl-2.0)"
+        }
+    ],
+    "other_license_expression": "cddl-1.0 AND apache-2.0 AND (cddl-1.1 AND apache-2.0 AND cddl-1.0)",
+    "other_license_expression_spdx": "CDDL-1.0 AND Apache-2.0 AND (CDDL-1.1 AND Apache-2.0 AND CDDL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: CDDL License\n  url: http://www.opensource.org/licenses/cddl1.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?classifier=sources&uuid=b3b3b1ab-b933-4424-9315-bc19a8bb7839",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/ws/rs/jsr311-api/1.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.pom",
+    "file_references": []
+}

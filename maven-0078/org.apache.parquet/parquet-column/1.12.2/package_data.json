@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.parquet",
+    "name": "parquet-column",
+    "version": "1.12.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e9646708-caf7-4290-98b1-83f098ca0f9e",
+            "packages": [
+                "pkg:maven/org.apache.parquet/parquet-column@1.12.2?uuid=b1f6be0f-d166-4ae4-b7b8-53e9db56dd7d",
+                "pkg:maven/org.apache.parquet/parquet-column@1.12.2?classifier=sources&uuid=38689f55-f67a-46bd-8069-50161b840bc9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Parquet Column",
+    "release_date": "2021-09-30T12:14:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://parquet.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.12.2/parquet-column-1.12.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9daea7d9876d104fd484ffdab2ae8b581818b5af",
+    "sha256": "94f38ad089494ae0d1e03ef476297a724ad96c0d0bb2ca83f399e65742fd72ac",
+    "sha512": "69f74cc0a9aee2e6b7e7f72c6127376d865c4e37c72458d488edc4fcd3e1ec54268a9e08a34ba8a064fe86cabce70caa1ff5983e7d6fb72fe55444e02f214a51",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.parquet/parquet-column@1.12.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.parquet/parquet-common@1.12.2",
+            "extracted_requirement": "1.12.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.parquet/parquet-encoding@1.12.2",
+            "extracted_requirement": "1.12.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.parquet/parquet-common@1.12.2",
+            "extracted_requirement": "1.12.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.parquet/parquet-encoding@1.12.2",
+            "extracted_requirement": "1.12.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.carrotsearch/junit-benchmarks@0.7.2",
+            "extracted_requirement": "0.7.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.h2database/h2@1.4.193",
+            "extracted_requirement": "1.4.193",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.22",
+            "extracted_requirement": "1.7.22",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all@1.10.19",
+            "extracted_requirement": "1.10.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@27.0.1-jre",
+            "extracted_requirement": "27.0.1-jre",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.9",
+            "extracted_requirement": "3.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.1",
+            "extracted_requirement": "4.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock@3.4",
+            "extracted_requirement": "3.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.parquet/parquet-column@1.12.2?classifier=sources&uuid=38689f55-f67a-46bd-8069-50161b840bc9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.parquet/parquet-column@1.12.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

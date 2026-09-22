@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-codec-http2",
+    "version": "4.1.11.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a2b5a978-c1b6-48f4-934b-e5ba37e55634",
+            "packages": [
+                "pkg:maven/io.netty/netty-codec-http2@4.1.11.Final?uuid=2d68b101-d38a-473d-ad4d-bb8eb42126a9",
+                "pkg:maven/io.netty/netty-codec-http2@4.1.11.Final?classifier=sources&uuid=a684dd71-30b9-4b4a-a220-289a722ee8c4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Codec/HTTP2",
+    "release_date": "2017-05-11T16:43:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "http://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "http://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.11.Final/netty-codec-http2-4.1.11.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6b3d026e857862096c88bba68997017acce4b1c4",
+    "sha256": "66be722b4c4a41ac53f55f42ba50bd7c35984cecb3ec84983a0102b63d29fd76",
+    "sha512": "ae0a1563a3f0cbfc4985df88d033417a3d04a82929b3bcd75c9800a277ad78be38a7faa399daf9ba3cd7b6bdb4ffe63f294d9aac0f510505c51a0a4edc942222",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-codec-http2@4.1.11.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.11.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.11.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http@4.1.11.Final",
+            "extracted_requirement": "4.1.11.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-handler@4.1.11.Final",
+            "extracted_requirement": "4.1.11.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.jcraft/jzlib",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-codec-http2@4.1.11.Final?classifier=sources&uuid=a684dd71-30b9-4b4a-a220-289a722ee8c4",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty-codec-http2@4.1.11.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.11.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.11.Final/netty-codec-http2-4.1.11.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.11.Final/netty-codec-http2-4.1.11.Final.pom",
+    "file_references": []
+}

@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.document.library.preview.document",
+    "version": "3.0.15",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "734c111c-1554-4f28-9428-20676cb01cf5",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.document.library.preview.document@3.0.15?uuid=2cd1e295-37ec-4fc5-b8c8-06d4f66481ff",
+                "pkg:maven/com.liferay/com.liferay.document.library.preview.document@3.0.15?classifier=sources&uuid=8a0bae35-9bb7-4e97-8d63-50077ed130dc"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Document Library Preview Document",
+    "release_date": "2022-10-14T17:41:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.document.library.preview.document/3.0.15/com.liferay.document.library.preview.document-3.0.15-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e45091cbf6f124a5134d67ab5cef5957be35816c",
+    "sha256": "fe40928944dcf8ff51ad3312be3d0cf5ccbebd34313c5af1f38fe79a7eec9924",
+    "sha512": "192443173a7bdc432198969001b7728e922defa6d65b777e3adb0a82e804eb574e91c4ae3f169b56a1640c73b50f24ee014cad137a9579b172fde49c6d473664",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.document.library.preview.document@3.0.15?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.document.library.preview.document@3.0.15?classifier=sources&uuid=8a0bae35-9bb7-4e97-8d63-50077ed130dc",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.document.library.preview.document@3.0.15?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.document.library.preview.document/3.0.15/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.document.library.preview.document/3.0.15/com.liferay.document.library.preview.document-3.0.15-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.document.library.preview.document/3.0.15/com.liferay.document.library.preview.document-3.0.15.pom",
+    "file_references": []
+}

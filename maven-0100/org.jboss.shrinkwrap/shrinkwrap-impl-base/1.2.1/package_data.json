@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.shrinkwrap",
+    "name": "shrinkwrap-impl-base",
+    "version": "1.2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e59ac92a-e2df-4ba1-9039-cc964f932979",
+            "packages": [
+                "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base@1.2.1?uuid=1b5c4b12-f15f-43ee-b507-2af6c5fc21cd",
+                "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base@1.2.1?classifier=sources&uuid=fd6b2d50-0e35-404a-b087-0c2b84a9628a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ShrinkWrap Implementation Base\nCommon Base for Implementations of the ShrinkWrap Project",
+    "release_date": "2013-12-05T11:07:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.1/shrinkwrap-impl-base-1.2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c9c7cd7077343b9e926de7193815f3176848062c",
+    "sha256": "1e7d7940558848ea4ba39212a4d7031e4d2dd992c55be9e02286276f6d6bfe8a",
+    "sha512": "1ab53d0152e83d40847fd8abb09ee34af2932d78d760019ee7e9947c4808124d823cd02f15e5f4650ff0fe7d623d873a886076df67d13805b773ac7b097a60ec",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND public-domain-disclaimer AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain-disclaimer AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base@1.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-api@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-spi@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-api@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base@1.2.1?classifier=sources&uuid=fd6b2d50-0e35-404a-b087-0c2b84a9628a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base@1.2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.1/shrinkwrap-impl-base-1.2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.1/shrinkwrap-impl-base-1.2.1.pom",
+    "file_references": []
+}

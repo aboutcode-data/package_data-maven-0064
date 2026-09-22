@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "com.google.inject.extensions",
+    "name": "guice-multibindings",
+    "version": "3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6e058cc6-6b26-413e-94e8-1be870978d20",
+            "packages": [
+                "pkg:maven/com.google.inject.extensions/guice-multibindings@3.0?uuid=81069327-588c-4d01-bbf6-c899ddbe9604",
+                "pkg:maven/com.google.inject.extensions/guice-multibindings@3.0?classifier=sources&uuid=9be0f72c-4691-4832-b55f-acbaba45245b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Google Guice - Extensions - MultiBindings",
+    "release_date": "2011-03-25T18:21:18Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1129825757fa4a2e87f381057bfb096aae410402",
+    "sha256": "2ba1c95686ab01d8f7b6b9e7d82f00015fef44b8af1d60ef29c634dc1ab6ee23",
+    "sha512": "e0b8bbc90106b1a3f0de231b24609da8a050efa70095dca1e164faeeb0e439db34f1787f17651f8d16e755d52a2583bbf2e15ca50284145050aa8f35634fefdc",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (public-domain AND apache-2.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (LicenseRef-scancode-public-domain AND Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.inject.extensions/guice-multibindings@3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.google.inject.extensions/guice-multibindings@3.0?classifier=sources&uuid=9be0f72c-4691-4832-b55f-acbaba45245b",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.inject.extensions/guice-multibindings@3.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0.pom",
+    "file_references": []
+}

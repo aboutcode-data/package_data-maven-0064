@@ -1,0 +1,108 @@
+{
+    "type": "maven",
+    "namespace": "me.qmx.jitescript",
+    "name": "jitescript",
+    "version": "0.4.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1b907e98-78a8-4d59-8e63-6f45e788ae8c",
+            "packages": [
+                "pkg:maven/me.qmx.jitescript/jitescript@0.4.1?uuid=14cd4e98-8b05-4b76-b257-644728bae31e",
+                "pkg:maven/me.qmx.jitescript/jitescript@0.4.1?classifier=sources&uuid=91384be5-5486-4546-9ba1-36c122464921"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jitescript\nJava API for Bytecode",
+    "release_date": "2016-09-29T21:50:53Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Douglas Campos",
+            "email": "qmx@qmx.me",
+            "url": "http://github.com/qmx"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/qmx/jitescript",
+    "download_url": "https://repo1.maven.org/maven2/me/qmx/jitescript/jitescript/0.4.1/jitescript-0.4.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b68bbfec62fd12c4165151dd64a7b451ad8c2b48",
+    "sha256": "87b8d0f256452a61a78dd4870d088e346400702c2602c089e2aafb6f9a078da5",
+    "sha512": "bc51e774673e54619d5e5187a6908bfd7c396ab39915b7a9f046dd4f0707c467ef8df8440e4d06c9752dd833083ce7d8d7ffa6c9e35fab4a5ddf399aa3b30c03",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/qmx/jitescript.git",
+    "vcs_url": "git+https://github.com/qmx/jitescript.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/me.qmx.jitescript/jitescript@0.4.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm-all@5.0.1",
+            "extracted_requirement": "5.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easytesting/fest-assert@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/me.qmx.jitescript/jitescript@0.4.1?classifier=sources&uuid=91384be5-5486-4546-9ba1-36c122464921",
+    "datasource_id": null,
+    "purl": "pkg:maven/me.qmx.jitescript/jitescript@0.4.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/me/qmx/jitescript/jitescript/0.4.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/me/qmx/jitescript/jitescript/0.4.1/jitescript-0.4.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/me/qmx/jitescript/jitescript/0.4.1/jitescript-0.4.1.pom",
+    "file_references": []
+}

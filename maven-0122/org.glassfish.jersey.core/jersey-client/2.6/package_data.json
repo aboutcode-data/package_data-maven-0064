@@ -1,0 +1,182 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.jersey.core",
+    "name": "jersey-client",
+    "version": "2.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0bd1dbf8-befc-462a-9a68-1291522af72d",
+            "packages": [
+                "pkg:maven/org.glassfish.jersey.core/jersey-client@2.6?uuid=23cae43d-bd95-4767-a230-19236ecd6660",
+                "pkg:maven/org.glassfish.jersey.core/jersey-client@2.6?classifier=sources&uuid=505290a8-7546-4c15-bfbd-1ac00a87df87"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jersey-core-client\nJersey core client implementation",
+    "release_date": "2014-02-18T20:54:07Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Pavel Bucek",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jakub Podlesak",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Santiago Pericas-Geertsen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marek Potociar",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Matula",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michal Gajdos",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Miroslav Fuksa",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stepan Kopriva",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Libor Kramolis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Adam Lindenthal",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.net/",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.6/jersey-client-2.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f023d090733192878850ba08e842ba88ddb5963a",
+    "sha256": "56df85a5c49e26ea770185b0a4c2aca74f1d5b3c988c5c462f4ff8746d819271",
+    "sha512": "efbdc6a1bc9df2a008962d552c49b66f8a07f836ec056c5d86a2f2e4555966b65325d545a29010486215f252b8de977d9f03c0c5498a2218d054f47294017e89",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "(cddl-1.0 OR gpl-2.0) AND cddl-1.1",
+    "declared_license_expression_spdx": "(CDDL-1.0 OR GPL-2.0-only) AND CDDL-1.1",
+    "license_detections": [],
+    "other_license_expression": "cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.jersey.core/jersey-client@2.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.6",
+            "extracted_requirement": "2.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.ws.rs/javax.ws.rs-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.hk2/hk2-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.hk2.external/javax.inject",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.hk2/hk2-locator",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.6?classifier=sources&uuid=505290a8-7546-4c15-bfbd-1ac00a87df87",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.6/jersey-client-2.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.6/jersey-client-2.6.pom",
+    "file_references": []
+}

@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.joynr.java.messaging.websocket",
+    "name": "joynr-websocket-common",
+    "version": "0.26.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "io.joynr.java.messaging.websocket:joynr-websocket-common",
+    "release_date": "2017-05-24T10:11:20Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/joynr/java/messaging/websocket/joynr-websocket-common/0.26.0/joynr-websocket-common-0.26.0.jar",
+    "size": 12743,
+    "md5": null,
+    "sha1": "1a06c297ab300a4f81fd1c8a6d85dd73f31bba0d",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.joynr.java.messaging.websocket/joynr-websocket-common@0.26.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.joynr.java/javaapi",
+            "extracted_requirement": "0.26.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api",
+            "extracted_requirement": "${jetty.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.joynr.java.messaging/messaging-common",
+            "extracted_requirement": "0.26.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.joynr.java.messaging.websocket/joynr-websocket-common@0.26.0?uuid=52fd524a-7967-4693-8d3c-cd6c2a635ddd",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.joynr.java.messaging.websocket/joynr-websocket-common@0.26.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/joynr/java/messaging/websocket/joynr-websocket-common/0.26.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/joynr/java/messaging/websocket/joynr-websocket-common/0.26.0/joynr-websocket-common-0.26.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/joynr/java/messaging/websocket/joynr-websocket-common/0.26.0/joynr-websocket-common-0.26.0.pom",
+    "file_references": []
+}

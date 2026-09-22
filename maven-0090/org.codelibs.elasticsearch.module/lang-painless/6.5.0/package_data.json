@@ -1,0 +1,115 @@
+{
+    "type": "maven",
+    "namespace": "org.codelibs.elasticsearch.module",
+    "name": "lang-painless",
+    "version": "6.5.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "705a150d-44e8-401e-9659-f73e3daba197",
+            "packages": [
+                "pkg:maven/org.codelibs.elasticsearch.module/lang-painless@6.5.0?uuid=31c78897-35b5-4a2e-a29e-f0ef2ae15f08",
+                "pkg:maven/org.codelibs.elasticsearch.module/lang-painless@6.5.0?classifier=sources&uuid=39e2a7d7-1895-4e66-b00e-c3aa261ac082"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "lang-painless\nElasticsearch module: lang-painless",
+    "release_date": "2018-11-15T07:28:09Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elastic",
+            "email": null,
+            "url": "http://www.elastic.co"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "CodeLibs",
+            "email": null,
+            "url": "http://www.codelibs.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/codelibs/elasticsearch-module",
+    "download_url": "https://repo1.maven.org/maven2/org/codelibs/elasticsearch/module/lang-painless/6.5.0/lang-painless-6.5.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "882ba8decfe870b25c04a847bc14994860e51934",
+    "sha256": "3b09c2d0c09b17a80f973f548f6a7d04f02e0774e5b4259cd5fc58de7b91d5ee",
+    "sha512": "000d8b5184507a32672c880dedee4955782bc94905a6ae0256e7ee3f78e3a24a2b212c6b71890ceb6f9727a15e16968b0078fbcde9f3505007ef15788ae3d0a9",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/codelibs/elasticsearch-module.git",
+    "vcs_url": "https://github.com/codelibs/elasticsearch-module.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND bsd-new",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codelibs.elasticsearch.module/lang-painless@6.5.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.antlr/antlr4-runtime@4.5.3",
+            "extracted_requirement": "4.5.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm-debug-all@5.1",
+            "extracted_requirement": "5.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codelibs.elasticsearch.module/scripting-painless-spi@6.5.0",
+            "extracted_requirement": "6.5.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.codelibs.elasticsearch.module/lang-painless@6.5.0?classifier=sources&uuid=39e2a7d7-1895-4e66-b00e-c3aa261ac082",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codelibs.elasticsearch.module/lang-painless@6.5.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codelibs/elasticsearch/module/lang-painless/6.5.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codelibs/elasticsearch/module/lang-painless/6.5.0/lang-painless-6.5.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codelibs/elasticsearch/module/lang-painless/6.5.0/lang-painless-6.5.0.pom",
+    "file_references": []
+}

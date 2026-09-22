@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.smallmind",
+    "name": "smallmind-javafx-mojo",
+    "version": "2.4.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Smallmind-JavaFX-Mojo\nJavaFX Maven Plugin",
+    "release_date": "2016-07-18T06:39:14Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/smallmind/smallmind-javafx-mojo/2.4.4/smallmind-javafx-mojo-2.4.4.jar",
+    "size": 43923,
+    "md5": null,
+    "sha1": "a4c027c66effc69668fb3caedea3fdfbe72ac308",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.smallmind/smallmind-javafx-mojo@2.4.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.oracle/javafx-rt",
+            "extracted_requirement": "${java.version}",
+            "scope": "system",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun/tools",
+            "extracted_requirement": "${java.version}",
+            "scope": "system",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.smallmind/smallmind-nutsnbolts",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-compat",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.freemarker/freemarker",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.smallmind/smallmind-javafx-mojo@2.4.4?uuid=7356685a-ce98-4c74-82dc-461a1865a169",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.smallmind/smallmind-javafx-mojo@2.4.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/smallmind/smallmind-javafx-mojo/2.4.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/smallmind/smallmind-javafx-mojo/2.4.4/smallmind-javafx-mojo-2.4.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/smallmind/smallmind-javafx-mojo/2.4.4/smallmind-javafx-mojo-2.4.4.pom",
+    "file_references": []
+}

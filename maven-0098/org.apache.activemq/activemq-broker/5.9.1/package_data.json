@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.activemq",
+    "name": "activemq-broker",
+    "version": "5.9.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a3ad1827-b4f3-48c8-9dc5-081921d88653",
+            "packages": [
+                "pkg:maven/org.apache.activemq/activemq-broker@5.9.1?uuid=d53f7cb3-7fb7-4bbd-98c4-2922110e994e",
+                "pkg:maven/org.apache.activemq/activemq-broker@5.9.1?classifier=sources&uuid=2b7495b0-7d46-473a-a4f6-4b5aa7a67743"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ActiveMQ :: Broker\nThe ActiveMQ Message Broker implementation",
+    "release_date": "2014-04-01T00:04:44Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-broker/5.9.1/activemq-broker-5.9.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "60ca5067252f3d485a6fea3b95e4bd18a265857f",
+    "sha256": "a533e8568d563815e5106fe68c6df9bd3b4386ba390f7e6f02c6e5d0785295c0",
+    "sha512": "66c70834fe1d2523a3dde8162ae564e95b9b5bb48c4122562854785b14d45af68284b843bc74e9a04a35cbac3926758579c17ba00f8bec8736dc15c12ccf522b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.activemq/activemq-broker@5.9.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@11",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@11",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@11"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-openwire-legacy",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-jaas",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xalan/xalan",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.activemq/activemq-broker@5.9.1?classifier=sources&uuid=2b7495b0-7d46-473a-a4f6-4b5aa7a67743",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.activemq/activemq-broker@5.9.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-broker/5.9.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-broker/5.9.1/activemq-broker-5.9.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-broker/5.9.1/activemq-broker-5.9.1.pom",
+    "file_references": []
+}

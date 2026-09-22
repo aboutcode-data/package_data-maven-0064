@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.staging.taglib",
+    "version": "7.0.47",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ccc1d5f2-d6c4-429e-a30b-34263f64531e",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.staging.taglib@7.0.47?uuid=1e8b5e30-595d-4d3d-9507-46d2f7ca77bc",
+                "pkg:maven/com.liferay/com.liferay.staging.taglib@7.0.47?classifier=sources&uuid=68518fe1-f98b-4396-bfbf-7f2ff29a2eec"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Staging Taglib",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.staging.taglib/7.0.47/com.liferay.staging.taglib-7.0.47-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8be6cc4c456eb3469aaa9bf8fde921673c3cea53",
+    "sha256": "4b6a0b15c124201a32e76de77c51efaaa158515e14f7304737a87fe9cd8fa8ac",
+    "sha512": "e041deee1da82aa109fc61f417f60dd56cda5f890f3d5cc169424a21636048cf7ae00a07a1d02b847ab089ea6ff50ae1586113fe50aec7d6b2e0d094704ebdcc",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.staging.taglib@7.0.47?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.staging.taglib@7.0.47?classifier=sources&uuid=68518fe1-f98b-4396-bfbf-7f2ff29a2eec",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.staging.taglib@7.0.47?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.staging.taglib/7.0.47/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.staging.taglib/7.0.47/com.liferay.staging.taglib-7.0.47-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.staging.taglib/7.0.47/com.liferay.staging.taglib-7.0.47.pom",
+    "file_references": []
+}

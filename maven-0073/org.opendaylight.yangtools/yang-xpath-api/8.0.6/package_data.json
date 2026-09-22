@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.yangtools",
+    "name": "yang-xpath-api",
+    "version": "8.0.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b833b528-84ea-4195-8729-45865c08c89a",
+            "packages": [
+                "pkg:maven/org.opendaylight.yangtools/yang-xpath-api@8.0.6?uuid=f69797a2-4684-43e3-a1dc-d26e1d6357b2",
+                "pkg:maven/org.opendaylight.yangtools/yang-xpath-api@8.0.6?classifier=sources&uuid=4cea6867-b567-45e5-93bc-78b96666ea32"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "yang-xpath-api\nYANG XPath yang-xpath-api",
+    "release_date": "2022-05-25T13:36:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/yangtools/yang-xpath-api/8.0.6/yang-xpath-api-8.0.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b8380e3e4b7430302495312f18702e51c781a338",
+    "sha256": "e52c1fa8c6e852c777eccf43ab1927de66bdf8c7fe4e97f3e8ee9bed55d5da1e",
+    "sha512": "f6b3e9ad770c502c68f9d53335e0db50650cb3e9125208a5baab1ef531a1e9e9582309e28b9d2011c503b7306a1b1a6ddec0f073f950cd4f3a2f4e216abac959",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Pantheon Technologies, s.r.o. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.yangtools/yang-xpath-api@8.0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/concepts",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.yangtools/yang-xpath-api@8.0.6?classifier=sources&uuid=4cea6867-b567-45e5-93bc-78b96666ea32",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.yangtools/yang-xpath-api@8.0.6?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

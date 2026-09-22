@@ -1,0 +1,287 @@
+{
+    "type": "maven",
+    "namespace": "jaxen",
+    "name": "jaxen",
+    "version": "1.1.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "jaxen\nJaxen is a universal Java XPath engine.",
+    "release_date": "2007-05-05T21:30:21Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bob McWhirter",
+            "email": "bob@eng.werken.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Strachan",
+            "email": "james_strachan@yahoo.co.uk",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Megginson",
+            "email": "contact@megginson.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Erwin Bolwidt",
+            "email": "erwin@klomp.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mark A. Belonga",
+            "email": "mbelonga@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Nentwich",
+            "email": "xcut@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Alexander Day Chaffee",
+            "email": "purpletech@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Dvorak",
+            "email": "jdvorak@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Attila Szegedi",
+            "email": "szegedia@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Royal",
+            "email": "peter.royal@pobox.com",
+            "url": "http://fotap.org/~osi"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Scott Sanders",
+            "email": "scott@dotnot.org",
+            "url": "http://dotnot.org/blog"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Ewins",
+            "email": "brian.ewins@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elliotte Rusty Harold",
+            "email": "elharo@metalab.unc.edu",
+            "url": "http://www.elharo.com/"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ryan Gustafson",
+            "email": "rgustav@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David Peterson",
+            "email": "david@randombits.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mark Wilson",
+            "email": "mark.wilson@wilsoncom.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jacob Kjome",
+            "email": "hoju@visi.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael Brennan",
+            "email": "mpbrennan@earthlink.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jason Hunter",
+            "email": "jhunter@xquery.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brett Mclaughlin",
+            "email": "brett.mclaughlin@lutris.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bradley S. Huffman",
+            "email": "hip@cs.okstate.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "K. Ari Krupnikov",
+            "email": "ari@lib.aero",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Paul R. Brown",
+            "email": "prb@fivesight.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Guoliang Cao",
+            "email": "cao@ispsoft.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "J??r??me N??gre",
+            "email": "jerome.negre@e-xmlmedia.fr",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Eddie McGreal",
+            "email": "emcgreal@BlackPearl.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Steen Lehmann",
+            "email": "slehmann@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Codehaus",
+            "email": null,
+            "url": "http://codehaus.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jaxen.codehaus.org/",
+    "download_url": "https://repo1.maven.org/maven2/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9f5d3c5974dbe5cf69c2c2ec7d8a4eb6e0fce7f9",
+    "sha256": "160958f42f60fff817d6c0b1b02fd9284b3f0fcb46e61d38866f65b7af4d329d",
+    "sha512": "ce710d709b29a24d57bf6325521963975b97d1608aaf3098c2ae7900f3c1326fb8310d3ac0a8bf7a003fdf375fa4c37ba0e7dc50bb90269f25776ee806249b06",
+    "bug_tracking_url": "http://jira.codehaus.org/BrowseProject.jspa?id=10022",
+    "code_view_url": "http://cvs.jaxen.codehaus.org",
+    "vcs_url": "cvs+pserver:anonymous@cvs.jaxen.codehaus.org:/cvs/jaxen:jaxen",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/jaxen/jaxen@1.1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/dom4j/dom4j@1.6.1",
+            "extracted_requirement": "1.6.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jdom/jdom@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis@1.3.02",
+            "extracted_requirement": "1.3.02",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xerces/xercesImpl@2.6.2",
+            "extracted_requirement": "2.6.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xom/xom@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/jaxen/jaxen@1.1.1?uuid=11f2a938-e6fa-4384-a6c7-cafb21380ee1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/jaxen/jaxen@1.1.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/jaxen/jaxen/1.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/jaxen/jaxen/1.1.1/jaxen-1.1.1.pom",
+    "file_references": []
+}

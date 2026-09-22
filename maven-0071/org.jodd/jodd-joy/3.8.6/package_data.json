@@ -1,0 +1,159 @@
+{
+    "type": "maven",
+    "namespace": "org.jodd",
+    "name": "jodd-joy",
+    "version": "3.8.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Jodd Joy\nJodd Joy is set of Jodd extensions that makes development of web applications even easier.",
+    "release_date": "2017-05-21T21:24:51Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Igor Spasi\u0107",
+            "email": "igor@jodd.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Jodd",
+            "email": null,
+            "url": "http://jodd.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jodd.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jodd/jodd-joy/3.8.6/jodd-joy-3.8.6.jar",
+    "size": 63113,
+    "md5": null,
+    "sha1": "b80b2351d38b43efdac372376167fb953aee1b48",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-simplified AND unknown",
+    "declared_license_expression_spdx": "BSD-2-Clause AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The BSD 2-Clause License\nhttp://jodd.org/license.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jodd/jodd-joy@3.8.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jodd/jodd-vtor",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jodd/jodd-jtx",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jodd/jodd-db",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jodd/jodd-proxetta",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jodd/jodd-mail",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jodd/jodd-log",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jodd/jodd-lagarto",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": "3.0.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet.jsp/jsp-api",
+            "extracted_requirement": "2.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jodd/jodd-core",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jodd/jodd-petite",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jodd/jodd-madvoc",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jodd/jodd-joy@3.8.6?uuid=fedd6f50-b801-4e0e-82d3-ebadcbca84e0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jodd/jodd-joy@3.8.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jodd/jodd-joy/3.8.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jodd/jodd-joy/3.8.6/jodd-joy-3.8.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jodd/jodd-joy/3.8.6/jodd-joy-3.8.6.pom",
+    "file_references": []
+}

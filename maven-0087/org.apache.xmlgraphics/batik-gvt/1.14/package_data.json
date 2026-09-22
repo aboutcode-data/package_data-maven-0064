@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.xmlgraphics",
+    "name": "batik-gvt",
+    "version": "1.14",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b5ce0459-1b82-4ebe-8b06-5d0d0ccafe41",
+            "packages": [
+                "pkg:maven/org.apache.xmlgraphics/batik-gvt@1.14?uuid=af1f6751-1e6a-471c-9a28-558a914ee243",
+                "pkg:maven/org.apache.xmlgraphics/batik-gvt@1.14?classifier=sources&uuid=54466c79-fb6d-4454-9c59-342350d76cdf"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.apache.xmlgraphics:batik-gvt\nBatik Graphics Vector Tree (GVT)",
+    "release_date": "2021-01-12T13:33:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xmlgraphics.apache.org/batik/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/1.14/batik-gvt-1.14-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0d44d99cbc1af66c2ec31aa8cfe85f456ec453b6",
+    "sha256": "30e68304d1d23023a30b71a20d3a036a1d8b8ce2d2febd0cbb8b5a8d49a04a64",
+    "sha512": "0b73d1c4a3b58c3985484f02e468dd3bbe57ddb6b4e1dcd6a396849e8f95b0109eecb72f029b965991f49e020f8b14cb307273cf8522071629ce44dc9050b26d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.xmlgraphics/batik-gvt@1.14?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.14",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.14",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.14"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-awt-util@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-shared-resources@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-util@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.xmlgraphics/batik-gvt@1.14?classifier=sources&uuid=54466c79-fb6d-4454-9c59-342350d76cdf",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.xmlgraphics/batik-gvt@1.14?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/1.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/1.14/batik-gvt-1.14-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-gvt/1.14/batik-gvt-1.14.pom",
+    "file_references": []
+}

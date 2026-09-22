@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "com.lightbend.lagom",
+    "name": "lagom-scaladsl-persistence-cassandra_2.12",
+    "version": "1.5.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ed6cd3a0-17f2-4d5d-958f-0ecfa1af06c7",
+            "packages": [
+                "pkg:maven/com.lightbend.lagom/lagom-scaladsl-persistence-cassandra_2.12@1.5.5?uuid=28f77833-d1fa-4aa1-9c2d-a45c62e70665",
+                "pkg:maven/com.lightbend.lagom/lagom-scaladsl-persistence-cassandra_2.12@1.5.5?classifier=sources&uuid=008e995c-64b7-4ee3-b260-358a82ea4677"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "lagom-scaladsl-persistence-cassandra",
+    "release_date": "2019-12-05T09:54:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Lagom Contributors",
+            "email": null,
+            "url": "https://github.com/lagom"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.lightbend.lagom",
+            "email": null,
+            "url": "https://www.lagomframework.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.lagomframework.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-scaladsl-persistence-cassandra_2.12/1.5.5/lagom-scaladsl-persistence-cassandra_2.12-1.5.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "57ba30ad02d7c0d5e48c4e3ed7280441638743a1",
+    "sha256": "b1316eab0800fbad4d3b4801f0a1d24b1acd2fe14d6badbca6b07e89e5856703",
+    "sha512": "45f02cfe321d894dfe307fbdc40a4d88d05e08dd4c73b9edd04e28d4522884930214736d491afb37d00b2f5a6f6fe039ae76b2cff3af3b1fdbbc640d5d2fe464",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/lagom/lagom",
+    "vcs_url": "git+https://github.com/lagom/lagom.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_20.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_20.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bcefe950-fdcf-2a12-721d-7f0d69b15c83",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lightbend.lagom/lagom-scaladsl-persistence-cassandra_2.12@1.5.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.9",
+            "extracted_requirement": "2.12.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.lagom/lagom-persistence-core_2.12@1.5.5",
+            "extracted_requirement": "1.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.lagom/lagom-scaladsl-persistence_2.12@1.5.5",
+            "extracted_requirement": "1.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.lagom/lagom-persistence-cassandra-core_2.12@1.5.5",
+            "extracted_requirement": "1.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.lagom/lagom-scaladsl-api_2.12@1.5.5",
+            "extracted_requirement": "1.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.datastax.cassandra/cassandra-driver-core@3.6.0",
+            "extracted_requirement": "3.6.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.lightbend.lagom/lagom-scaladsl-persistence-cassandra_2.12@1.5.5?classifier=sources&uuid=008e995c-64b7-4ee3-b260-358a82ea4677",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lightbend.lagom/lagom-scaladsl-persistence-cassandra_2.12@1.5.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-scaladsl-persistence-cassandra_2.12/1.5.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-scaladsl-persistence-cassandra_2.12/1.5.5/lagom-scaladsl-persistence-cassandra_2.12-1.5.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-scaladsl-persistence-cassandra_2.12/1.5.5/lagom-scaladsl-persistence-cassandra_2.12-1.5.5.pom",
+    "file_references": []
+}

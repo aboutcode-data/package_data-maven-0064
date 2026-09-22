@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.uima",
+    "name": "Tagger",
+    "version": "2.3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ca7ea47c-99bd-48ad-afb3-74023d620e49",
+            "packages": [
+                "pkg:maven/org.apache.uima/tagger@2.3.1?uuid=a8f4d234-3fe5-4215-bd6f-50a5d721ae63",
+                "pkg:maven/org.apache.uima/Tagger@2.3.1?classifier=sources&uuid=bea39833-3ad1-4b9d-8490-101fd5796bd3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "UIMA Annotator: Tagger\nAn implementation of a Hidden Markov Model (HMM) statistical tagger",
+    "release_date": "2011-08-24T14:02:25Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "${uimaWebsiteUrl}",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/uima/Tagger/2.3.1/Tagger-2.3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "41ca79be6087f99fbfc05f8dbb161ae2cddb66bc",
+    "sha256": "57b02d70133797976d9b7b76582c2e94595b97ad0e9a71e5e6d121977a5b5520",
+    "sha512": "55b003e04b89715567f2c8738e0ba4bdbc8ff8a703b49875849b2493800d0ee1de5bfa95bb91d4b1220653153e8562efa3810c2c865ba0ed6e8f510d1f5163fe",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/uima//tags/uima-addons-2.3.1-rc5/Tagger",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/uima//tags/uima-addons-2.3.1-rc5/Tagger",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.uima/Tagger@2.3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.uima/uimaj-core@2.3.1",
+            "extracted_requirement": "2.3.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/uimaj-test-util@2.3.1",
+            "extracted_requirement": "2.3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/uimaj-component-test-util@2.3.1",
+            "extracted_requirement": "2.3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/WhitespaceTokenizer@2.3.1",
+            "extracted_requirement": "2.3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.uima/Tagger@2.3.1?classifier=sources&uuid=bea39833-3ad1-4b9d-8490-101fd5796bd3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.uima/Tagger@2.3.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/uima/Tagger/2.3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/uima/Tagger/2.3.1/Tagger-2.3.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/uima/Tagger/2.3.1/Tagger-2.3.1.pom",
+    "file_references": []
+}

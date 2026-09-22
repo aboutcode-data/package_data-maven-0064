@@ -1,0 +1,231 @@
+{
+    "type": "maven",
+    "namespace": "com.openshift",
+    "name": "openshift-restclient-java",
+    "version": "9.0.5.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "249f644f-fd75-4b18-a3f1-f1c6c10b3b6a",
+            "packages": [
+                "pkg:maven/com.openshift/openshift-restclient-java@9.0.5.Final?uuid=c91c6fcd-40e4-414d-9b0e-ce4cecb34911",
+                "pkg:maven/com.openshift/openshift-restclient-java@9.0.5.Final?classifier=sources&uuid=59fddb23-50ca-46be-8c51-541b59e903e5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OpenShift Java REST Client\nOpenShift Java Client",
+    "release_date": "2022-09-26T15:16:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Red Hat, Inc",
+            "email": null,
+            "url": "http://www.redhat.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://openshift.redhat.com",
+    "download_url": "https://repo1.maven.org/maven2/com/openshift/openshift-restclient-java/9.0.5.Final/openshift-restclient-java-9.0.5.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fdcf433a1f17e98674ffefbc226551512358f349",
+    "sha256": "bf64e89767884b90ef08ff80028f374c22800bf1c9daf0c6ab5fbd2b0a1d670f",
+    "sha512": "bc6f4842da189690f50ed8c56de58d45c35b0bc4e72bfce96eed757afbab79786e560589209346a5f0fea5fba8a3f60748ef0203064ced1cbce2befd15e68a71",
+    "bug_tracking_url": "https://issues.jboss.org/browse/OSJC",
+    "code_view_url": "https://github.com/openshift/openshift-restclient-java",
+    "vcs_url": "https://github.com/openshift/openshift-restclient-java",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-1.0_18.RULE",
+                    "start_line": 1,
+                    "matched_text": "Eclipse Public License v1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-1.0_18.RULE",
+                    "license_expression": "epl-1.0"
+                }
+            ],
+            "identifier": "epl_1_0-005f3ceb-2301-0c81-d81b-eb035db0ed47",
+            "license_expression": "epl-1.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-1.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.eclipse.org/legal/epl-v10.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-1.0.RULE",
+                    "license_expression": "epl-1.0"
+                }
+            ],
+            "identifier": "epl_1_0-55aef6c5-220a-7892-61d4-4edfb5d67d75",
+            "license_expression": "epl-1.0"
+        }
+    ],
+    "other_license_expression": "epl-1.0",
+    "other_license_expression_spdx": "EPL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Eclipse Public License v1.0\n  url: http://www.eclipse.org/legal/epl-v10.html\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.openshift/openshift-restclient-java@9.0.5.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.squareup.okhttp3/okhttp@4.10.0",
+            "extracted_requirement": "4.10.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.yaml/snakeyaml@1.32",
+            "extracted_requirement": "1.32",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss/jboss-dmr@1.6.1.Final",
+            "extracted_requirement": "1.6.1.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-io@1.3.2",
+            "extracted_requirement": "1.3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-compress@1.21",
+            "extracted_requirement": "1.21",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io@2.11.0",
+            "extracted_requirement": "2.11.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.1",
+            "extracted_requirement": "2.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec@1.15",
+            "extracted_requirement": "1.15",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang@2.6",
+            "extracted_requirement": "2.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0",
+            "extracted_requirement": "2.19.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.19.0",
+            "extracted_requirement": "2.19.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.19.0",
+            "extracted_requirement": "2.19.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.2",
+            "extracted_requirement": "4.13.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@4.8.0",
+            "extracted_requirement": "4.8.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core@3.23.1",
+            "extracted_requirement": "3.23.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.skyscreamer/jsonassert@1.5.1",
+            "extracted_requirement": "1.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.openshift/openshift-restclient-java@9.0.5.Final?classifier=sources&uuid=59fddb23-50ca-46be-8c51-541b59e903e5",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.openshift/openshift-restclient-java@9.0.5.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

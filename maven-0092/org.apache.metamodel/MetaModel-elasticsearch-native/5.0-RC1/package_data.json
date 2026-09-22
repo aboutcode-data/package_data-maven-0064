@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.metamodel",
+    "name": "MetaModel-elasticsearch-native",
+    "version": "5.0-RC1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "MetaModel module for ElasticSearch via native (Node or Transport) client",
+    "release_date": "2017-05-18T04:22:36Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/metamodel/MetaModel-elasticsearch-native/5.0-RC1/MetaModel-elasticsearch-native-5.0-RC1.jar",
+    "size": 34083,
+    "md5": null,
+    "sha1": "f8bf5dcf3841e2bea80e043e902bc71d0f852d28",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.metamodel/MetaModel-elasticsearch-native@5.0-RC1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.metamodel/MetaModel-core",
+            "extracted_requirement": "5.0-RC1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.metamodel/MetaModel-elasticsearch-common",
+            "extracted_requirement": "5.0-RC1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch/elasticsearch",
+            "extracted_requirement": "${elasticsearch.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.metamodel/MetaModel-elasticsearch-native@5.0-RC1?uuid=a1a2db9e-a954-4d14-a6bb-b85b8f7d0cad",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.metamodel/MetaModel-elasticsearch-native@5.0-RC1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/metamodel/MetaModel-elasticsearch-native/5.0-RC1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/metamodel/MetaModel-elasticsearch-native/5.0-RC1/MetaModel-elasticsearch-native-5.0-RC1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/metamodel/MetaModel-elasticsearch-native/5.0-RC1/MetaModel-elasticsearch-native-5.0-RC1.pom",
+    "file_references": []
+}

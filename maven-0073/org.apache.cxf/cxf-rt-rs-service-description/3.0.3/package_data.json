@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-rt-rs-service-description",
+    "version": "3.0.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d234eb96-a10d-43c5-bff7-a11a86db8fd2",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-service-description@3.0.3?uuid=9ec89646-b95d-40ea-9c6b-8b5736046efe",
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-service-description@3.0.3?classifier=sources&uuid=2a299f37-6873-43d5-bcbc-767c58222289"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF JAX-RS Service Description",
+    "release_date": "2014-12-03T02:22:43Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "http://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-service-description/3.0.3/cxf-rt-rs-service-description-3.0.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "15383fa544bd1c4241ef831a74768268d345004e",
+    "sha256": "4cacddb47233bdd3f5a7249be84a1d1a0e770dff044db3721069b9788849fcf7",
+    "sha512": "f4aef7879e835ec35fffb5d3b593240de65bfd78a2775fb39d2faa43b91a19018f578dca37677e08656c4a4d2de0a2ed27c40cd33e48ac05beae162e1a8b4664",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "(apache-2.0 AND bsd-new AND mpl-1.1 AND lgpl-2.1 AND wtfpl-2.0 AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0)) AND (cddl-1.1 AND gpl-2.0 WITH classpath-exception-2.0 AND apache-2.0 AND mit AND cddl-1.0)",
+    "other_license_expression_spdx": "(Apache-2.0 AND BSD-3-Clause AND MPL-1.1 AND LGPL-2.1-only AND WTFPL AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0)) AND (CDDL-1.1 AND GPL-2.0-only WITH Classpath-exception-2.0 AND Apache-2.0 AND MIT AND CDDL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-rt-rs-service-description@3.0.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-databinding-aegis@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bcxf.servlet-api.group%7D/%24%7Bcxf.servlet-api.artifact%7D",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.wordnik/swagger-jaxrs_2.10",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-rt-rs-service-description@3.0.3?classifier=sources&uuid=2a299f37-6873-43d5-bcbc-767c58222289",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-service-description@3.0.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-service-description/3.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-service-description/3.0.3/cxf-rt-rs-service-description-3.0.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-service-description/3.0.3/cxf-rt-rs-service-description-3.0.3.pom",
+    "file_references": []
+}

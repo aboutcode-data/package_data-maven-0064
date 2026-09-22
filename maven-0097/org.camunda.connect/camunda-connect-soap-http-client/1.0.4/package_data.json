@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.camunda.connect",
+    "name": "camunda-connect-soap-http-client",
+    "version": "1.0.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "camunda BPM - connect - soap http client",
+    "release_date": "2017-05-19T11:01:50Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/camunda/connect/camunda-connect-soap-http-client/1.0.4/camunda-connect-soap-http-client-1.0.4.jar",
+    "size": 10904,
+    "md5": null,
+    "sha1": "510f85d6d35b6ec53e9143a260bd35af530c1cdb",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.camunda.connect/camunda-connect-soap-http-client@1.0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.camunda.connect/camunda-connect-http-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.tomakehurst/wiremock",
+            "extracted_requirement": "1.58",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.camunda.connect/camunda-connect-soap-http-client@1.0.4?uuid=75c34f60-02eb-458c-a26d-837f8d49a11a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.camunda.connect/camunda-connect-soap-http-client@1.0.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/camunda/connect/camunda-connect-soap-http-client/1.0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/camunda/connect/camunda-connect-soap-http-client/1.0.4/camunda-connect-soap-http-client-1.0.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/camunda/connect/camunda-connect-soap-http-client/1.0.4/camunda-connect-soap-http-client-1.0.4.pom",
+    "file_references": []
+}

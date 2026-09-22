@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-micrometer-registry-prometheus",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a5c76b91-5c2e-4180-8cf0-a409c646ab23",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-micrometer-registry-prometheus@2.13.7.Final?uuid=2d48a1fd-2500-4009-86e1-0e010f113331",
+                "pkg:maven/io.quarkus/quarkus-micrometer-registry-prometheus@2.13.7.Final?classifier=sources&uuid=5d43b829-b5e1-4d18-a59b-60cfeca7756b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Micrometer Registry - Prometheus Runtime\nEnable Prometheus support for Micrometer",
+    "release_date": "2023-01-19T10:02:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-micrometer-registry-prometheus/2.13.7.Final/quarkus-micrometer-registry-prometheus-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "237a63f724d6120c5bdc550aadb1c153eae2a8bf",
+    "sha256": "b55e06ecbb89fc4ce6db53624d01dc0a2c06782198735d5430d2d4f97108ec7c",
+    "sha512": "e1c25bb9851ff64645d821e7ce24e8f0925f484e63f8e413b92bd76145de3341f489593bf62541d079b46692b4410f4b0b060e352b9e8a7ca6dd11196c7c8eb5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-micrometer-registry-prometheus@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-arc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-micrometer",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.micrometer/micrometer-registry-prometheus",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-micrometer-registry-prometheus@2.13.7.Final?classifier=sources&uuid=5d43b829-b5e1-4d18-a59b-60cfeca7756b",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-micrometer-registry-prometheus@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

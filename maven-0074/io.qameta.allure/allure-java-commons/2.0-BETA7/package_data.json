@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "io.qameta.allure",
+    "name": "allure-java-commons",
+    "version": "2.0-BETA7",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Allure Java Commons",
+    "release_date": "2017-05-22T18:45:23Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dmitry Baev",
+            "email": "baev@qameta.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Qameta IO",
+            "email": null,
+            "url": "https://qameta.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/allure-framework/allure-java",
+    "download_url": "https://repo1.maven.org/maven2/io/qameta/allure/allure-java-commons/2.0-BETA7/allure-java-commons-2.0-BETA7.jar",
+    "size": 41591,
+    "md5": null,
+    "sha1": "2e8818ac6d54e8fab8497470ee55728f3a3b7e21",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.qameta.allure/allure-java-commons@2.0-BETA7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "19.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.qameta.allure/allure2-model-api",
+            "extracted_requirement": "1.0-BETA6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": "3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.aspectj/aspectjrt",
+            "extracted_requirement": "1.8.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jooq/joor",
+            "extracted_requirement": "0.9.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.21",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.qameta.allure/allure-java-commons@2.0-BETA7?uuid=f41d3bb9-3fc0-4e6a-9dfd-be2afb37078f",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.qameta.allure/allure-java-commons@2.0-BETA7",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/qameta/allure/allure-java-commons/2.0-BETA7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/qameta/allure/allure-java-commons/2.0-BETA7/allure-java-commons-2.0-BETA7.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/qameta/allure/allure-java-commons/2.0-BETA7/allure-java-commons-2.0-BETA7.pom",
+    "file_references": []
+}

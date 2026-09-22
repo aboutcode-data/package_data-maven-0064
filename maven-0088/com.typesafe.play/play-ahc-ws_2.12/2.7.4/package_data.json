@@ -1,0 +1,208 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.play",
+    "name": "play-ahc-ws_2.12",
+    "version": "2.7.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f284983c-bc63-4652-b779-a6b9c7349430",
+            "packages": [
+                "pkg:maven/com.typesafe.play/play-ahc-ws_2.12@2.7.4?uuid=4f09cd8b-0718-4afa-958d-a4f7455a419c",
+                "pkg:maven/com.typesafe.play/play-ahc-ws_2.12@2.7.4?classifier=sources&uuid=ab219651-2827-4352-9ed5-f7de3a162b96"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Play-AHC-WS",
+    "release_date": "2019-12-04T10:12:59Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Play Framework Team",
+            "email": null,
+            "url": "https://github.com/playframework"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.typesafe.play",
+            "email": null,
+            "url": "https://playframework.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://playframework.com",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7278a5447f194721ba6743424e74f38953c5978f",
+    "sha256": "e3ad6ff7957e30d47ebe0e4ed8ed25d8389ada91d3e0219989a987b556fbc89d",
+    "sha512": "26e7d2e63e9269be21f0f1fdfe4a927e275a638b6b9ea0898caac6b941e93c7e0c6376716ae31c0d65234c0865dcbdaf39546d03e57038c2fa8076bcde1454e4",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/playframework/playframework",
+    "vcs_url": "git+https://github.com/playframework/playframework.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_20.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_20.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bcefe950-fdcf-2a12-721d-7f0d69b15c83",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.play/play-ahc-ws_2.12@2.7.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.10",
+            "extracted_requirement": "2.12.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-ws_2.12@2.7.4",
+            "extracted_requirement": "2.7.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-ahc-ws-standalone_2.12@2.0.8",
+            "extracted_requirement": "2.0.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/shaded-asynchttpclient@2.0.8",
+            "extracted_requirement": "2.0.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/shaded-oauth@2.0.8",
+            "extracted_requirement": "2.0.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-java8-compat_2.12@0.9.0",
+            "extracted_requirement": "0.9.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.cache/cache-api@1.0.0",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-caffeine-cache_2.12@2.7.4",
+            "extracted_requirement": "2.7.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-specs2_2.12@2.7.4",
+            "extracted_requirement": "2.7.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-test_2.12@2.7.4",
+            "extracted_requirement": "2.7.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.ben-manes.caffeine/jcache@2.6.2",
+            "extracted_requirement": "2.6.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sf.ehcache/ehcache@2.10.6",
+            "extracted_requirement": "2.10.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ehcache/jcache@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.play/play-ahc-ws_2.12@2.7.4?classifier=sources&uuid=ab219651-2827-4352-9ed5-f7de3a162b96",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.play/play-ahc-ws_2.12@2.7.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.4/play-ahc-ws_2.12-2.7.4.pom",
+    "file_references": []
+}

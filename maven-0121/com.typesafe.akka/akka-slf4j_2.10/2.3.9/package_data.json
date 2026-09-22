@@ -1,0 +1,124 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.akka",
+    "name": "akka-slf4j_2.10",
+    "version": "2.3.9",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "akka-slf4j",
+    "release_date": "2015-01-20T06:10:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jonas Boner",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Viktor Klang",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Roland Kuhn",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Peter Vlugter",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Typesafe Inc.",
+            "email": null,
+            "url": "http://www.typesafe.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://akka.io/",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.3.9/akka-slf4j_2.10-2.3.9.jar",
+    "size": 15520,
+    "md5": null,
+    "sha1": "57f4133a6b4dda8470b4a1fc9f221116b898aa33",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.akka/akka-slf4j_2.10@2.3.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-actor_2.10",
+            "extracted_requirement": "2.3.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-testkit_2.10",
+            "extracted_requirement": "2.3.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": "1.0.13",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.akka/akka-slf4j_2.10@2.3.9?uuid=ac28bc4b-8ba2-4fc5-875c-23cb34fb7368",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.akka/akka-slf4j_2.10@2.3.9",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.3.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.3.9/akka-slf4j_2.10-2.3.9.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.3.9/akka-slf4j_2.10-2.3.9.pom",
+    "file_references": []
+}

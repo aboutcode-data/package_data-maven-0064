@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "io.underscore",
+    "name": "compose-core_sjs0.6_2.11",
+    "version": "0.5.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "compose-core",
+    "release_date": "2016-09-03T21:23:21Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dave Gurnell",
+            "email": null,
+            "url": "http://twitter.com/davegurnell"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "io.underscore",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/underscoreio/compose",
+    "download_url": "https://repo1.maven.org/maven2/io/underscore/compose-core_sjs0.6_2.11/0.5.0/compose-core_sjs0.6_2.11-0.5.0.jar",
+    "size": 210037,
+    "md5": null,
+    "sha1": "3082532121b597d83f2e70a843cf229ba697697b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://apache.org/licenses/LICENSE-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.underscore/compose-core_sjs0.6_2.11@0.5.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-js/scalajs-library_2.11",
+            "extracted_requirement": "0.6.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats_sjs0.6_2.11",
+            "extracted_requirement": "0.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-runtime_2.11",
+            "extracted_requirement": "1.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-plugin_2.11",
+            "extracted_requirement": "1.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-js/scalajs-stubs_2.11",
+            "extracted_requirement": "0.6.12",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-js/scalajs-test-interface_2.11",
+            "extracted_requirement": "0.6.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.11",
+            "extracted_requirement": "2.2.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.underscore/compose-core_sjs0.6_2.11@0.5.0?uuid=c739e95c-1ff6-443e-b7fc-e27a2274c2b4",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.underscore/compose-core_sjs0.6_2.11@0.5.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/underscore/compose-core_sjs0.6_2.11/0.5.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/underscore/compose-core_sjs0.6_2.11/0.5.0/compose-core_sjs0.6_2.11-0.5.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/underscore/compose-core_sjs0.6_2.11/0.5.0/compose-core_sjs0.6_2.11-0.5.0.pom",
+    "file_references": []
+}

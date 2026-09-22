@@ -1,0 +1,383 @@
+{
+    "type": "maven",
+    "namespace": "org.littleshoot",
+    "name": "littleproxy",
+    "version": "1.1.0-beta2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6cf102fc-195b-4da8-85b4-bdc3d9a5898c",
+            "packages": [
+                "pkg:maven/org.littleshoot/littleproxy@1.1.0-beta2?uuid=aff76812-852f-4080-98f4-3cbd81e62ed4",
+                "pkg:maven/org.littleshoot/littleproxy@1.1.0-beta2?classifier=sources&uuid=25a6d89f-8e21-44d1-b69a-f432c85ed19c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "LittleProxy\nLittleProxy is a high performance HTTP proxy written in Java and using the Netty networking framework.",
+    "release_date": "2016-03-26T18:32:46Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Adam fisk",
+            "email": "a@littleshoot.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ox Cart",
+            "email": "ox@getlantern.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "LittleShoot",
+            "email": null,
+            "url": "http://littleproxy.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://littleproxy.org",
+    "download_url": "https://repo1.maven.org/maven2/org/littleshoot/littleproxy/1.1.0-beta2/littleproxy-1.1.0-beta2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8c7df5c7283338450f7340d3f7c489612b27a886",
+    "sha256": "02ccc018fcdc00c6d8f32aef55d76363c14b826517d225db47ec3a4f66dbb0ac",
+    "sha512": "12db553518dde56ba3aa2120dbb1b02ce366694f6a4fcfbf9a7460c92fd73274ceaa095618d0a9fa31d99d0d1e4669a004316f701980872c67d08bdb861f9b68",
+    "bug_tracking_url": "https://github.com/adamfisk/LittleProxy/issues",
+    "code_view_url": "https://github.com/scm:git:git@github.com:adamfisk/LittleProxy.git",
+    "vcs_url": "git+https://adamfisk@github.com/adamfisk/LittleProxy.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-ba8bf279-f5cc-7a38-dfd9-5e9b7aaa9b60",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.littleshoot/littleproxy@1.1.0-beta2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava@18.0",
+            "extracted_requirement": "18.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-cli/commons-cli@1.3.1",
+            "extracted_requirement": "1.3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec@1.10",
+            "extracted_requirement": "1.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.4",
+            "extracted_requirement": "3.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.17",
+            "extracted_requirement": "1.2.17",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-all@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.barchart.udt/barchart-udt-bundle@2.3.0",
+            "extracted_requirement": "2.3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.littleshoot/dnssec4j@0.1.6",
+            "extracted_requirement": "0.1.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/dnsjava/dnsjava@2.1.7",
+            "extracted_requirement": "2.1.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.19",
+            "extracted_requirement": "1.7.19",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.19",
+            "extracted_requirement": "1.7.19",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@8.1.17.v20150415",
+            "extracted_requirement": "8.1.17.v20150415",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@2.0.44-beta",
+            "extracted_requirement": "2.0.44-beta",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mock-server/mockserver-netty@3.10.4",
+            "extracted_requirement": "3.10.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-java@2.46.0",
+            "extracted_requirement": "2.46.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.2",
+            "extracted_requirement": "4.5.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-exec@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-all@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-haproxy@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-socks@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-common@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-handler@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-rxtx@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-sctp@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-udp@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-example@4.0.35.Final",
+            "extracted_requirement": "4.0.35.Final",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.littleshoot/littleproxy@1.1.0-beta2?classifier=sources&uuid=25a6d89f-8e21-44d1-b69a-f432c85ed19c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.littleshoot/littleproxy@1.1.0-beta2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/littleshoot/littleproxy/1.1.0-beta2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/littleshoot/littleproxy/1.1.0-beta2/littleproxy-1.1.0-beta2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/littleshoot/littleproxy/1.1.0-beta2/littleproxy-1.1.0-beta2.pom",
+    "file_references": []
+}

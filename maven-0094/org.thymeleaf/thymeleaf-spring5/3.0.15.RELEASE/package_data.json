@@ -1,0 +1,177 @@
+{
+    "type": "maven",
+    "namespace": "org.thymeleaf",
+    "name": "thymeleaf-spring5",
+    "version": "3.0.15.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "376ac5c7-e46e-4c38-8007-aecf71e90ab5",
+            "packages": [
+                "pkg:maven/org.thymeleaf/thymeleaf-spring5@3.0.15.RELEASE?uuid=e3d3f978-cf0a-4b15-aaba-384a688a8bb0",
+                "pkg:maven/org.thymeleaf/thymeleaf-spring5@3.0.15.RELEASE?classifier=sources&uuid=59c64f2f-173c-4cd5-8827-b2ac20b4ce8d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "thymeleaf-spring5\nModern server-side Java template engine for both web and standalone environments",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Daniel Fernandez",
+            "email": "daniel.fernandez AT 11thlabs DOT org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jose Miguel Samper",
+            "email": "jmiguelsamper AT users DOT sourceforge DOT net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Emanuel Rabina",
+            "email": "emanuelrabina AT gmail DOT com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The THYMELEAF team",
+            "email": null,
+            "url": "http://www.thymeleaf.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.thymeleaf.org",
+    "download_url": "https://repo1.maven.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c903231c3c1be70166401c8a502919778b8356d7",
+    "sha256": "02ddbc5607d13f85b50bca01acb6900f6bc82a555569d2a467774fd12cfd20af",
+    "sha512": "a77f85abccdabe1fa4b0e9b8a85e8289ad2a6e73b5fd8c94b5e57bde5a0bf66c84805b868db7d9f4079f9b40a167f62a6050e868a924275a32a9d1f63f548522",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/scm:git:git@github.com:thymeleaf/thymeleaf-spring.git",
+    "vcs_url": "git+https://github.com/thymeleaf/thymeleaf-spring.git",
+    "copyright": "Copyright (c) The THYMELEAF team",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.thymeleaf/thymeleaf-spring5@3.0.15.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.thymeleaf/thymeleaf@3.0.15.RELEASE",
+            "extracted_requirement": "3.0.15.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+            "extracted_requirement": "1.7.25",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.5",
+            "extracted_requirement": "2.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@5.0.8.RELEASE",
+            "extracted_requirement": "5.0.8.RELEASE",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web@5.0.8.RELEASE",
+            "extracted_requirement": "5.0.8.RELEASE",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-webflux@5.0.8.RELEASE",
+            "extracted_requirement": "5.0.8.RELEASE",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-webmvc@5.0.8.RELEASE",
+            "extracted_requirement": "5.0.8.RELEASE",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-expression@5.0.8.RELEASE",
+            "extracted_requirement": "5.0.8.RELEASE",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.webflow/spring-webflow@2.5.0.RELEASE",
+            "extracted_requirement": "2.5.0.RELEASE",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.thymeleaf/thymeleaf-spring5@3.0.15.RELEASE?classifier=sources&uuid=59c64f2f-173c-4cd5-8827-b2ac20b4ce8d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.thymeleaf/thymeleaf-spring5@3.0.15.RELEASE?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

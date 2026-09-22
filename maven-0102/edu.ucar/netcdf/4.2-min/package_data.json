@@ -1,0 +1,246 @@
+{
+    "type": "maven",
+    "namespace": "edu.ucar",
+    "name": "netcdf",
+    "version": "4.2-min",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f25da0cf-beb0-4081-9e3e-5c305a5b71c3",
+            "packages": [
+                "pkg:maven/edu.ucar/netcdf@4.2-min?uuid=2fc27835-b035-4bbe-a5a0-b621d0fd15c1",
+                "pkg:maven/edu.ucar/netcdf@4.2-min?classifier=sources&uuid=246029e1-f2b7-4ce2-bd01-0de14cc8a804"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "The NetCDF-Java Library\nThe NetCDF-Java Library is a Java interface to NetCDF files,\n   as well as to many other types of scientific data formats.",
+    "release_date": "2010-11-24T05:55:01Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tina Campbell",
+            "email": "campbell@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Caron",
+            "email": "caron@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julien Chastang",
+            "email": "chastang@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ethan Davis",
+            "email": "edavis@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dirks Douglas",
+            "email": "ddirks@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ben Domenico",
+            "email": "ben@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Emery Ginger",
+            "email": "gemery@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steven Emmerson",
+            "email": "steve@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Fulker",
+            "email": "fulker@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ed Hartnett",
+            "email": "ed@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dennis Heimbigner",
+            "email": "dmh@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ho Yuan",
+            "email": "yuanho@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael James",
+            "email": "mjames@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robb Kambic",
+            "email": "rkambic@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Kelly",
+            "email": "bkelly@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Linda Miller",
+            "email": "lmiller@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Terry Mitchell",
+            "email": "tmitchel@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jennifer Ganter Oxelson",
+            "email": "oxelson@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mohan Ramamurthy",
+            "email": "mohan@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Russel Rew",
+            "email": "russ@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael Schmidt",
+            "email": "mschmidt@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeff Weber",
+            "email": "jweber@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tom Yoksas",
+            "email": "yoksas@unidata.ucar.edu",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.unidata.ucar.edu/software/netcdf-java/",
+    "download_url": "https://repo1.maven.org/maven2/edu/ucar/netcdf/4.2-min/netcdf-4.2-min-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a9887cb7b92f1305fe1ea639396d1ec1c5682e51",
+    "sha256": "1c5a903f4f2030dcfdb71f3eab87b11e919f7a9772c337f87859df567274d74a",
+    "sha512": "0b962d2b328926e6b7ec01d2196815634d46c6d287ea226a77fd55e5ba212ede3a0579384d5168e726025fab72c999bcb787d8730dbfff43fdfdff67249f1f0d",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.unidata.ucar.edu/repos/thredds/trunk",
+    "vcs_url": "http://svn.unidata.ucar.edu/repos/thredds/trunk/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_964.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: (MIT-style) netCDF C library license.",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 80,
+                    "rule_identifier": "mit_964.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-4dd6a7cb-eb87-0713-754e-5bf209e530ba",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": "netcdf AND lgpl-2.1-plus AND apache-1.1 AND (apache-2.0 AND apache-1.1) AND lgpl-2.0-plus AND warranty-disclaimer AND w3c",
+    "other_license_expression_spdx": "NetCDF AND LGPL-2.1-or-later AND Apache-1.1 AND (Apache-2.0 AND Apache-1.1) AND LGPL-2.0-or-later AND LicenseRef-scancode-warranty-disclaimer AND W3C",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: (MIT-style) netCDF C library license.\n  url: http://www.unidata.ucar.edu/software/netcdf/copyright.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/edu.ucar/netcdf@4.2-min?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.5.6",
+            "extracted_requirement": "1.5.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/edu.ucar/netcdf@4.2-min?classifier=sources&uuid=246029e1-f2b7-4ce2-bd01-0de14cc8a804",
+    "datasource_id": null,
+    "purl": "pkg:maven/edu.ucar/netcdf@4.2-min?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/edu/ucar/netcdf/4.2-min/",
+    "repository_download_url": "https://repo1.maven.org/maven2/edu/ucar/netcdf/4.2-min/netcdf-4.2-min-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/edu/ucar/netcdf/4.2-min/netcdf-4.2-min.pom",
+    "file_references": []
+}

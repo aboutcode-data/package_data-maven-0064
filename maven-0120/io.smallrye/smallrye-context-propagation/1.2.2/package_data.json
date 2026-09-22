@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "io.smallrye",
+    "name": "smallrye-context-propagation",
+    "version": "1.2.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e0119d46-93b6-4230-9256-6d44544e1b7b",
+            "packages": [
+                "pkg:maven/io.smallrye/smallrye-context-propagation@1.2.2?uuid=c15fc8a7-3a03-4400-8bb9-b353e011ec67",
+                "pkg:maven/io.smallrye/smallrye-context-propagation@1.2.2?classifier=sources&uuid=0822ca5e-fe7c-4b33-8873-51c8f867cd4d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "smallrye-context-propagation",
+    "release_date": "2021-09-06T09:12:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ken Finnigan",
+            "email": "ken@kenfinnigan.me",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://smallrye.io",
+    "download_url": "https://repo1.maven.org/maven2/io/smallrye/smallrye-context-propagation/1.2.2/smallrye-context-propagation-1.2.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e7090b1f201791170ed58e3438d4f4241d25b999",
+    "sha256": "658dddda74aec554fd26c884b653076f8c11728c8c4a292ae0f482377de61ef3",
+    "sha512": "c7c67ecd5c7e57ca8394eae42ca1e32dc72f73d7c7efa7d1d867eb06167a6d1198f11b97b05f82a67fdb7ae6b7806baa1b3394ced9fb242e88629429a4dee42d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.smallrye/smallrye-context-propagation@1.2.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.microprofile.context-propagation/microprofile-context-propagation-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye/smallrye-context-propagation-api@1.2.2",
+            "extracted_requirement": "1.2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.smallrye/smallrye-context-propagation-storage@1.2.2",
+            "extracted_requirement": "1.2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.microprofile.config/microprofile-config-api",
+            "extracted_requirement": "${version.microprofile.config}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.threads/jboss-threads",
+            "extracted_requirement": "${version.jboss.threads}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.smallrye/smallrye-context-propagation@1.2.2?classifier=sources&uuid=0822ca5e-fe7c-4b33-8873-51c8f867cd4d",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.smallrye/smallrye-context-propagation@1.2.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

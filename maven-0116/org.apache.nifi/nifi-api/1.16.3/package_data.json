@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.nifi",
+    "name": "nifi-api",
+    "version": "1.16.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "752cea00-d48c-4b2d-9b2a-f9a011c6e49c",
+            "packages": [
+                "pkg:maven/org.apache.nifi/nifi-api@1.16.3?uuid=a5e3f2ce-5453-4588-902a-27eb4d626537",
+                "pkg:maven/org.apache.nifi/nifi-api@1.16.3?classifier=sources&uuid=877d7b75-86c9-4a26-95b1-9a114597fa0d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-06-14T00:51:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-api/1.16.3/nifi-api-1.16.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1f6c717707adf7cf9258a1fbe24aa026c220ee3f",
+    "sha256": "2fa16726483580e3b7dc71a252ad25f10b99d741ccf67289704e2ff3012b13e8",
+    "sha512": "9e04da4cbb80c1571c029495648c7c33fb6e254974fc83197d5e668064a6164ec5f701d301e8d8e090e9c6a328abb5f8ef6a717b299045f6fec3b9f76f5e079f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Apache NiFi Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND warranty-disclaimer",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-warranty-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.nifi/nifi-api@1.16.3?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@25",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@25",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@25"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.swagger/swagger-annotations@1.5.16",
+            "extracted_requirement": "1.5.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.nifi/nifi-api@1.16.3?classifier=sources&uuid=877d7b75-86c9-4a26-95b1-9a114597fa0d",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.nifi/nifi-api@1.16.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-api/1.16.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-api/1.16.3/nifi-api-1.16.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-api/1.16.3/nifi-api-1.16.3.pom",
+    "file_references": []
+}

@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.activemq",
+    "name": "activemq-log4j-appender",
+    "version": "5.14.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "76a29985-2bcd-40fe-9295-10b8c714dbc5",
+            "packages": [
+                "pkg:maven/org.apache.activemq/activemq-log4j-appender@5.14.5?uuid=6352de0b-e11a-46f3-b73a-012190ea4c2a",
+                "pkg:maven/org.apache.activemq/activemq-log4j-appender@5.14.5?classifier=sources&uuid=8e312046-b2d8-4f4f-b40c-4c4692e9e20b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ActiveMQ :: Log4j Appender\nActiveMQ Log4j Appender",
+    "release_date": "2017-04-11T15:50:52Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-log4j-appender/5.14.5/activemq-log4j-appender-5.14.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6f696c2bfa9ff8b7b62f28430c4144b85fffb5fb",
+    "sha256": "0783c809c4b2b1a875d0e0e709532971e9e86b3420dad9275e9ff1dd99837238",
+    "sha512": "01effe942c45c62c21b9305c35fa120c610f77e0abdb58e86dbae1079ca968a10a391d2e2d93afdc73aac0391cdc5e0135a3b3aff208b2daff12820a1b2f17bb",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.activemq/activemq-log4j-appender@5.14.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-broker",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.activemq/activemq-log4j-appender@5.14.5?classifier=sources&uuid=8e312046-b2d8-4f4f-b40c-4c4692e9e20b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.activemq/activemq-log4j-appender@5.14.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-log4j-appender/5.14.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-log4j-appender/5.14.5/activemq-log4j-appender-5.14.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-log4j-appender/5.14.5/activemq-log4j-appender-5.14.5.pom",
+    "file_references": []
+}

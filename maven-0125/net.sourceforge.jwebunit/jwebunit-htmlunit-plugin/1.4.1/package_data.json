@@ -1,0 +1,175 @@
+{
+    "type": "maven",
+    "namespace": "net.sourceforge.jwebunit",
+    "name": "jwebunit-htmlunit-plugin",
+    "version": "1.4.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4d7a848c-b7d2-4e1d-8eb2-cc6cccb62c0e",
+            "packages": [
+                "pkg:maven/net.sourceforge.jwebunit/jwebunit-htmlunit-plugin@1.4.1?uuid=fe7738aa-ccb5-4322-8026-1b8872edf4be",
+                "pkg:maven/net.sourceforge.jwebunit/jwebunit-htmlunit-plugin@1.4.1?classifier=sources&uuid=3dc265db-0c6e-4afd-b6d8-9d5ea0dce386"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "HtmlUnit Plugin\nHtmlUnit plugin for JWebUnit.",
+    "release_date": "2007-05-05T22:00:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jim Weaver",
+            "email": "jimweaver at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jim Weaver",
+            "email": "prospero2000us at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Wilkes Joiner",
+            "email": "wilkesj at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vivek Venugopalan",
+            "email": "vivek at magic hypen cauldron dot com",
+            "url": "http://www.magic-cauldron.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martijn Dashorst",
+            "email": "dashorst at users.sourceforge.net",
+            "url": "http://www.dashorst.dds.nl"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nicholas Neuberger",
+            "email": "nneuberger at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julien Henry",
+            "email": "henryju at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jon Frisby",
+            "email": "jfrisby@mac.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Fred Burlet",
+            "email": "fburlet@kiala.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "SourceForge",
+            "email": null,
+            "url": "http://sourceforge.net"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jwebunit.sourceforge.net",
+    "download_url": "https://repo1.maven.org/maven2/net/sourceforge/jwebunit/jwebunit-htmlunit-plugin/1.4.1/jwebunit-htmlunit-plugin-1.4.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5f2b5f9444e1df09e4d09edf9d6b3ac5727f1afb",
+    "sha256": "8a135a46a34164e12e560e566ed56e18d6a6d3472a7742925a5aaa6caa9fd29e",
+    "sha512": "8ac383fc04d1b079c27babb378cdaa1233c188a2cb4cbcfe61adedfde74732669ceb1d2b370c2efa5c3a6c10d6e2c37ad770c4310ffe64d455766fae4b4eea96",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "gpl-1.0-plus",
+    "declared_license_expression_spdx": "GPL-1.0-or-later",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sourceforge.jwebunit/jwebunit-htmlunit-plugin@1.4.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.jwebunit/jwebunit-commons-tests@1.4.1",
+            "extracted_requirement": "1.4.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/htmlunit/htmlunit@1.11",
+            "extracted_requirement": "1.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.jwebunit/jwebunit-core@1.4.1",
+            "extracted_requirement": "1.4.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.sourceforge.jwebunit/jwebunit-htmlunit-plugin@1.4.1?classifier=sources&uuid=3dc265db-0c6e-4afd-b6d8-9d5ea0dce386",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.sourceforge.jwebunit/jwebunit-htmlunit-plugin@1.4.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sourceforge/jwebunit/jwebunit-htmlunit-plugin/1.4.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sourceforge/jwebunit/jwebunit-htmlunit-plugin/1.4.1/jwebunit-htmlunit-plugin-1.4.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sourceforge/jwebunit/jwebunit-htmlunit-plugin/1.4.1/jwebunit-htmlunit-plugin-1.4.1.pom",
+    "file_references": []
+}

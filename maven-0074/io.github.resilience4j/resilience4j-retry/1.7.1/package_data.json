@@ -1,0 +1,143 @@
+{
+    "type": "maven",
+    "namespace": "io.github.resilience4j",
+    "name": "resilience4j-retry",
+    "version": "1.7.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2aa489e8-d5c5-45fb-a71f-da446ac7c24f",
+            "packages": [
+                "pkg:maven/io.github.resilience4j/resilience4j-retry@1.7.1?uuid=6e32e134-4e36-48dc-8d21-a2d64a5150fa",
+                "pkg:maven/io.github.resilience4j/resilience4j-retry@1.7.1?classifier=sources&uuid=305966f5-fbcb-4ce0-a97d-1f706de3bd13"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "resilience4j\nResilience4j is a lightweight, easy-to-use fault tolerance library designed for Java8 and functional programming",
+    "release_date": "2021-06-25T09:57:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robert Winkler",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bogdan Storozhuk",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mahmoud Romeh",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ingyu Hwhang",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tomasz Skowro\u00c5\u0084ski",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dan Maas",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://resilience4j.readme.io",
+    "download_url": "https://repo1.maven.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.1/resilience4j-retry-1.7.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "36ffd78389ee41e89158da545015ab39ca51196f",
+    "sha256": "c0bef84df83872b40e09aa2412b2ffdf20211b1a3d3f19c9a4142770cdc161f1",
+    "sha512": "bd3620e211ff90c67103ee7a7584d5b7c53a95fd89a7aaecd160a84ede137eb92e896fc45d5b976bd74d37184b8f09efb04408acd1f23f80dcbe5557b6fe5a93",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/resilience4j/resilience4j.git",
+    "vcs_url": "https://github.com/resilience4j/resilience4j.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-d66ab77d-a5cc-7104-e702-dc7df61fe9e8",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: https://github.com/resilience4j/resilience4j/blob/master/LICENSE.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.github.resilience4j/resilience4j-retry@1.7.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.vavr/vavr@0.10.2",
+            "extracted_requirement": "0.10.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.github.resilience4j/resilience4j-core@1.7.1",
+            "extracted_requirement": "1.7.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+            "extracted_requirement": "1.7.30",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.github.resilience4j/resilience4j-retry@1.7.1?classifier=sources&uuid=305966f5-fbcb-4ce0-a97d-1f706de3bd13",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.github.resilience4j/resilience4j-retry@1.7.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

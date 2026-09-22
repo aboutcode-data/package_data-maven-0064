@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "is.cir",
+    "name": "ciris-squants_sjs0.6_2.11",
+    "version": "0.3.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Ciris",
+    "release_date": "2017-05-26T06:37:38Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Viktor L\u00f6vgren",
+            "email": "github@vlovgr.se",
+            "url": "https://vlovgr.se"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Ciris",
+            "email": null,
+            "url": "https://cir.is"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://cir.is",
+    "download_url": "https://repo1.maven.org/maven2/is/cir/ciris-squants_sjs0.6_2.11/0.3.1/ciris-squants_sjs0.6_2.11-0.3.1.jar",
+    "size": 38777,
+    "md5": null,
+    "sha1": "f37eb3384511aa38d3ff37a3a997d1e72ea81695",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT License\nhttp://www.opensource.org/licenses/mit-license.php",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/is.cir/ciris-squants_sjs0.6_2.11@0.3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/is.cir/ciris-core_sjs0.6_2.11",
+            "extracted_requirement": "0.3.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-js/scalajs-library_2.11",
+            "extracted_requirement": "0.6.16",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/squants_sjs0.6_2.11",
+            "extracted_requirement": "1.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-js/scalajs-test-interface_2.11",
+            "extracted_requirement": "0.6.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/is.cir/ciris-squants_sjs0.6_2.11@0.3.1?uuid=948dc6b7-d0a0-4247-a534-a7a3546c92ed",
+    "datasource_id": null,
+    "purl": "pkg:maven/is.cir/ciris-squants_sjs0.6_2.11@0.3.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/is/cir/ciris-squants_sjs0.6_2.11/0.3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/is/cir/ciris-squants_sjs0.6_2.11/0.3.1/ciris-squants_sjs0.6_2.11-0.3.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/is/cir/ciris-squants_sjs0.6_2.11/0.3.1/ciris-squants_sjs0.6_2.11-0.3.1.pom",
+    "file_references": []
+}

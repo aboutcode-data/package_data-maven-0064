@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal",
+    "name": "mdsal-binding-runtime-api",
+    "version": "9.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2cdb62fe-5a06-430e-9d3b-03452290df9e",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal/mdsal-binding-runtime-api@9.0.2?uuid=6683e8d1-927f-4811-8771-4c380e808a54",
+                "pkg:maven/org.opendaylight.mdsal/mdsal-binding-runtime-api@9.0.2?classifier=sources&uuid=58b64221-7431-407e-99c3-9b8c402e5c26"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-04-14T08:13:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/mdsal-binding-runtime-api/9.0.2/mdsal-binding-runtime-api-9.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "10c874614c7c9a4f93fe2b40e12968f130fd1fae",
+    "sha256": "69d6b3b9c8c8de4844a4674ce97a3efd73b537678ad0e28b3bb18f0d7ad3dfb0",
+    "sha512": "f59a6777b164dee0420f59e7e2e3a0d08bc87b81d51e2f62d8f7c96870d05c16324523718293ef49c65a66487b5cc535afa02e20919ee8ca2ac91be0fca223f8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) PANTHEON.tech, s.r.o. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal/mdsal-binding-runtime-api@9.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/concepts",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-repo-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-repo-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-binding-model-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/yang-binding",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/mockito-configuration",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal/mdsal-binding-runtime-api@9.0.2?classifier=sources&uuid=58b64221-7431-407e-99c3-9b8c402e5c26",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-binding-runtime-api@9.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "com.squareup.moshi",
+    "name": "moshi",
+    "version": "1.1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "efab606f-298c-46aa-8a75-33f85b32d0ee",
+            "packages": [
+                "pkg:maven/com.squareup.moshi/moshi@1.1.0?uuid=cbeef263-6bef-45f5-9819-ccc78331a147",
+                "pkg:maven/com.squareup.moshi/moshi@1.1.0?classifier=sources&uuid=e9d7a986-14f3-4a26-97df-79662eb91b26"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Moshi",
+    "release_date": "2016-01-18T22:17:45Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "84df62d4e30ef7fc37e9115a4eb8da8ae2a6509b",
+    "sha256": "b8104c78776795d3074ed00925610d4e5153df59ceec56c522bcf14f51895c83",
+    "sha512": "abfec77eb30b6353af2ec1128b6dc7ea69926e070ddcf04e2c7e678284d39c1855b160579c58bd3abfe95b99241b432fa5e633589c653377605c30d5d7c4e307",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.squareup.moshi/moshi@1.1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.squareup.okio/okio",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.squareup.moshi/moshi@1.1.0?classifier=sources&uuid=e9d7a986-14f3-4a26-97df-79662eb91b26",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.squareup.moshi/moshi@1.1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/squareup/moshi/moshi/1.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0.pom",
+    "file_references": []
+}

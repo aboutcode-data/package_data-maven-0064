@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "net.databinder",
+    "name": "dispatch-jsoup_2.9.1-1",
+    "version": "0.8.9",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "dispatch-jsoup\nAdds JSoup handler verbs to Dispatch",
+    "release_date": "2012-12-16T20:30:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Nathan Hamblen",
+            "email": null,
+            "url": "http://twitter.com/n8han"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "net.databinder",
+            "email": null,
+            "url": "http://dispatch.databinder.net/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://dispatch.databinder.net/",
+    "download_url": "https://repo1.maven.org/maven2/net/databinder/dispatch-jsoup_2.9.1-1/0.8.9/dispatch-jsoup_2.9.1-1-0.8.9.jar",
+    "size": 15084,
+    "md5": null,
+    "sha1": "ee0f43817d5639c0e4f181273ee7f50f32fa9dd1",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.0-plus AND (gpl-1.0-plus AND lgpl-2.1-plus) AND unknown",
+    "declared_license_expression_spdx": "LGPL-2.0-or-later AND (GPL-1.0-or-later AND LGPL-2.1-or-later) AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "LGPL v3\nhttp://www.gnu.org/licenses/lgpl.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.databinder/dispatch-jsoup_2.9.1-1@0.8.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jsoup/jsoup",
+            "extracted_requirement": "1.6.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.databinder/dispatch-core_2.9.1-1",
+            "extracted_requirement": "0.8.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.databinder/dispatch-http_2.9.1-1",
+            "extracted_requirement": "0.8.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.9.1-1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": "4.1.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-tools.testing/specs_2.9.1",
+            "extracted_requirement": "1.6.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-server",
+            "extracted_requirement": "7.5.4.v20111024",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.databinder/dispatch-jsoup_2.9.1-1@0.8.9?uuid=dbb32074-d7cf-4478-9b23-ff84cf659338",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.databinder/dispatch-jsoup_2.9.1-1@0.8.9",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/databinder/dispatch-jsoup_2.9.1-1/0.8.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/databinder/dispatch-jsoup_2.9.1-1/0.8.9/dispatch-jsoup_2.9.1-1-0.8.9.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/databinder/dispatch-jsoup_2.9.1-1/0.8.9/dispatch-jsoup_2.9.1-1-0.8.9.pom",
+    "file_references": []
+}

@@ -1,0 +1,146 @@
+{
+    "type": "maven",
+    "namespace": "org.sonarsource.scanner.ant",
+    "name": "sonarqube-ant-task",
+    "version": "2.7.0.1612",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a827665c-66e3-4948-94ec-2200479618cc",
+            "packages": [
+                "pkg:maven/org.sonarsource.scanner.ant/sonarqube-ant-task@2.7.0.1612?uuid=e2ece53d-c5e2-43a6-8198-af319f4d4afd",
+                "pkg:maven/org.sonarsource.scanner.ant/sonarqube-ant-task@2.7.0.1612?classifier=sources&uuid=31d9b4d2-1fec-4309-85bc-1120ce2dfdf8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SonarQube Scanner for Ant\nThis is an Ant task allowing to start SonarQube analysis",
+    "release_date": "2019-10-01T08:25:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Eric Hartmann",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julien Henry",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Evgeny Mandrikov",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Olivier Gaudin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simon Brandhof",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://redirect.sonarsource.com/doc/ant-task.html",
+    "download_url": "https://repo1.maven.org/maven2/org/sonarsource/scanner/ant/sonarqube-ant-task/2.7.0.1612/sonarqube-ant-task-2.7.0.1612-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5f30bb12e6cdd6ff30afd86b64b7e8dd6c77b9c3",
+    "sha256": "fb22eaf7d639511561701886b46ae500a3fa85c61f4340b616126a9a9e35749c",
+    "sha512": "54b43f7a63ef05c02e6563cb05b2a5192e639679eead6672e1f3be25955511c20d74a2c33b12111879d5db02192ead992057d5ed55db300a1b1460276d4c6def",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-3.0 AND lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-3.0-only AND LGPL-2.0-or-later",
+    "license_detections": [],
+    "other_license_expression": "lgpl-2.1-plus AND gpl-3.0-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND GPL-3.0-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.sonarsource.scanner.ant/sonarqube-ant-task@2.7.0.1612?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonarsource.parent/parent@52",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonarsource.parent/parent@52"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.sonarsource.scanner.api/sonar-scanner-api@2.14.0.2002",
+            "extracted_requirement": "2.14.0.2002",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant@1.7.0",
+            "extracted_requirement": "1.7.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+            "extracted_requirement": "3.0.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@2.24.5",
+            "extracted_requirement": "2.24.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core@3.12.2",
+            "extracted_requirement": "3.12.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.sonarsource.scanner.ant/sonarqube-ant-task@2.7.0.1612?classifier=sources&uuid=31d9b4d2-1fec-4309-85bc-1120ce2dfdf8",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.sonarsource.scanner.ant/sonarqube-ant-task@2.7.0.1612?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/sonarsource/scanner/ant/sonarqube-ant-task/2.7.0.1612/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/sonarsource/scanner/ant/sonarqube-ant-task/2.7.0.1612/sonarqube-ant-task-2.7.0.1612-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/sonarsource/scanner/ant/sonarqube-ant-task/2.7.0.1612/sonarqube-ant-task-2.7.0.1612.pom",
+    "file_references": []
+}

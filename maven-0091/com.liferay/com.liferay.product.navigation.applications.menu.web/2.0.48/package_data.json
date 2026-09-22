@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.product.navigation.applications.menu.web",
+    "version": "2.0.48",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "989a60fc-ced1-4e8c-a478-e0ab839ebf0d",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.product.navigation.applications.menu.web@2.0.48?uuid=413063cc-b60e-44cc-a1f0-0cb45aae8edf",
+                "pkg:maven/com.liferay/com.liferay.product.navigation.applications.menu.web@2.0.48?classifier=sources&uuid=d1623983-9f0b-4313-bbef-7ef3dafb1a5c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Product Navigation Applications Menu Web",
+    "release_date": "2023-08-10T02:31:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.product.navigation.applications.menu.web/2.0.48/com.liferay.product.navigation.applications.menu.web-2.0.48-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8420c6b6c4cea7f80ad08915f620dd7615e5f403",
+    "sha256": "a95d7fd1e3bdb682c019a9827de7c1cf543397faf950ab3daa5062f2212cd3fe",
+    "sha512": "8ec3b946a5c817f98b896ed195e177f719d7cf069dc97416605e3284abdab5c9680bd487c1832fa530ceb40685eae2ab53e5b3759eb21df30e08d06654e6a927",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.product.navigation.applications.menu.web@2.0.48?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.product.navigation.applications.menu.web@2.0.48?classifier=sources&uuid=d1623983-9f0b-4313-bbef-7ef3dafb1a5c",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.product.navigation.applications.menu.web@2.0.48?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

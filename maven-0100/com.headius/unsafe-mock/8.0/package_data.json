@@ -1,0 +1,97 @@
+{
+    "type": "maven",
+    "namespace": "com.headius",
+    "name": "unsafe-mock",
+    "version": "8.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "92db44c2-5fed-4f19-a518-d88b042604c2",
+            "packages": [
+                "pkg:maven/com.headius/unsafe-mock@8.0?uuid=3b54dc17-73d5-415b-a5f3-9c8bc7ef4de1",
+                "pkg:maven/com.headius/unsafe-mock@8.0?classifier=sources&uuid=59d69ad8-efb8-4d8e-8055-c4cac253208a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "unsafe-mock",
+    "release_date": "2013-07-07T02:45:40Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/headius/unsafe-mock",
+    "download_url": "https://repo1.maven.org/maven2/com/headius/unsafe-mock/8.0/unsafe-mock-8.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f97b6e51fbeabc090b60e622a810e1c9310bc159",
+    "sha256": "9a23b53ade77c47c489972cdede9b42423bd60c604a6b838aeca7a928f86390e",
+    "sha512": "a451363e895c041edad4bd8c48c765e6df87d8b72c642228e7a149d2166d09fc2dee6c9be6ee8de81d4eddfbfbda56531ec9606964d3fe98c6c57d5ff0555300",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/headius/unsafe-mock",
+    "vcs_url": "git+https://github.com/headius/unsafe-mock.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "gpl-2.0 WITH classpath-exception-2.0",
+    "declared_license_expression_spdx": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0_with_classpath-exception-2.0_8.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: GNU General Public License, version 2, with the Classpath Exception",
+                    "match_coverage": 100.0,
+                    "matched_length": 10,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-2.0_with_classpath-exception-2.0_8.RULE",
+                    "license_expression": "gpl-2.0 WITH classpath-exception-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0_with_classpath-exception-2.0_34.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://openjdk.java.net/legal/gplv2+ce.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-2.0_with_classpath-exception-2.0_34.RULE",
+                    "license_expression": "gpl-2.0 WITH classpath-exception-2.0"
+                }
+            ],
+            "identifier": "gpl_2_0_with_classpath_exception_2_0-afb8e5e2-2fbc-1909-3c2c-abd79d4c6d7f",
+            "license_expression": "gpl-2.0 WITH classpath-exception-2.0"
+        }
+    ],
+    "other_license_expression": "gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU General Public License, version 2, with the Classpath Exception\n  url: http://openjdk.java.net/legal/gplv2+ce.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.headius/unsafe-mock@8.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.headius/unsafe-mock@8.0?classifier=sources&uuid=59d69ad8-efb8-4d8e-8055-c4cac253208a",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.headius/unsafe-mock@8.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/headius/unsafe-mock/8.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/headius/unsafe-mock/8.0/unsafe-mock-8.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/headius/unsafe-mock/8.0/unsafe-mock-8.0.pom",
+    "file_references": []
+}

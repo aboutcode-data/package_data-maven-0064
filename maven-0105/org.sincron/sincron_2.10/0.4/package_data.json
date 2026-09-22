@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "org.sincron",
+    "name": "sincron_2.10",
+    "version": "0.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "sincron",
+    "release_date": "2016-01-29T13:39:14Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Alexandru Nedelcu",
+            "email": null,
+            "url": "https://www.bionicspirit.com/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.sincron",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/monixio/sincron/",
+    "download_url": "https://repo1.maven.org/maven2/org/sincron/sincron_2.10/0.4/sincron_2.10-0.4.jar",
+    "size": 266,
+    "md5": null,
+    "sha1": "7fb3cf49e8ac1586d9c527477455b94565909b52",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttps://www.apache.org/licenses/LICENSE-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.sincron/sincron_2.10@0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sincron/sincron-atomic_2.10",
+            "extracted_requirement": "0.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-runtime_2.10",
+            "extracted_requirement": "1.1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-plugin_2.10",
+            "extracted_requirement": "1.1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.monix/minitest_2.10",
+            "extracted_requirement": "0.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.sincron/sincron_2.10@0.4?uuid=a0d4ada0-2a0c-4734-b1f8-a6588ce71bb3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.sincron/sincron_2.10@0.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/sincron/sincron_2.10/0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/sincron/sincron_2.10/0.4/sincron_2.10-0.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/sincron/sincron_2.10/0.4/sincron_2.10-0.4.pom",
+    "file_references": []
+}

@@ -1,0 +1,125 @@
+{
+    "type": "maven",
+    "namespace": "com.netflix.archaius",
+    "name": "archaius-core",
+    "version": "0.4.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a00a4681-1ff3-43e5-b7cc-55cdbfb3f9b3",
+            "packages": [
+                "pkg:maven/com.netflix.archaius/archaius-core@0.4.1?uuid=1d25b2f1-97ac-4334-9253-9ca5e25b87aa",
+                "pkg:maven/com.netflix.archaius/archaius-core@0.4.1?classifier=sources&uuid=db69b016-5786-445f-b838-eb0a7169d4b2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2012-09-26T22:38:52Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f1c72c442d4c4aed0d1b57b568cfa360af6c75bd",
+    "sha256": "146445763617e8f8c18a3c6ce4546635b029fb5c872254d2f9eb0c182f953e83",
+    "sha512": "5d3510de998f821901d0c52157cf18f23e789fa6fed00876001bfc6982f68f3b536af59f8a579b4d6867578ecdd5a133e23bec65549c742f8f3fb9d5d5b45633",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.netflix.archaius/archaius-core@0.4.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.15",
+            "extracted_requirement": "1.2.15",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.derby/derby@10.8.2.2",
+            "extracted_requirement": "10.8.2.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-configuration/commons-configuration@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.6.4",
+            "extracted_requirement": "1.6.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.netflix.archaius/archaius-core@0.4.1?classifier=sources&uuid=db69b016-5786-445f-b838-eb0a7169d4b2",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.netflix.archaius/archaius-core@0.4.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/netflix/archaius/archaius-core/0.4.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.pom",
+    "file_references": []
+}

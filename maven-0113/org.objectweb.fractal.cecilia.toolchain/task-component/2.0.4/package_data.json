@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.objectweb.fractal.cecilia.toolchain",
+    "name": "task-component",
+    "version": "2.0.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Task Component Framework",
+    "release_date": "2009-04-16T08:26:50Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "/toolchain-parent/task-component/",
+    "download_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/cecilia/toolchain/task-component/2.0.4/task-component-2.0.4.jar",
+    "size": 135867,
+    "md5": null,
+    "sha1": "ab4d148f06b3ff5c5bbf11e4100b8a65becce8ee",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.objectweb.fractal.cecilia.toolchain/task-component@2.0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objectweb.fractal.fractaladl/ast-core",
+            "extracted_requirement": "${fractaladl.dependencies.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objectweb.fractal/fractal-api",
+            "extracted_requirement": "2.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objectweb.fractal.julia/julia-runtime",
+            "extracted_requirement": "2.5.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objectweb.fractal.julia/julia-asm",
+            "extracted_requirement": "2.5.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objectweb.fractal.julia/julia-mixins",
+            "extracted_requirement": "2.5.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.objectweb.fractal.cecilia.toolchain/task-component@2.0.4?uuid=f7d293ff-9d02-4fd0-81b6-5b92b973bb5e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.objectweb.fractal.cecilia.toolchain/task-component@2.0.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/cecilia/toolchain/task-component/2.0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/cecilia/toolchain/task-component/2.0.4/task-component-2.0.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/cecilia/toolchain/task-component/2.0.4/task-component-2.0.4.pom",
+    "file_references": []
+}

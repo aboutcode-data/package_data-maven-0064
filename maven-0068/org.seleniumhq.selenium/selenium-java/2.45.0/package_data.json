@@ -1,0 +1,183 @@
+{
+    "type": "maven",
+    "namespace": "org.seleniumhq.selenium",
+    "name": "selenium-java",
+    "version": "2.45.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "selenium-java",
+    "release_date": "2015-02-27T17:14:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simon Stewart",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Daniel Wagner-Hall",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Eran Mes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jim Evans",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jari Bakken",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael Tamm",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Burns",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kristian Rosenvold",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Luke Inman-Semerau",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://selenium.googlecode.com/",
+    "download_url": "https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/2.45.0/selenium-java-2.45.0.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9957014229dc0c5bd713fe4fb7ba9a7e85eb2e60",
+    "sha256": "45c6ddb361b1b6abafc2fc423866180d5a721c55307ec0077e7bbe55c8847ba7",
+    "sha512": "3d0e13a8e3f5c38cdb7baec7f9af0f63f2da649b9a73f6de360b08128c0dcbe244953917dafd2365a6a45eb8c834d0b9639470e5a359425df280bb29214ed30f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.seleniumhq.selenium/selenium-java@2.45.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.seleniumhq.selenium/selenium-parent@2.45.0",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.seleniumhq.selenium/selenium-parent@2.45.0",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.seleniumhq.selenium/selenium-parent@2.45.0"
+        ],
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@2.45.0",
+            "extracted_requirement": "2.45.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-htmlunit-driver@2.45.0",
+            "extracted_requirement": "2.45.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@2.45.0",
+            "extracted_requirement": "2.45.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@2.45.0",
+            "extracted_requirement": "2.45.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@2.45.0",
+            "extracted_requirement": "2.45.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-support@2.45.0",
+            "extracted_requirement": "2.45.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webbitserver/webbit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-leg-rc@2.45.0",
+            "extracted_requirement": "2.45.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.seleniumhq.selenium/selenium-java@2.45.0?uuid=ac33b7c3-094d-43d1-8fa5-1dbcfbe66ecd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.seleniumhq.selenium/selenium-java@2.45.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/2.45.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/2.45.0/selenium-java-2.45.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/2.45.0/selenium-java-2.45.0.pom",
+    "file_references": []
+}

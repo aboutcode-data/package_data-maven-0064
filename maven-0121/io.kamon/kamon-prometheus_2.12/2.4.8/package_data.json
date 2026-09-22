@@ -1,0 +1,159 @@
+{
+    "type": "maven",
+    "namespace": "io.kamon",
+    "name": "kamon-prometheus_2.12",
+    "version": "2.4.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3d575b60-f7cb-4e51-977b-a9c3ad3e6261",
+            "packages": [
+                "pkg:maven/io.kamon/kamon-prometheus_2.12@2.4.8?uuid=8be67c79-7feb-4952-9272-ddae2a6dc027",
+                "pkg:maven/io.kamon/kamon-prometheus_2.12@2.4.8?classifier=sources&uuid=2a4c4262-60c0-4e0c-a4f7-20567ca260c3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "kamon-prometheus",
+    "release_date": "2022-02-22T15:46:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ivan Topolnjak",
+            "email": null,
+            "url": "https://twitter.com/ivantopo"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Diego Parra",
+            "email": null,
+            "url": "https://twitter.com/diegolparra"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Kamon Project",
+            "email": null,
+            "url": "https://kamon.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://kamon.io",
+    "download_url": "https://repo1.maven.org/maven2/io/kamon/kamon-prometheus_2.12/2.4.8/kamon-prometheus_2.12-2.4.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3d8b75066094123773c43c338b27ef585412e5c1",
+    "sha256": "d6d6b734e50ec54a880b680f124864c584331c8e41537dda83a0d866a5a1bf62",
+    "sha512": "dee921b388eca48c069c1a9cd29ae353c7b210181ffff694f36d89288951f660d00a897c0a33e5e51bb96b82044d0c6e1b463c05418e22ec14037b1c21799558",
+    "bug_tracking_url": null,
+    "code_view_url": "git://github.com/kamon-io/Kamon.git",
+    "vcs_url": "git+https://github.com/kamon-io/Kamon.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-0ce46d84-0baf-3c21-82e2-a693341200bc",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.kamon/kamon-prometheus_2.12@2.4.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+            "extracted_requirement": "1.2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.15",
+            "extracted_requirement": "2.12.15",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.kamon/kamon-core_2.12@2.4.8",
+            "extracted_requirement": "2.4.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.squareup.okhttp3/okhttp@3.14.7",
+            "extracted_requirement": "3.14.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.kamon/kamon-testkit_2.12@2.4.8",
+            "extracted_requirement": "2.4.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12@3.2.9",
+            "extracted_requirement": "3.2.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.kamon/kamon-prometheus_2.12@2.4.8?classifier=sources&uuid=2a4c4262-60c0-4e0c-a4f7-20567ca260c3",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.kamon/kamon-prometheus_2.12@2.4.8?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

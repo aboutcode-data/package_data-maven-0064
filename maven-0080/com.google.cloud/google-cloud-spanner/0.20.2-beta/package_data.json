@@ -1,0 +1,208 @@
+{
+    "type": "maven",
+    "namespace": "com.google.cloud",
+    "name": "google-cloud-spanner",
+    "version": "0.20.2-beta",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Google Cloud Spanner\nJava idiomatic client for Google Cloud Spanner.",
+    "release_date": "2017-07-17T21:39:53Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-spanner",
+    "download_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-spanner/0.20.2-beta/google-cloud-spanner-0.20.2-beta.jar",
+    "size": 312567,
+    "md5": null,
+    "sha1": "68f45b833e31c8cdfe7a692517445fc76dc73baa",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.cloud/google-cloud-spanner@0.20.2-beta?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-tcnative-boringssl-static",
+            "extracted_requirement": "2.0.3.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-core-grpc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api/gax-grpc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/proto-google-cloud-spanner-v1",
+            "extracted_requirement": "0.1.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/proto-google-cloud-spanner-admin-database-v1",
+            "extracted_requirement": "0.1.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/proto-google-cloud-spanner-admin-instance-v1",
+            "extracted_requirement": "0.1.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/grpc-google-cloud-spanner-v1",
+            "extracted_requirement": "0.1.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/grpc-google-cloud-spanner-admin-database-v1",
+            "extracted_requirement": "0.1.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/grpc-google-cloud-spanner-admin-instance-v1",
+            "extracted_requirement": "0.1.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/grpc-google-longrunning-v1",
+            "extracted_requirement": "0.1.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-netty",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-auth",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-stub",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.truth/truth",
+            "extracted_requirement": "0.30",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "1.9.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava-testlib",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.cloud/google-cloud-spanner@0.20.2-beta?uuid=74c25d0b-0564-44b4-92b4-6dbb4ff60ea9",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.cloud/google-cloud-spanner@0.20.2-beta",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-spanner/0.20.2-beta/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-spanner/0.20.2-beta/google-cloud-spanner-0.20.2-beta.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-spanner/0.20.2-beta/google-cloud-spanner-0.20.2-beta.pom",
+    "file_references": []
+}

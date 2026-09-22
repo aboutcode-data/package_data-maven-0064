@@ -1,0 +1,93 @@
+{
+    "type": "maven",
+    "namespace": "javax.jws",
+    "name": "javax.jws-api",
+    "version": "1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d99138e8-9b39-4518-8792-6e718ed6fb24",
+            "packages": [
+                "pkg:maven/javax.jws/javax.jws-api@1.1?uuid=17868e90-81f9-47ae-837d-3ccc9eb78538",
+                "pkg:maven/javax.jws/javax.jws-api@1.1?classifier=sources&uuid=f37be910-0764-48d1-85c0-d3e32bc50729",
+                "pkg:github/javaee/javax.jws@1.1?uuid=5d7179e0-2023-447c-bf84-57a62c065fc9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "javax.jws API\nJava EE Web Services Metadata API",
+    "release_date": "2018-06-25T19:30:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Grebac",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "GlassFish Community",
+            "email": null,
+            "url": "https://glassfish.java.net"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://glassfish.java.net",
+    "download_url": "https://repo1.maven.org/maven2/javax/jws/javax.jws-api/1.1/javax.jws-api-1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "998417262ddaf309c0d609f2f4f1a022138c3eda",
+    "sha256": "b059db87e7c593d77b5abd9e2229ea4396e2084b35c485193867f39f9f926938",
+    "sha512": "f9816c5d50490b9599add0de2eceff7908b633d94188282953f65330163cfea21edd50bf1fe9892274fde15a62eff17dc635aeaa87b7b2f484bde1e4d139fd01",
+    "bug_tracking_url": "http://java.net/jira/browse/GLASSFISH",
+    "code_view_url": "https://github.com/javaee/javax.jws",
+    "vcs_url": "git+https://github.com/javaee/javax.jws.git",
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0",
+    "declared_license_expression_spdx": "CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 67.74,
+                    "matcher": "3-seq",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.0_or_gpl-2.0_with_classpath-exception-2.0_8.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: CDDL + GPLv2 with classpath exception\n  url: https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html\n  comments: A business-friendly OSS license",
+                    "match_coverage": 67.74,
+                    "matched_length": 21,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.0_or_gpl-2.0_with_classpath-exception-2.0_8.RULE",
+                    "license_expression": "cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0"
+                }
+            ],
+            "identifier": "cddl_1_0_or_gpl_2_0_with_classpath_exception_2_0-244ca88d-bad1-ec74-1ecf-514ff22ba356",
+            "license_expression": "cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0"
+        }
+    ],
+    "other_license_expression": "(cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND ((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND ((cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND (lgpl-3.0 OR apache-2.0))) AND (gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.0) AND (gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.1)",
+    "other_license_expression_spdx": "(CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND ((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND ((CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (LGPL-3.0-only OR Apache-2.0))) AND (GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.0) AND (GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.1)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: CDDL + GPLv2 with classpath exception\n  url: https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html\n  comments: A business-friendly OSS license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.jws/javax.jws-api@1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/javax.jws/javax.jws-api@1.1?classifier=sources&uuid=f37be910-0764-48d1-85c0-d3e32bc50729",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/javax.jws/javax.jws-api@1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/jws/javax.jws-api/1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/jws/javax.jws-api/1.1/javax.jws-api-1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/jws/javax.jws-api/1.1/javax.jws-api-1.1.pom",
+    "file_references": []
+}

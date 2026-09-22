@@ -1,0 +1,85 @@
+{
+    "type": "maven",
+    "namespace": "one.gfw",
+    "name": "jakarta.annotation-api",
+    "version": "1.3.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9832c90c-0ed1-4607-b035-0b10fef87003",
+            "packages": [
+                "pkg:maven/one.gfw/jakarta.annotation-api@1.3.5?uuid=6b9220f0-df47-4aed-993f-ef15ad75c434",
+                "pkg:maven/one.gfw/jakarta.annotation-api@1.3.5?classifier=sources&uuid=dea83618-f5c2-440b-a4f3-972d8e6b4d73"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "UT annotation-api\n1.3.5",
+    "release_date": "2023-03-20T09:57:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "OneInGfw",
+            "email": "oneingfw@gfw.one",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/oneingfw/wtfbd",
+    "download_url": "https://repo1.maven.org/maven2/one/gfw/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "01ad35f11d17abb52426bfe15ea7b4c583795012",
+    "sha256": "aa27e9291dce4ddbb0aea52a1cbef41c6330b96b0ae387a995ed412b68a3af7c",
+    "sha512": "197baaaf6e8969ab79f35d657f408fbdb4edba4af3e9dde9470d9c069f730a6896b406df0eee6ae4702795ba5b81bd439a07d6a383dca883cdb916c2f37c26f0",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/oneingfw/wtfdb.git",
+    "vcs_url": "git+https://github.com/oneingfw/wtfdb.git",
+    "copyright": "Copyright (c) Oracle and/or its affiliates, The Eclipse Foundation",
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_358.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The 3-Clause BSD License\n  url: https://opensource.org/licenses/BSD-3-Clause",
+                    "match_coverage": 100.0,
+                    "matched_length": 14,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_358.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-16562f16-7bf2-63a5-7b03-5327f109350b",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": "(epl-2.0 OR gpl-2.0 WITH classpath-exception-2.0) AND ((epl-2.0 OR gpl-2.0 WITH classpath-exception-2.0) AND (epl-2.0 AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND classpath-exception-2.0)) AND ((epl-2.0 OR gpl-2.0 WITH classpath-exception-2.0) AND generic-export-compliance) AND (epl-2.0 AND gpl-2.0 AND gpl-2.0 WITH classpath-exception-2.0)",
+    "other_license_expression_spdx": "(EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND ((EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (EPL-2.0 AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Classpath-exception-2.0)) AND ((EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND LicenseRef-scancode-generic-export-compliance) AND (EPL-2.0 AND GPL-2.0-only AND GPL-2.0-only WITH Classpath-exception-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The 3-Clause BSD License\n  url: https://opensource.org/licenses/BSD-3-Clause\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/one.gfw/jakarta.annotation-api@1.3.5?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/one.gfw/jakarta.annotation-api@1.3.5?classifier=sources&uuid=dea83618-f5c2-440b-a4f3-972d8e6b4d73",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/one.gfw/jakarta.annotation-api@1.3.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/one/gfw/jakarta.annotation-api/1.3.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/one/gfw/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/one/gfw/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.pom",
+    "file_references": []
+}

@@ -1,0 +1,175 @@
+{
+    "type": "maven",
+    "namespace": "org.datarocks",
+    "name": "banzai",
+    "version": "1.3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fe055e33-7ce4-49f1-a787-0b95a19e22c6",
+            "packages": [
+                "pkg:maven/org.datarocks/banzai@1.3.1?uuid=e39304e0-d90e-4f61-b219-79e95f92d160",
+                "pkg:maven/org.datarocks/banzai@1.3.1?classifier=sources&uuid=879af45e-eba4-4b94-9f52-ea54660171e2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "banzai\nThe banzai library is a transform-process-transform pipeline.",
+    "release_date": "2023-01-18T22:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sebastian Schmelzer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Marco Kneub\u00c3\u00bchler",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/datarocks-ag/banzai",
+    "download_url": "https://repo1.maven.org/maven2/org/datarocks/banzai/1.3.1/banzai-1.3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9545e8700a2a768a4fa628804cd19b78cd90af3d",
+    "sha256": "9d070bcfd6cc7302a07153c436d37e7991155477727f5ab2d1b3b480ade9489c",
+    "sha512": "bd753b25367980390b081d6656698cad7f90f29029e4d29b88217f5657365c5d3866141d0621f31b24eccb58ecaa76c94a0202bb36d4b1909de856454cbbf186",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/datarocks-ag/banzai",
+    "vcs_url": "git+https://github.com/datarocks-ag/banzai.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND mit",
+    "other_license_expression_spdx": "Apache-2.0 AND MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": "[{'name': 'MIT', 'url': 'https://opensource.org/licenses/MIT', 'comments': None, 'distribution': 'repo'}]",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.datarocks/banzai@1.3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava@31.1-jre",
+            "extracted_requirement": "31.1-jre",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.6",
+            "extracted_requirement": "2.0.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-reload4j@2.0.6",
+            "extracted_requirement": "2.0.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.projectlombok/lombok@1.18.24",
+            "extracted_requirement": "1.18.24",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson@2.10.1",
+            "extracted_requirement": "2.10.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.erosb/everit-json-schema@1.14.1",
+            "extracted_requirement": "1.14.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+            "extracted_requirement": "3.12.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core@3.24.1",
+            "extracted_requirement": "3.24.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.2",
+            "extracted_requirement": "5.9.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.2",
+            "extracted_requirement": "5.9.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.2",
+            "extracted_requirement": "5.9.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@4.10.0",
+            "extracted_requirement": "4.10.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-junit-jupiter@4.10.0",
+            "extracted_requirement": "4.10.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.datarocks/banzai@1.3.1?classifier=sources&uuid=879af45e-eba4-4b94-9f52-ea54660171e2",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.datarocks/banzai@1.3.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

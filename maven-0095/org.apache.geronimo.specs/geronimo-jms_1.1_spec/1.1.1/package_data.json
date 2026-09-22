@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.geronimo.specs",
+    "name": "geronimo-jms_1.1_spec",
+    "version": "1.1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2f4176ae-50ca-489b-9a90-e71b62ec518c",
+            "packages": [
+                "pkg:maven/org.apache.geronimo.specs/geronimo-jms_1.1_spec@1.1.1?uuid=388391b4-760e-40a9-911f-10e5e3d0a988",
+                "pkg:maven/org.apache.geronimo.specs/geronimo-jms_1.1_spec@1.1.1?classifier=sources&uuid=da53183d-c27d-44c2-a04b-92140875df1d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JMS 1.1",
+    "release_date": "2008-02-07T01:26:55Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c45b919f5434f9c33c546af9e6dfc5e1466b4b3e",
+    "sha256": "14ab0745a1712a9001e62e82ace4e0b479a770632e2248a69c542b34c5c61a4d",
+    "sha512": "49ef4fe8624a4d70992d12b74b738d1a11a0aa7fd0072d5c7f0dbd61d51d6d8a8c363feadb3cd8adee431e654aca8d02cd1713739481133d46a8abfd8f3287c3",
+    "bug_tracking_url": null,
+    "code_view_url": "scm:svn:https://svn.apache.org/repos/asf/geronimo/specs/tags/geronimo-jms_1.1_spec-1.1.1",
+    "vcs_url": "svn+https://svn.apache.org/repos/asf/geronimo/specs/tags/geronimo-jms_1.1_spec-1.1.1",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.geronimo.specs/geronimo-jms_1.1_spec@1.1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@3",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@3",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@3"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/mockobjects/mockobjects-core@0.09",
+            "extracted_requirement": "0.09",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/mockobjects/mockobjects-jdk1.4-j2ee1.3@0.09",
+            "extracted_requirement": "0.09",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.geronimo.specs/geronimo-jms_1.1_spec@1.1.1?classifier=sources&uuid=da53183d-c27d-44c2-a04b-92140875df1d",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jms_1.1_spec@1.1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom",
+    "file_references": []
+}

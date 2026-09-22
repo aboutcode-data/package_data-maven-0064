@@ -1,0 +1,84 @@
+{
+    "type": "maven",
+    "namespace": "classworlds",
+    "name": "classworlds",
+    "version": "1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b9117fd9-5a2f-4d2a-b2b3-6937b3b9db4f",
+            "packages": [
+                "pkg:maven/classworlds/classworlds@1.1?uuid=0e0e4ea7-0a97-4caf-807f-68aa3904f39e",
+                "pkg:maven/classworlds/classworlds@1.1?classifier=sources&uuid=7f420be8-c747-403a-8956-6354b74dc8f6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "classworlds",
+    "release_date": "2010-05-20T08:55:18Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "bob mcwhirter",
+            "email": "bob@werken.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jason van Zyl",
+            "email": "jason@zenplex.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ben Walding",
+            "email": "ben@walding.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Codehaus",
+            "email": null,
+            "url": "http://codehaus.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://classworlds.codehaus.org/",
+    "download_url": "https://repo1.maven.org/maven2/classworlds/classworlds/1.1/classworlds-1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "44673eb402d35a91bee8ea1ce7d318c016e3e63e",
+    "sha256": "a95c7583b6bc2e50544f3c40b48390fe11e3d0fcfa95dceaa0101a03333af1c3",
+    "sha512": "800143e3e92ffbbca40f440fcc1c9f2a61f55a31274a71586e69804dce3eb09f7e84fc95fa146bb7ff8191b82e3e63547ebc9cff7fd048bd476b826c5a25238b",
+    "bug_tracking_url": null,
+    "code_view_url": "http://cvs.classworlds.codehaus.org/",
+    "vcs_url": "cvs+pserver:anonymous@cvs.classworlds.codehaus.org:/home/projects/classworlds/scm/:classworlds",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "dom4j",
+    "other_license_expression_spdx": "Plexus",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/classworlds/classworlds@1.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/classworlds/classworlds@1.1?classifier=sources&uuid=7f420be8-c747-403a-8956-6354b74dc8f6",
+    "datasource_id": null,
+    "purl": "pkg:maven/classworlds/classworlds@1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/classworlds/classworlds/1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/classworlds/classworlds/1.1/classworlds-1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.pom",
+    "file_references": []
+}

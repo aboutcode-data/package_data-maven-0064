@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.fixprotocol.orchestra",
+    "name": "model-quickfix",
+    "version": "1.1.0-RC2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "io.fixprotocol.orchestra:model-quickfix\nMessage validation",
+    "release_date": "2017-05-18T17:03:21Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/fixprotocol/orchestra/model-quickfix/1.1.0-RC2/model-quickfix-1.1.0-RC2.jar",
+    "size": 31501,
+    "md5": null,
+    "sha1": "b573edeff24034fa384b745ca29ef26af14078db",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.fixprotocol.orchestra/model-quickfix@1.1.0-RC2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.fixprotocol.orchestra/repository-quickfix",
+            "extracted_requirement": "1.1.0-RC2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fixprotocol.orchestra/dsl-antlr",
+            "extracted_requirement": "1.1.0-RC2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.quickfixj/quickfixj-core",
+            "extracted_requirement": "1.6.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.fixprotocol.orchestra/model-quickfix@1.1.0-RC2?uuid=5203119d-c2b3-44fa-ac06-428c7f7659d7",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.fixprotocol.orchestra/model-quickfix@1.1.0-RC2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/fixprotocol/orchestra/model-quickfix/1.1.0-RC2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/fixprotocol/orchestra/model-quickfix/1.1.0-RC2/model-quickfix-1.1.0-RC2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/fixprotocol/orchestra/model-quickfix/1.1.0-RC2/model-quickfix-1.1.0-RC2.pom",
+    "file_references": []
+}

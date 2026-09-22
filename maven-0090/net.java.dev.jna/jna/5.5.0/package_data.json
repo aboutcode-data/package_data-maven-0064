@@ -1,0 +1,106 @@
+{
+    "type": "maven",
+    "namespace": "net.java.dev.jna",
+    "name": "jna",
+    "version": "5.5.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "238fe39f-297f-4529-b5f1-4ad5e26d6f13",
+            "packages": [
+                "pkg:maven/net.java.dev.jna/jna@5.5.0?uuid=543c0317-0d9b-41e9-a271-ae8302ca61d0",
+                "pkg:maven/net.java.dev.jna/jna@5.5.0?classifier=sources&uuid=c2d7ae79-9ada-4994-b4bd-e8b8d1ea9f5b",
+                "pkg:github/java-native-access/jna@5.5.0?uuid=e719b232-d0be-4669-a29e-24232e46c73e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Java Native Access",
+    "release_date": "2019-10-30T16:37:41Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Timothy Wall",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matthias Bl\u00c3\u00a4sing",
+            "email": "mblaesing@doppel-helix.eu",
+            "url": "https://github.com/matthiasblaesing/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/java-native-access/jna",
+    "download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4555547b3bfc9d827f5310888726d62944c4f756",
+    "sha256": "7bd9566b341aa508bc824485e7bbd45222b9f1422d266cf53543600f043a14fe",
+    "sha512": "74ca0c5b0bfe5b3cedfb889076b685b37546d975119ea0b917ad23048a6e122643ffc122de76730e35c82794b642696e59ab44a935984344b32ab63756e234b7",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/java-native-access/jna",
+    "vcs_url": "git+https://github.com/java-native-access/jna",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1 AND apache-2.0",
+    "declared_license_expression_spdx": "LGPL-2.1-only AND Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 72.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_444.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL, version 2.1\n  url: http://www.gnu.org/licenses/licenses.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 13,
+                    "rule_relevance": 72,
+                    "rule_identifier": "lgpl-2.1_444.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 83.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1279.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: Apache License v2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 15,
+                    "rule_relevance": 83,
+                    "rule_identifier": "apache-2.0_1279.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "lgpl_2_1_and_apache_2_0-ee39799c-1c19-a544-dafc-da1d7c1b16bb",
+            "license_expression": "lgpl-2.1 AND apache-2.0"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR apache-2.0",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL, version 2.1\n  url: http://www.gnu.org/licenses/licenses.html\n- name: Apache License v2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.java.dev.jna/jna@5.5.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/net.java.dev.jna/jna@5.5.0?classifier=sources&uuid=c2d7ae79-9ada-4994-b4bd-e8b8d1ea9f5b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.java.dev.jna/jna@5.5.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.pom",
+    "file_references": []
+}

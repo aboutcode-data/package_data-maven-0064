@@ -1,0 +1,100 @@
+{
+    "type": "maven",
+    "namespace": "jmock",
+    "name": "jmock-cglib",
+    "version": "1.2.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b4d9401d-4f9f-4fc5-847c-a88f376e2375",
+            "packages": [
+                "pkg:maven/jmock/jmock-cglib@1.2.0?uuid=638b39a0-f77c-4583-ab93-e34677a87675",
+                "pkg:maven/jmock/jmock-cglib@1.2.0?classifier=sources&uuid=c9d820c2-790c-4939-8791-634adb7051f3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jMock CGLIB extension\njMock is a library for testing Java code using mock objects. The CGLIB extension allows creating of mock objects for classes.",
+    "release_date": "2007-04-12T19:45:48Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "jMock.org",
+            "email": null,
+            "url": "http://www.jmock.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jmock.org/",
+    "download_url": "https://repo1.maven.org/maven2/jmock/jmock-cglib/1.2.0/jmock-cglib-1.2.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6c7d28152f4a1c54d35ba28a8081ceb686685949",
+    "sha256": "3b64240dd45cd22ff536f5116c915b2e6898e3b0d0e44e33499780c4a1b3b828",
+    "sha512": "d57b4131de1ba6e07dea645dffc21e53907b4cd00f40400c938d46c94dbb72a2ea83dd867955074a6b4df25dddcf4f4a14b4420606ca9e9a8fa6c5d51cba9c36",
+    "bug_tracking_url": null,
+    "code_view_url": "http://cvs.jmock.codehaus.org/browse/jmock/jmock",
+    "vcs_url": "http://cvs.jmock.codehaus.org/browse/jmock/jmock",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 90.0,
+                    "matcher": "5-undetected",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-f40a63ae3d0df8b25157a2999ee622847ea124de",
+                    "start_line": 1,
+                    "matched_text": "license - name: BSD\n  url: http://www.jmock.org/license.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-f40a63ae3d0df8b25157a2999ee622847ea124de",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-66bd7d1b-b1f8-9935-fecf-25f53dcaad4a",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD\n  url: http://www.jmock.org/license.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/jmock/jmock-cglib@1.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/jmock/jmock@1.2.0",
+            "extracted_requirement": "1.2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib-nodep@2.1_3",
+            "extracted_requirement": "2.1_3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/jmock/jmock-cglib@1.2.0?classifier=sources&uuid=c9d820c2-790c-4939-8791-634adb7051f3",
+    "datasource_id": null,
+    "purl": "pkg:maven/jmock/jmock-cglib@1.2.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/jmock/jmock-cglib/1.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/jmock/jmock-cglib/1.2.0/jmock-cglib-1.2.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/jmock/jmock-cglib/1.2.0/jmock-cglib-1.2.0.pom",
+    "file_references": []
+}

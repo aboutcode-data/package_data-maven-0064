@@ -1,0 +1,102 @@
+{
+    "type": "maven",
+    "namespace": "org.scribe",
+    "name": "scribe",
+    "version": "1.0.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5dea9ad4-a46c-442f-9ecb-b657572af100",
+            "packages": [
+                "pkg:maven/org.scribe/scribe@1.0.9?uuid=d5173fd0-810b-410e-aa4b-5165fe6a4447",
+                "pkg:maven/org.scribe/scribe@1.0.9?classifier=sources&uuid=6cc462ec-356f-4640-906d-dfb8b35a3c0c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Scribe OAuth Library\nThe best OAuth library out there",
+    "release_date": "2010-12-15T16:37:15Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Pablo Fernandez",
+            "email": "fernandezpablo85@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/fernandezpablo85/scribe-java",
+    "download_url": "https://repo1.maven.org/maven2/org/scribe/scribe/1.0.9/scribe-1.0.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "43b9d5460a32ffd79bf0a675d2a1da3e5f71d95c",
+    "sha256": "54c1c2503b03cc773b059cb5375985d0075f58079173504cc5f5de1b25d36a9f",
+    "sha512": "6fd8bbd8315a11f944c73debfa05f48d70e9b3abc33e6f2b210c32826101e236c8d13d3dd3e8e06ea2587d95138c57d2669879b5c53c17e4eecde1553d1e71a7",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/fernandezpablo85/scribe-java.git",
+    "vcs_url": "http+//github.com/fernandezpablo85/scribe-java.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_1160.RULE",
+                    "start_line": 1,
+                    "matched_text": "license - name: MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_1160.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-d9e3f4a1-d310-01d5-c705-8088549acd7c",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT\n  url: http://github.com/fernandezpablo85/scribe-java/blob/master/LICENSE.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.scribe/scribe@1.0.9?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.8.1",
+            "extracted_requirement": "4.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.scribe/scribe@1.0.9?classifier=sources&uuid=6cc462ec-356f-4640-906d-dfb8b35a3c0c",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.scribe/scribe@1.0.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/scribe/scribe/1.0.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/scribe/scribe/1.0.9/scribe-1.0.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/scribe/scribe/1.0.9/scribe-1.0.9.pom",
+    "file_references": []
+}

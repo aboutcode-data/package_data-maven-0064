@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.lucene",
+    "name": "lucene-classification",
+    "version": "8.11.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0be04f17-abed-4608-85c4-0b57f78c2b66",
+            "packages": [
+                "pkg:maven/org.apache.lucene/lucene-classification@8.11.2?uuid=3e93e01d-493f-4399-bcda-04b5d1fa441b",
+                "pkg:maven/org.apache.lucene/lucene-classification@8.11.2?classifier=sources&uuid=88ac14a8-ffd3-41f1-a0b9-8aac812635f3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Lucene Classification",
+    "release_date": "2022-06-17T22:45:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-classification/8.11.2/lucene-classification-8.11.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2868368e19728b8f4961ebf28b9367c877887f6b",
+    "sha256": "766023fdaffd79ab6df801e46c181d1d307f72e3e8ed135497982934788952c6",
+    "sha512": "2c9d5880a313bb36b5f24140167d12ed59d1b6ad85653ac4186a383c8960d2c2a494992f1f7f7bfd6995127f4ae1b21639a0eaf6785e681cd663ab3ecd5b9f90",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/;f=lucene/classification",
+    "vcs_url": "git+",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND (mit AND unicode AND bsd-new) AND (apache-2.0 AND bsd-simplified AND cpl-1.0 AND bsd-new) AND bsd-new AND (unicode AND bsd-new AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND cddl-1.0) AND naist-2003) AND (apache-2.0 AND unicode-mappings AND python AND bsd-new AND (mit AND x11) AND x11 AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND bsd-simplified)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND (MIT AND LicenseRef-scancode-unicode AND BSD-3-Clause) AND (Apache-2.0 AND BSD-2-Clause AND CPL-1.0 AND BSD-3-Clause) AND BSD-3-Clause AND (LicenseRef-scancode-unicode AND BSD-3-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND CDDL-1.0) AND NAIST-2003) AND (Apache-2.0 AND LicenseRef-scancode-unicode-mappings AND Python-2.0 AND BSD-3-Clause AND (MIT AND ICU) AND ICU AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND BSD-2-Clause)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.lucene/lucene-classification@8.11.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-analyzers-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-grouping",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-queries",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.lucene/lucene-classification@8.11.2?classifier=sources&uuid=88ac14a8-ffd3-41f1-a0b9-8aac812635f3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.lucene/lucene-classification@8.11.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

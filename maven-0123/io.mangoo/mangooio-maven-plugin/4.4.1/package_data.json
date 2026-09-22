@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "io.mangoo",
+    "name": "mangooio-maven-plugin",
+    "version": "4.4.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-19T08:22:55Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/mangoo/mangooio-maven-plugin/4.4.1/mangooio-maven-plugin-4.4.1.jar",
+    "size": 24444,
+    "md5": null,
+    "sha1": "0af92e7f8e4e63c16c01350777e5ce72944f0cc7",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.mangoo/mangooio-maven-plugin@4.4.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.mangoo/mangooio-core",
+            "extracted_requirement": "4.4.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.zeroturnaround/zt-exec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.mangoo/mangooio-maven-plugin@4.4.1?uuid=982242fb-e0d9-4af8-8619-bc0bc97e2eb9",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.mangoo/mangooio-maven-plugin@4.4.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/mangoo/mangooio-maven-plugin/4.4.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/mangoo/mangooio-maven-plugin/4.4.1/mangooio-maven-plugin-4.4.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/mangoo/mangooio-maven-plugin/4.4.1/mangooio-maven-plugin-4.4.1.pom",
+    "file_references": []
+}

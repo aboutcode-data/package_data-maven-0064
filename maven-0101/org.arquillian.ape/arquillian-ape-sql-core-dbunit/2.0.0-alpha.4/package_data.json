@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.arquillian.ape",
+    "name": "arquillian-ape-sql-core-dbunit",
+    "version": "2.0.0-alpha.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Arquillian Ape SQL Core DbUnit",
+    "release_date": "2017-05-26T12:43:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/arquillian/ape/arquillian-ape-sql-core-dbunit/2.0.0-alpha.4/arquillian-ape-sql-core-dbunit-2.0.0-alpha.4.jar",
+    "size": 34839,
+    "md5": null,
+    "sha1": "9b135c608bd5cdb2d7f0ee8a02c6cb592594af70",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.arquillian.ape/arquillian-ape-sql-core-dbunit@2.0.0-alpha.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.dbunit/dbunit",
+            "extracted_requirement": "${version.dbunit}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.yaml/snakeyaml",
+            "extracted_requirement": "${version.snakeyaml}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl",
+            "extracted_requirement": "${version.jackson}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.arquillian.ape/arquillian-ape-sql-standalone-core",
+            "extracted_requirement": "2.0.0-alpha.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.arquillian.ape/arquillian-ape-sql-core-dbunit@2.0.0-alpha.4?uuid=3ec24c51-5608-428c-8cdb-829cb75d010e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.arquillian.ape/arquillian-ape-sql-core-dbunit@2.0.0-alpha.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/arquillian/ape/arquillian-ape-sql-core-dbunit/2.0.0-alpha.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/arquillian/ape/arquillian-ape-sql-core-dbunit/2.0.0-alpha.4/arquillian-ape-sql-core-dbunit-2.0.0-alpha.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/arquillian/ape/arquillian-ape-sql-core-dbunit/2.0.0-alpha.4/arquillian-ape-sql-core-dbunit-2.0.0-alpha.4.pom",
+    "file_references": []
+}

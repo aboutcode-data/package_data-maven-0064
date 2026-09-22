@@ -1,0 +1,107 @@
+{
+    "type": "maven",
+    "namespace": "org.hamcrest",
+    "name": "hamcrest-library",
+    "version": "1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f3d9ffda-3671-4ab8-9758-4c632e375ffd",
+            "packages": [
+                "pkg:maven/org.hamcrest/hamcrest-library@1.2?uuid=71145548-7148-4c6f-a8d5-70304e1546ad",
+                "pkg:maven/org.hamcrest/hamcrest-library@1.2?classifier=sources&uuid=f516b09c-83f4-4484-81c0-119da7c339bd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Hamcrest library\nHamcrest library of matcher implementations.",
+    "release_date": "2010-09-22T13:53:12Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/hamcrest/",
+    "download_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.2/hamcrest-library-1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a9c94e89577b3286221e7e37ba5eb8ecc1067a05",
+    "sha256": "a0165c919830c6cf4daa05eabfc7c6d361aacce4b88b25bc3c5060ef2204936a",
+    "sha512": "893c5af578a2ed86459102973cd240a9fcd3ced861454ec25240ec25cac33b11055dc8ae71177c932e6fb349d6b2241f550c7a6955e7292fa330c8abbb29efcc",
+    "bug_tracking_url": null,
+    "code_view_url": "http://code.google.com/p/hamcrest/source/browse/",
+    "vcs_url": "http://hamcrest.googlecode.com/svn/trunk/hamcrest-library",
+    "copyright": "Copyright (c) www.hamcrest.org",
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_228.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: New BSD License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_228.RULE",
+                    "license_expression": "bsd-new"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_30.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/bsd-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_30.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-aada21f4-0c71-fe40-540e-225817f64e31",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: New BSD License\n  url: http://www.opensource.org/licenses/bsd-license.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hamcrest/hamcrest-library@1.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.hamcrest/hamcrest-library@1.2?classifier=sources&uuid=f516b09c-83f4-4484-81c0-119da7c339bd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.hamcrest/hamcrest-library@1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.2/hamcrest-library-1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.2/hamcrest-library-1.2.pom",
+    "file_references": []
+}

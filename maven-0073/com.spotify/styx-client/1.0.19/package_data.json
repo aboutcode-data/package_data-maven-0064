@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "com.spotify",
+    "name": "styx-client",
+    "version": "1.0.19",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spotify Styx API Client",
+    "release_date": "2017-05-18T12:52:12Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/spotify/styx-client/1.0.19/styx-client-1.0.19.jar",
+    "size": 13517,
+    "md5": null,
+    "sha1": "e8cb236a6fc315de02c551048901ae487af5ae59",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.spotify/styx-client@1.0.19?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.spotify/styx-common",
+            "extracted_requirement": "1.0.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.squareup.okhttp3/okhttp",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.spotify/completable-futures",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.spotify/styx-client@1.0.19?uuid=bdca71d9-530a-41cf-9bd1-10b377df3a0e",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.spotify/styx-client@1.0.19",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/spotify/styx-client/1.0.19/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/spotify/styx-client/1.0.19/styx-client-1.0.19.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/spotify/styx-client/1.0.19/styx-client-1.0.19.pom",
+    "file_references": []
+}

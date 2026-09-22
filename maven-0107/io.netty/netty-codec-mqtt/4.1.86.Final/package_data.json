@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-codec-mqtt",
+    "version": "4.1.86.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "79768616-9a58-46ee-9639-ee45a22a7d78",
+            "packages": [
+                "pkg:maven/io.netty/netty-codec-mqtt@4.1.86.Final?uuid=42e0432c-84c0-4d4d-b5af-db50f7753d0a",
+                "pkg:maven/io.netty/netty-codec-mqtt@4.1.86.Final?classifier=sources&uuid=b7ea009a-c5ee-4361-90ac-c7fb2a702c29"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Codec/MQTT",
+    "release_date": "2022-12-12T13:26:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://netty.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-mqtt/4.1.86.Final/netty-codec-mqtt-4.1.86.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1433de1c868cc63fedb7de9c811376c281d5bc91",
+    "sha256": "8a95af9ee3c1e3545803ed4a86745e12d42f2cfcf4905471b8660c3a9d49c5a5",
+    "sha512": "ba57cd921f1fcb92c211b42905a22a77ff56e97aefa7dec855de542081527dda2d04c2e17a5edd85e9c6a017984fc7718031814c6dac821e84e6622b154b180d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-codec-mqtt@4.1.86.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-common@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.reflections/reflections",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-codec-mqtt@4.1.86.Final?classifier=sources&uuid=b7ea009a-c5ee-4361-90ac-c7fb2a702c29",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.netty/netty-codec-mqtt@4.1.86.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

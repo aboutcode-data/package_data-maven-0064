@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "io.dropwizard.metrics",
+    "name": "metrics-logback",
+    "version": "3.1.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "68857d82-39e9-422e-a138-e612ac1a77fa",
+            "packages": [
+                "pkg:maven/io.dropwizard.metrics/metrics-logback@3.1.5?uuid=d1806194-ef0e-44c1-aafa-3e2168127fa5",
+                "pkg:maven/io.dropwizard.metrics/metrics-logback@3.1.5?classifier=sources&uuid=33020d4a-3239-4b9c-9085-bfd6ace58b7f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Metrics Integration for Logback\nAn instrumented appender for Logback.",
+    "release_date": "2017-06-02T18:07:29Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Coda Hale",
+            "email": "coda.hale@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ryan Tenney",
+            "email": "ryan@10e.us",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://metrics.codahale.com/",
+    "download_url": "https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-logback/3.1.5/metrics-logback-3.1.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "57d8e63b07540cf4d7135a517638f877d70d7139",
+    "sha256": "05c8ae49b211bea07da2261dd60d5de1a683355a47c50264fc84a1df00b6d104",
+    "sha512": "b2c30c77f836494a5ece2f04799cf0932c7e3c12d62aa1739d376df0469c2bfcf98c03e79b3e354e8fbe22ffaa04bcb942d858050c936613ad2ad62bc98a1754",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.dropwizard.metrics/metrics-logback@3.1.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.5",
+            "extracted_requirement": "3.1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.dropwizard.metrics/metrics-logback@3.1.5?classifier=sources&uuid=33020d4a-3239-4b9c-9085-bfd6ace58b7f",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.dropwizard.metrics/metrics-logback@3.1.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-logback/3.1.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-logback/3.1.5/metrics-logback-3.1.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-logback/3.1.5/metrics-logback-3.1.5.pom",
+    "file_references": []
+}

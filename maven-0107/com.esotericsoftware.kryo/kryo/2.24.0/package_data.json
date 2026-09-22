@@ -1,0 +1,132 @@
+{
+    "type": "maven",
+    "namespace": "com.esotericsoftware.kryo",
+    "name": "kryo",
+    "version": "2.24.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6a497b6a-0768-4a7f-b25e-702304b4555b",
+            "packages": [
+                "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?uuid=1f589dc0-c529-412b-a687-a12fdfb4a715",
+                "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?classifier=sources&uuid=7dbc9706-eeb0-4011-9a81-95c27dae8d5c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Kryo\nFast, efficient Java serialization",
+    "release_date": "2014-05-04T13:04:46Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nathan Sweet",
+            "email": "nathan.sweet@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/EsotericSoftware/kryo",
+    "download_url": "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "72af5078b1592b627f2b4187f95decf72829b0e9",
+    "sha256": "617593f9253ee4246db001641630359df8a8ed9f306a1590e54d6cc091b37439",
+    "sha512": "ab2238d835db0988f5d9342d94b7747190a67bd4d8580e9358af7dff04e3fd0f42b83c9cc7ac662d491cc341aff44c66268c2dcb3dfe3ee3ba9ac1628e9807e4",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/EsotericSoftware/kryo",
+    "vcs_url": "git+https://github.com/EsotericSoftware/kryo.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_228.RULE",
+                    "start_line": 1,
+                    "matched_text": "New BSD License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_228.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-a923f4b5-0ec0-12d5-b4e8-c11035eb434d",
+            "license_expression": "bsd-new"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_30.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.opensource.org/licenses/bsd-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_30.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-ab7c4703-8fa7-2dfd-3201-6711c9cd7d94",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: New BSD License\n  url: http://www.opensource.org/licenses/bsd-license.php\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "merge_ancestors: pkg:maven/org.sonatype.oss/oss-parent@7 data not added to package: ancestor package namespace is not contained in pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0 namespace"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.esotericsoftware.minlog/minlog@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.objenesis/objenesis@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?classifier=sources&uuid=7dbc9706-eeb0-4011-9a81-95c27dae8d5c",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.pom",
+    "file_references": []
+}

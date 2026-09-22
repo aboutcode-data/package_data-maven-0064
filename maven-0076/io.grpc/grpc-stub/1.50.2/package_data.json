@@ -1,0 +1,114 @@
+{
+    "type": "maven",
+    "namespace": "io.grpc",
+    "name": "grpc-stub",
+    "version": "1.50.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0d6349e9-c9f8-4d71-b421-1c7eb0328b4d",
+            "packages": [
+                "pkg:maven/io.grpc/grpc-stub@1.50.2?uuid=fe3690a9-bae6-4a69-89c9-31df45ddd57c",
+                "pkg:maven/io.grpc/grpc-stub@1.50.2?classifier=sources&uuid=e5f7c526-8d2e-44c1-89c0-e0c15b06a25f",
+                "pkg:github/grpc/grpc-java@v1.50.2?uuid=0f174460-d3bc-4cbd-8a9c-53b0b1680265"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "io.grpc:grpc-stub\ngRPC: Stub",
+    "release_date": "2022-10-19T23:40:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "gRPC Contributors",
+            "email": "grpc-io@googlegroups.com",
+            "url": "https://grpc.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/grpc/grpc-java",
+    "download_url": "https://repo1.maven.org/maven2/io/grpc/grpc-stub/1.50.2/grpc-stub-1.50.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9f656cd4f5fea04a63e5989dc5f14c8e93611843",
+    "sha256": "11f2cc49546ed697161fff241d91e6809949b914716da7ad4dff030af24d171a",
+    "sha512": "cec3e01270b445945577bb1ae89237eab19937831539c5da3ac186bbc442100b8c4237aa026fa5f06ea96e6ec88ad434c10afcf68794c5cddf9eae6543e64c8e",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/grpc/grpc-java",
+    "vcs_url": "git+https://github.com/grpc/grpc-java.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1314.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2.0\n  url: https://opensource.org/licenses/Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 12,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1314.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-8151c493-87af-4fae-f44a-22cbb244e920",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2.0\n  url: https://opensource.org/licenses/Apache-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.grpc/grpc-stub@1.50.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.grpc/grpc-api@1.50.2",
+            "extracted_requirement": "1.50.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@31.1-android",
+            "extracted_requirement": "31.1-android",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.14.0",
+            "extracted_requirement": "2.14.0",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.grpc/grpc-stub@1.50.2?classifier=sources&uuid=e5f7c526-8d2e-44c1-89c0-e0c15b06a25f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.grpc/grpc-stub@1.50.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/grpc/grpc-stub/1.50.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/grpc/grpc-stub/1.50.2/grpc-stub-1.50.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/grpc/grpc-stub/1.50.2/grpc-stub-1.50.2.pom",
+    "file_references": []
+}

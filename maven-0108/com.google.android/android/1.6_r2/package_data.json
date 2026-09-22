@@ -1,0 +1,181 @@
+{
+    "type": "maven",
+    "namespace": "com.google.android",
+    "name": "android",
+    "version": "1.6_r2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "879d36ef-75be-4062-a052-e552d129e078",
+            "packages": [
+                "pkg:maven/com.google.android/android@1.6_r2?uuid=70ac97ca-ec3e-4549-a2e8-30749667efbc",
+                "pkg:maven/com.google.android/android@1.6_r2?classifier=sources&uuid=a0a297f2-d8ae-4868-a69b-75d631fd5f59"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Google Android Library\nA library jar that provides APIs for Applications written for the Google Android Platform.",
+    "release_date": "2010-06-18T21:18:34Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Android Open Source Projects",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://source.android.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/android/android/1.6_r2/android-1.6_r2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "45d0c410977127288f9a4aa16e68f5309d2cc956",
+    "sha256": "13235fab4c6a8cbce9237d017fe260170a85935e56193a3137817d167b735936",
+    "sha512": "5da5ebba31c5c27bd9e350daafbf200979cbcddcf4cd81a6edfe785665eb16675e292ff5c4156d750925222bfda5e4d5b81e81ff99831b314a924ed49d704416",
+    "bug_tracking_url": null,
+    "code_view_url": "https://android.git.kernel.org/",
+    "vcs_url": "git://android.git.kernel.org/platform/manifest.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-0ce46d84-0baf-3c21-82e2-a693341200bc",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 50.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/license-intro_2.RULE",
+                    "from_file": null,
+                    "start_line": 4,
+                    "matched_text": "    \\ source code \\n\\t\\t\\t\\tis licensed under Apache 2.0 which allows compiling binaries from\\",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 50,
+                    "rule_identifier": "license-intro_2.RULE",
+                    "license_expression": "unknown-license-reference",
+                    "spdx_license_expression": "LicenseRef-scancode-unknown-license-reference"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "from_file": null,
+                    "start_line": 4,
+                    "matched_text": "    \\ source code \\n\\t\\t\\t\\tis licensed under Apache 2.0 which allows compiling binaries from\\",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-b955b3e8-dd31-4357-9227-7a93de3b06a1",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "unknown-license-reference",
+    "other_license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n  comments: \"While the EULA for the Android SDK restricts distribution of those binaries, the\\\n    \\ source code \\n\\t\\t\\t\\tis licensed under Apache 2.0 which allows compiling binaries from\\\n    \\ source and then distributing\\n\\t\\t\\t\\tthose versions.\"\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.android/android@1.6_r2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.0.1",
+            "extracted_requirement": "4.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.khronos/opengl-api@gl1.1-android-2.1_r1",
+            "extracted_requirement": "gl1.1-android-2.1_r1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xerces/xmlParserAPIs@2.6.2",
+            "extracted_requirement": "2.6.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xpp3/xpp3@1.1.4c",
+            "extracted_requirement": "1.1.4c",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.android/android@1.6_r2?classifier=sources&uuid=a0a297f2-d8ae-4868-a69b-75d631fd5f59",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.android/android@1.6_r2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/android/android/1.6_r2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/android/android/1.6_r2/android-1.6_r2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/android/android/1.6_r2/android-1.6_r2.pom",
+    "file_references": []
+}

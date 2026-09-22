@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "com.yukihirai0505",
+    "name": "sinstagram_2.11",
+    "version": "0.0.7",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "sInstagram\nA Scala library for the Instagram API",
+    "release_date": "2017-05-17T06:01:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Yuki Hirai",
+            "email": null,
+            "url": "https://blog.yukihirai0505.com"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.yukihirai0505",
+            "email": null,
+            "url": "https://yukihirai0505.github.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/yukihirai0505/sInstagram",
+    "download_url": "https://repo1.maven.org/maven2/com/yukihirai0505/sinstagram_2.11/0.0.7/sinstagram_2.11-0.0.7.jar",
+    "size": 354743,
+    "md5": null,
+    "sha1": "02248caacc8dafe16c2b5ca86adccf7d5629d06e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttps://github.com/yukihirai0505/sInstagram/blob/master/LICENSE.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.yukihirai0505/sinstagram_2.11@0.0.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-json_2.11",
+            "extracted_requirement": "2.5.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.databinder.dispatch/dispatch-core_2.11",
+            "extracted_requirement": "0.11.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.netaporter/scala-uri_2.11",
+            "extracted_requirement": "0.4.16",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.tototoshi/play-json-naming_2.11",
+            "extracted_requirement": "1.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.11",
+            "extracted_requirement": "3.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.yukihirai0505/sinstagram_2.11@0.0.7?uuid=0fd18c8a-4584-4d3f-a9bf-c2d47d46edd8",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.yukihirai0505/sinstagram_2.11@0.0.7",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/yukihirai0505/sinstagram_2.11/0.0.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/yukihirai0505/sinstagram_2.11/0.0.7/sinstagram_2.11-0.0.7.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/yukihirai0505/sinstagram_2.11/0.0.7/sinstagram_2.11-0.0.7.pom",
+    "file_references": []
+}

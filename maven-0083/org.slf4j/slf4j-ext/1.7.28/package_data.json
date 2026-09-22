@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "org.slf4j",
+    "name": "slf4j-ext",
+    "version": "1.7.28",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "18069b99-84d9-480c-97af-8692ab2c5aa8",
+            "packages": [
+                "pkg:maven/org.slf4j/slf4j-ext@1.7.28?uuid=e1ac3842-c3fa-486a-b839-387f179dba79",
+                "pkg:maven/org.slf4j/slf4j-ext@1.7.28?classifier=sources&uuid=c58f650f-29de-4bfd-82f3-776afc3b500a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SLF4J Extensions Module\nExtensions to the SLF4J API",
+    "release_date": "2019-08-10T08:28:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.slf4j.org",
+    "download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.28/slf4j-ext-1.7.28-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c6f9b0584a50ff7d163f05d10d24fd32f85e272b",
+    "sha256": "d5cf8b973d0c7545e3ab95eb153e9fc932fb274dcf5c0414dc92cf61bc2ee8f8",
+    "sha512": "8f3c41dc8c2a6e5a9fb7c52763b91cc2dc3106f8e606bfee59d3ca5f37ac6438590e030f4a92fa8ccc5752eebcad5726951d68202daeabe3b7bea6c4e8df94f4",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.slf4j/slf4j-ext@1.7.28?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.cal10n/cal10n-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javassist/javassist@3.4.GA",
+            "extracted_requirement": "3.4.GA",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.28",
+            "extracted_requirement": "1.7.28",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.slf4j/slf4j-ext@1.7.28?classifier=sources&uuid=c58f650f-29de-4bfd-82f3-776afc3b500a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.slf4j/slf4j-ext@1.7.28?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.28/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.28/slf4j-ext-1.7.28-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.28/slf4j-ext-1.7.28.pom",
+    "file_references": []
+}

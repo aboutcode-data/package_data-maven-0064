@@ -1,0 +1,145 @@
+{
+    "type": "maven",
+    "namespace": "org.jruby.ext.posix",
+    "name": "jna-posix",
+    "version": "1.0.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4d9622a2-7d35-47b5-89a2-9bebbad881e3",
+            "packages": [
+                "pkg:maven/org.jruby.ext.posix/jna-posix@1.0.3?uuid=39754b5f-6f56-4b1c-ad45-a142d87550d6",
+                "pkg:maven/org.jruby.ext.posix/jna-posix@1.0.3?classifier=sources&uuid=897a5846-9546-4b60-bf6c-0ac5bef7b9a4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JNA-POSIX\nCommon cross-project/cross-platform POSIX APIs",
+    "release_date": "2010-05-20T00:38:21Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Thomas E Enebo",
+            "email": "tom.enebo@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/jruby/ext/posix/jna-posix/1.0.3/jna-posix-1.0.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5b26b9b656dc49f7b6b3167114252572a74f072f",
+    "sha256": "130ddb060bcd21e77505e4cf78c294ab04906e6b8c967db2fead940e526ef68d",
+    "sha512": "ff8eaadf8b20728d3135cf411c4add107ad3f7b5a44266e1cf5c017d8713f08641884252c4a075864d6523d0c1d2847ee3ec346f9805df1d23e702d69d239b81",
+    "bug_tracking_url": "http://jira.codehaus.org/browse/JRUBY",
+    "code_view_url": "http://svn.codehaus.org/jruby-contrib",
+    "vcs_url": "svn+http://svn.codehaus.org/jruby-contrib",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "(gpl-2.0 AND gpl-1.0-plus AND lgpl-2.1) AND unknown",
+    "declared_license_expression_spdx": "(GPL-2.0-only AND GPL-1.0-or-later AND LGPL-2.1-only) AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 54.55,
+                    "matcher": "3-seq",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0_1338.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: GNU General Public License Version 2\n  url: http://www.gnu.org/copyleft/gpl.html",
+                    "match_coverage": 54.55,
+                    "matched_length": 12,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-2.0_1338.RULE",
+                    "license_expression": "gpl-2.0"
+                },
+                {
+                    "score": 91.67,
+                    "matcher": "3-seq",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_223.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: GNU General Public License Version 2\n  url: http://www.gnu.org/copyleft/gpl.html",
+                    "match_coverage": 91.67,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl_223.RULE",
+                    "license_expression": "gpl-1.0-plus"
+                },
+                {
+                    "score": 72.73,
+                    "matcher": "3-seq",
+                    "end_line": 6,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_1.RULE",
+                    "start_line": 5,
+                    "matched_text": "- name: GNU Lesser General Public License Version 2.1\n  url: http://www.gnu.org/licenses/lgpl.html",
+                    "match_coverage": 72.73,
+                    "matched_length": 16,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_1.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "gpl_2_0_and_gpl_1_0_plus_and_lgpl_2_1-be755dca-9a40-f2d9-645b-e07545981936",
+            "license_expression": "gpl-2.0 AND gpl-1.0-plus AND lgpl-2.1"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 6,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-527813c14e69dc10f08aeb0f258e55b0a16caeac",
+                    "start_line": 1,
+                    "matched_text": "license - name: Common Public License - v 1.0\n  url: http://www-128.ibm.com/developerworks/library/os-cpl.html\n- name: GNU General Public License Version 2\n  url: http://www.gnu.org/copyleft/gpl.html\n- name: GNU Lesser General Public License Version 2.1\n  url: http://www.gnu.org/licenses/lgpl.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 51,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-527813c14e69dc10f08aeb0f258e55b0a16caeac",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-522965d6-6dca-5f77-2000-d41947d8c940",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "cpl-1.0 OR gpl-2.0-plus OR lgpl-2.1-plus",
+    "other_license_expression_spdx": "CPL-1.0 OR GPL-2.0-or-later OR LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Common Public License - v 1.0\n  url: http://www-128.ibm.com/developerworks/library/os-cpl.html\n- name: GNU General Public License Version 2\n  url: http://www.gnu.org/copyleft/gpl.html\n- name: GNU Lesser General Public License Version 2.1\n  url: http://www.gnu.org/licenses/lgpl.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jruby.ext.posix/jna-posix@1.0.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.4",
+            "extracted_requirement": "4.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna@3.0.9",
+            "extracted_requirement": "3.0.9",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jruby.ext.posix/jna-posix@1.0.3?classifier=sources&uuid=897a5846-9546-4b60-bf6c-0ac5bef7b9a4",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jruby.ext.posix/jna-posix@1.0.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jruby/ext/posix/jna-posix/1.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jruby/ext/posix/jna-posix/1.0.3/jna-posix-1.0.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jruby/ext/posix/jna-posix/1.0.3/jna-posix-1.0.3.pom",
+    "file_references": []
+}

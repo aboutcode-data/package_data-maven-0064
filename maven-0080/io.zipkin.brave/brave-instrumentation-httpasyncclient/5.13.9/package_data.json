@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.brave",
+    "name": "brave-instrumentation-httpasyncclient",
+    "version": "5.13.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9084815d-f1cc-43fd-954c-03d73aa1290f",
+            "packages": [
+                "pkg:maven/io.zipkin.brave/brave-instrumentation-httpasyncclient@5.13.9?uuid=135f528a-5b2d-4198-b5f7-c1e9e4fec701",
+                "pkg:maven/io.zipkin.brave/brave-instrumentation-httpasyncclient@5.13.9?classifier=sources&uuid=e1a25f95-c578-44f3-b6bf-62efc4330548"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Brave Instrumentation: Apache HttpAsyncClient v4.0+",
+    "release_date": "2022-05-07T09:34:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "OpenZipkin Gitter",
+            "email": null,
+            "url": "https://gitter.im/openzipkin/zipkin"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OpenZipkin",
+            "email": null,
+            "url": "https://zipkin.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/openzipkin/brave",
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.9/brave-instrumentation-httpasyncclient-5.13.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "661acc67a0f431676a73f4f70915de3064c8a9bd",
+    "sha256": "cfa4088d91b6d81416948e6b76ca5e9237cccc6b69c0c720329c404cd44a0296",
+    "sha512": "60a80d095a34bd65139923ff7bd7cba1cde5f88d8061a05a0831d22cc74d6bfe15439bd1d2070b4ef01a990e681f94119cf3e933a8bcfd7a994c883b2097bad6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The OpenZipkin Authors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.brave/brave-instrumentation-httpasyncclient@5.13.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-http@5.13.9",
+            "extracted_requirement": "5.13.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpasyncclient",
+            "extracted_requirement": "${httpasyncclient.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-http-tests@5.13.9",
+            "extracted_requirement": "5.13.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.brave/brave-instrumentation-httpasyncclient@5.13.9?classifier=sources&uuid=e1a25f95-c578-44f3-b6bf-62efc4330548",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-httpasyncclient@5.13.9?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

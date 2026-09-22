@@ -1,0 +1,123 @@
+{
+    "type": "maven",
+    "namespace": "com.jcraft",
+    "name": "jsch",
+    "version": "0.1.54",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ad2deddc-2471-4fc5-8c6f-f6e72c9ee4e2",
+            "packages": [
+                "pkg:maven/com.jcraft/jsch@0.1.54?uuid=62d03add-db40-437a-9ed4-534484f7263e",
+                "pkg:maven/com.jcraft/jsch@0.1.54?classifier=sources&uuid=00683ce8-8984-44ca-bc92-05df612a40f5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JSch\nJSch is a pure Java implementation of SSH2",
+    "release_date": "2016-09-03T09:42:23Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Atsuhiko Yamanaka",
+            "email": "ymnk at jcraft D0t com",
+            "url": "http://github.com/ymnk"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JCraft,Inc.",
+            "email": null,
+            "url": "http://www.jcraft.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jcraft.com/jsch/",
+    "download_url": "https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "91d6069df9be9e076bdb124e82fc2a9af9547616",
+    "sha256": "49d021dd58f6b455046a07331a68a5e647df354d7f6961b73df298203c43f44a",
+    "sha512": "94df54218976d11123bea841e183baecd3bcc84eae6897798e98266609c2425b9cca1ea2ff7af365163184df75deed6170e1966339a24810c283f450421046e2",
+    "bug_tracking_url": null,
+    "code_view_url": "http://git.jcraft.com/jsch.git",
+    "vcs_url": "git+http://git.jcraft.com/jsch.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_1140.RULE",
+                    "start_line": 1,
+                    "matched_text": "Revised BSD",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_1140.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-a3097168-9951-1ab6-3772-c2d67f0111d5",
+            "license_expression": "bsd-new"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_jcraft_4.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.jcraft.com/jsch/LICENSE.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_jcraft_4.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-9b2ba589-3ced-488c-3ecb-90b41e97c23f",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Revised BSD\n  url: http://www.jcraft.com/jsch/LICENSE.txt\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.jcraft/jsch@0.1.54?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "merge_ancestors: pkg:maven/org.sonatype.oss/oss-parent@6 data not added to package: ancestor package namespace is not contained in pkg:maven/com.jcraft/jsch@0.1.54 namespace"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.jcraft/jzlib@1.0.7",
+            "extracted_requirement": "1.0.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.jcraft/jsch@0.1.54?classifier=sources&uuid=00683ce8-8984-44ca-bc92-05df612a40f5",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.jcraft/jsch@0.1.54?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom",
+    "file_references": []
+}

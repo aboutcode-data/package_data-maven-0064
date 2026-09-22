@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus.resteasy.reactive",
+    "name": "resteasy-reactive-common-processor",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "044206d5-7206-4514-b6d2-1aac53d55fdb",
+            "packages": [
+                "pkg:maven/io.quarkus.resteasy.reactive/resteasy-reactive-common-processor@2.13.7.Final?uuid=45bfb10f-7a99-4aaa-92f6-ef5dcd6a9d04",
+                "pkg:maven/io.quarkus.resteasy.reactive/resteasy-reactive-common-processor@2.13.7.Final?classifier=sources&uuid=c68b698d-8b95-4ed2-bcff-e1099fe5cc0d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "RESTEasy Reactive - Common Processor",
+    "release_date": "2023-01-19T10:28:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/resteasy/reactive/resteasy-reactive-common-processor/2.13.7.Final/resteasy-reactive-common-processor-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e319035d31ed555760f226cae4a7bddb16b4db7b",
+    "sha256": "a32dce08ed71e060cb5d87a435ce3971daf095f367660829cc0901dd21b393a9",
+    "sha512": "3c5d64455de1a4f241365162e7c4bb124458c2df16f48742515fb1e349a17ee27f8a831fc900fae99e0f98c0afffd9f46bcbac7a427217982b8c1fabab98ad89",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus.resteasy.reactive/resteasy-reactive-common-processor@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss/jandex",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus.gizmo/gizmo",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus.resteasy.reactive/resteasy-reactive-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.ws.rs/jboss-jaxrs-api_2.1_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jakarta.enterprise/jakarta.enterprise.cdi-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus.resteasy.reactive/resteasy-reactive-common-processor@2.13.7.Final?classifier=sources&uuid=c68b698d-8b95-4ed2-bcff-e1099fe5cc0d",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus.resteasy.reactive/resteasy-reactive-common-processor@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

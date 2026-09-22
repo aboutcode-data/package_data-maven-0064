@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.layout.seo.web",
+    "version": "2.0.65",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "502b1c25-c662-4104-aaaa-a696e11fe049",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.layout.seo.web@2.0.65?uuid=d059bd74-fbd4-4450-99e6-5ecb5ea9d3ca",
+                "pkg:maven/com.liferay/com.liferay.layout.seo.web@2.0.65?classifier=sources&uuid=c3a9b670-26d8-4054-9248-cd69f545c260"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Layout SEO Web",
+    "release_date": "2023-06-08T19:33:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.layout.seo.web/2.0.65/com.liferay.layout.seo.web-2.0.65-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9fa0f5a75633211eb0150e23e68218c6a55e40fe",
+    "sha256": "f2d2ab80c51e58653e97c4961b79bc476b43563da3a311a2327af210051a9a67",
+    "sha512": "457d983800c6b47b286db8d141234225a053289fc3d9ce743e7570f9ac977a7c5b834458fc276dab1709483b63b4b82a9784b8ee4e47356deee46f0d90b53fa0",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.layout.seo.web@2.0.65?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.layout.seo.web@2.0.65?classifier=sources&uuid=c3a9b670-26d8-4054-9248-cd69f545c260",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.layout.seo.web@2.0.65?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.layout.seo.web/2.0.65/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.layout.seo.web/2.0.65/com.liferay.layout.seo.web-2.0.65-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.layout.seo.web/2.0.65/com.liferay.layout.seo.web-2.0.65.pom",
+    "file_references": []
+}

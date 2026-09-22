@@ -1,0 +1,316 @@
+{
+    "type": "maven",
+    "namespace": "org.webjars",
+    "name": "webjars-locator-core",
+    "version": "0.45",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "af4fa034-32d4-481c-99e4-e02b5ef66dad",
+            "packages": [
+                "pkg:maven/org.webjars/webjars-locator-core@0.45?uuid=dc17bab6-6362-4cd1-81fc-c4e7d3a38a52",
+                "pkg:maven/org.webjars/webjars-locator-core@0.45?classifier=sources&uuid=9414fe59-73b3-4e8b-a167-237eb0af3e37"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "webjars-locator-core\nWebJar Locator Core functionality",
+    "release_date": "2020-04-14T16:04:47Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Ward",
+            "email": "james@jamesward.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://webjars.org",
+    "download_url": "https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.45/webjars-locator-core-0.45-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0ba2b3835567bc62d7d4c69da9c29bdb6a18fc3d",
+    "sha256": "ec5577c586e81830208ac7815b11d5f7a8afe6cc4728b709426811bb49b7d682",
+    "sha512": "0de8b7e445d8c2f918646c984bd78feeb8a2095de0da13fadd5cba8ebab4bcd4848fe195037cf842a7c967e43a4494d5f4a6e2494a76a2a4ada40ecc9b65b8af",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/webjars/webjars-locator-core",
+    "vcs_url": "git+https://github.com/webjars/webjars-locator-core.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-spdx-id",
+                    "end_line": 1,
+                    "rule_url": null,
+                    "start_line": 1,
+                    "matched_text": "MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx-license-identifier-mit-5da48780aba670b0860c46d899ed42a0f243ff06",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-a822f434-d61f-f2b1-c792-8b8cb9e7b9bf",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT\n  url: https://github.com/webjars/webjars-locator-core/blob/master/LICENSE.md\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.webjars/webjars-locator-core@0.45?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.webjars/jquery@2.1.0-3",
+            "extracted_requirement": "2.1.0-3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.29",
+            "extracted_requirement": "1.7.29",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.github.classgraph/classgraph@4.8.69",
+            "extracted_requirement": "4.8.69",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.0",
+            "extracted_requirement": "2.10.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.29",
+            "extracted_requirement": "1.7.29",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/bootstrap@3.1.1-1",
+            "extracted_requirement": "3.1.1-1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/bootswatch-yeti@3.1.1",
+            "extracted_requirement": "3.1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/less-node@1.6.0-1",
+            "extracted_requirement": "1.6.0-1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@3.1.0",
+            "extracted_requirement": "3.1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/angularjs@1.2.11",
+            "extracted_requirement": "1.2.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/angular-translate@2.1.0",
+            "extracted_requirement": "2.1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/angular-tree-control@0.1.5-1",
+            "extracted_requirement": "0.1.5-1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/angular-ui-router@0.2.15",
+            "extracted_requirement": "0.2.15",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/requirejs@2.3.6",
+            "extracted_requirement": "2.3.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/when-node@3.5.2-2",
+            "extracted_requirement": "3.5.2-2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/select2@3.5.2-1",
+            "extracted_requirement": "3.5.2-1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/babel-core@6.0.16",
+            "extracted_requirement": "6.0.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/util@0.10.3",
+            "extracted_requirement": "0.10.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/virtual-keyboard@1.30.1",
+            "extracted_requirement": "1.30.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-loader@2.2.1.RELEASE",
+            "extracted_requirement": "2.2.1.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.2.1.RELEASE",
+            "extracted_requirement": "2.2.1.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/rxjs@5.0.0-beta.12",
+            "extracted_requirement": "5.0.0-beta.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot@2.2.1.RELEASE",
+            "extracted_requirement": "2.2.1.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@2.2.1.RELEASE",
+            "extracted_requirement": "2.2.1.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars.bowergithub.vaadin/vaadin-form-layout@2.1.5",
+            "extracted_requirement": "2.1.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/angular__http@2.4.10",
+            "extracted_requirement": "2.4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/swagger-ui-dist@3.25.0",
+            "extracted_requirement": "3.25.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.webjars/webjars-locator-core@0.45?classifier=sources&uuid=9414fe59-73b3-4e8b-a167-237eb0af3e37",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.webjars/webjars-locator-core@0.45?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.45/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.45/webjars-locator-core-0.45-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.45/webjars-locator-core-0.45.pom",
+    "file_references": []
+}

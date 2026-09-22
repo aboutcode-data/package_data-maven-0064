@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-credentials-deployment",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8d824b78-44cf-427a-baba-ef291464c18e",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-credentials-deployment@2.13.7.Final?uuid=14a27097-012a-463b-b308-724229e47f0d",
+                "pkg:maven/io.quarkus/quarkus-credentials-deployment@2.13.7.Final?classifier=sources&uuid=af255fde-6f87-4d0a-9b29-48bdfc21c97e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Credentials - Deployment",
+    "release_date": "2023-01-19T10:07:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-credentials-deployment/2.13.7.Final/quarkus-credentials-deployment-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f591d7905579e1c74628d581368891d641762716",
+    "sha256": "ddf777603578f616c68647fe2be6c98f6a090b0c079437ac4dfbb4f1b5c2d34f",
+    "sha512": "7c496cd1e504465d7c7e25ccb308e0e32ae9909f836477233c7d29aa799ebbb26a223c0e4bea183da33e53735b6f97e5a1f89c812c75f6164ebcbf3bac6998bc",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-credentials-deployment@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-credentials",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-arc-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-credentials-deployment@2.13.7.Final?classifier=sources&uuid=af255fde-6f87-4d0a-9b29-48bdfc21c97e",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-credentials-deployment@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

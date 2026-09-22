@@ -1,0 +1,353 @@
+{
+    "type": "maven",
+    "namespace": "joda-time",
+    "name": "joda-time",
+    "version": "2.3",
+    "qualifiers": "classifier=sources&type=jar",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "73336ab5-5540-4509-afea-fd9290be4c16",
+            "packages": [
+                "pkg:maven/joda-time/joda-time@2.3?type=jar&uuid=8e13e773-ae60-4c9f-aa9c-5d8b82ed4134",
+                "pkg:maven/joda-time/joda-time@2.3?classifier=sources&type=jar&uuid=b227793e-cd49-4c93-848e-b2da6f4f74e8",
+                "pkg:github/jodaorg/joda-time@v2.3?uuid=255b5ebe-86ba-4035-b713-15ecbfce4ceb",
+                "pkg:github/jodaorg/joda-time@v2.3?uuid=4c2cebc0-d952-4ed8-ad02-4b894368e755"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Joda-Time\nDate and time library to replace JDK date handling",
+    "release_date": "2013-08-16T17:31:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stephen Colebourne",
+            "email": null,
+            "url": "https://github.com/jodastephen"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian S O'Neill",
+            "email": null,
+            "url": "https://github.com/broneill"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Guy Allard",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Oren Benjamin",
+            "email": null,
+            "url": "https://github.com/oby1"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Fredrik Borgh",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dave Brosius",
+            "email": null,
+            "url": "https://github.com/mebigfatguy"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Luc Claes",
+            "email": null,
+            "url": "https://github.com/lucclaes"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dan Cojocar",
+            "email": null,
+            "url": "https://github.com/dancojocar"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Christopher Elkins",
+            "email": null,
+            "url": "https://github.com/celkins"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeroen van Erp",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Gwyn Evans",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Fletcher",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Sean Geoghegan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "mjunginger",
+            "email": null,
+            "url": "https://github.com/mjunginger"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ashish Katyal",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Martin Kneissl",
+            "email": null,
+            "url": "https://github.com/mkneissl"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Vidar Larsen",
+            "email": null,
+            "url": "https://github.com/vlarsen"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kasper Laudrup",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeff Lavallee",
+            "email": null,
+            "url": "https://github.com/jlavallee"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Antonio Leitao",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kostas Maistrelis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Al Major",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Blair Martin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Julen Parra",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael Plump",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ryan Propper",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mike Schrag",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hajime Senuma",
+            "email": null,
+            "url": "https://github.com/hajimes"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kandarp Shah",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Francois Staes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ricardo Trindade",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bram Van Dam",
+            "email": null,
+            "url": "https://github.com/codematters"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Maxim Zhao",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Joda.org",
+            "email": null,
+            "url": "http://www.joda.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.joda.org/joda-time/",
+    "download_url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ecd8588d8ce0963eb443de31d5fea29e3205f160",
+    "sha256": "8f107ca8d6416dc9345183df694cfe674378ed5cccc10f06d73a4a1cd10e3fb4",
+    "sha512": "6ca621c97e8ddce745fac0613ce0666d123068b465f8a11f76e4de024b1762f4cc9951dc236265bc0f639ac984398165e997410c6c9df7073d7b62a2033a27e5",
+    "bug_tracking_url": "https://github.com/JodaOrg/joda-time/issues",
+    "code_view_url": "https://github.com/JodaOrg/joda-time",
+    "vcs_url": "git+https://github.com/JodaOrg/joda-time.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_217.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "name: Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_217.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1317.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 10,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1317.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-16b2cad4-4140-7769-68ac-df27d104a69b",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": "- license:\n    name: Apache 2\n    url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/joda-time/joda-time@2.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.joda/joda-convert@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/joda-time/joda-time@2.3?classifier=sources&type=jar&uuid=b227793e-cd49-4c93-848e-b2da6f4f74e8",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/joda-time/joda-time@2.3?classifier=sources&type=jar",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom",
+    "file_references": []
+}

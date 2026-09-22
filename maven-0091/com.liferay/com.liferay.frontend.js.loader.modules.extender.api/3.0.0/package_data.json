@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.js.loader.modules.extender.api",
+    "version": "3.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "12cb954b-a58a-4ee7-98a2-61e8e5da7333",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.js.loader.modules.extender.api@3.0.0?uuid=b21fe1ff-74ab-4d32-a687-bb94d896ecda",
+                "pkg:maven/com.liferay/com.liferay.frontend.js.loader.modules.extender.api@3.0.0?classifier=sources&uuid=4307c81c-8140-432e-a368-69cfc75473a4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend JS Loader Modules Extender API",
+    "release_date": "2019-04-25T04:26:05Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.loader.modules.extender.api/3.0.0/com.liferay.frontend.js.loader.modules.extender.api-3.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a31f9b20eefc68fd2b1dcd5a08cf2b9da0e21e58",
+    "sha256": "18040c94cff1d49f3caf12cf78cf33442ed76abc02e4d768450a50ad8bf86130",
+    "sha512": "ef48e200e71a8359d50b8afc3fa55d71fe00f6604840a5c4e3fcc820aa750ba7ef2ddd9a4c0a1f2c9887d095724c9170f5352e73b6680c4458b16a80a4cf99d4",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.js.loader.modules.extender.api@3.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.js.loader.modules.extender.api@3.0.0?classifier=sources&uuid=4307c81c-8140-432e-a368-69cfc75473a4",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.js.loader.modules.extender.api@3.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.loader.modules.extender.api/3.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.loader.modules.extender.api/3.0.0/com.liferay.frontend.js.loader.modules.extender.api-3.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.loader.modules.extender.api/3.0.0/com.liferay.frontend.js.loader.modules.extender.api-3.0.0.pom",
+    "file_references": []
+}

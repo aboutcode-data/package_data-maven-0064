@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.portal.tika",
+    "version": "1.0.23",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f01d53b8-c8c0-47c5-aaed-d797bd108935",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.portal.tika@1.0.23?uuid=c5cf70e9-5dfc-4a3e-92a6-672c692cdfca",
+                "pkg:maven/com.liferay/com.liferay.portal.tika@1.0.23?classifier=sources&uuid=c064bc1c-bc1f-4a6d-b4ea-de9439f588e7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Portal Tika",
+    "release_date": "2023-07-31T01:44:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.tika/1.0.23/com.liferay.portal.tika-1.0.23-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "cc49357b4519933cec8a40a3e6f26d580eca948c",
+    "sha256": "cabaec1649479d395f093c1e93649b85df60cfcffce038cf38fdeeb50faa86af",
+    "sha512": "ad02c96e5b8726025a27319bbd42bab7e4e0715340af2e0f6be672c8471eea54b2334dbee3c100be1c3627e3f6433d81a0e4f5d9d4f1b2f00dbb0329689dbb6f",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND netcdf AND epl-1.0 AND lgpl-2.1-plus AND (mpl-1.1 OR gpl-2.0-plus OR lgpl-2.1-plus) AND lgpl-3.0-plus AND (cddl-1.0 OR lgpl-2.1-plus) AND bsd-new AND unicode AND (lgpl-2.1-plus OR unknown-spdx) AND (apache-2.0 AND public-domain) AND (gpl-2.0 AND lgpl-2.1-plus) AND apache-1.1 AND proprietary-license AND unknown-license-reference AND (apache-2.0 AND apache-1.1) AND mit AND ngpl AND public-domain AND (public-domain AND apache-2.0) AND warranty-disclaimer AND zimbra-1.3 AND (gpl-2.0-plus OR bsd-new) AND ibm-developerworks-community-download AND sax-pd",
+    "other_license_expression_spdx": "Apache-2.0 AND NetCDF AND EPL-1.0 AND LGPL-2.1-or-later AND (MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later) AND LGPL-3.0-or-later AND (CDDL-1.0 OR LGPL-2.1-or-later) AND BSD-3-Clause AND LicenseRef-scancode-unicode AND (LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx) AND (Apache-2.0 AND LicenseRef-scancode-public-domain) AND (GPL-2.0-only AND LGPL-2.1-or-later) AND Apache-1.1 AND LicenseRef-scancode-proprietary-license AND LicenseRef-scancode-unknown-license-reference AND (Apache-2.0 AND Apache-1.1) AND MIT AND NGPL AND LicenseRef-scancode-public-domain AND (LicenseRef-scancode-public-domain AND Apache-2.0) AND LicenseRef-scancode-warranty-disclaimer AND Zimbra-1.3 AND (GPL-2.0-or-later OR BSD-3-Clause) AND LicenseRef-scancode-ibm-developerworks-community AND SAX-PD",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.portal.tika@1.0.23?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.portal.tika@1.0.23?classifier=sources&uuid=c064bc1c-bc1f-4a6d-b4ea-de9439f588e7",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.portal.tika@1.0.23?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.tika/1.0.23/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.tika/1.0.23/com.liferay.portal.tika-1.0.23-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.tika/1.0.23/com.liferay.portal.tika-1.0.23.pom",
+    "file_references": []
+}

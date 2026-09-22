@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.xmlgraphics",
+    "name": "batik-css",
+    "version": "1.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e7007274-a07d-4707-af8f-be6fee995f90",
+            "packages": [
+                "pkg:maven/org.apache.xmlgraphics/batik-css@1.10?uuid=416f42fb-562e-4e91-8517-a2a5fb9d91e5",
+                "pkg:maven/org.apache.xmlgraphics/batik-css@1.10?classifier=sources&uuid=0f39e777-893b-4137-af2e-193eff387c7b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.apache.xmlgraphics:batik-css\nBatik CSS engine",
+    "release_date": "2018-05-11T13:58:25Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xmlgraphics.apache.org/batik/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.10/batik-css-1.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "dfb5187a13d176bda919ca3490d57116772ac1a3",
+    "sha256": "d2c72d638910fca5569447ebc642a5439d5e747287d417fd483828a1f370ae1f",
+    "sha512": "d26bc72a3e6c2bd08e42937f3e15607ac336d2a6ed960714fb85f701d8979a7d26b1ef23aba5a75dc12d941be56bd826bc65ba08ce3cedfad3698bfd5dd4d281",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.xmlgraphics/batik-css@1.10?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.10",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.10",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.10"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-util@1.10",
+            "extracted_requirement": "1.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/xmlgraphics-commons",
+            "extracted_requirement": "${xmlgraphics.commons.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis-ext",
+            "extracted_requirement": "${xmlapis.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.xmlgraphics/batik-css@1.10?classifier=sources&uuid=0f39e777-893b-4137-af2e-193eff387c7b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.xmlgraphics/batik-css@1.10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.10/batik-css-1.10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.10/batik-css-1.10.pom",
+    "file_references": []
+}

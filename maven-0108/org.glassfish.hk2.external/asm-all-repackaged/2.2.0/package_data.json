@@ -1,0 +1,121 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.hk2.external",
+    "name": "asm-all-repackaged",
+    "version": "2.2.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0459fbeb-d1bb-445a-912b-dc92a75b7f88",
+            "packages": [
+                "pkg:maven/org.glassfish.hk2.external/asm-all-repackaged@2.2.0?uuid=60224736-a5fd-406d-8be4-e1c660c09435",
+                "pkg:maven/org.glassfish.hk2.external/asm-all-repackaged@2.2.0?classifier=sources&uuid=f75a6f9c-0c9c-4556-9490-d699ab6c1114"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.objectweb.asm.all version  repackaged as a module",
+    "release_date": "2014-01-13T21:33:47Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Wells",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mason Taube",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jerome Dochez",
+            "email": null,
+            "url": "http://blogs.sun.com/dochez"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kohsuke Kawaguchi",
+            "email": null,
+            "url": "http://weblogs.java.net/blog/kohsuke"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Sanjeeb Sahoo",
+            "email": null,
+            "url": "http://weblogs.java.net/ss141213"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Andriy Zhdanov",
+            "email": null,
+            "url": "http://avalez.blogspot.com"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeff Trent",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.net/",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/hk2/external/asm-all-repackaged/2.2.0/asm-all-repackaged-2.2.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "380ec901662b3527a129f1d9513fc7d5ad0eab27",
+    "sha256": "88cb3d79280401e226918bda3d53ed5096ff6495d88cd1df10de494f87f72d91",
+    "sha512": "d4570396f5957de5008a68744035cb56258f901ff2662186b795ed3af891678f1ce5e7d50054d16ac705e3f7985b5b6f0b0a8ca3d8ff2b3fb00dae9028ccf9b9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "((cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND (cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0)) AND unknown",
+    "declared_license_expression_spdx": "((CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0)) AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.hk2.external/asm-all-repackaged@2.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm-debug-all",
+            "extracted_requirement": "${asm.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.hk2.external/asm-all-repackaged@2.2.0?classifier=sources&uuid=f75a6f9c-0c9c-4556-9490-d699ab6c1114",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.hk2.external/asm-all-repackaged@2.2.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/hk2/external/asm-all-repackaged/2.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/hk2/external/asm-all-repackaged/2.2.0/asm-all-repackaged-2.2.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/hk2/external/asm-all-repackaged/2.2.0/asm-all-repackaged-2.2.0.pom",
+    "file_references": []
+}

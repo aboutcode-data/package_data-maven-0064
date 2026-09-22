@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.lucene",
+    "name": "lucene-spatial3d",
+    "version": "8.11.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c33e4ccc-9e80-4642-9b1b-ad7a4d46630a",
+            "packages": [
+                "pkg:maven/org.apache.lucene/lucene-spatial3d@8.11.2?uuid=67ac2d12-d58d-42b8-ba7e-2664f681b479",
+                "pkg:maven/org.apache.lucene/lucene-spatial3d@8.11.2?classifier=sources&uuid=2de979aa-2c91-4b0b-a934-942f77e77251"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Lucene Spatial 3D\nLucene Spatial shapes implemented using 3D planar geometry",
+    "release_date": "2022-06-17T22:42:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/8.11.2/lucene-spatial3d-8.11.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "241f7c57ed577aa9778ae2a022fa874e3bb46f4d",
+    "sha256": "7e988799c3c843c7782d8cabcec7ab5d49142c4e60635ab9b62ca4347d4f9410",
+    "sha512": "7c4401e27f2bb4fc9a677ee9652c41de1459c11af12138be0c998f14f0ae1275c4c8c7b8b4a5ea87c3f01f15b34dd46f1ae9fc3fa3238bc9a92e1bfdd36faa90",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND (mit AND unicode AND bsd-new) AND (apache-2.0 AND bsd-simplified AND cpl-1.0 AND bsd-new) AND bsd-new AND (unicode AND bsd-new AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND cddl-1.0) AND naist-2003) AND (apache-2.0 AND unicode-mappings AND python AND bsd-new AND (mit AND x11) AND x11 AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND bsd-simplified)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND (MIT AND LicenseRef-scancode-unicode AND BSD-3-Clause) AND (Apache-2.0 AND BSD-2-Clause AND CPL-1.0 AND BSD-3-Clause) AND BSD-3-Clause AND (LicenseRef-scancode-unicode AND BSD-3-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND CDDL-1.0) AND NAIST-2003) AND (Apache-2.0 AND LicenseRef-scancode-unicode-mappings AND Python-2.0 AND BSD-3-Clause AND (MIT AND ICU) AND ICU AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND BSD-2-Clause)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.lucene/lucene-spatial3d@8.11.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.lucene/lucene-spatial3d@8.11.2?classifier=sources&uuid=2de979aa-2c91-4b0b-a934-942f77e77251",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.lucene/lucene-spatial3d@8.11.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/8.11.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/8.11.2/lucene-spatial3d-8.11.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/8.11.2/lucene-spatial3d-8.11.2.pom",
+    "file_references": []
+}

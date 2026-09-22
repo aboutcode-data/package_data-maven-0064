@@ -1,0 +1,147 @@
+{
+    "type": "maven",
+    "namespace": "commons-net",
+    "name": "commons-net",
+    "version": "3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ba936ff0-c818-4b5f-a513-76c898af1711",
+            "packages": [
+                "pkg:maven/commons-net/commons-net@3.1?uuid=f3e0ec34-15bb-4f8b-8ead-fd0b6203293e",
+                "pkg:maven/commons-net/commons-net@3.1?classifier=sources&uuid=605212d6-6edb-468e-8255-ebb27116fb9b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Commons Net\nApache Commons Net library contains a collection of network utilities and protocol implementations.\nSupported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Telnet, Whois",
+    "release_date": "2012-02-14T18:43:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeffrey D. Brekke",
+            "email": "Jeff.Brekke@qg.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steve Cohen",
+            "email": "scohen@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bruno D'Avanzo",
+            "email": "bruno.davanzo@hp.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Daniel F. Savarese",
+            "email": "dfs@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rory Winston",
+            "email": "rwinston@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Rob Hasselbaum",
+            "email": "rhasselbaum@alumni.ithaca.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mario Ivankovits",
+            "email": "mario@ops.co.at",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tapan Karecha",
+            "email": "tapan@india.hp.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Winston Ojeda",
+            "email": "Winston.Ojeda@qg.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ted Wise",
+            "email": "ctwise@bellsouth.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bogdan Drozdowski",
+            "email": "bogdandr # op dot pl",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://commons.apache.org/net/",
+    "download_url": "https://repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8cc516e03d35ecf8f4ca71511f7961f1a9339820",
+    "sha256": "9d0a748c3aec356a951fe6128fec94f691779d4d6ac6c09ea2e0126ccee0ed83",
+    "sha512": "8424382c13fc98709f7eef9d792e318e6bc0208b8bebd7049a8dd05fc329d14a0886888ee9a32e73e98c711ec9d83578c6570b85ee2e91e2129549e918c61dd4",
+    "bug_tracking_url": "http://issues.apache.org/jira/browse/NET",
+    "code_view_url": "http://svn.apache.org/viewvc/commons/proper/net/trunk",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/commons/proper/net/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND public-domain-disclaimer)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND LicenseRef-scancode-public-domain-disclaimer)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-net/commons-net@3.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@9"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/commons-net/commons-net@3.1?classifier=sources&uuid=605212d6-6edb-468e-8255-ebb27116fb9b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/commons-net/commons-net@3.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-net/commons-net/3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.pom",
+    "file_references": []
+}

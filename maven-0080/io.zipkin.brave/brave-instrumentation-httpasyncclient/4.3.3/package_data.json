@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.brave",
+    "name": "brave-instrumentation-httpasyncclient",
+    "version": "4.3.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Brave Instrumentation: Apache HttpClient v4.3+",
+    "release_date": "2017-05-17T16:59:35Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/4.3.3/brave-instrumentation-httpasyncclient-4.3.3.jar",
+    "size": 13960,
+    "md5": null,
+    "sha1": "7d390c1f2f890b17cb1d560d7964f9d89699a57c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.brave/brave-instrumentation-httpasyncclient@4.3.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-http",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpasyncclient",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-http-tests",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.brave/brave-instrumentation-httpasyncclient@4.3.3?uuid=1d0b2b0f-b941-4746-b400-1104c4194729",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-httpasyncclient@4.3.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/4.3.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/4.3.3/brave-instrumentation-httpasyncclient-4.3.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/4.3.3/brave-instrumentation-httpasyncclient-4.3.3.pom",
+    "file_references": []
+}

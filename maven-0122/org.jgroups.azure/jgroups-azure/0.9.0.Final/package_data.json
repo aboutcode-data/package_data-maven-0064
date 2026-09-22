@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.jgroups.azure",
+    "name": "jgroups-azure",
+    "version": "0.9.0.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "JGroups Azure: Protocols",
+    "release_date": "2017-05-25T12:59:18Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/jgroups/azure/jgroups-azure/0.9.0.Final/jgroups-azure-0.9.0.Final.jar",
+    "size": 7041,
+    "md5": null,
+    "sha1": "06cfcc95dbd6ccd6c474e883fe2cdac1b75eec04",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jgroups.azure/jgroups-azure@0.9.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jgroups/jgroups",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.microsoft.azure/azure-storage",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jgroups.azure/jgroups-azure@0.9.0.Final?uuid=d15197f8-1cac-41fc-a93c-d592faf0200c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jgroups.azure/jgroups-azure@0.9.0.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jgroups/azure/jgroups-azure/0.9.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jgroups/azure/jgroups-azure/0.9.0.Final/jgroups-azure-0.9.0.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jgroups/azure/jgroups-azure/0.9.0.Final/jgroups-azure-0.9.0.Final.pom",
+    "file_references": []
+}

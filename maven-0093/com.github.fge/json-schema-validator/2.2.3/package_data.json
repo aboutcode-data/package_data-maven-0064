@@ -1,0 +1,221 @@
+{
+    "type": "maven",
+    "namespace": "com.github.fge",
+    "name": "json-schema-validator",
+    "version": "2.2.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4e0de5e1-e280-444f-8660-dc9fb163cd60",
+            "packages": [
+                "pkg:maven/com.github.fge/json-schema-validator@2.2.3?uuid=1f94dba2-1fa3-4539-b56c-21919016a247",
+                "pkg:maven/com.github.fge/json-schema-validator@2.2.3?classifier=sources&uuid=e0bf4f0b-8f1e-4d95-8096-8b8bbd8b2513"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "null",
+    "release_date": "2014-04-17T16:38:36Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Francis Galiegue",
+            "email": "fgaliegue@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/fge/json-schema-validator",
+    "download_url": "https://repo1.maven.org/maven2/com/github/fge/json-schema-validator/2.2.3/json-schema-validator-2.2.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2e3e92a1458bcd82cdf2a70016531065f95e9fce",
+    "sha256": "7b10fb68442df6e8e934ccb84db7985e85b47744d3937f3a0701e83c035bb39d",
+    "sha512": "1a29c04f08e2a8fe8c89a568d82a681431624fcf568866711b26295e3406e701874afccb4e82dc3d8bc29e683c9ed4fedbc7873f3fbc9f4b487573d5c05f8980",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/fge/json-schema-validator",
+    "vcs_url": "git@github.com:fge/json-schema-validator",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1-plus AND gpl-3.0 AND lgpl-2.0-plus AND apache-2.0",
+    "declared_license_expression_spdx": "LGPL-2.1-or-later AND GPL-3.0-only AND LGPL-2.0-or-later AND Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1-plus_162.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Lesser General Public License, version 3 or greater",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1-plus_162.RULE",
+                    "license_expression": "lgpl-2.1-plus",
+                    "license_expression_spdx": "LGPL-2.1-or-later"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-3.0_88.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Lesser General Public License, version 3 or greater",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-3.0_88.RULE",
+                    "license_expression": "gpl-3.0",
+                    "license_expression_spdx": "GPL-3.0-only"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl_3.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/lgpl.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl_3.RULE",
+                    "license_expression": "lgpl-2.0-plus",
+                    "license_expression_spdx": "LGPL-2.0-or-later"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_220.RULE",
+                    "from_file": null,
+                    "start_line": 3,
+                    "matched_text": "- name: Apache Software License, version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_220.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "from_file": null,
+                    "start_line": 4,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "lgpl_2_1_plus_and_gpl_3_0_and_lgpl_2_0_plus_and_apache_2_0-ceefa330-80bb-cb15-9a89-5008db9fc3cc",
+            "license_expression": "lgpl-2.1-plus AND gpl-3.0 AND lgpl-2.0-plus AND apache-2.0",
+            "license_expression_spdx": "LGPL-2.1-or-later AND GPL-3.0-only AND LGPL-2.0-or-later AND Apache-2.0"
+        }
+    ],
+    "other_license_expression": "(gpl-1.0-plus AND lgpl-3.0 AND apache-2.0) AND (lgpl-3.0 AND apache-2.0) AND (lgpl-2.1-plus AND lgpl-3.0 AND apache-2.0) AND apache-2.0 AND lgpl-3.0",
+    "other_license_expression_spdx": "(GPL-1.0-or-later AND LGPL-3.0-only AND Apache-2.0) AND (LGPL-3.0-only AND Apache-2.0) AND (LGPL-2.1-or-later AND LGPL-3.0-only AND Apache-2.0) AND Apache-2.0 AND LGPL-3.0-only",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Lesser General Public License, version 3 or greater\n  url: http://www.gnu.org/licenses/lgpl.html\n- name: Apache Software License, version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.fge/json-schema-validator@2.2.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/joda-time/joda-time@2.3",
+            "extracted_requirement": "2.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.fge/json-schema-core@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.googlecode.libphonenumber/libphonenumber@6.0",
+            "extracted_requirement": "6.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.mail/mailapi@1.4.3",
+            "extracted_requirement": "1.4.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@2.0.1",
+            "extracted_requirement": "2.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6",
+            "extracted_requirement": "4.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@1.9.5",
+            "extracted_requirement": "1.9.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easytesting/fest-assert@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng@6.8.7",
+            "extracted_requirement": "6.8.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.fge/json-schema-validator@2.2.3?classifier=sources&uuid=e0bf4f0b-8f1e-4d95-8096-8b8bbd8b2513",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.fge/json-schema-validator@2.2.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/fge/json-schema-validator/2.2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/fge/json-schema-validator/2.2.3/json-schema-validator-2.2.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/fge/json-schema-validator/2.2.3/json-schema-validator-2.2.3.pom",
+    "file_references": []
+}

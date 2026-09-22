@@ -1,0 +1,313 @@
+{
+    "type": "maven",
+    "namespace": "io.micrometer",
+    "name": "micrometer-core",
+    "version": "1.9.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c4a4e724-d1f1-444e-b7fb-3443fe06b40e",
+            "packages": [
+                "pkg:maven/io.micrometer/micrometer-core@1.9.8?uuid=e2af2cb8-a2ce-47cc-8a9c-c5d2a25fd351",
+                "pkg:maven/io.micrometer/micrometer-core@1.9.8?classifier=sources&uuid=c45b93ba-0490-4288-b6d4-ade4524206dd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "micrometer-core\nCore module of Micrometer containing instrumentation API and implementation",
+    "release_date": "2023-02-13T23:21:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tommy Ludwig",
+            "email": "tludwig@vmware.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/micrometer-metrics/micrometer",
+    "download_url": "https://repo1.maven.org/maven2/io/micrometer/micrometer-core/1.9.8/micrometer-core-1.9.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "dd71a3583405a9853c88a9451b59d0a48012438d",
+    "sha256": "c802475bdc733118c6a2e0aa4f19f424787044eb95e9fc56a266aabd45d4123c",
+    "sha512": "7e5134cda38d6549e5ac9521057e471c5cccc85e1906810819a072e22d7f3f6c0bcbf0ab1e65238d2ff9e61046e73bc3729d69a7427220bb04d803adb23b18c7",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/micrometer-metrics/micrometer.git",
+    "vcs_url": "https://github.com/micrometer-metrics/micrometer.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.micrometer/micrometer-core@1.9.8?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12",
+            "extracted_requirement": "2.1.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+            "extracted_requirement": "3.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.aspectj/aspectjweaver@1.8.14",
+            "extracted_requirement": "1.8.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@4.2.16",
+            "extracted_requirement": "4.2.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@31.1-jre",
+            "extracted_requirement": "31.1-jre",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3",
+            "extracted_requirement": "2.9.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sf.ehcache/ehcache@2.10.9.2",
+            "extracted_requirement": "2.10.9.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.cache/cache-api@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.hazelcast/hazelcast@5.1.1",
+            "extracted_requirement": "5.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-entitymanager@5.6.8.Final",
+            "extracted_requirement": "5.6.8.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.46.v20220331",
+            "extracted_requirement": "9.4.46.v20220331",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622",
+            "extracted_requirement": "9.4.48.v20220622",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.78",
+            "extracted_requirement": "8.5.78",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.37",
+            "extracted_requirement": "2.37",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-api@1.45.1",
+            "extracted_requirement": "1.45.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13",
+            "extracted_requirement": "4.5.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpasyncclient@4.1.5",
+            "extracted_requirement": "4.1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.netflix.hystrix/hystrix-core@1.5.12",
+            "extracted_requirement": "1.5.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.11",
+            "extracted_requirement": "1.2.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2",
+            "extracted_requirement": "2.17.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.squareup.okhttp3/okhttp@5.0.0-alpha.6",
+            "extracted_requirement": "5.0.0-alpha.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mongodb/mongodb-driver-sync@4.6.0-alpha0",
+            "extracted_requirement": "4.6.0-alpha0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jooq/jooq@3.14.15",
+            "extracted_requirement": "3.14.15",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.kafka/kafka-clients@2.8.1",
+            "extracted_requirement": "2.8.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.kafka/kafka-streams@2.8.1",
+            "extracted_requirement": "2.8.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.latencyutils/LatencyUtils@2.0.3",
+            "extracted_requirement": "2.0.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.micrometer/micrometer-core@1.9.8?classifier=sources&uuid=c45b93ba-0490-4288-b6d4-ade4524206dd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.micrometer/micrometer-core@1.9.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/micrometer/micrometer-core/1.9.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/micrometer/micrometer-core/1.9.8/micrometer-core-1.9.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/micrometer/micrometer-core/1.9.8/micrometer-core-1.9.8.pom",
+    "file_references": []
+}

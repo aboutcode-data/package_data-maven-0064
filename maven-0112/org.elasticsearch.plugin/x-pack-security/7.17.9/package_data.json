@@ -1,0 +1,392 @@
+{
+    "type": "maven",
+    "namespace": "org.elasticsearch.plugin",
+    "name": "x-pack-security",
+    "version": "7.17.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bf28c3e9-b822-4a25-a4df-76450ee34e9a",
+            "packages": [
+                "pkg:maven/org.elasticsearch.plugin/x-pack-security@7.17.9?uuid=6d78fc33-ffce-486a-a7db-bda19709318c",
+                "pkg:maven/org.elasticsearch.plugin/x-pack-security@7.17.9?classifier=sources&uuid=f0d3b0b8-639e-4ab4-a590-1d44da01eb6b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "security\nElasticsearch Expanded Pack Plugin - Security",
+    "release_date": "2023-02-01T00:28:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elastic",
+            "email": null,
+            "url": "https://www.elastic.co"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/elastic/elasticsearch.git",
+    "download_url": "https://repo1.maven.org/maven2/org/elasticsearch/plugin/x-pack-security/7.17.9/x-pack-security-7.17.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fc6774a47a4ad51444d8bc56b5ccefc29833b336",
+    "sha256": "0fbbb6c035e67708882841ccae3221db0bf4a846073c99dd8d67c99a99b925e4",
+    "sha512": "ef76948f7b89652f3c48dc341fcd0f465383e6ed81567b628015095f4a073f0f19693856811c8ffca1f4ca282bf59ad7c0878593d2708bc77a3d6bad772a4444",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/elastic/elasticsearch.git",
+    "vcs_url": "https://github.com/elastic/elasticsearch.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "elastic-license-v2",
+    "declared_license_expression_spdx": "Elastic-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_3.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Elastic License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_3.RULE",
+                    "license_expression": "elastic-license-v2",
+                    "spdx_license_expression": "Elastic-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_2.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.17.9/licenses/ELASTIC-LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_2.RULE",
+                    "license_expression": "elastic-license-v2",
+                    "spdx_license_expression": "Elastic-2.0"
+                }
+            ],
+            "identifier": "elastic_license_v2-875ca8e4-ef16-cd07-6515-0eff439749ab",
+            "license_expression": "elastic-license-v2",
+            "license_expression_spdx": "Elastic-2.0"
+        }
+    ],
+    "other_license_expression": "(elastic-license-v2 OR mongodb-sspl-1.0) AND apache-2.0 AND elastic-license-v2 AND w3c-software-19980720",
+    "other_license_expression_spdx": "(Elastic-2.0 OR SSPL-1.0) AND Apache-2.0 AND Elastic-2.0 AND W3C-19980720",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Elastic License 2.0\n  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.17.9/licenses/ELASTIC-LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.elasticsearch.plugin/x-pack-security@7.17.9?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.unboundid/unboundid-ldapsdk@4.0.8",
+            "extracted_requirement": "4.0.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-core@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-saml-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-saml-impl@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-messaging-impl@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-security-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-security-impl@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-profile-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-profile-impl@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-impl@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-soap-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-soap-impl@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-storage-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-storage-impl@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.shibboleth.utilities/java-support@7.5.1",
+            "extracted_requirement": "7.5.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.santuario/xmlsec@2.1.4",
+            "extracted_requirement": "2.1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@3.2.2",
+            "extracted_requirement": "3.2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.cryptacular/cryptacular@1.2.4",
+            "extracted_requirement": "1.2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.6.2",
+            "extracted_requirement": "1.6.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.17.1",
+            "extracted_requirement": "2.17.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.10",
+            "extracted_requirement": "4.5.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.12",
+            "extracted_requirement": "4.4.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpasyncclient@4.1.4",
+            "extracted_requirement": "4.1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.12",
+            "extracted_requirement": "4.4.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient-cache@4.5.10",
+            "extracted_requirement": "4.5.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.3.1",
+            "extracted_requirement": "9.3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.8.1",
+            "extracted_requirement": "9.8.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.nimbusds/lang-tag@1.4.4",
+            "extracted_requirement": "1.4.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.mail/jakarta.mail@1.6.3",
+            "extracted_requirement": "1.6.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.jcip/jcip-annotations@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.minidev/json-smart@2.4.2",
+            "extracted_requirement": "2.4.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.minidev/accessors-smart@2.4.2",
+            "extracted_requirement": "2.4.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm@9.1",
+            "extracted_requirement": "9.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@19.0",
+            "extracted_requirement": "19.0",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.elasticsearch.plugin/x-pack-security@7.17.9?classifier=sources&uuid=f0d3b0b8-639e-4ab4-a590-1d44da01eb6b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.elasticsearch.plugin/x-pack-security@7.17.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/elasticsearch/plugin/x-pack-security/7.17.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/elasticsearch/plugin/x-pack-security/7.17.9/x-pack-security-7.17.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/elasticsearch/plugin/x-pack-security/7.17.9/x-pack-security-7.17.9.pom",
+    "file_references": []
+}

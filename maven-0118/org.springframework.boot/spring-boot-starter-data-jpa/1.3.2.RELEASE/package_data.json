@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.boot",
+    "name": "spring-boot-starter-data-jpa",
+    "version": "1.3.2.RELEASE",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1e5eea7f-c694-4657-99fe-1541e554eaa9",
+            "packages": [
+                "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@1.3.2.RELEASE?uuid=f932a37e-6f3a-4b95-968f-6c34b477f477",
+                "pkg:github/spring-projects/spring-boot@v1.3.2.RELEASE?uuid=0e1397e3-d54d-4952-b45d-e2d4cdc2748c"
+            ]
+        }
+    ],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spring Boot Data JPA Starter",
+    "release_date": "2016-01-22T03:03:43Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Pivotal Software, Inc.",
+            "email": null,
+            "url": "http://www.spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://projects.spring.io/spring-boot/",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.3.2.RELEASE/spring-boot-starter-data-jpa-1.3.2.RELEASE.jar",
+    "size": 2371,
+    "md5": null,
+    "sha1": "ef6c6a3da4d77393ab88e005e66443958e774bc8",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@1.3.2.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-aop",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-jdbc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-entitymanager",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.transaction/javax.transaction-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.data/spring-data-jpa",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aspects",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@1.3.2.RELEASE?uuid=f932a37e-6f3a-4b95-968f-6c34b477f477",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@1.3.2.RELEASE",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.3.2.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.3.2.RELEASE/spring-boot-starter-data-jpa-1.3.2.RELEASE.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.3.2.RELEASE/spring-boot-starter-data-jpa-1.3.2.RELEASE.pom",
+    "file_references": []
+}

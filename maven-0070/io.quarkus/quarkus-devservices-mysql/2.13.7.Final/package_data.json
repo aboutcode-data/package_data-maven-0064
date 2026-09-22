@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-devservices-mysql",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "279da52b-c189-476f-af86-898e855701b0",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-devservices-mysql@2.13.7.Final?uuid=ab9916c9-dbde-49ff-a2fd-b18b0aed6ca1",
+                "pkg:maven/io.quarkus/quarkus-devservices-mysql@2.13.7.Final?classifier=sources&uuid=6dde6001-f9ee-4657-bf40-535603ff5546"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - DevServices - MySQL",
+    "release_date": "2023-01-19T09:49:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-devservices-mysql/2.13.7.Final/quarkus-devservices-mysql-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d34a354c09ea4aec1d8eba27f65192f891e3c6a1",
+    "sha256": "ccb168aab814c5ef5000e95099948e970d255d7a0b372dcba73f6e9bf5b6b06f",
+    "sha512": "8d96523ae41df6715590d90523486ad46c0350994c05cca55ec284c47b2802fddd3da2f4c4291069d10c903793ec4cd9418d2ba86b20c0810e2dd2b948010870",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-devservices-mysql@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-datasource-deployment-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testcontainers/mysql",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-devservices-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/mysql/mysql-connector-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager-embedded",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-devservices-mysql@2.13.7.Final?classifier=sources&uuid=6dde6001-f9ee-4657-bf40-535603ff5546",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-devservices-mysql@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

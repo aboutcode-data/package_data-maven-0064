@@ -1,0 +1,55 @@
+{
+    "type": "maven",
+    "namespace": "javax.help",
+    "name": "javahelp",
+    "version": "2.0.02",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "464d6061-647f-42b3-becd-cee0ac06b3af",
+            "packages": [
+                "pkg:maven/javax.help/javahelp@2.0.02?uuid=65fcfe55-462a-41ff-b724-377fe2527d4e",
+                "pkg:maven/javax.help/javahelp@2.0.02?classifier=sources&uuid=7b7c2c9b-24aa-41a7-98ee-02bec46e4fd2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JavaHelp API\nThe JavaHelp API provides a platform-independent help framework.",
+    "release_date": "2006-11-23T14:38:26Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://java.sun.com/products/javahelp/index.jsp",
+    "download_url": "https://repo1.maven.org/maven2/javax/help/javahelp/2.0.02/javahelp-2.0.02-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c6161c81546feeb590a34f43286dcd9b9a81b49a",
+    "sha256": "9b08e3d80ae1d196ca2db4f6f3b67019aff7d68afa35fc887ea248c1e12d9c18",
+    "sha512": "5c51a6e200768415feaab222c8e2dcb04c9fd9869a6ef5d1db97df3d53f365db8a2c26470adc8ccccfef560e8d4158658d1459326e663fccc24f2e0df9731bab",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "sun-prop-non-commercial AND sun-bsd-extra AND proprietary-license",
+    "other_license_expression_spdx": "LicenseRef-scancode-sun-prop-non-commercial AND LicenseRef-scancode-sun-bsd-extra AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.help/javahelp@2.0.02?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/javax.help/javahelp@2.0.02?classifier=sources&uuid=7b7c2c9b-24aa-41a7-98ee-02bec46e4fd2",
+    "datasource_id": null,
+    "purl": "pkg:maven/javax.help/javahelp@2.0.02?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/help/javahelp/2.0.02/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/help/javahelp/2.0.02/javahelp-2.0.02-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/help/javahelp/2.0.02/javahelp-2.0.02.pom",
+    "file_references": []
+}

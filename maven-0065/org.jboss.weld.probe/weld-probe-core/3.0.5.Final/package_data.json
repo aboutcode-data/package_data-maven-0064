@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.weld.probe",
+    "name": "weld-probe-core",
+    "version": "3.0.5.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "37fb6fc2-8189-4cd9-b564-743738890b18",
+            "packages": [
+                "pkg:maven/org.jboss.weld.probe/weld-probe-core@3.0.5.Final?uuid=2ec318a6-896c-4257-aa81-05b9ed0fc9bf",
+                "pkg:maven/org.jboss.weld.probe/weld-probe-core@3.0.5.Final?classifier=sources&uuid=d57ed456-a84c-492c-a2b9-a458ea309a97"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Weld Probe Core",
+    "release_date": "2018-07-25T10:03:28Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Weld committers",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://weld.cdi-spec.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/weld/probe/weld-probe-core/3.0.5.Final/weld-probe-core-3.0.5.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b18325417c668d5a6b04c0f3b5b7ec640381e5a1",
+    "sha256": "0b3ee6cb0fd1eb493846812f269f5f537527eb47530eee602af38a267af6c1a6",
+    "sha512": "f84431e8db653e6489f3ea8069b0175d893ccfcd309795336aeb5ed6cdced1eabfb884d0661ca586a4c41f74314779970514562354cfb0fb32d56b8bec5c3a95",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "mit AND bsd-new AND (cc-by-4.0 AND ofl-1.1 AND mit) AND (bsd-new AND mit) AND (lgpl-2.1 AND apache-2.0 AND cddl-1.1 AND gpl-2.0 AND gpl-2.0 WITH classpath-exception-2.0 AND cddl-1.0) AND (ofl-1.1 AND mit)",
+    "other_license_expression_spdx": "MIT AND BSD-3-Clause AND (CC-BY-4.0 AND OFL-1.1 AND MIT) AND (BSD-3-Clause AND MIT) AND (LGPL-2.1-only AND Apache-2.0 AND CDDL-1.1 AND GPL-2.0-only AND GPL-2.0-only WITH Classpath-exception-2.0 AND CDDL-1.0) AND (OFL-1.1 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.weld.probe/weld-probe-core@3.0.5.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.jboss.weld/weld-parent@39",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.jboss.weld/weld-parent@39",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jboss.weld/weld-parent@39"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld/weld-core-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.servlet/jboss-servlet-api_3.1_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.spotbugs/spotbugs-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.weld.probe/weld-probe-core@3.0.5.Final?classifier=sources&uuid=d57ed456-a84c-492c-a2b9-a458ea309a97",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jboss.weld.probe/weld-probe-core@3.0.5.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/weld/probe/weld-probe-core/3.0.5.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/weld/probe/weld-probe-core/3.0.5.Final/weld-probe-core-3.0.5.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/weld/probe/weld-probe-core/3.0.5.Final/weld-probe-core-3.0.5.Final.pom",
+    "file_references": []
+}

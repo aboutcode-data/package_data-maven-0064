@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.boot",
+    "name": "spring-boot-starter-reactor-netty",
+    "version": "2.7.11",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7e59e46f-00db-4ca6-a2ec-91cfd767e3f5",
+            "packages": [
+                "pkg:maven/org.springframework.boot/spring-boot-starter-reactor-netty@2.7.11?uuid=7123dc84-0b42-4f8c-a3d8-a395433ee3b8",
+                "pkg:maven/org.springframework.boot/spring-boot-starter-reactor-netty@2.7.11?classifier=sources&uuid=fe28e343-ab3e-4f23-87ab-dedadaa39094"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "spring-boot-starter-reactor-netty\nStarter for using Reactor Netty as the embedded reactive HTTP server.",
+    "release_date": "2023-04-20T08:48:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Spring",
+            "email": "ask@spring.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "VMware, Inc.",
+            "email": null,
+            "url": "https://spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://spring.io/projects/spring-boot",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/2.7.11/spring-boot-starter-reactor-netty-2.7.11-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a0c4a306e60196ec3d1686d5ae3474028cceba00",
+    "sha256": "e80f023315467855208d6bdddab36d9817605e267581fed02b6a80b4dc02e1a7",
+    "sha512": "2e92b1811a9c1e17f89b859b4da25e2688cc3b045e6093567ba1f6b9a6437ef3292088363dee6f0353cdfd0e662f4969a967ba74d07f9e7e3776cda3a8efefe4",
+    "bug_tracking_url": "https://github.com/spring-projects/spring-boot/issues",
+    "code_view_url": "https://github.com/spring-projects/spring-boot",
+    "vcs_url": "git://github.com/spring-projects/spring-boot.git",
+    "copyright": "Copyright (c) VMware, Inc.",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-428c1364-ecb5-f806-7a2e-77d10737a7ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-94d22364-f545-7f7f-6e63-bddee6ac17fe",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.boot/spring-boot-starter-reactor-netty@2.7.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.31",
+            "extracted_requirement": "1.0.31",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.boot/spring-boot-starter-reactor-netty@2.7.11?classifier=sources&uuid=fe28e343-ab3e-4f23-87ab-dedadaa39094",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-reactor-netty@2.7.11?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

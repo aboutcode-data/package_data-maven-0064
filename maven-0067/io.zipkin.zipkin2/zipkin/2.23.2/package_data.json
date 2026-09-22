@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.zipkin2",
+    "name": "zipkin",
+    "version": "2.23.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "952fa510-9c75-4076-8ff7-437958b9a302",
+            "packages": [
+                "pkg:maven/io.zipkin.zipkin2/zipkin@2.23.2?uuid=c2edca5e-8303-4e2f-b162-168c9a9c984a",
+                "pkg:maven/io.zipkin.zipkin2/zipkin@2.23.2?classifier=sources&uuid=3c9b2caa-0bae-4cc3-a636-9c6988f4be21"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Zipkin Core Library",
+    "release_date": "2020-12-25T03:36:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "OpenZipkin Gitter",
+            "email": null,
+            "url": "https://gitter.im/openzipkin/zipkin"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OpenZipkin",
+            "email": null,
+            "url": "http://zipkin.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/openzipkin/zipkin",
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.23.2/zipkin-2.23.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c8336eb71c738ca5a986ce9708dbfcc9218f056d",
+    "sha256": "59710b5cfcd2e2802b684358b5cdf1bf0ac31cb7dfdf4db412b5163f526ed84a",
+    "sha512": "f73097b5ba2ecb64ce252933e9c1cdaa19003eeacc814fc8ede5610f030e1c378004912c8d3d6043a5c9d23c12597cb3ab2b7870926eb10fc971716448f6fa50",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The OpenZipkin Authors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.zipkin2/zipkin@2.23.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jvnet/animal-sniffer-annotation@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson",
+            "extracted_requirement": "${gson.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.zipkin2/zipkin@2.23.2?classifier=sources&uuid=3c9b2caa-0bae-4cc3-a636-9c6988f4be21",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.zipkin2/zipkin@2.23.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,131 @@
+{
+    "type": "maven",
+    "namespace": "org.mindrot",
+    "name": "jbcrypt",
+    "version": "0.3m",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a187955e-6037-41c1-83eb-678c170d628b",
+            "packages": [
+                "pkg:maven/org.mindrot/jbcrypt@0.3m?uuid=3230455d-6538-449c-9f75-90b67e2765d6",
+                "pkg:maven/org.mindrot/jbcrypt@0.3m?classifier=sources&uuid=918af96e-492d-42d6-83e9-bcc1afdbe177"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jbcrypt\njBCrypt is a Java implementation of OpenBSD's Blowfish password hashing code, as described in A Future-Adaptable Password Scheme by Niels Provos and David Mazi\u00c3\u00a8res, by Damien Miller.",
+    "release_date": "2010-05-17T02:46:40Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Damien Miller",
+            "email": "djm@mindrot.org",
+            "url": "http://www.mindrot.org/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "mindrot.org",
+            "email": null,
+            "url": "http://www.mindrot.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.mindrot.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a846e415cf6593433c7d3d23c1b0699e30c124f4",
+    "sha256": "9654ee07f372634fdb0c17096afb5df702233f1989c3afb7505839b6c5965378",
+    "sha512": "f59e8f76ec65b81617c4287fb9763beedfe3cd89b674e16eb96996093ee072ee37574c024121e2ef8db58e5fe3e78188b9bd24e851a6c12cf79cc1894e5267a9",
+    "bug_tracking_url": null,
+    "code_view_url": "scm:svn:https://jbcrypt.googlecode.com/svn/tags/jbcrypt-0.3m",
+    "vcs_url": "svn+https://jbcrypt.googlecode.com/svn/tags/jbcrypt-0.3m",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "(bsd-new AND mit) AND unknown",
+    "declared_license_expression_spdx": "(BSD-3-Clause AND MIT) AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 99.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_26.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: ISC/BSD License",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 99,
+                    "rule_identifier": "bsd-new_26.RULE",
+                    "license_expression": "bsd-new"
+                },
+                {
+                    "score": 53.33,
+                    "matcher": "3-seq",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_1272.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: ISC/BSD License\n  comments: The text of the license may be found at http://www.opensource.org/licenses/isc-license.txt",
+                    "match_coverage": 53.33,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_1272.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "bsd_new_and_mit-71e99ed2-e427-3d05-1847-7a3ed5e1cba6",
+            "license_expression": "bsd-new AND mit"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-7f00f9508239c84dca4d7c2d36d330a6c63ab8f6",
+                    "start_line": 1,
+                    "matched_text": "license - name: ISC/BSD License\n  comments: The text of the license may be found at http://www.opensource.org/licenses/isc-license.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 23,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-7f00f9508239c84dca4d7c2d36d330a6c63ab8f6",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-393f4edd-0e87-eda0-9a53-43917595b9cb",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "isc",
+    "other_license_expression_spdx": "ISC",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: ISC/BSD License\n  comments: The text of the license may be found at http://www.opensource.org/licenses/isc-license.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mindrot/jbcrypt@0.3m?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.7",
+            "extracted_requirement": "4.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.mindrot/jbcrypt@0.3m?classifier=sources&uuid=918af96e-492d-42d6-83e9-bcc1afdbe177",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mindrot/jbcrypt@0.3m?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.3m/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m.pom",
+    "file_references": []
+}

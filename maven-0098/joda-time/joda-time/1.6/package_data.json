@@ -1,0 +1,229 @@
+{
+    "type": "maven",
+    "namespace": "joda-time",
+    "name": "joda-time",
+    "version": "1.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d6df2da7-7178-4ea0-8394-420bec68e60f",
+            "packages": [
+                "pkg:maven/joda-time/joda-time@1.6?uuid=1e1483c9-4e36-42d0-953f-369841059bdf",
+                "pkg:maven/joda-time/joda-time@1.6?classifier=sources&uuid=66bdd42f-f099-4e9e-b581-f6b633629827"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Joda time\nDate and time library to replace JDK date handling.",
+    "release_date": "2008-12-01T21:45:34Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stephen Colebourne",
+            "email": "scolebourne@joda.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian S O'Neill",
+            "email": "broneill@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Guy Allard",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Fredrik Borgh",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeroen van Erp",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Gwyn Evans",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Sean Geoghegan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ashish Katyal",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Antonio Leitao",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kostas Maistrelis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Al Major",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Blair Martin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Julen Parra",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mike Schrag",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kandarp Shah",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Francois Staes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Maxim Zhao",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ryan Propper",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Joda.org",
+            "email": null,
+            "url": "http://www.joda.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://joda-time.sourceforge.net",
+    "download_url": "https://repo1.maven.org/maven2/joda-time/joda-time/1.6/joda-time-1.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1c206dcf51d4ef1db4f8e44ab0222b3c91efb0bf",
+    "sha256": "49329e5173e91c5653729aa8be83c6063c1c85dc4c4e5b36dce7a4b3a8e2dbaa",
+    "sha512": "06ecbd778f51b33e414e1764505d9987d1e755ce6799f5f0259c2c35e4bd9c7711d89aefa65b40bbd48e7b26be85433c287f071a7c6ae75dc4bf453b576f9e57",
+    "bug_tracking_url": "http://sourceforge.net/tracker/?atid=617889&group_id=97367&func=browse",
+    "code_view_url": "http://joda-time.svn.sourceforge.net/viewvc/joda-time/trunk/JodaTime/",
+    "vcs_url": "svn+https://joda-time.svn.sourceforge.net/svnroot/joda-time/trunk/JodaTime/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_217.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_217.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 95.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache_no-version_6.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 95,
+                    "rule_identifier": "apache_no-version_6.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-8bb5f41d-1672-9c83-ef50-0739f1e08b5b",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2\n  url: http://www.apache.org/licenses/\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/joda-time/joda-time@1.6?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/joda-time/joda-time@1.6?classifier=sources&uuid=66bdd42f-f099-4e9e-b581-f6b633629827",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/joda-time/joda-time@1.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/joda-time/joda-time/1.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/joda-time/joda-time/1.6/joda-time-1.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/joda-time/joda-time/1.6/joda-time-1.6.pom",
+    "file_references": []
+}

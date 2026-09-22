@@ -1,0 +1,106 @@
+{
+    "type": "maven",
+    "namespace": "org.hamcrest",
+    "name": "hamcrest-library",
+    "version": "1.3.RC2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9e5b0cd9-50e8-4cbe-b2bb-2d8fc81fd26f",
+            "packages": [
+                "pkg:maven/org.hamcrest/hamcrest-library@1.3.RC2?uuid=577907df-d222-475d-9820-fbd9b23ddbee",
+                "pkg:maven/org.hamcrest/hamcrest-library@1.3.RC2?classifier=sources&uuid=3069ef5f-59ba-44f9-91ab-dc2e16b0038d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Hamcrest library\nHamcrest library of matcher implementations.",
+    "release_date": "2010-12-22T16:12:19Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joe Walnes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nat Pryce",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steve Freeman",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Neil Dunn",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marc von Renteln",
+            "email": "marc..:at:..von-renteln.de",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/hamcrest/",
+    "download_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3.RC2/hamcrest-library-1.3.RC2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "04a4095bb67686c4741720874d3feefbacd2e328",
+    "sha256": "65aa919f60d1ca9aaf025fa0018898212156826a7c730194703e96dcbcec651d",
+    "sha512": "f8453be96e8650ec8312096cce07d43cc540925ffdb94293a4b6abd2eefcb816e553d85ef385b77c73a22cd10c39d5b7e48d02144dca431af747fdd61a430e73",
+    "bug_tracking_url": null,
+    "code_view_url": "http://code.google.com/p/hamcrest/source/browse/",
+    "vcs_url": "svn+http://hamcrest.googlecode.com/svn/trunk/hamcrest-java/hamcrest-library",
+    "copyright": "Copyright (c) www.hamcrest.org",
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hamcrest/hamcrest-library@1.3.RC2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.hamcrest/hamcrest-parent@1.3.RC2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.hamcrest/hamcrest-parent@1.3.RC2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.hamcrest/hamcrest-library@1.3.RC2?classifier=sources&uuid=3069ef5f-59ba-44f9-91ab-dc2e16b0038d",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.hamcrest/hamcrest-library@1.3.RC2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3.RC2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3.RC2/hamcrest-library-1.3.RC2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3.RC2/hamcrest-library-1.3.RC2.pom",
+    "file_references": []
+}

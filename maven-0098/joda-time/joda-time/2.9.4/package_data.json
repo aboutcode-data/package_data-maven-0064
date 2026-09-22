@@ -1,0 +1,534 @@
+{
+    "type": "maven",
+    "namespace": "joda-time",
+    "name": "joda-time",
+    "version": "2.9.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "257dbd60-96b9-4fb9-b394-df470ff22b71",
+            "packages": [
+                "pkg:maven/joda-time/joda-time@2.9.4?uuid=d1fa80a7-2bdb-40e1-87fd-a42f3c38b105",
+                "pkg:maven/joda-time/joda-time@2.9.4?classifier=sources&uuid=ce29ac34-4390-4368-bcb9-0fe57475b28c",
+                "pkg:github/jodaorg/joda-time@v2.9.4?uuid=bb2d1c8f-cc8a-4794-b664-49901910875f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Joda-Time\nDate and time library to replace JDK date handling",
+    "release_date": "2016-05-27T09:26:43Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stephen Colebourne",
+            "email": null,
+            "url": "https://github.com/jodastephen"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian S O'Neill",
+            "email": null,
+            "url": "https://github.com/broneill"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Adrian Acala",
+            "email": null,
+            "url": "https://github.com/AdrianAcala"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Guy Allard",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Oren Benjamin",
+            "email": null,
+            "url": "https://github.com/oby1"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Fredrik Borgh",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dave Brosius",
+            "email": null,
+            "url": "https://github.com/mebigfatguy"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dan Cavallaro",
+            "email": null,
+            "url": "https://github.com/dancavallaro"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Luc Claes",
+            "email": null,
+            "url": "https://github.com/lucclaes"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Emiliano Claria",
+            "email": null,
+            "url": "https://github.com/emilianogc"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dan Cojocar",
+            "email": null,
+            "url": "https://github.com/dancojocar"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Evgeniy Devyatykh",
+            "email": null,
+            "url": "https://github.com/john9x"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "dspitfire",
+            "email": null,
+            "url": "https://github.com/dspitfire"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Christopher Elkins",
+            "email": null,
+            "url": "https://github.com/celkins"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "emopers",
+            "email": null,
+            "url": "https://github.com/emopers"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeroen van Erp",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Gwyn Evans",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Fletcher",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Sean Geoghegan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jim Gough",
+            "email": null,
+            "url": "https://github.com/jpgough"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Craig Gidney",
+            "email": null,
+            "url": "https://github.com/Strilanc"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "haguenau",
+            "email": null,
+            "url": "https://github.com/haguenau"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Rowan Hill",
+            "email": null,
+            "url": "https://github.com/rowanhill"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "LongHua Huang",
+            "email": null,
+            "url": "https://github.com/longhua"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brendan Humphreys",
+            "email": null,
+            "url": "https://github.com/pandacalculus"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Vsevolod Ivanov",
+            "email": null,
+            "url": "https://github.com/seva-ask"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ing. Jan Kalab",
+            "email": null,
+            "url": "https://github.com/Pitel"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ashish Katyal",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Martin Kneissl",
+            "email": null,
+            "url": "https://github.com/mkneissl"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Fabian Lange",
+            "email": null,
+            "url": "https://github.com/CodingFabian"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Vidar Larsen",
+            "email": null,
+            "url": "https://github.com/vlarsen"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kasper Laudrup",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeff Lavallee",
+            "email": null,
+            "url": "https://github.com/jlavallee"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Chung-yeol Lee",
+            "email": null,
+            "url": "https://github.com/chungyeol"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Antonio Leitao",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kostas Maistrelis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "mjunginger",
+            "email": null,
+            "url": "https://github.com/mjunginger"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Al Major",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Pete Marsh",
+            "email": null,
+            "url": "https://github.com/petedmarsh"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Blair Martin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Amling Palantir",
+            "email": null,
+            "url": "https://github.com/AmlingPalantir"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Julen Parra",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jorge Perez",
+            "email": null,
+            "url": "https://github.com/jperezalv"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Rok Piltaver",
+            "email": null,
+            "url": "https://github.com/Rok-Piltaver"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael Plump",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bjorn Pollex",
+            "email": null,
+            "url": "https://github.com/bjoernpollex"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ryan Propper",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mike Schrag",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hajime Senuma",
+            "email": null,
+            "url": "https://github.com/hajimes"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Kandarp Shah",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Francois Staes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Grzegorz Swierczynski",
+            "email": null,
+            "url": "https://github.com/gswierczynski"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jason Tedor",
+            "email": null,
+            "url": "https://github.com/jasontedor"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ricardo Trindade",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bram Van Dam",
+            "email": null,
+            "url": "https://github.com/codematters"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ed Wagstaff",
+            "email": null,
+            "url": "https://github.com/edwag"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Can Yapan",
+            "email": null,
+            "url": "https://github.com/canyapan"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Maxim Zhao",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Alex",
+            "email": null,
+            "url": "https://github.com/nyrk"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Joda.org",
+            "email": null,
+            "url": "http://www.joda.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.joda.org/joda-time/",
+    "download_url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "53c1bcc94f55a63bed4715f766d5d5f5c411bc33",
+    "sha256": "b8a7a2575e8b8d30d4a5a53e2480d424ddb97fcca1582bd779f55744c9e7b5dc",
+    "sha512": "6ce328f10e9aaa6e9308c0d40b521be6b5a7d18789a80a9e39b9509171fcb5f1ae133e90a51fa9b7cfa3278879902c19ef79d0ca9dbd5aa010b77b7c233ea361",
+    "bug_tracking_url": "https://github.com/JodaOrg/joda-time/issues",
+    "code_view_url": "https://github.com/JodaOrg/joda-time",
+    "vcs_url": "git+https://github.com/JodaOrg/joda-time.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_217.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_217.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-9dee21f1-7230-6e88-8a62-5950d8f6d6ed",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/joda-time/joda-time@2.9.4?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.joda/joda-convert@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/joda-time/joda-time@2.9.4?classifier=sources&uuid=ce29ac34-4390-4368-bcb9-0fe57475b28c",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/joda-time/joda-time@2.9.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.pom",
+    "file_references": []
+}

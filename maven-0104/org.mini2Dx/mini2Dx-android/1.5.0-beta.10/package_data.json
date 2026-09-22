@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.mini2Dx",
+    "name": "mini2Dx-android",
+    "version": "1.5.0-beta.10",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "mini2Dx-android\nnull",
+    "release_date": "2017-05-27T15:09:56Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Thomas Cashman",
+            "email": "thomascashman404@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/mini2Dx/mini2Dx",
+    "download_url": "https://repo1.maven.org/maven2/org/mini2Dx/mini2Dx-android/1.5.0-beta.10/mini2Dx-android-1.5.0-beta.10.jar",
+    "size": 32447,
+    "md5": null,
+    "sha1": "fa54825d919bbf160e93959f5d0689f17a63a3fd",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new AND unknown",
+    "declared_license_expression_spdx": "BSD-3-Clause AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The BSD 3-Clause License\nhttps://opensource.org/licenses/BSD-3-Clause",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mini2Dx/mini2Dx-android@1.5.0-beta.10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.mini2Dx/mini2Dx-core",
+            "extracted_requirement": "1.5.0-beta.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mini2Dx/android-beans",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.badlogicgames.gdx/gdx-backend-android",
+            "extracted_requirement": "1.9.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.badlogicgames.gdx/gdx-controllers",
+            "extracted_requirement": "1.9.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.badlogicgames.gdx/gdx-controllers-android",
+            "extracted_requirement": "1.9.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mini2Dx/mini2Dx-android@1.5.0-beta.10?uuid=e09399fc-3a3a-4e7e-af20-e83d96dba321",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mini2Dx/mini2Dx-android@1.5.0-beta.10",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mini2Dx/mini2Dx-android/1.5.0-beta.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mini2Dx/mini2Dx-android/1.5.0-beta.10/mini2Dx-android-1.5.0-beta.10.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mini2Dx/mini2Dx-android/1.5.0-beta.10/mini2Dx-android-1.5.0-beta.10.pom",
+    "file_references": []
+}

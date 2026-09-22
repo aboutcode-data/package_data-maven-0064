@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "org.elasticsearch.client",
+    "name": "elasticsearch-rest-client",
+    "version": "7.17.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dc36b6f9-4922-4603-a7a3-acf53a5747b7",
+            "packages": [
+                "pkg:maven/org.elasticsearch.client/elasticsearch-rest-client@7.17.9?uuid=56a2aa9a-879f-43a3-8a93-2ddbb317e680",
+                "pkg:maven/org.elasticsearch.client/elasticsearch-rest-client@7.17.9?classifier=sources&uuid=44ca3308-7f5b-4288-8bd3-fac72c356db5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "rest\nElasticsearch subproject :client:rest",
+    "release_date": "2023-02-01T00:28:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elastic",
+            "email": null,
+            "url": "https://www.elastic.co"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/elastic/elasticsearch.git",
+    "download_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.9/elasticsearch-rest-client-7.17.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "87e680fc169f8f0eef6f9899239dfab5504edef2",
+    "sha256": "bd3f50810ef625350f0024752724518ba67f19517b4b2ba5a247633e5f8cbee0",
+    "sha512": "2f2af8123711024667300425381ca7bccb3360877e22cf3bb7ff269885cf46c380f557b3237f9949613f74f82c45e25e1606813c5b50c9b582d00a4d5330d1df",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/elastic/elasticsearch.git",
+    "vcs_url": "https://github.com/elastic/elasticsearch.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1316.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1316.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-214dc513-3a07-e314-81ac-8a8e96535a74",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.elasticsearch.client/elasticsearch-rest-client@7.17.9?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.10",
+            "extracted_requirement": "4.5.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.12",
+            "extracted_requirement": "4.4.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpasyncclient@4.1.4",
+            "extracted_requirement": "4.1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.12",
+            "extracted_requirement": "4.4.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec@1.11",
+            "extracted_requirement": "1.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.3",
+            "extracted_requirement": "1.1.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.elasticsearch.client/elasticsearch-rest-client@7.17.9?classifier=sources&uuid=44ca3308-7f5b-4288-8bd3-fac72c356db5",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.elasticsearch.client/elasticsearch-rest-client@7.17.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.9/elasticsearch-rest-client-7.17.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.9/elasticsearch-rest-client-7.17.9.pom",
+    "file_references": []
+}

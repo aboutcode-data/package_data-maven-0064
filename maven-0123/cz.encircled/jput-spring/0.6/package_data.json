@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "cz.encircled",
+    "name": "jput-spring",
+    "version": "0.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "jPut-spring\nJava Performance Unit Testing - Spring integration module",
+    "release_date": "2017-05-20T22:10:35Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Vladislav Kisel",
+            "email": "eencircled@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/encircled/jPut",
+    "download_url": "https://repo1.maven.org/maven2/cz/encircled/jput-spring/0.6/jput-spring-0.6.jar",
+    "size": 7491,
+    "md5": null,
+    "sha1": "0bb5489ca09a4bebbebcaa4b7bf0d8057dd9e1d7",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/cz.encircled/jput-spring@0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/cz.encircled/jput-core",
+            "extracted_requirement": "0.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/cz.encircled/jput-spring@0.6?uuid=5ca68c06-ee7e-4a28-9566-92eb0856183e",
+    "datasource_id": null,
+    "purl": "pkg:maven/cz.encircled/jput-spring@0.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/cz/encircled/jput-spring/0.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/cz/encircled/jput-spring/0.6/jput-spring-0.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/cz/encircled/jput-spring/0.6/jput-spring-0.6.pom",
+    "file_references": []
+}

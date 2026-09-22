@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.play",
+    "name": "twirl-api_2.12",
+    "version": "1.4.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1bef9b15-5368-4f62-8eac-b676f715ffe7",
+            "packages": [
+                "pkg:maven/com.typesafe.play/twirl-api_2.12@1.4.2?uuid=09275509-7d79-4457-b493-fb41140d01da",
+                "pkg:maven/com.typesafe.play/twirl-api_2.12@1.4.2?classifier=sources&uuid=e7680a12-50c7-4667-9108-cba8947326a8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "twirl-api",
+    "release_date": "2019-06-12T07:59:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Play Framework Team",
+            "email": null,
+            "url": "https://github.com/playframework"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.typesafe.play",
+            "email": null,
+            "url": "https://github.com/playframework/twirl"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/playframework/twirl",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.2/twirl-api_2.12-1.4.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d7ef0f8171d875f3b93ad355751501909607f1cd",
+    "sha256": "66f51aa6198090b88dc7d44ddc748df210a72a651a4ae28a0075ac9b6a925250",
+    "sha512": "621588bc5a77eb0263d6bdcac2c019d592fb69a35ab2edf3baedf5d597d8bd707d51ef6c3349e2e960f96215d6f518cda563c2e549d866468ac6caae8521dbd2",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/playframework/twirl",
+    "vcs_url": "git+https://github.com/playframework/twirl.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_20.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_20.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bcefe950-fdcf-2a12-721d-7f0d69b15c83",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.play/twirl-api_2.12@1.4.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.8",
+            "extracted_requirement": "2.12.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-xml_2.12@1.2.0",
+            "extracted_requirement": "1.2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12@3.0.8",
+            "extracted_requirement": "3.0.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.play/twirl-api_2.12@1.4.2?classifier=sources&uuid=e7680a12-50c7-4667-9108-cba8947326a8",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.play/twirl-api_2.12@1.4.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.2/twirl-api_2.12-1.4.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.2/twirl-api_2.12-1.4.2.pom",
+    "file_references": []
+}

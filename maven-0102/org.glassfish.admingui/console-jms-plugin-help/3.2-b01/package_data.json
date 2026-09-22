@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.admingui",
+    "name": "console-jms-plugin-help",
+    "version": "3.2-b01",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "92a4e375-02ed-46db-a289-1fdaff65db41",
+            "packages": [
+                "pkg:maven/org.glassfish.admingui/console-jms-plugin-help@3.2-b01?uuid=1141d6b4-349a-4d24-995b-1c57c9397c0a",
+                "pkg:maven/org.glassfish.admingui/console-jms-plugin-help@3.2-b01?classifier=sources&uuid=e1b67923-e144-4deb-86c4-43e3a68ad79f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Administration Console JMS Help Content\nOnline help content for the console-jms-plugin bundle.",
+    "release_date": "2011-06-16T19:00:42Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Paul Davies",
+            "email": null,
+            "url": "http://blogs.sun.com/techscribe"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kim Haase",
+            "email": null,
+            "url": "http://blogs.sun.com/appserverwriters"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-jms-plugin-help/3.2-b01/console-jms-plugin-help-3.2-b01-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f08fb2163f8f0af5f1c9b850cd645c39d379ebe8",
+    "sha256": "2ace98c86276bb44b79a174759d47a35013ac57e2de3b200da09778fb987a30f",
+    "sha512": "a1a1f8040aa465700ce062caabf682c9e4c131aa4f0f203bc12c063a2f272b61cbf4415a935eaca1cb898c20d11452ad0226b1be4f1521561054c8b6d52e7167",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND generic-trademark AND proprietary-license",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-generic-trademark AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.admingui/console-jms-plugin-help@3.2-b01?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.glassfish.admingui/console-jms-plugin-help@3.2-b01?classifier=sources&uuid=e1b67923-e144-4deb-86c4-43e3a68ad79f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.admingui/console-jms-plugin-help@3.2-b01?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-jms-plugin-help/3.2-b01/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-jms-plugin-help/3.2-b01/console-jms-plugin-help-3.2-b01-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-jms-plugin-help/3.2-b01/console-jms-plugin-help-3.2-b01.pom",
+    "file_references": []
+}

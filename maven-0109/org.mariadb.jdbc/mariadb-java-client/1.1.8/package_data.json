@@ -1,0 +1,122 @@
+{
+    "type": "maven",
+    "namespace": "org.mariadb.jdbc",
+    "name": "mariadb-java-client",
+    "version": "1.1.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cd8a33df-3af8-4707-8b8e-a7ea39e1db72",
+            "packages": [
+                "pkg:maven/org.mariadb.jdbc/mariadb-java-client@1.1.8?uuid=77d33566-154c-43c6-8552-3777c0be822a",
+                "pkg:maven/org.mariadb.jdbc/mariadb-java-client@1.1.8?classifier=sources&uuid=7eff05ee-d29a-42f7-a50a-1e0c15eb5b3e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "mariadb-java-client\nJDBC driver for MariaDB and MySQL",
+    "release_date": "2015-01-31T15:50:12Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vladislav Vaintroub",
+            "email": "wlad@montyprogram.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Massimo Siani",
+            "email": "massimo.siani@skysql.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Georg Richter",
+            "email": "georg@skysql.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://kb.askmonty.org/en/about-the-mariadb-java-client/",
+    "download_url": "https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/1.1.8/mariadb-java-client-1.1.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e9a18a1ccf0ba96a977a0f2142bb24405edc2b50",
+    "sha256": "9065be03af27eb44c6db8fcb3af86201753890d08d0ff99fd627aa16708f1c76",
+    "sha512": "e261de7c0dd5f810721354cf210b796c544d1c1a792e6451b8643e31c32e7851ea7ca8ffcee99fa1c47f80f7ec180d46489225507aeadb575692b122a178600e",
+    "bug_tracking_url": "http://bugs.launchpad.net/mariadb-java-client/",
+    "code_view_url": "http://bazaar.launchpad.net/+branch/mariadb-java-client",
+    "vcs_url": "bazaar+http://bazaar.launchpad.net/+branch/mariadb-java-client",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL-2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-7e62c45a-04bd-cee0-7a6d-a3458d42ca35",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "bsd-new AND lgpl-2.1-plus",
+    "other_license_expression_spdx": "BSD-3-Clause AND LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL-2.1\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mariadb.jdbc/mariadb-java-client@1.1.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.6",
+            "extracted_requirement": "4.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna@3.3.0",
+            "extracted_requirement": "3.3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-dbcp/commons-dbcp@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.mariadb.jdbc/mariadb-java-client@1.1.8?classifier=sources&uuid=7eff05ee-d29a-42f7-a50a-1e0c15eb5b3e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mariadb.jdbc/mariadb-java-client@1.1.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/1.1.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/1.1.8/mariadb-java-client-1.1.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/1.1.8/mariadb-java-client-1.1.8.pom",
+    "file_references": []
+}

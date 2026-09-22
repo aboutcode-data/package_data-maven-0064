@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.js.metal.web",
+    "version": "5.0.12",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b7a1371c-d8b5-426c-9725-7067a9d6d12c",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.js.metal.web@5.0.12?uuid=1e19d9d2-6313-4ae6-8854-d5af12e6a4d3",
+                "pkg:maven/com.liferay/com.liferay.frontend.js.metal.web@5.0.12?classifier=sources&uuid=2972cf28-8856-4f88-850f-cea0f2f116de"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend JS Metal Web",
+    "release_date": "2023-03-06T08:40:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.metal.web/5.0.12/com.liferay.frontend.js.metal.web-5.0.12-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "dee173cb15bff242922bdcf05af319b475224bc4",
+    "sha256": "aa1c1cea546d80b5db45a75acaf7226c02ba1f49691f70209e7a58175bce40dc",
+    "sha512": "999d35a106b6474759a4bf321995a6362b79860669dc2a66e03fe7e9d056fce0a9b595e9f3c5cabd20574cd58a94b710f36e07a40deea5a90910b9d77245d347",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.js.metal.web@5.0.12?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.js.metal.web@5.0.12?classifier=sources&uuid=2972cf28-8856-4f88-850f-cea0f2f116de",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.js.metal.web@5.0.12?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

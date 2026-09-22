@@ -1,0 +1,92 @@
+{
+    "type": "maven",
+    "namespace": "org.coursera.naptime",
+    "name": "root_2.11",
+    "version": "0.6.8",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "root",
+    "release_date": "2017-05-16T21:52:12Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Brennan Saeta",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "danchia",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "nickdella",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "josh-newman",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.coursera.naptime",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/coursera/naptime",
+    "download_url": "https://repo1.maven.org/maven2/org/coursera/naptime/root_2.11/0.6.8/root_2.11-0.6.8.jar",
+    "size": 280,
+    "md5": null,
+    "sha1": "0e6602197382ef2159a67d62788401fc63fa57c4",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.coursera.naptime/root_2.11@0.6.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.coursera.naptime/root_2.11@0.6.8?uuid=9321eb4a-60ce-413c-84ac-41595160a292",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.coursera.naptime/root_2.11@0.6.8",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/coursera/naptime/root_2.11/0.6.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/coursera/naptime/root_2.11/0.6.8/root_2.11-0.6.8.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/coursera/naptime/root_2.11/0.6.8/root_2.11-0.6.8.pom",
+    "file_references": []
+}

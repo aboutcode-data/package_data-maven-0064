@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.bouncycastle",
+    "name": "bcpkix-jdk15on",
+    "version": "1.60",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "27dcf968-85cf-4ed6-a0fb-691a0e0650fd",
+            "packages": [
+                "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60?uuid=c873f423-4921-4ec2-b467-d850b1b25c83",
+                "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60?classifier=sources&uuid=7c08239b-390d-421d-b0eb-f6f19a9d13de"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs\nThe Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation. This jar contains APIs for JDK 1.5 to JDK 1.8. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.",
+    "release_date": "2018-07-06T00:22:38Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Legion of the Bouncy Castle Inc.",
+            "email": "feedback-crypto@bouncycastle.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.bouncycastle.org/java.html",
+    "download_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a25f041293f401af08efba63ff4bbdce98134a03",
+    "sha256": "1caaeb190149ac41ae2d04379a0d6514f6a1e80d40b6a24acb25997ff28bc451",
+    "sha512": "4986d769dd07c87095aec4a940a9dab00f118189d88e4dc9ea2ec7785e4a63c7283e098b47be8a2c443eee335cd6a55f7ef8319b412af22ee8e2984493fd2d22",
+    "bug_tracking_url": "https://github.com/bcgit/bc-java/issues",
+    "code_view_url": "https://github.com/bcgit/bc-java",
+    "vcs_url": "https://github.com/bcgit/bc-java",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_239.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Bouncy Castle Licence",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_239.RULE",
+                    "license_expression": "mit",
+                    "license_expression_spdx": "MIT"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_238.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.bouncycastle.org/licence.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_238.RULE",
+                    "license_expression": "mit",
+                    "license_expression_spdx": "MIT"
+                }
+            ],
+            "identifier": "mit-a15c7e58-044c-cbf1-e43d-463a09725abe",
+            "license_expression": "mit",
+            "license_expression_spdx": "MIT"
+        }
+    ],
+    "other_license_expression": "public-domain",
+    "other_license_expression_spdx": "LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Bouncy Castle Licence\n  url: http://www.bouncycastle.org/licence.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60",
+            "extracted_requirement": "1.60",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60?classifier=sources&uuid=7c08239b-390d-421d-b0eb-f6f19a9d13de",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.60/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.pom",
+    "file_references": []
+}

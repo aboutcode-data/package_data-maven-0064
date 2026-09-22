@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.brave",
+    "name": "brave-mysql",
+    "version": "4.3.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "archive/brave-mysql\nMySQL integration that uses the brave api to submit client span information.",
+    "release_date": "2017-05-17T09:43:46Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-mysql/4.3.2/brave-mysql-4.3.2.jar",
+    "size": 6046,
+    "md5": null,
+    "sha1": "342527bc6edf516f61d0022390e82f486582324b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.brave/brave-mysql@4.3.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/mysql/mysql-connector-java",
+            "extracted_requirement": "5.1.40",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.brave/brave-mysql@4.3.2?uuid=91af540f-0f8d-4bd0-82d5-262eb841d47f",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.brave/brave-mysql@4.3.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-mysql/4.3.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-mysql/4.3.2/brave-mysql-4.3.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-mysql/4.3.2/brave-mysql-4.3.2.pom",
+    "file_references": []
+}

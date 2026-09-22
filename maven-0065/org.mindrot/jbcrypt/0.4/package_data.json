@@ -1,0 +1,132 @@
+{
+    "type": "maven",
+    "namespace": "org.mindrot",
+    "name": "jbcrypt",
+    "version": "0.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8c2245dc-4dd5-45bf-aaf1-39b0b961982d",
+            "packages": [
+                "pkg:maven/org.mindrot/jbcrypt@0.4?uuid=26af2e3a-09bf-4fca-81a9-58eaa86e8c77",
+                "pkg:maven/org.mindrot/jbcrypt@0.4?classifier=sources&uuid=e885b4de-ef7f-4869-8380-a422129f4948"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jBCrypt\nOpenBSD-style Blowfish password hashing for Java",
+    "release_date": "2017-02-13T18:23:31Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Damien Miller",
+            "email": "djm@mindrot.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/djmdjm/jBCrypt",
+    "download_url": "https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.4/jbcrypt-0.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "69f76567491266abfba6be8be0eecf55dca852d2",
+    "sha256": "2d067ea67fb58f80cc5076ce78de2ddfeab6de7a072e68e7794ec71da3812c68",
+    "sha512": "c45e3377dfeb43b44b7a2db2fe058d1b3d73493f3da71904131502eb163b824a1cc1748e924fe42da3417cdb9f15ad13f63a47ab7609cbd94db9ec67f746c8de",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/djmdjm/jBCrypt.git",
+    "vcs_url": "git://github.com/djmdjm/jBCrypt.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "isc AND (cc-by-3.0 AND mit) AND unknown",
+    "declared_license_expression_spdx": "ISC AND (CC-BY-3.0 AND MIT) AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-spdx-id",
+                    "end_line": 1,
+                    "rule_url": null,
+                    "start_line": 1,
+                    "matched_text": "ISC",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx-license-identifier-isc-9931cb7ad33c2eb18f322c94660b670a84186baa",
+                    "license_expression": "isc"
+                }
+            ],
+            "identifier": "isc-6c4320cc-eb5b-3792-8c56-b8565fff1119",
+            "license_expression": "isc"
+        },
+        {
+            "matches": [
+                {
+                    "score": 16.13,
+                    "matcher": "3-seq",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cc-by-3.0_and_mit_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://opensource.org/licenses/isc-license",
+                    "match_coverage": 16.13,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cc-by-3.0_and_mit_5.RULE",
+                    "license_expression": "cc-by-3.0 AND mit"
+                }
+            ],
+            "identifier": null,
+            "license_expression": "cc-by-3.0 AND mit"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-e78cccf88bd36ba86bea6e15703b9b27f4739813",
+                    "start_line": 1,
+                    "matched_text": "license https://opensource.org/licenses/isc-license",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-e78cccf88bd36ba86bea6e15703b9b27f4739813",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-12de4231-5a1c-38c1-8bde-6aed3c682306",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "isc",
+    "other_license_expression_spdx": "ISC",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: ISC\n  url: https://opensource.org/licenses/isc-license\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mindrot/jbcrypt@0.4?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.mindrot/jbcrypt@0.4?classifier=sources&uuid=e885b4de-ef7f-4869-8380-a422129f4948",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.mindrot/jbcrypt@0.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.4/jbcrypt-0.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.4/jbcrypt-0.4.pom",
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.xmlgraphics",
+    "name": "batik-css",
+    "version": "1.9.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cff3e922-b7c0-4a82-b7cb-2d1c9e643d8f",
+            "packages": [
+                "pkg:maven/org.apache.xmlgraphics/batik-css@1.9.1?uuid=5f4ee011-deeb-4946-af14-f7e112fe6d24",
+                "pkg:maven/org.apache.xmlgraphics/batik-css@1.9.1?classifier=sources&uuid=a646a8ae-3421-4230-a640-7487dab59617"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.apache.xmlgraphics:batik-css\nBatik CSS engine",
+    "release_date": "2017-07-25T15:00:59Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xmlgraphics.apache.org/batik/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.9.1/batik-css-1.9.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d1732f017d577e682a89355e4f1b7e2d61b87921",
+    "sha256": "b6065826c661792304ee6e6a60e8a10f6e8d5bc6236384b61036760f95df9d54",
+    "sha512": "fc9426047691b0bc3b1bdbcc0e63807eec8225e512bd0da20016ceb1f06c27d2c142daab39e13bc831b3aa2f19d72b9ec290ea92dad15f07f4680dad8195da49",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.xmlgraphics/batik-css@1.9.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-util@1.9.1",
+            "extracted_requirement": "1.9.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/xmlgraphics-commons",
+            "extracted_requirement": "${xmlgraphics.commons.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis-ext",
+            "extracted_requirement": "${xmlapis.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.xmlgraphics/batik-css@1.9.1?classifier=sources&uuid=a646a8ae-3421-4230-a640-7487dab59617",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.xmlgraphics/batik-css@1.9.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.9.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.9.1/batik-css-1.9.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.9.1/batik-css-1.9.1.pom",
+    "file_references": []
+}

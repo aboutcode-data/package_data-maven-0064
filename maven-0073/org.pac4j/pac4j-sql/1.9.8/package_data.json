@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.pac4j",
+    "name": "pac4j-sql",
+    "version": "1.9.8",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "pac4j for relational DB",
+    "release_date": "2017-05-25T17:16:50Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/pac4j/pac4j-sql/1.9.8/pac4j-sql-1.9.8.jar",
+    "size": 6496,
+    "md5": null,
+    "sha1": "2e4e8ad8ebb0db37cb8a6f2a3a8ae60558c63019",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.pac4j/pac4j-sql@1.9.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.pac4j/pac4j-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jdbi/jdbi",
+            "extracted_requirement": "2.71",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.pac4j/pac4j-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.h2database/h2",
+            "extracted_requirement": "1.4.191",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.pac4j/pac4j-sql@1.9.8?uuid=dd5697d0-e91c-41c3-bf3b-709899974b49",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.pac4j/pac4j-sql@1.9.8",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/pac4j/pac4j-sql/1.9.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/pac4j/pac4j-sql/1.9.8/pac4j-sql-1.9.8.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/pac4j/pac4j-sql/1.9.8/pac4j-sql-1.9.8.pom",
+    "file_references": []
+}

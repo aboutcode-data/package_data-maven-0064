@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.ocpsoft.rewrite",
+    "name": "rewrite-integration-faces",
+    "version": "2.0.3.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2013-06-20T14:35:45Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/ocpsoft/rewrite/rewrite-integration-faces/2.0.3.Final/rewrite-integration-faces-2.0.3.Final.jar",
+    "size": 52662,
+    "md5": null,
+    "sha1": "3b107fc7db6592ef4c3574a2eaa4e2a3b6091c7c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.ocpsoft.rewrite/rewrite-integration-faces@2.0.3.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.ocpsoft.rewrite/rewrite-api-servlet",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ocpsoft.rewrite/rewrite-config-servlet",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ocpsoft.rewrite/rewrite-api-el",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ocpsoft.rewrite/rewrite-annotations-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.servlet/jboss-servlet-api_2.5_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.faces/jboss-jsf-api_2.1_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.el/jboss-el-api_2.2_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/jstl",
+            "extracted_requirement": "1.1.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ocpsoft.rewrite/rewrite-test-harness",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.ocpsoft.rewrite/rewrite-integration-faces@2.0.3.Final?uuid=fc1fb7ff-872d-40dd-b13d-d5f3e663f025",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.ocpsoft.rewrite/rewrite-integration-faces@2.0.3.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/ocpsoft/rewrite/rewrite-integration-faces/2.0.3.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/ocpsoft/rewrite/rewrite-integration-faces/2.0.3.Final/rewrite-integration-faces-2.0.3.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/ocpsoft/rewrite/rewrite-integration-faces/2.0.3.Final/rewrite-integration-faces-2.0.3.Final.pom",
+    "file_references": []
+}

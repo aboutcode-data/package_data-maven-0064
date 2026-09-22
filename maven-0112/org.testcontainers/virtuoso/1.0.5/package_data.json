@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.testcontainers",
+    "name": "virtuoso",
+    "version": "1.0.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "TestContainers :: JDBC :: Virtuoso",
+    "release_date": "2016-05-02T19:22:52Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/testcontainers/virtuoso/1.0.5/virtuoso-1.0.5.jar",
+    "size": 5970,
+    "md5": null,
+    "sha1": "a40164900ed18eba1dc5143ad0c7897950acd5ee",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.testcontainers/virtuoso@1.0.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.testcontainers/testcontainers",
+            "extracted_requirement": "1.0.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testcontainers/jdbc",
+            "extracted_requirement": "1.0.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/virtuoso/jdbc-driver",
+            "extracted_requirement": "4.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.zaxxer/HikariCP-java6",
+            "extracted_requirement": "2.3.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-dbutils/commons-dbutils",
+            "extracted_requirement": "1.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.testcontainers/virtuoso@1.0.5?uuid=8d5d53c7-dd2d-4808-9079-827434db383d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.testcontainers/virtuoso@1.0.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/testcontainers/virtuoso/1.0.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/testcontainers/virtuoso/1.0.5/virtuoso-1.0.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/testcontainers/virtuoso/1.0.5/virtuoso-1.0.5.pom",
+    "file_references": []
+}

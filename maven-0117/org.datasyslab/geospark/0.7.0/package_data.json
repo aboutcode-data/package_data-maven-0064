@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "org.datasyslab",
+    "name": "geospark",
+    "version": "0.7.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "org.datasyslab:geospark\nGeospatial extension for Apache Spark",
+    "release_date": "2017-05-21T07:17:01Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jia Yu",
+            "email": "jiayu2@asu.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Mohamed Sarwat",
+            "email": "msarwat@asu.edu",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://geospark.datasyslab.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/datasyslab/geospark/0.7.0/geospark-0.7.0.jar",
+    "size": 13030302,
+    "md5": null,
+    "sha1": "f1a31cf68134a52f69de8dbce06ce82737b0b36a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT license\nhttps://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.datasyslab/geospark@0.7.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.spark/spark-core_2.11",
+            "extracted_requirement": "2.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.datasyslab/sernetcdf",
+            "extracted_requirement": "0.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.11",
+            "extracted_requirement": "2.4.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.11",
+            "extracted_requirement": "2.2.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-junit_2.11",
+            "extracted_requirement": "2.4.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.datasyslab/geospark@0.7.0?uuid=40f6cb58-fe70-48e7-8374-804c18c3bc43",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.datasyslab/geospark@0.7.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/datasyslab/geospark/0.7.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/datasyslab/geospark/0.7.0/geospark-0.7.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/datasyslab/geospark/0.7.0/geospark-0.7.0.pom",
+    "file_references": []
+}

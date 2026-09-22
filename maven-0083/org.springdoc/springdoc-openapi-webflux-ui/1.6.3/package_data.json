@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.springdoc",
+    "name": "springdoc-openapi-webflux-ui",
+    "version": "1.6.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "98e9697d-a246-4910-b466-1a9a8425f0f2",
+            "packages": [
+                "pkg:maven/org.springdoc/springdoc-openapi-webflux-ui@1.6.3?uuid=a8e1a513-8c15-4e6e-8fc9-a8f8f1235429",
+                "pkg:maven/org.springdoc/springdoc-openapi-webflux-ui@1.6.3?classifier=sources&uuid=aaf1e692-9bce-4c8b-83b0-4e7c32d5d7fb"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2021-12-25T13:06:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Badr NASS LAHSEN",
+            "email": "support@springdoc.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://springdoc.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/springdoc/springdoc-openapi-webflux-ui/1.6.3/springdoc-openapi-webflux-ui-1.6.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9d6c7dae703953c8715432d38ac6e46eca055d70",
+    "sha256": "767c10ec7952679d7636a137edc7b37de172ddb196b6e6afffaf164a01dc1fb8",
+    "sha512": "afa648415247a3c869801e01ef7b249c998a77dacfc133568a9ac6b10bb540d8b1a0133e027694e7fdd2a5def667a160761ed1b723e5364199567a900fc14443",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springdoc/springdoc-openapi-webflux-ui@1.6.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springdoc/springdoc-openapi-webflux-core@1.6.3",
+            "extracted_requirement": "1.6.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.webjars/swagger-ui",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars/webjars-locator-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.projectreactor.netty/reactor-netty-http",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.springdoc/springdoc-openapi-webflux-ui@1.6.3?classifier=sources&uuid=aaf1e692-9bce-4c8b-83b0-4e7c32d5d7fb",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springdoc/springdoc-openapi-webflux-ui@1.6.3?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

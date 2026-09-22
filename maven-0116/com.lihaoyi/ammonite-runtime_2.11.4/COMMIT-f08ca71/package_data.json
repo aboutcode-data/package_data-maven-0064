@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "com.lihaoyi",
+    "name": "ammonite-runtime_2.11.4",
+    "version": "COMMIT-f08ca71",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ammonite-runtime",
+    "release_date": "2017-05-17T12:46:05Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Li Haoyi",
+            "email": null,
+            "url": "https://github.com/lihaoyi"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.lihaoyi",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lihaoyi/Ammonite",
+    "download_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.11.4/COMMIT-f08ca71/ammonite-runtime_2.11.4-COMMIT-f08ca71.jar",
+    "size": 318071,
+    "md5": null,
+    "sha1": "7efd0413f840917504aba1e2eaf14a6feccce855",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT license\nhttp://www.opensource.org/licenses/mit-license.php",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lihaoyi/ammonite-runtime_2.11.4@COMMIT-f08ca71?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/ammonite-ops_2.11",
+            "extracted_requirement": "COMMIT-f08ca71",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/ammonite-util_2.11.4",
+            "extracted_requirement": "COMMIT-f08ca71",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ivy/ivy",
+            "extracted_requirement": "2.4.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalaj/scalaj-http_2.11",
+            "extracted_requirement": "2.3.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect",
+            "extracted_requirement": "2.11.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/acyclic_2.11",
+            "extracted_requirement": "0.1.7",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/utest_2.11",
+            "extracted_requirement": "0.4.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.lihaoyi/ammonite-runtime_2.11.4@COMMIT-f08ca71?uuid=83147552-7652-4009-88b9-f5d17a2e717a",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lihaoyi/ammonite-runtime_2.11.4@COMMIT-f08ca71",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.11.4/COMMIT-f08ca71/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.11.4/COMMIT-f08ca71/ammonite-runtime_2.11.4-COMMIT-f08ca71.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.11.4/COMMIT-f08ca71/ammonite-runtime_2.11.4-COMMIT-f08ca71.pom",
+    "file_references": []
+}

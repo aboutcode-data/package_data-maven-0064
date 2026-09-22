@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.keycloak",
+    "name": "keycloak-rest-admin-ui-ext",
+    "version": "21.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "82853168-88d0-4a95-9e0e-ecc091e4e572",
+            "packages": [
+                "pkg:maven/org.keycloak/keycloak-rest-admin-ui-ext@21.0.2?uuid=ef1f5633-9b4a-404a-a8e6-993810e4f2c6",
+                "pkg:maven/org.keycloak/keycloak-rest-admin-ui-ext@21.0.2?classifier=sources&uuid=3a7644f3-0e6b-4f16-85fc-8d594a03efe4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Admin UI REST extensions\nCustom REST endpoints for the Admin UI",
+    "release_date": "2023-03-30T10:59:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Keycloak Team",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://keycloak.org",
+    "download_url": "https://repo1.maven.org/maven2/org/keycloak/keycloak-rest-admin-ui-ext/21.0.2/keycloak-rest-admin-ui-ext-21.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "94ccf2bc2c4114f74071ee3f4b1afc5930cfc1cd",
+    "sha256": "545b810c6a4c7dd64d16979ab8c7a581fc4a6ca01dcc55b80d589caa4876b3b1",
+    "sha512": "50f2aa56db58168615aff69ccba49f57ea2e99dff7331419aaa689a7a8468693b93e3739288adedf4f69386c01a42c4d4a71785e800861e4ff14b5dab7404665",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.keycloak/keycloak-rest-admin-ui-ext@21.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-server-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-server-spi-private",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-services",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.microprofile.openapi/microprofile-openapi-api@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.keycloak/keycloak-rest-admin-ui-ext@21.0.2?classifier=sources&uuid=3a7644f3-0e6b-4f16-85fc-8d594a03efe4",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.keycloak/keycloak-rest-admin-ui-ext@21.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

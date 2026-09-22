@@ -1,0 +1,97 @@
+{
+    "type": "maven",
+    "namespace": "net.java.dev.jna",
+    "name": "jna",
+    "version": "3.4.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b9a136b3-8511-462f-a338-113beb5fd5bb",
+            "packages": [
+                "pkg:maven/net.java.dev.jna/jna@3.4.0?uuid=34ba756d-ca37-483a-9ec6-44538be46aee",
+                "pkg:maven/net.java.dev.jna/jna@3.4.0?classifier=sources&uuid=bf64652f-0b90-44ba-967f-316f2f130765",
+                "pkg:github/java-native-access/jna@3.4.0?uuid=4dc5fc58-1e25-4d57-a71c-cd7a20eaed97"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Java Native Access",
+    "release_date": "2011-12-21T22:22:03Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Timotyh Wall",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/twall/jna",
+    "download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2f42653596d0044f0ab456620cba54c9cf53c5ca",
+    "sha256": "933a662d9e4a207e25e9ef8a0c3c65cd2c4daaecd5a6850aab0dfc83643949cb",
+    "sha512": "9c2beabbcf3a2b55e7e9fbcf9dbacfb205f5021c0873fa2e8509c41513c96dce99be07f7a16836f734d1e8d61fd049baf29a0b93a9e827abc75425aecaf7b757",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/twall/jna",
+    "vcs_url": "git+https://github.com/twall/jna",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_406.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL, version 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_406.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_12.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://creativecommons.org/licenses/LGPL/2.1/",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_12.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-19fcfe11-2b4a-0ded-d342-25b56e5e8d48",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus AND apache-2.0 AND lgpl-3.0-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND Apache-2.0 AND LGPL-3.0-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL, version 2.1\n  url: http://creativecommons.org/licenses/LGPL/2.1/\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.java.dev.jna/jna@3.4.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/net.java.dev.jna/jna@3.4.0?classifier=sources&uuid=bf64652f-0b90-44ba-967f-316f2f130765",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.java.dev.jna/jna@3.4.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0.pom",
+    "file_references": []
+}

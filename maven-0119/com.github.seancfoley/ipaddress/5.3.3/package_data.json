@@ -1,0 +1,102 @@
+{
+    "type": "maven",
+    "namespace": "com.github.seancfoley",
+    "name": "ipaddress",
+    "version": "5.3.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cf1a4c72-a79b-428c-b834-2101d84030a8",
+            "packages": [
+                "pkg:maven/com.github.seancfoley/ipaddress@5.3.3?uuid=78b9b2d0-83a3-4615-8146-770fb581805c",
+                "pkg:maven/com.github.seancfoley/ipaddress@5.3.3?classifier=sources&uuid=3b17e5cf-e9e3-4c7d-b029-7522e750c48c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "IPAddress\nLibrary for handling IP addresses, both IPv4 and IPv6",
+    "release_date": "2020-09-26T01:56:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sean C Foley",
+            "email": "seancfoley@yahoo.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://seancfoley.github.io/IPAddress/",
+    "download_url": "https://repo1.maven.org/maven2/com/github/seancfoley/ipaddress/5.3.3/ipaddress-5.3.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c258e73254dca0d6070d1ff15b327fad3df5ec6c",
+    "sha256": "03e8d5240d0378f1427b49a4bc97bcec8f3c3bc2200301af23c4370eb9bcf297",
+    "sha512": "17e26e63f9a4f304e9304a30a1cbca39ec281384630ed1b1a8186c79d06fe12994c543728ca38b2d00340e7025b58655cd2e20b788f0b9f0cf290b1ea585d371",
+    "bug_tracking_url": "https://github.com/seancfoley/IPAddress/issues",
+    "code_view_url": "https://github.com/seancfoley/IPAddress/tree/master",
+    "vcs_url": "git://github.com/seancfoley/IPAddress.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND apache-2.0 WITH commons-clause",
+    "other_license_expression_spdx": "Apache-2.0 AND Apache-2.0 WITH LicenseRef-scancode-commons-clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.seancfoley/ipaddress@5.3.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.github.seancfoley/ipaddress@5.3.3?classifier=sources&uuid=3b17e5cf-e9e3-4c7d-b029-7522e750c48c",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.seancfoley/ipaddress@5.3.3?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,150 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.logmanager",
+    "name": "jboss-logmanager-embedded",
+    "version": "1.0.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "86f1bb72-4d85-4f57-9290-98d2452e8f6a",
+            "packages": [
+                "pkg:maven/org.jboss.logmanager/jboss-logmanager-embedded@1.0.10?uuid=02138b5c-51ce-4185-9b6e-adc430a477fd",
+                "pkg:maven/org.jboss.logmanager/jboss-logmanager-embedded@1.0.10?classifier=sources&uuid=1161537f-3022-4d81-8172-23d63fa309f8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JBoss Log Manager (Embedded)\nAn implementation of java.util.logging.LogManager",
+    "release_date": "2022-05-03T14:53:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/logmanager/jboss-logmanager-embedded/1.0.10/jboss-logmanager-embedded-1.0.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1ba16bb57d2ca242c6ebf9bb6ecab0193f1476a2",
+    "sha256": "0841913e3d1fc7bc4157697aaab840c430f0800c8ad42ac050ce0bb05bbfde64",
+    "sha512": "3b445f4eb94f280abcc5e377350125bfbed527030945c8b7c90f457d5b134f1496c4fb68d06c4d472f3221fe7b7bc7e3db14e58ce451de296f1c7744896d0663",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc., and individual contributors, JBoss",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 50.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_3.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 50,
+                    "rule_identifier": "apache-2.0_3.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-f5c95478-417b-051d-2a73-0f3b1cc66568",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_572.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://repository.jboss.org/licenses/apache-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_572.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-d09de37d-dcaf-bd3d-3247-e1a8c26b260e",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License 2.0\n  url: http://repository.jboss.org/licenses/apache-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.logmanager/jboss-logmanager-embedded@1.0.10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.graalvm.nativeimage/svm@21.0.0.2",
+            "extracted_requirement": "21.0.0.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.modules/jboss-modules@1.7.0.Final",
+            "extracted_requirement": "1.7.0.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish/javax.json@1.0.4",
+            "extracted_requirement": "1.0.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.common/wildfly-common@1.5.0.Final-format-001",
+            "extracted_requirement": "1.5.0.Final-format-001",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter@5.6.2",
+            "extracted_requirement": "5.6.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.logmanager/jboss-logmanager-embedded@1.0.10?classifier=sources&uuid=1161537f-3022-4d81-8172-23d63fa309f8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager-embedded@1.0.10?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

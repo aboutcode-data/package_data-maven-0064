@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.keycloak",
+    "name": "keycloak-model-map-hot-rod",
+    "version": "21.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "758f47eb-6bb6-40fc-903d-54f0cb158965",
+            "packages": [
+                "pkg:maven/org.keycloak/keycloak-model-map-hot-rod@21.0.2?uuid=20336336-f364-4fa4-99c3-92efef226f5e",
+                "pkg:maven/org.keycloak/keycloak-model-map-hot-rod@21.0.2?classifier=sources&uuid=4178e90b-ec33-4dcb-9f0c-00dfa739aee6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Keycloak Model Hot Rod",
+    "release_date": "2023-03-30T10:58:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Keycloak Team",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://keycloak.org",
+    "download_url": "https://repo1.maven.org/maven2/org/keycloak/keycloak-model-map-hot-rod/21.0.2/keycloak-model-map-hot-rod-21.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6655d73b11199cdd048e0318dbb570cdb47ea843",
+    "sha256": "062a73627f824cb9b5898153e7726ad898e66b75ad8aa11f0fd1d9a8cab3905f",
+    "sha512": "5b763416cbcb47614b95425aae05642118ccd59496f2f854d4fb78bb6afd264bf24f34b341900cea16d6cb9766fc3ae89ec91dd03e8c2a429b407df5b5ceb654",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.keycloak/keycloak-model-map-hot-rod@21.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-model-map",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-client-hotrod",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-query-dsl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-remote-query-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-model-build-processor@21.0.2",
+            "extracted_requirement": "21.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.infinispan.protostream/protostream-processor",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.keycloak/keycloak-model-map-hot-rod@21.0.2?classifier=sources&uuid=4178e90b-ec33-4dcb-9f0c-00dfa739aee6",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.keycloak/keycloak-model-map-hot-rod@21.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

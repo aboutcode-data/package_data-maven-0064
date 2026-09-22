@@ -1,0 +1,82 @@
+{
+    "type": "maven",
+    "namespace": "org.ccil.cowan.tagsoup",
+    "name": "tagsoup",
+    "version": "1.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "TagSoup\nTagSoup is a SAX-compliant parser written in Java that, instead of parsing well-formed or valid XML, parses HTML as it is found in the wild: poor, nasty and brutish, though quite often far from short. TagSoup is designed for people who have to process this stuff using some semblance of a rational application design. By providing a SAX interface, it allows standard XML tools to be applied to even the worst HTML. TagSoup also includes a command-line processor that reads HTML files and can generate either clean HTML or well-formed XML that is a close approximation to XHTML.",
+    "release_date": "2008-01-06T16:19:59Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://home.ccil.org/~cowan/XML/tagsoup/",
+    "download_url": "https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "639fd364750d7363c85797dc944b4a80f78fa684",
+    "sha256": "10d12b82c9a58a7842765a1152a56fbbd11eac9122a621f5a86a087503297266",
+    "sha512": "e002abd2cbf137d319b2b4fc8125ae220ef1683a7ecb3a2cbd01ccefe0a70cbd4987ae5eb17503ae96033f98a3da95992984828eba757b4015087747324bada0",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1039.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1039.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-da08e9d7-03da-b02c-1775-e1659e903285",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2?uuid=18bb2380-9288-4d2d-a19e-df5aa4e4d23f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.pom",
+    "file_references": []
+}

@@ -1,0 +1,71 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.play",
+    "name": "play-datacommons_2.11",
+    "version": "2.5.15",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Play-DataCommons",
+    "release_date": "2017-05-18T21:22:35Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Play Framework Team",
+            "email": null,
+            "url": "https://github.com/playframework"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.typesafe.play",
+            "email": null,
+            "url": "https://playframework.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://playframework.com",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.15/play-datacommons_2.11-2.5.15.jar",
+    "size": 5713,
+    "md5": null,
+    "sha1": "72c28abc6599c00e83af617d73d1f551d57f4988",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.play/play-datacommons_2.11@2.5.15?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.play/play-datacommons_2.11@2.5.15?uuid=112fe9b9-250c-4e14-ba69-05318613686d",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.play/play-datacommons_2.11@2.5.15",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.15/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.15/play-datacommons_2.11-2.5.15.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.15/play-datacommons_2.11-2.5.15.pom",
+    "file_references": []
+}

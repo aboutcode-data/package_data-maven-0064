@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.mobicents.ha.javax.sip",
+    "name": "restcomm-jain-sip-ha-hazelcast-backend",
+    "version": "1.6.8",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Restcomm JAIN SIP HA Hazelcast backend",
+    "release_date": "2017-05-25T09:38:48Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/RestComm/jain-sip.ha",
+    "download_url": "https://repo1.maven.org/maven2/org/mobicents/ha/javax/sip/restcomm-jain-sip-ha-hazelcast-backend/1.6.8/restcomm-jain-sip-ha-hazelcast-backend-1.6.8.jar",
+    "size": 18721,
+    "md5": null,
+    "sha1": "25a43b1a80df9db90c83b4aa1b0c872014a612cc",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mobicents.ha.javax.sip/restcomm-jain-sip-ha-hazelcast-backend@1.6.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.sip/jain-sip-ri",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.ha.javax.sip/restcomm-jain-sip-ha-core",
+            "extracted_requirement": "1.6.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.hazelcast/hazelcast",
+            "extracted_requirement": "3.4.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": "1.2.17",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.tools/sip-balancer-jar",
+            "extracted_requirement": "${restcomm.load.balancer.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mobicents.ha.javax.sip/restcomm-jain-sip-ha-hazelcast-backend@1.6.8?uuid=a3e8a43f-5743-4d8b-840f-e6099e5e071f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mobicents.ha.javax.sip/restcomm-jain-sip-ha-hazelcast-backend@1.6.8",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mobicents/ha/javax/sip/restcomm-jain-sip-ha-hazelcast-backend/1.6.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mobicents/ha/javax/sip/restcomm-jain-sip-ha-hazelcast-backend/1.6.8/restcomm-jain-sip-ha-hazelcast-backend-1.6.8.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mobicents/ha/javax/sip/restcomm-jain-sip-ha-hazelcast-backend/1.6.8/restcomm-jain-sip-ha-hazelcast-backend-1.6.8.pom",
+    "file_references": []
+}

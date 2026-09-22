@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-tcnative",
+    "version": "1.1.33.Fork23",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "60de5d03-e1ae-4482-9226-1dba318701aa",
+            "packages": [
+                "pkg:maven/io.netty/netty-tcnative@1.1.33.Fork23?uuid=51cd25ec-9a5b-49c1-ad2b-d35a839d9b54",
+                "pkg:maven/io.netty/netty-tcnative@1.1.33.Fork23?classifier=sources&uuid=ed9ab97c-4c8a-42ca-94db-8d7219f087cf"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/TomcatNative [OpenSSL - Dynamic]\nA Mavenized fork of Tomcat Native which incorporates various patches. This artifact is dynamically linked\n    to OpenSSL and Apache APR.",
+    "release_date": "2016-09-30T06:29:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "http://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "http://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-tcnative/1.1.33.Fork23/netty-tcnative-1.1.33.Fork23-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f3e5947d5e369ac0f065b6f1378fc741160cb8d9",
+    "sha256": "448a2b0da525a775d53a84f03cef94c42d17f7e8e427e0f8850cee7613e1c9a8",
+    "sha512": "901b9b08b4dacff4cc3b781ef382fb1182e196b540d6ea315d4bfac8d38b872164e5d5f313acfe096cc9a7e076118e570c04c44ee69a3f047e9d453e458b6ede",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-tcnative@1.1.33.Fork23?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/io.netty/netty-tcnative@1.1.33.Fork23?classifier=sources&uuid=ed9ab97c-4c8a-42ca-94db-8d7219f087cf",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.netty/netty-tcnative@1.1.33.Fork23?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-tcnative/1.1.33.Fork23/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-tcnative/1.1.33.Fork23/netty-tcnative-1.1.33.Fork23-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-tcnative/1.1.33.Fork23/netty-tcnative-1.1.33.Fork23.pom",
+    "file_references": []
+}

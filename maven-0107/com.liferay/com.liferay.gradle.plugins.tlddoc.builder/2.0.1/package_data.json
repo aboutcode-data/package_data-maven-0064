@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.gradle.plugins.tlddoc.builder",
+    "version": "2.0.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cafef4e9-8f7b-4e65-8f45-163c70e39cf4",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.gradle.plugins.tlddoc.builder@2.0.1?uuid=ac7c57ff-9aea-486c-9fd9-dbd612dde0c0",
+                "pkg:maven/com.liferay/com.liferay.gradle.plugins.tlddoc.builder@2.0.1?classifier=sources&uuid=820df28a-cc2b-45e1-8ea3-bf758ef9ebd2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "The TLDDoc Builder Gradle plugin lets you run the Tag Library Documentation Generator tool in order to generate documentation for the JSP Tag Library Descriptor (TLD) files in your project.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.gradle.plugins.tlddoc.builder/2.0.1/com.liferay.gradle.plugins.tlddoc.builder-2.0.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ed9a1fac3662e048bdb19e01c34dcb3269c4eb7b",
+    "sha256": "17258dae6cb511dd5413546fcc4d43269f4801e10c28099e9c9537a53115b679",
+    "sha512": "efd4f7cc3b568aee4c2fa2915e36bc19330b810aa6a7c5d5fd7703c67c398442d803904e5efb67f3d46e69512e5c9d53fae4791e266f7234f75578dd96c54fcf",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR liferay-dxp-eula-2.0.0-2023-06",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.gradle.plugins.tlddoc.builder@2.0.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.util@1.0.48",
+            "extracted_requirement": "1.0.48",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.gradle.plugins.tlddoc.builder@2.0.1?classifier=sources&uuid=820df28a-cc2b-45e1-8ea3-bf758ef9ebd2",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.tlddoc.builder@2.0.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

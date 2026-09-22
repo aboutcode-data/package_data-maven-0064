@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "io.vertx",
+    "name": "vertx-uri-template",
+    "version": "4.3.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b7bcfa6a-f664-4f4b-85c4-cb82622864bc",
+            "packages": [
+                "pkg:maven/io.vertx/vertx-uri-template@4.3.4?uuid=75eb15ac-ecd2-48a0-a0a1-743411d8e390",
+                "pkg:maven/io.vertx/vertx-uri-template@4.3.4?classifier=sources&uuid=1eae8b4a-7f21-4c2d-ad97-89892bff7b20"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Vert.x URI Template",
+    "release_date": "2022-09-30T09:52:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Eclipse",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/vertx/vertx-uri-template/4.3.4/vertx-uri-template-4.3.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "04b6519b70d06d3e11dd5275e032f6deaf12c585",
+    "sha256": "a3579af3332d7aeaf4de0c1caf67795bef61c4ae32ac0bb72974f65e4a7ec52c",
+    "sha512": "e4108569d6949c647086c66424fa8a3f59e6eeadb3fd845ae6fedcbb68f4d8e61edeb73f32c4324161f9e9a38dbc6f11937f4f0681057bedf787ce735fd7f85a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-1.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "epl-2.0 OR apache-2.0",
+    "other_license_expression_spdx": "EPL-2.0 OR Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.vertx/vertx-uri-template@4.3.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.vertx/vertx-dependencies@4.3.4",
+            "extracted_requirement": "4.3.4",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-codegen",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-docgen",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.1",
+            "extracted_requirement": "4.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-dependencies@4.3.4",
+            "extracted_requirement": "4.3.4",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.vertx/vertx-uri-template@4.3.4?classifier=sources&uuid=1eae8b4a-7f21-4c2d-ad97-89892bff7b20",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.vertx/vertx-uri-template@4.3.4?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

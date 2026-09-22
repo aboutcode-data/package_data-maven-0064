@@ -1,0 +1,101 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tika",
+    "name": "tika-core",
+    "version": "1.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "886aff73-e089-4698-8a8f-36c62a82fe52",
+            "packages": [
+                "pkg:maven/org.apache.tika/tika-core@1.6?uuid=4a87f0cd-d3f4-49ba-883f-fab3b1d07316",
+                "pkg:maven/org.apache.tika/tika-core@1.6?classifier=sources&uuid=8acebf42-0496-4467-8526-740b3f4bbad3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Tika core\nThis is the core Apache Tika\u00e2\u0084\u00a2 toolkit library from which all other modules inherit functionality.  It also includes the core facades for the Tika API.",
+    "release_date": "2014-09-01T04:04:32Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://tika.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.6/tika-core-1.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "992b50e4a4cb392ce3ca62afc1c3899c64670005",
+    "sha256": "3fd28616cb912bbe8f82cd355abe1b69c5a458c5cff135b9f7f48ceee6915ed5",
+    "sha512": "76933fcceb7e5a343e0323411257899e00517592cc4aa44340f8ecdda42937d36e8f7568f3edbb25944bcac441f9e0d09a9690e4e53e06088197711c6473dd04",
+    "bug_tracking_url": "https://issues.apache.org/jira/browse/TIKA",
+    "code_view_url": "http://svn.apache.org/viewvc/tika/tags/1.6-rc2/core",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/tika/tags/1.6-rc2/core",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-simplified-darwin AND iptc-2006 AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-2-Clause-Darwin AND LicenseRef-scancode-iptc-2006 AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tika/tika-core@1.6?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@10"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core@4.0.0",
+            "extracted_requirement": "4.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium@4.0.0",
+            "extracted_requirement": "4.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/biz.aQute/bndlib",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tika/tika-core@1.6?classifier=sources&uuid=8acebf42-0496-4467-8526-740b3f4bbad3",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.tika/tika-core@1.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.6/tika-core-1.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.6/tika-core-1.6.pom",
+    "file_references": []
+}

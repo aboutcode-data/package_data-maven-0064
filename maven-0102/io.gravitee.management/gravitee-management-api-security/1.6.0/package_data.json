@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "io.gravitee.management",
+    "name": "gravitee-management-api-security",
+    "version": "1.6.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Gravitee.io APIM - Management - Security",
+    "release_date": "2017-05-17T04:34:55Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/gravitee/management/gravitee-management-api-security/1.6.0/gravitee-management-api-security-1.6.0.jar",
+    "size": 20232,
+    "md5": null,
+    "sha1": "73dd14e7ad716898ff8f280cd8fe62f3c6965e82",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.gravitee.management/gravitee-management-api-security@1.6.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.gravitee.management/gravitee-management-api-service",
+            "extracted_requirement": "1.6.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.gravitee.management.idp/gravitee-management-api-idp-core",
+            "extracted_requirement": "1.6.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": "${spring.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-web",
+            "extracted_requirement": "${spring.security.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-config",
+            "extracted_requirement": "${spring.security.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security.oauth/spring-security-oauth2",
+            "extracted_requirement": "${spring.security.oauth2.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": "${javax.servlet-api.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.gravitee.management/gravitee-management-api-security@1.6.0?uuid=47a02723-d774-4ee0-96f6-f0d503e51ef1",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.gravitee.management/gravitee-management-api-security@1.6.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/gravitee/management/gravitee-management-api-security/1.6.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/gravitee/management/gravitee-management-api-security/1.6.0/gravitee-management-api-security-1.6.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/gravitee/management/gravitee-management-api-security/1.6.0/gravitee-management-api-security-1.6.0.pom",
+    "file_references": []
+}

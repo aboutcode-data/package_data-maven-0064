@@ -1,0 +1,130 @@
+{
+    "type": "maven",
+    "namespace": "net.sf.jasperreports",
+    "name": "jasperreports-metadata",
+    "version": "6.20.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a46c05f0-38ca-4fcf-8ecf-79b17332aebc",
+            "packages": [
+                "pkg:maven/net.sf.jasperreports/jasperreports-metadata@6.20.0?uuid=13ccf929-33c2-4cc8-96a0-b6ca9bd0946b",
+                "pkg:maven/net.sf.jasperreports/jasperreports-metadata@6.20.0?classifier=sources&uuid=f66224ff-eec4-442c-ae56-c6c77cd33416",
+                "pkg:github/tibcosoftware/jasperreports@6.20.0?uuid=95e61c39-f296-4063-8c73-0f72e394deec"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JasperReports Metadata",
+    "release_date": "2022-07-14T14:02:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Teodor Danciu",
+            "email": "teodord@users.sourceforge.net",
+            "url": "http://sourceforge.net/users/teodord"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Lucian Chirita",
+            "email": "lucianc@users.sourceforge.net",
+            "url": "http://sourceforge.net/users/lucianc"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "TIBCO Software Inc.",
+            "email": null,
+            "url": "https://www.jaspersoft.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jasperreports.sourceforge.net",
+    "download_url": "https://repo1.maven.org/maven2/net/sf/jasperreports/jasperreports-metadata/6.20.0/jasperreports-metadata-6.20.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a93d1bc95107401117648d02fd94947b506b47f1",
+    "sha256": "58230ab2c2321d78e1a2fa6678f686ee98ed94243c370754453c13881660e434",
+    "sha512": "d5473c3d640b07ed370f0fa92e507535599edd6cc1ca4c4a09cbe62f6ac78abb900010f3728b45d4aaedc587b432a4d46e26255dc5dfdc6fb20c1b4f941463e4",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/TIBCOSoftware/jasperreports",
+    "vcs_url": "git+https://github.com/TIBCOSoftware/jasperreports.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.0-plus AND lgpl-3.0",
+    "declared_license_expression_spdx": "LGPL-2.0-or-later AND LGPL-3.0-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.0-plus_87.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: GNU Lesser General Public License",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.0-plus_87.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-3.0_311.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://jasperreports.sourceforge.net/license.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-3.0_311.RULE",
+                    "license_expression": "lgpl-3.0"
+                }
+            ],
+            "identifier": "lgpl_2_0_plus_and_lgpl_3_0-95233eb8-5c0f-a4ac-f2a9-0029487253c6",
+            "license_expression": "lgpl-2.0-plus AND lgpl-3.0"
+        }
+    ],
+    "other_license_expression": "(commercial-license AND lgpl-3.0-plus) AND (agpl-3.0 AND mit)",
+    "other_license_expression_spdx": "(LicenseRef-scancode-commercial-license AND LGPL-3.0-or-later) AND (AGPL-3.0-only AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU Lesser General Public License\n  url: http://jasperreports.sourceforge.net/license.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sf.jasperreports/jasperreports-metadata@6.20.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3",
+            "extracted_requirement": "2.13.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3",
+            "extracted_requirement": "2.13.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.sf.jasperreports/jasperreports-metadata@6.20.0?classifier=sources&uuid=f66224ff-eec4-442c-ae56-c6c77cd33416",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.sf.jasperreports/jasperreports-metadata@6.20.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sf/jasperreports/jasperreports-metadata/6.20.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sf/jasperreports/jasperreports-metadata/6.20.0/jasperreports-metadata-6.20.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sf/jasperreports/jasperreports-metadata/6.20.0/jasperreports-metadata-6.20.0.pom",
+    "file_references": []
+}

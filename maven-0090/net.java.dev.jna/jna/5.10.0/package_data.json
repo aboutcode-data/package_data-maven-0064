@@ -1,0 +1,134 @@
+{
+    "type": "maven",
+    "namespace": "net.java.dev.jna",
+    "name": "jna",
+    "version": "5.10.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ff65b3cf-42eb-4590-98b5-f034ceed930d",
+            "packages": [
+                "pkg:maven/net.java.dev.jna/jna@5.10.0?uuid=62540624-7cba-4b01-9f86-7bd7d94a61ba",
+                "pkg:maven/net.java.dev.jna/jna@5.10.0?classifier=sources&uuid=2b3760ba-8485-4386-a407-48783e6906a2",
+                "pkg:github/twall/jna@5.10.0?uuid=48fe6ea2-ead2-4235-8330-eaefb1cd0624",
+                "pkg:github/java-native-access/jna@5.10.0?uuid=e0932df0-8348-4cc3-bd52-a08dbd17aba5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Java Native Access",
+    "release_date": "2021-11-08T19:29:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Timothy Wall",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matthias Bl\u00c3\u00a4sing",
+            "email": "mblaesing@doppel-helix.eu",
+            "url": "https://github.com/matthiasblaesing/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/java-native-access/jna",
+    "download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0ff0287cd964354b358d49ad41e5bae9c7d1b4ae",
+    "sha256": "b8dcd308699f6f4f75c545d10c4372d71b49316c1c014dc79ed28dfccfadd36e",
+    "sha512": "5bd6e51664aa29bca79469aa9be8a4d00f413f4752e1a16771f03643d9cadfaed85630a2ec3d8b1267d60d8332996950e6d85efbdd1345671797820d2bba67f3",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/java-native-access/jna",
+    "vcs_url": "git+https://github.com/java-native-access/jna",
+    "copyright": "",
+    "holder": null,
+    "declared_license_expression": "((lgpl-2.1-plus OR apache-2.0) AND apache-2.0) AND unknown",
+    "declared_license_expression_spdx": "((LGPL-2.1-or-later OR Apache-2.0) AND Apache-2.0) AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 81.51,
+                    "matcher": "3-seq",
+                    "end_line": 12,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1-plus_or_apache-2.0_8.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL-2.1-or-later\n  url: https://www.gnu.org/licenses/old-licenses/lgpl-2.1\n  comments: |\n    Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n            later, or the Apache License, version 2.0. You can freely decide which\n            license you want to apply to the project.\n- name: Apache-2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: |\n    Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n            later, or the Apache License, version 2.0. You can freely decide which\n            license you want to apply to the project.",
+                    "match_coverage": 81.51,
+                    "matched_length": 97,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1-plus_or_apache-2.0_8.RULE",
+                    "license_expression": "lgpl-2.1-plus OR apache-2.0",
+                    "spdx_license_expression": "LGPL-2.1-or-later OR Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 7,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "from_file": null,
+                    "start_line": 7,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "lgpl_2_1_plus_or_apache_2_0__and_apache_2_0-818cc7ef-0407-240d-3843-67f517238c4a",
+            "license_expression": "(lgpl-2.1-plus OR apache-2.0) AND apache-2.0",
+            "license_expression_spdx": "(LGPL-2.1-or-later OR Apache-2.0) AND Apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 12,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-520116eb5eb9e1fcf0ea0e053f8b3e9feaa89d84",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "license - name: LGPL-2.1-or-later\n  url: https://www.gnu.org/licenses/old-licenses/lgpl-2.1\n  comments: |\n    Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n            later, or the Apache License, version 2.0. You can freely decide which\n            license you want to apply to the project.\n- name: Apache-2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: |\n    Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n            later, or the Apache License, version 2.0. You can freely decide which\n            license you want to apply to the project.",
+                    "match_coverage": 100.0,
+                    "matched_length": 102,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-520116eb5eb9e1fcf0ea0e053f8b3e9feaa89d84",
+                    "license_expression": "unknown",
+                    "spdx_license_expression": "LicenseRef-scancode-unknown"
+                }
+            ],
+            "identifier": "unknown-3638e695-0f3d-f857-8ce9-eb063c6f10ae",
+            "license_expression": "unknown",
+            "license_expression_spdx": "LicenseRef-scancode-unknown"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR apache-2.0",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL-2.1-or-later\n  url: https://www.gnu.org/licenses/old-licenses/lgpl-2.1\n  comments: |\n    Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n            later, or the Apache License, version 2.0. You can freely decide which\n            license you want to apply to the project.\n- name: Apache-2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: |\n    Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n            later, or the Apache License, version 2.0. You can freely decide which\n            license you want to apply to the project.\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.java.dev.jna/jna@5.10.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/net.java.dev.jna/jna@5.10.0?classifier=sources&uuid=2b3760ba-8485-4386-a407-48783e6906a2",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.java.dev.jna/jna@5.10.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.pom",
+    "file_references": []
+}

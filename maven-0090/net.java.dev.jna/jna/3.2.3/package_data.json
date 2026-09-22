@@ -1,0 +1,58 @@
+{
+    "type": "maven",
+    "namespace": "net.java.dev.jna",
+    "name": "jna",
+    "version": "3.2.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d748239d-744f-4c00-a016-a6059c80c1ed",
+            "packages": [
+                "pkg:maven/net.java.dev.jna/jna@3.2.3?uuid=af32ddf6-5954-4eab-94cb-4b965489e044",
+                "pkg:maven/net.java.dev.jna/jna@3.2.3?classifier=sources&uuid=0cdabd4b-f9ca-4690-bfd1-a71876e27477",
+                "pkg:github/java-native-access/jna@3.2.3?uuid=6677dd47-af3c-42bb-ab48-a7e85f30f011"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Java Native Access",
+    "release_date": "2010-05-20T08:45:23Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.2.3/jna-3.2.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "66a6efaecc07d8a928887ca8b999c95f1b6b943f",
+    "sha256": "e2b0be7fcc8bf94d4715819b2e06b288cbc330bec236f3659cac998058b4df22",
+    "sha512": "4bc86163743a1b1f8aec7572c5a7e708fb0f625d41b53eac90ed902a78b1840cc2946e5068b67b5625e3a43d9e5369a25ff70c80d21d2f7d207c5906cc99389d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.java.dev.jna/jna@3.2.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/net.java.dev.jna/jna@3.2.3?classifier=sources&uuid=0cdabd4b-f9ca-4690-bfd1-a71876e27477",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.java.dev.jna/jna@3.2.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.2.3/jna-3.2.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.2.3/jna-3.2.3.pom",
+    "file_references": []
+}

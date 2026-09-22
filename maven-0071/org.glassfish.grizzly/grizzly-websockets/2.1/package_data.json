@@ -1,0 +1,132 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.grizzly",
+    "name": "grizzly-websockets",
+    "version": "2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2348e101-5ed9-47be-a0c0-587a2ed7254f",
+            "packages": [
+                "pkg:maven/org.glassfish.grizzly/grizzly-websockets@2.1?uuid=1fdb06ca-d065-4716-8161-39a28a0aeb50",
+                "pkg:maven/org.glassfish.grizzly/grizzly-websockets@2.1?classifier=sources&uuid=57941f9f-b9e3-4869-934b-1ca596c0577b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "grizzly-websockets",
+    "release_date": "2011-04-26T17:39:59Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeanfrancois Arcand",
+            "email": "jfarcand@java.net",
+            "url": "http://weblogs.java.net/blog/jfarcand/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Oleksiy Stashok",
+            "email": "oleksiys@java.net",
+            "url": "http://blogs.sun.com/oleksiys/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ryan Lubke",
+            "email": "rlubke@java.net",
+            "url": "http://blogs.sun.com/rlubke"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Justin Lee",
+            "email": "justin.d.lee@oracle.com",
+            "url": "http://antwerkz.com"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corpration",
+            "email": null,
+            "url": "http://www.oracle.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://grizzly.java.net",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-websockets/2.1/grizzly-websockets-2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bd3b545446eeb889fa03fd5688a3795e2d2a1dc7",
+    "sha256": "265c5223077eba2b6edcc6a74c9b4c761ef3a523ba7b89c048bb720f8f7435b7",
+    "sha512": "7e312acdafead50b59a7b3a110716e73b401bc3a3b872b8e817e0ff67a9c05660074d086b670c36137ce2be0d66d23070dfbf70763240f5de81d43464faf35cd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": "cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.grizzly/grizzly-websockets@2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.glassfish.grizzly/grizzly-framework@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.grizzly/grizzly-http@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.grizzly/grizzly-http-server@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.grizzly/grizzly-http-servlet@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.5",
+            "extracted_requirement": "2.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.grizzly/grizzly-websockets@2.1?classifier=sources&uuid=57941f9f-b9e3-4869-934b-1ca596c0577b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.grizzly/grizzly-websockets@2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-websockets/2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-websockets/2.1/grizzly-websockets-2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-websockets/2.1/grizzly-websockets-2.1.pom",
+    "file_references": []
+}

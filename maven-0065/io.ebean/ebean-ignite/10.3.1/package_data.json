@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "io.ebean",
+    "name": "ebean-ignite",
+    "version": "10.3.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-21T10:33:37Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/ebean/ebean-ignite/10.3.1/ebean-ignite-10.3.1.jar",
+    "size": 28342,
+    "md5": null,
+    "sha1": "1df8e8897234c464168620e5b4ce26cc0a4c14b5",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.ebean/ebean-ignite@10.3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "[1.7.12,1.7.99)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ignite/ignite-slf4j",
+            "extracted_requirement": "1.6.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ignite/ignite-core",
+            "extracted_requirement": "1.6.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.avaje/avaje-ignite-config",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.ebean/ebean",
+            "extracted_requirement": "10.3.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.avaje.composite/composite-testing",
+            "extracted_requirement": "3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.ebean/ebean-mocker",
+            "extracted_requirement": "10.3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.ebean/ebean-ignite@10.3.1?uuid=caf32148-691c-451e-b3ef-92ecde6f65c7",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.ebean/ebean-ignite@10.3.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/ebean/ebean-ignite/10.3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/ebean/ebean-ignite/10.3.1/ebean-ignite-10.3.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/ebean/ebean-ignite/10.3.1/ebean-ignite-10.3.1.pom",
+    "file_references": []
+}

@@ -1,0 +1,166 @@
+{
+    "type": "maven",
+    "namespace": "org.mariadb.jdbc",
+    "name": "mariadb-java-client",
+    "version": "2.7.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e1fcebf0-e740-4239-bffd-1acc67eab1da",
+            "packages": [
+                "pkg:maven/org.mariadb.jdbc/mariadb-java-client@2.7.4?uuid=98aaa082-2af9-408e-88ca-ecd2b71211cc",
+                "pkg:maven/org.mariadb.jdbc/mariadb-java-client@2.7.4?classifier=sources&uuid=ecba82a1-2087-49e0-bf77-bda788aa6a06",
+                "pkg:github/mariadb-corporation/mariadb-connector-j@2.7.4?uuid=b86f6c63-80b0-4e22-80e2-d597e6dfaadd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "mariadb-java-client\nJDBC driver for MariaDB and MySQL",
+    "release_date": "2021-07-29T15:07:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "mariadb jdbc developers",
+            "email": null,
+            "url": "http://mariadb.org/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "mariadb.com",
+            "email": null,
+            "url": "https://mariadb.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://mariadb.com/kb/en/mariadb/about-mariadb-connector-j/",
+    "download_url": "https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/2.7.4/mariadb-java-client-2.7.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f4699a345b9f0d44075a1da62610260cfbf68c6e",
+    "sha256": "84bf45e993d4e144a1efec6df943e00a1f454c5f5a3eb565cf820de2fb089406",
+    "sha512": "6b4a3dc88649c4133ad38fa2eba2212c438776efee3d4dc54b2897a7aa80a32ec6a951cab61f782eb51a5d3c50b4a24295062e430da9c717b2044c40922b52e7",
+    "bug_tracking_url": "https://mariadb.atlassian.net/browse/CONJ",
+    "code_view_url": "https://github.com/mariadb-corporation/mariadb-connector-j",
+    "vcs_url": "git://github.com/mariadb-corporation/mariadb-connector-j.git",
+    "copyright": "Copyright (c) Monty Program Ab, MariaDB Corporation Ab, Marcus Eriksson",
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL-2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-7e62c45a-04bd-cee0-7a6d-a3458d42ca35",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "(lgpl-2.1-plus AND bsd-new) AND lgpl-2.1-plus AND cc0-1.0 AND gpl-2.0-plus AND (lgpl-2.1-plus AND bsd-new AND lgpl-2.1) AND public-domain",
+    "other_license_expression_spdx": "(LGPL-2.1-or-later AND BSD-3-Clause) AND LGPL-2.1-or-later AND CC0-1.0 AND GPL-2.0-or-later AND (LGPL-2.1-or-later AND BSD-3-Clause AND LGPL-2.1-only) AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL-2.1\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mariadb.jdbc/mariadb-java-client@2.7.4?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.github.waffle/waffle-jna@2.2.1",
+            "extracted_requirement": "2.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna@5.5.0",
+            "extracted_requirement": "5.5.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna-platform@5.5.0",
+            "extracted_requirement": "5.5.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "[1.4.0,1.7.25]",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-rds@1.11.734",
+            "extracted_requirement": "1.11.734",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.1",
+            "extracted_requirement": "4.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+            "extracted_requirement": "1.2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core@6.0.0",
+            "extracted_requirement": "6.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium@5.0.0",
+            "extracted_requirement": "5.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.mariadb.jdbc/mariadb-java-client@2.7.4?classifier=sources&uuid=ecba82a1-2087-49e0-bf77-bda788aa6a06",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.mariadb.jdbc/mariadb-java-client@2.7.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/2.7.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/2.7.4/mariadb-java-client-2.7.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/2.7.4/mariadb-java-client-2.7.4.pom",
+    "file_references": []
+}

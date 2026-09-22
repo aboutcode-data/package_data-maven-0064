@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.jdbc.jdbc-ra.jdbc-core",
+    "name": "jdbc-core",
+    "version": "3.0-b49",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Core JDBC Resource Adapter classes",
+    "release_date": "2009-06-04T15:01:36Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/jdbc/jdbc-ra/jdbc-core/jdbc-core/3.0-b49/jdbc-core-3.0-b49.jar",
+    "size": 72107,
+    "md5": null,
+    "sha1": "d3a68b161a4fa3d0fe478efefe6c245e72a29044",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.jdbc.jdbc-ra.jdbc-core/jdbc-core@3.0-b49?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.glassfish.common/glassfish-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.connectors/connectors-internal-api",
+            "extracted_requirement": "3.0-b49",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.common/common-util",
+            "extracted_requirement": "3.0-b49",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.jdbc.jdbc-ra.jdbc-core/jdbc-core@3.0-b49?uuid=a3d2b239-811d-486d-96b0-d8c39310bbd4",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.jdbc.jdbc-ra.jdbc-core/jdbc-core@3.0-b49",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/jdbc/jdbc-ra/jdbc-core/jdbc-core/3.0-b49/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/jdbc/jdbc-ra/jdbc-core/jdbc-core/3.0-b49/jdbc-core-3.0-b49.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/jdbc/jdbc-ra/jdbc-core/jdbc-core/3.0-b49/jdbc-core-3.0-b49.pom",
+    "file_references": []
+}

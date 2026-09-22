@@ -1,0 +1,143 @@
+{
+    "type": "maven",
+    "namespace": "com.lihaoyi",
+    "name": "ammonite-util_2.10.6",
+    "version": "COMMIT-010fa68",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ammonite-util",
+    "release_date": "2017-05-17T08:50:54Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Li Haoyi",
+            "email": null,
+            "url": "https://github.com/lihaoyi"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.lihaoyi",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lihaoyi/Ammonite",
+    "download_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.10.6/COMMIT-010fa68/ammonite-util_2.10.6-COMMIT-010fa68.jar",
+    "size": 91311,
+    "md5": null,
+    "sha1": "d3423e666007a2c6d2df57ea49566aaa58500302",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT license\nhttp://www.opensource.org/licenses/mit-license.php",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lihaoyi/ammonite-util_2.10.6@COMMIT-010fa68?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-compiler",
+            "extracted_requirement": "2.10.6",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect",
+            "extracted_requirement": "2.10.6",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/acyclic_2.10",
+            "extracted_requirement": "0.1.7",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/ammonite-ops_2.10",
+            "extracted_requirement": "COMMIT-010fa68",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalamacros/quasiquotes_2.10",
+            "extracted_requirement": "2.0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/upickle_2.10",
+            "extracted_requirement": "0.4.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/pprint_2.10",
+            "extracted_requirement": "0.5.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/fansi_2.10",
+            "extracted_requirement": "0.2.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/utest_2.10",
+            "extracted_requirement": "0.4.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.lihaoyi/ammonite-util_2.10.6@COMMIT-010fa68?uuid=802b0861-c589-4f9d-8129-a936a67f3c33",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lihaoyi/ammonite-util_2.10.6@COMMIT-010fa68",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.10.6/COMMIT-010fa68/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.10.6/COMMIT-010fa68/ammonite-util_2.10.6-COMMIT-010fa68.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.10.6/COMMIT-010fa68/ammonite-util_2.10.6-COMMIT-010fa68.pom",
+    "file_references": []
+}

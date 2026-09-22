@@ -1,0 +1,115 @@
+{
+    "type": "maven",
+    "namespace": "org.jruby",
+    "name": "jruby-complete",
+    "version": "9.1.17.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "54104866-9b3c-40cc-a832-cef832ff52a8",
+            "packages": [
+                "pkg:maven/org.jruby/jruby-complete@9.1.17.0?uuid=8a9fd469-f0f8-425f-89e3-60b80cc14695",
+                "pkg:maven/org.jruby/jruby-complete@9.1.17.0?classifier=sources&uuid=d838538b-be0e-4db8-95c7-b69e41365540"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JRuby Complete",
+    "release_date": "2018-04-20T18:26:49Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "headius",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "enebo",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "wmeissner",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "BanzaiMan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "mkristian",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JRuby",
+            "email": null,
+            "url": "http://jruby.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/org/jruby/jruby-complete/9.1.17.0/jruby-complete-9.1.17.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f9b936d7352fa3f420ffdc2c22965669ef3c233b",
+    "sha256": "72de5a81b60da3db86753ac6c62a5297a6f47665df93c6480633222d6fc13ff5",
+    "sha512": "e7125b80bb06804c30dbc5d59e7108b3d9f8ed4c27e18d1bea1c56ebf2e34f000b0a243a1fe5b08fbbc17dd55bdc39acaf2242560c777475b5f6793934f33205",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "gpl-2.0 AND lgpl-2.1 AND epl-2.0",
+    "declared_license_expression_spdx": "GPL-2.0-only AND LGPL-2.1-only AND EPL-2.0",
+    "license_detections": [],
+    "other_license_expression": "(epl-2.0 OR gpl-2.0-plus OR lgpl-2.1-plus) AND apache-2.0 AND bsd-new AND mit AND (cpl-1.0 OR gpl-2.0-plus OR lgpl-2.1-plus) AND gpl-3.0 AND bsd-simplified AND cc-pd AND epl-1.0 AND gpl-2.0 WITH classpath-exception-2.0 AND zlib AND ((epl-2.0 OR gpl-2.0-plus OR lgpl-2.1-plus) AND public-domain) AND (bsd-new AND mit) AND cc0-1.0 AND (epl-1.0 AND epl-2.0 AND gpl-2.0 AND gpl-2.0 WITH linux-syscall-exception-gpl AND lgpl-2.1 AND (ruby OR bsd-simplified)) AND (gpl-1.0-plus AND (epl-2.0 OR gpl-2.0-plus OR lgpl-2.1-plus)) AND public-domain AND (ruby OR bsd-simplified) AND (unknown AND mit AND (ruby OR bsd-simplified)) AND warranty-disclaimer",
+    "other_license_expression_spdx": "(EPL-2.0 OR GPL-2.0-or-later OR LGPL-2.1-or-later) AND Apache-2.0 AND BSD-3-Clause AND MIT AND (CPL-1.0 OR GPL-2.0-or-later OR LGPL-2.1-or-later) AND GPL-3.0-only AND BSD-2-Clause AND CC-PDDC AND EPL-1.0 AND GPL-2.0-only WITH Classpath-exception-2.0 AND Zlib AND ((EPL-2.0 OR GPL-2.0-or-later OR LGPL-2.1-or-later) AND LicenseRef-scancode-public-domain) AND (BSD-3-Clause AND MIT) AND CC0-1.0 AND (EPL-1.0 AND EPL-2.0 AND GPL-2.0-only AND GPL-2.0-only WITH Linux-syscall-note AND LGPL-2.1-only AND (Ruby OR BSD-2-Clause)) AND (GPL-1.0-or-later AND (EPL-2.0 OR GPL-2.0-or-later OR LGPL-2.1-or-later)) AND LicenseRef-scancode-public-domain AND (Ruby OR BSD-2-Clause) AND (LicenseRef-scancode-unknown AND MIT AND (Ruby OR BSD-2-Clause)) AND LicenseRef-scancode-warranty-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jruby/jruby-complete@9.1.17.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jruby/jruby-core@9.1.17.0",
+            "extracted_requirement": "9.1.17.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jruby/jruby-stdlib@9.1.17.0",
+            "extracted_requirement": "9.1.17.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jruby/jruby-complete@9.1.17.0?classifier=sources&uuid=d838538b-be0e-4db8-95c7-b69e41365540",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jruby/jruby-complete@9.1.17.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jruby/jruby-complete/9.1.17.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jruby/jruby-complete/9.1.17.0/jruby-complete-9.1.17.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jruby/jruby-complete/9.1.17.0/jruby-complete-9.1.17.0.pom",
+    "file_references": []
+}

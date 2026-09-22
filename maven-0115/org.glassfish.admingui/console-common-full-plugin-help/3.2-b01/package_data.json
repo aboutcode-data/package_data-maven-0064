@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.admingui",
+    "name": "console-common-full-plugin-help",
+    "version": "3.2-b01",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a38b546c-dbc7-44f5-aa20-ae4e7a531d26",
+            "packages": [
+                "pkg:maven/org.glassfish.admingui/console-common-full-plugin-help@3.2-b01?uuid=d79430a5-3b11-4b16-b454-5696e37f9e7e",
+                "pkg:maven/org.glassfish.admingui/console-common-full-plugin-help@3.2-b01?classifier=sources&uuid=ec949d8f-ff3e-42c6-b5f2-57ec40303d85"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Administration Console JavaMailSystem Help Content\nOnline help content for the console-jmail-plugin bundle.",
+    "release_date": "2011-06-16T19:00:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Paul Davies",
+            "email": null,
+            "url": "http://blogs.sun.com/techscribe"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kim Haase",
+            "email": null,
+            "url": "http://blogs.sun.com/appserverwriters"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-common-full-plugin-help/3.2-b01/console-common-full-plugin-help-3.2-b01-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ec41923fed87f8f350ed0ad2773e826ef7fe5ce9",
+    "sha256": "ed0d2370cbc354a16684ee1ca122d2725e8bf97b0e8a41fae95aeaa210cbcb38",
+    "sha512": "b59e8478d0f1125afc5720fa6f654bd5a93a8e6ce2cdf48534b4ff4f2660d246fcb994c03edba260a3fa7154d8086e64578d316c83cf12a3e54064a62e85491a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND generic-trademark AND proprietary-license",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-generic-trademark AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.admingui/console-common-full-plugin-help@3.2-b01?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.glassfish.admingui/console-common-full-plugin-help@3.2-b01?classifier=sources&uuid=ec949d8f-ff3e-42c6-b5f2-57ec40303d85",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.admingui/console-common-full-plugin-help@3.2-b01?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-common-full-plugin-help/3.2-b01/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-common-full-plugin-help/3.2-b01/console-common-full-plugin-help-3.2-b01-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-common-full-plugin-help/3.2-b01/console-common-full-plugin-help-3.2-b01.pom",
+    "file_references": []
+}

@@ -1,0 +1,90 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-instrument",
+    "version": "4.1.9.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ba6cf307-8349-4d24-bf88-056c7867ffe2",
+            "packages": [
+                "pkg:maven/org.springframework/spring-instrument@4.1.9.RELEASE?uuid=cf246ad6-4125-45b1-9417-9c4acc7801fd",
+                "pkg:maven/org.springframework/spring-instrument@4.1.9.RELEASE?classifier=sources&uuid=45a448e7-f515-43be-99c8-f75aee7e1542"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Instrument",
+    "release_date": "2015-12-17T09:07:09Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Spring IO",
+            "email": null,
+            "url": "http://projects.spring.io/spring-framework"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/spring-projects/spring-framework",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-instrument/4.1.9.RELEASE/spring-instrument-4.1.9.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "547c8bac36bfd69ebac103149ca30261183f5a3b",
+    "sha256": "263bd7f5e445ccaf2363e615fe68a10dbcb93e72e2f15dcb727f51b428974313",
+    "sha512": "d3cb4aa8300ecdae3275a574a2b1ea37fa4dcbc15e3504c5b6d03265e117c3095614575d698227dc905add0a34af4752f633aac9c0a3c752a98710d2dee085ee",
+    "bug_tracking_url": "https://jira.springsource.org/browse/SPR",
+    "code_view_url": "https://github.com/spring-projects/spring-framework",
+    "vcs_url": "git://github.com/spring-projects/spring-framework",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-instrument@4.1.9.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.springframework/spring-instrument@4.1.9.RELEASE?classifier=sources&uuid=45a448e7-f515-43be-99c8-f75aee7e1542",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework/spring-instrument@4.1.9.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/spring-instrument/4.1.9.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/spring-instrument/4.1.9.RELEASE/spring-instrument-4.1.9.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/spring-instrument/4.1.9.RELEASE/spring-instrument-4.1.9.RELEASE.pom",
+    "file_references": []
+}

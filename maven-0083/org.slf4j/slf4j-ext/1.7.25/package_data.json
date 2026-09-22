@@ -1,0 +1,117 @@
+{
+    "type": "maven",
+    "namespace": "org.slf4j",
+    "name": "slf4j-ext",
+    "version": "1.7.25",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f9b1ca7f-0bfb-4e49-ad00-c5bde644695c",
+            "packages": [
+                "pkg:maven/org.slf4j/slf4j-ext@1.7.25?uuid=98af2c9c-aa64-4035-8fd3-29217a4a94d9",
+                "pkg:maven/org.slf4j/slf4j-ext@1.7.25?classifier=sources&uuid=b160e1ef-806d-49fe-ad55-186d4e4f3bd1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SLF4J Extensions Module\nExtensions to the SLF4J API",
+    "release_date": "2017-03-16T16:37:24Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.slf4j.org",
+    "download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "da5cead7cf1463cabec6cd56a9b8936037711e0c",
+    "sha256": "784e1fe8ad73ccb3a2df7eb76c4f55704f91986aeda394c0b9a77d3fe5e17ae6",
+    "sha512": "f03fd14cad723d698eff2cb1012a2e05b8a025ebd1dc5a6ae6f748297d762318c13efde2f90353153d89b8991c8b830907a5e73bb6dcd55db65e72c2e2195881",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.slf4j/slf4j-ext@1.7.25?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@1.7.25",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@1.7.25"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.cal10n/cal10n-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javassist/javassist@3.4.GA",
+            "extracted_requirement": "3.4.GA",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.25",
+            "extracted_requirement": "1.7.25",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.slf4j/slf4j-ext@1.7.25?classifier=sources&uuid=b160e1ef-806d-49fe-ad55-186d4e4f3bd1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.slf4j/slf4j-ext@1.7.25?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.25/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25.pom",
+    "file_references": []
+}

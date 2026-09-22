@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "com.github.simondan.ojcms.server",
+    "name": "database",
+    "version": "${project.version}",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": null,
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/github/simondan/ojcms/server/database/${project.version}/database-${project.version}.jar",
+    "size": null,
+    "md5": null,
+    "sha1": null,
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.simondan.ojcms.server/database@%24%7Bproject.version%7D?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.github.simondan.ojcms.server/common",
+            "extracted_requirement": "${project.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mongodb/mongo-java-driver",
+            "extracted_requirement": "3.4.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.flapdoodle.embed/de.flapdoodle.embed.mongo",
+            "extracted_requirement": "2.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "2.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.simondan.ojcms.server/database@%24%7Bproject.version%7D?uuid=ff03fff1-6963-446a-b881-821bc185faea",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.simondan.ojcms.server/database@%24%7Bproject.version%7D",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

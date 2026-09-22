@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.bitbucket.bradleysmithllc.etlunit",
+    "name": "etlunit-oracle-database",
+    "version": "3.0.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "etlunit-oracle-database",
+    "release_date": "2014-01-04T14:11:57Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://org.bitbucket.bradleysmithllc.etlunit",
+    "download_url": "https://repo1.maven.org/maven2/org/bitbucket/bradleysmithllc/etlunit/etlunit-oracle-database/3.0.4/etlunit-oracle-database-3.0.4.jar",
+    "size": 22699,
+    "md5": null,
+    "sha1": "a3793221622466b414dd12fcfd6184085fd54874",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.bitbucket.bradleysmithllc.etlunit/etlunit-oracle-database@3.0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.bitbucket.bradleysmithllc.etlunit/etlunit-core",
+            "extracted_requirement": "3.0.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bitbucket.bradleysmithllc.etlunit/etlunit-database",
+            "extracted_requirement": "3.0.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.oracle/ojdbc6",
+            "extracted_requirement": "11.2.0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.bitbucket.bradleysmithllc.etlunit/etlunit-oracle-database@3.0.4?uuid=e0f76cba-dd02-4457-81a8-1d4af5f1a9e9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.bitbucket.bradleysmithllc.etlunit/etlunit-oracle-database@3.0.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/bitbucket/bradleysmithllc/etlunit/etlunit-oracle-database/3.0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/bitbucket/bradleysmithllc/etlunit/etlunit-oracle-database/3.0.4/etlunit-oracle-database-3.0.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/bitbucket/bradleysmithllc/etlunit/etlunit-oracle-database/3.0.4/etlunit-oracle-database-3.0.4.pom",
+    "file_references": []
+}

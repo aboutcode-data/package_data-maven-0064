@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.irenical.fetchy",
+    "name": "fetchy-discoverer-consul",
+    "version": "2.0.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Fetchy Consul Service Discovery\nFetchy Consul - Consul Service Discovery Implementation",
+    "release_date": "2017-05-24T11:38:05Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Diogo Neves",
+            "email": "diogo.sousa.neves@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/irenical/fetchy/fetchy-discoverer-consul/2.0.0/fetchy-discoverer-consul-2.0.0.jar",
+    "size": 5106,
+    "md5": null,
+    "sha1": "71130510adbe65fc3bac8eaff3b5619c70acee84",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.irenical.fetchy/fetchy-discoverer-consul@2.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.irenical.fetchy/fetchy-api",
+            "extracted_requirement": "2.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.irenical.jindy/jindy-api",
+            "extracted_requirement": "2.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.ecwid.consul/consul-api",
+            "extracted_requirement": "1.1.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.irenical.fetchy/fetchy-discoverer-consul@2.0.0?uuid=2d12f6f9-0eb8-40c6-9930-5667c2884268",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.irenical.fetchy/fetchy-discoverer-consul@2.0.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/irenical/fetchy/fetchy-discoverer-consul/2.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/irenical/fetchy/fetchy-discoverer-consul/2.0.0/fetchy-discoverer-consul-2.0.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/irenical/fetchy/fetchy-discoverer-consul/2.0.0/fetchy-discoverer-consul-2.0.0.pom",
+    "file_references": []
+}

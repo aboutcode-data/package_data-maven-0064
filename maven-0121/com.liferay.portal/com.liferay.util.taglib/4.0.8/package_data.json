@@ -1,0 +1,113 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay.portal",
+    "name": "com.liferay.util.taglib",
+    "version": "4.0.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "693e9463-e6b6-4a81-8835-d4be84bded55",
+            "packages": [
+                "pkg:maven/com.liferay.portal/com.liferay.util.taglib@4.0.8?uuid=12fe1e16-c8d8-44c2-bcc6-477ac519b49d",
+                "pkg:maven/com.liferay.portal/com.liferay.util.taglib@4.0.8?classifier=sources&uuid=85ce3b2f-e804-460a-af9b-18cf47fdaa65"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Util Taglib\nContains tag libraries. Classes are loaded separately for each plugin.",
+    "release_date": "2019-05-16T05:18:31Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/portal/com.liferay.util.taglib/4.0.8/com.liferay.util.taglib-4.0.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9004907734c1280e3cf0fc21551ba361d15a4366",
+    "sha256": "33646c5255cef3bf27d8fceafa729a016ff21f8a6d4261d52a2197e44e47dc8a",
+    "sha512": "4e393d3b403004e245c46947982b915b7e7409f2bb7b5f0ac17006266334346748236d9235df96b4f570bcf67a9639141f7f19f1bfb90cddb4104344cbad79b0",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay.portal/com.liferay.util.taglib@4.0.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.liferay.portal/com.liferay.portal.kernel@4.0.8",
+            "extracted_requirement": "4.0.8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay.portal/com.liferay.util.java@4.0.8",
+            "extracted_requirement": "4.0.8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay.portal/com.liferay.util.taglib@4.0.8?classifier=sources&uuid=85ce3b2f-e804-460a-af9b-18cf47fdaa65",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay.portal/com.liferay.util.taglib@4.0.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/portal/com.liferay.util.taglib/4.0.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/portal/com.liferay.util.taglib/4.0.8/com.liferay.util.taglib-4.0.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/portal/com.liferay.util.taglib/4.0.8/com.liferay.util.taglib-4.0.8.pom",
+    "file_references": []
+}

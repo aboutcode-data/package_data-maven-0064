@@ -1,0 +1,158 @@
+{
+    "type": "maven",
+    "namespace": "javax.ws.rs",
+    "name": "javax.ws.rs-api",
+    "version": "2.1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "01b54804-cdab-485b-ad28-69db72dd9206",
+            "packages": [
+                "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?uuid=51654ce2-178d-4f7a-971e-1407816a68b3",
+                "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?classifier=sources&uuid=61bf6fdd-df0c-4068-b7ae-e3ae222c07cd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "javax.ws.rs-api\nJava API for RESTful Web Services",
+    "release_date": "2018-08-24T16:05:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JAX-RS API Developers",
+            "email": "jaxrs-dev@eclipse.org",
+            "url": "https://github.com/eclipse-ee4j/jaxrs-api/graphs/contributors"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Eclipse Foundation",
+            "email": null,
+            "url": "https://www.eclipse.org/org/foundation/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/eclipse-ee4j/jaxrs-api",
+    "download_url": "https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c8cd68f41c63e60c89321caa95513376aace6711",
+    "sha256": "988cf24cda420f2333643b5f6c3813835404c0ad5e7cd137704ee7034bea2748",
+    "sha512": "23c140fc919c03e8a5600bea23190099609af8bbadcfff7eba22983986fce62fee85510c67b7e70c7d9def2770a637506b5ec7c1c4ad4798ff00ebf2a8f69bfe",
+    "bug_tracking_url": "https://github.com/eclipse-ee4j/jaxrs-api/issues",
+    "code_view_url": "https://github.com/eclipse-ee4j/jaxrs-api",
+    "vcs_url": "git+https://github.com/eclipse-ee4j/jaxrs-api",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-2.0 AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND classpath-exception-2.0",
+    "declared_license_expression_spdx": "EPL-2.0 AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Classpath-exception-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 50.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_epl-2.0_for_epl-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "EPL 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 50,
+                    "rule_identifier": "spdx_license_id_epl-2.0_for_epl-2.0.RULE",
+                    "license_expression": "epl-2.0"
+                }
+            ],
+            "identifier": "epl_2_0-2380463e-0376-59ea-0a65-7b03ab634b53",
+            "license_expression": "epl-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-2.0_32.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.eclipse.org/legal/epl-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-2.0_32.RULE",
+                    "license_expression": "epl-2.0"
+                }
+            ],
+            "identifier": "epl_2_0-e484a55e-3b73-1bec-20f7-9e6f829ae88e",
+            "license_expression": "epl-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.0_or_gpl-2.0_with_classpath-exception-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "GPL2 w/ CPE",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.0_or_gpl-2.0_with_classpath-exception-2.0_5.RULE",
+                    "license_expression": "cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0"
+                }
+            ],
+            "identifier": "cddl_1_0_or_gpl_2_0_with_classpath_exception_2_0-08cb6925-723e-141b-d7ac-35e20c3c97a4",
+            "license_expression": "cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/classpath-exception-2.0_9.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.gnu.org/software/classpath/license.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "classpath-exception-2.0_9.RULE",
+                    "license_expression": "classpath-exception-2.0"
+                }
+            ],
+            "identifier": "classpath_exception_2_0-0b723905-e221-9289-f231-8f70017566f7",
+            "license_expression": "classpath-exception-2.0"
+        }
+    ],
+    "other_license_expression": "(epl-2.0 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0",
+    "other_license_expression_spdx": "(EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: EPL 2.0\n  url: http://www.eclipse.org/legal/epl-2.0\n  comments:\n  distribution: repo\n- name: GPL2 w/ CPE\n  url: https://www.gnu.org/software/classpath/license.html\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?classifier=sources&uuid=61bf6fdd-df0c-4068-b7ae-e3ae222c07cd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.pom",
+    "file_references": []
+}

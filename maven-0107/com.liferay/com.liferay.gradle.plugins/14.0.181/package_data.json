@@ -1,0 +1,273 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.gradle.plugins",
+    "version": "14.0.181",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b1a22af0-a3e8-4ce7-9473-9cbd9fdb7bb0",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.gradle.plugins@14.0.181?uuid=462106cd-7ed1-483f-af98-d984941c0e13",
+                "pkg:maven/com.liferay/com.liferay.gradle.plugins@14.0.181?classifier=sources&uuid=0daaa153-4e60-414a-9178-245e4c9ebeed"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Gradle Plugins",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.gradle.plugins/14.0.181/com.liferay.gradle.plugins-14.0.181-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "892f40204b4cba13c10730ef642573e2c49661c4",
+    "sha256": "e5495e1b4a6b945033b92e8543c3505673625c6fa5567984b3ba2e728ad2e582",
+    "sha512": "447f4f70ff6586db69a6c76556864c9e48481aca5d19782052247278dbe95217389d5f236d292cf3d7260b9f072a769941c7dc2a6cf93b70da7f78db8c1c19b8",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR liferay-dxp-eula-2.0.0-2023-06",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.gradle.plugins@14.0.181?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.gradle@5.3.0",
+            "extracted_requirement": "5.3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.ant.bnd@3.2.10",
+            "extracted_requirement": "3.2.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gogo.shell.client@1.0.0",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.alloy.taglib@2.0.6",
+            "extracted_requirement": "2.0.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.css.builder@5.0.10",
+            "extracted_requirement": "5.0.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.db.support@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.jasper.jspc@2.0.14",
+            "extracted_requirement": "2.0.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.javadoc.formatter@2.0.0",
+            "extracted_requirement": "2.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.lang.builder@3.0.35",
+            "extracted_requirement": "3.0.35",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.node@8.0.2",
+            "extracted_requirement": "8.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.python@1.0.3",
+            "extracted_requirement": "1.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.rest.builder@1.1.196",
+            "extracted_requirement": "1.1.196",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.service.builder@4.0.136",
+            "extracted_requirement": "4.0.136",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.source.formatter@5.2.54",
+            "extracted_requirement": "5.2.54",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.test.integration@4.0.4",
+            "extracted_requirement": "4.0.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.tld.formatter@1.0.15",
+            "extracted_requirement": "1.0.15",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.tlddoc.builder@2.0.1",
+            "extracted_requirement": "2.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.upgrade.table.builder@3.0.5",
+            "extracted_requirement": "3.0.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.wsdd.builder@1.0.23",
+            "extracted_requirement": "1.0.23",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.wsdl.builder@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.xsd.builder@1.0.12",
+            "extracted_requirement": "1.0.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.util@1.0.48",
+            "extracted_requirement": "1.0.48",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.gradle.plugins@14.0.181?classifier=sources&uuid=0daaa153-4e60-414a-9178-245e4c9ebeed",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins@14.0.181?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

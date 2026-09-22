@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal.binding.model.ietf",
+    "name": "rfc8072",
+    "version": "9.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b4b15ab0-d80e-4ab9-b3bb-8ab715fcdf36",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8072@9.0.2?uuid=ac77568d-3742-4444-8e12-0f4f3041c039",
+                "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8072@9.0.2?classifier=sources&uuid=b6348368-f901-4e93-9cb4-a2b9cdd99c51"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "rfc8072\nRFC8072 YANG Patch Media Type",
+    "release_date": "2022-04-14T08:14:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/binding/model/ietf/rfc8072/9.0.2/rfc8072-9.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d9eacb87ead25aaaf80e5db01b2d5c06b062d567",
+    "sha256": "87a2285df287f66100b916277cd73d32c0512fe26971cf6fed24446971779c2a",
+    "sha512": "8d722956a3732892fe4ac26e81a6e381e1505d482224a0b781dec6b9e95bd85b4f6f050272c920810d49fd6d0b5b4899e187767fad861016ca30f8dbbbfbc5dd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) PANTHEON.tech, s.r.o. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8072@9.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8040",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8072@9.0.2?classifier=sources&uuid=b6348368-f901-4e93-9cb4-a2b9cdd99c51",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8072@9.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

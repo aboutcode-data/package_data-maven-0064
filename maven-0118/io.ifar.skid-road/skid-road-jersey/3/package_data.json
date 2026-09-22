@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.ifar.skid-road",
+    "name": "skid-road-jersey",
+    "version": "3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Skid Road Jersey Integration\nProvides Jersey Filters for collecting data",
+    "release_date": "2014-02-17T11:01:12Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/ifar/skid-road/skid-road-jersey/3/skid-road-jersey-3.jar",
+    "size": 52565,
+    "md5": null,
+    "sha1": "70a299fd714c5d9832fa13eb284086afaa0e3871",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.ifar.skid-road/skid-road-jersey@3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.ifar.skid-road/skid-road",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.jersey/jersey-server",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.ifar.skid-road/skid-road-jersey@3?uuid=51c7a875-98c2-45d3-a5a5-70350b534b43",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.ifar.skid-road/skid-road-jersey@3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/ifar/skid-road/skid-road-jersey/3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/ifar/skid-road/skid-road-jersey/3/skid-road-jersey-3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/ifar/skid-road/skid-road-jersey/3/skid-road-jersey-3.pom",
+    "file_references": []
+}

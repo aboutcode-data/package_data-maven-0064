@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tika",
+    "name": "tika-java7",
+    "version": "1.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a9bc8fb9-60e2-48bd-9af6-8a8f7aafddcc",
+            "packages": [
+                "pkg:maven/org.apache.tika/tika-java7@1.7?uuid=7813abc5-c224-4104-aa09-3a09e8acaf60",
+                "pkg:maven/org.apache.tika/tika-java7@1.7?classifier=sources&uuid=0de059f5-8f19-49fe-9175-9e5a0a37e002"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Tika Java-7 Components\nJava-7 reliant components, including FileTypeDetector implementations",
+    "release_date": "2015-01-09T21:36:41Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://tika.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-java7/1.7/tika-java7-1.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "dedbd14108082e1ce3f947c6d21798f3be934e66",
+    "sha256": "383d164b1d3bb7e4ef098a85f98a4b0f621b43a1f2786a80d7a3dd138ee86dd6",
+    "sha512": "96e8ae683e0ff072ffc47cdcfcf4aa5936d6611a2992ffe23855a00db5d5df6d9a80e6168c879ae5790c5aa714c1c9bffbaf081d86f9f31d9e8d4e50a78bf64c",
+    "bug_tracking_url": "https://issues.apache.org/jira/browse/TIKA",
+    "code_view_url": "http://svn.apache.org/viewvc/tika/tags/1.7-rc3/tika-java7",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/tika/tags/1.7-rc3/tika-java7",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND netcdf AND cddl-1.0 AND lgpl-2.1-plus) AND (bsd-new AND apache-2.0 AND mpl-1.1) AND (bsd-new AND epl-1.0 AND mit AND apache-2.0 AND public-domain)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND NetCDF AND CDDL-1.0 AND LGPL-2.1-or-later) AND (BSD-3-Clause AND Apache-2.0 AND MPL-1.1) AND (BSD-3-Clause AND EPL-1.0 AND MIT AND Apache-2.0 AND LicenseRef-scancode-public-domain)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tika/tika-java7@1.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tika/tika-core@1.7",
+            "extracted_requirement": "1.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tika/tika-parsers@1.7",
+            "extracted_requirement": "1.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/biz.aQute/bndlib",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tika/tika-java7@1.7?classifier=sources&uuid=0de059f5-8f19-49fe-9175-9e5a0a37e002",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.tika/tika-java7@1.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-java7/1.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-java7/1.7/tika-java7-1.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tika/tika-java7/1.7/tika-java7-1.7.pom",
+    "file_references": []
+}

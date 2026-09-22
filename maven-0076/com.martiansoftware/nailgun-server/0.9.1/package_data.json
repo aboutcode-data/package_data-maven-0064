@@ -1,0 +1,63 @@
+{
+    "type": "maven",
+    "namespace": "com.martiansoftware",
+    "name": "nailgun-server",
+    "version": "0.9.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7c1b20a5-a3fa-420c-adcf-155666531968",
+            "packages": [
+                "pkg:maven/com.martiansoftware/nailgun-server@0.9.1?uuid=cb447a2c-4dda-476a-969c-f5d5422166fd",
+                "pkg:maven/com.martiansoftware/nailgun-server@0.9.1?classifier=sources&uuid=c82a2c23-fe20-4987-95cb-cda96403d994"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "nailgun-server\nNailgun is a client, protocol, and server for running Java programs from \n        the command line without incurring the JVM startup overhead. Programs run \n        in the server (which is implemented in Java), and are triggered by the \n        client (written in C), which handles all I/O.\n        \n        This project contains the SERVER ONLY.",
+    "release_date": "2012-12-03T01:08:52Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marty Lamb",
+            "email": "mlamb@martiansoftware.com",
+            "url": "http://martiansoftware.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://martiansoftware.com/nailgun",
+    "download_url": "https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0883bf2d49662530811c0ab41ebbc926d6274bb9",
+    "sha256": "a1d68ac9361f358170e730a9e109c22ed9dc13eaa614c56515e6384da2cac621",
+    "sha512": "3a67f569b08dc30e96fc65678eb3db2deea720e455821ec393181c29710bb7e618d730ba527fe92edbe93e9ec2407f3b1c6c25c977a4fd5f0e3460cda1ba376b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND apache-1.1 AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND Apache-1.1 AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.martiansoftware/nailgun-server@0.9.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.martiansoftware/nailgun-server@0.9.1?classifier=sources&uuid=c82a2c23-fe20-4987-95cb-cda96403d994",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.martiansoftware/nailgun-server@0.9.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.pom",
+    "file_references": []
+}

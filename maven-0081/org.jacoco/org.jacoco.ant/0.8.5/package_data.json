@@ -1,0 +1,145 @@
+{
+    "type": "maven",
+    "namespace": "org.jacoco",
+    "name": "org.jacoco.ant",
+    "version": "0.8.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2529b403-3b46-47ba-9d1c-6396f3853aa4",
+            "packages": [
+                "pkg:maven/org.jacoco/org.jacoco.ant@0.8.5?uuid=d6ba0de3-5d8d-4344-be19-d1c7f3378835",
+                "pkg:maven/org.jacoco/org.jacoco.ant@0.8.5?classifier=sources&uuid=8ef0aca2-b6ee-42da-9e14-767d29529957"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JaCoCo :: Ant\nJaCoCo Ant Tasks",
+    "release_date": "2019-10-11T19:19:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marc R. Hoffmann",
+            "email": "hoffmann@mountainminds.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brock Janiczak",
+            "email": "brockj@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Evgeny Mandrikov",
+            "email": "mandrikov@gmail.com",
+            "url": "http://godin.net.ru"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mirko Friedenhagen",
+            "email": "mfriedenhagen@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Radek Liba",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Christoph Beck",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Mountainminds GmbH & Co. KG",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jacoco.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jacoco/org.jacoco.ant/0.8.5/org.jacoco.ant-0.8.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4da829111d4561f503bedac17ef3c756e20f2402",
+    "sha256": "7cd8f3952f3515a3a118e88c3bd818e1b9cb7901391339c7c8dfbd841bd271dd",
+    "sha512": "74b771c562f9d5c8e4d292b99d09a8b859570f2859c64468aeb4c627594a3bcefd9c11d7b34808592c4c035d9d71b60d459760eeb98b324475f6168582df83f4",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-2.0",
+    "declared_license_expression_spdx": "EPL-2.0",
+    "license_detections": [],
+    "other_license_expression": "epl-2.0",
+    "other_license_expression_spdx": "EPL-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jacoco/org.jacoco.ant@0.8.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.jacoco/org.jacoco.build@0.8.5",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.jacoco/org.jacoco.build@0.8.5",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jacoco/org.jacoco.build@0.8.5"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jacoco/org.jacoco.core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jacoco/org.jacoco.report",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jacoco/org.jacoco.agent",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jacoco/org.jacoco.ant@0.8.5?classifier=sources&uuid=8ef0aca2-b6ee-42da-9e14-767d29529957",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jacoco/org.jacoco.ant@0.8.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jacoco/org.jacoco.ant/0.8.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jacoco/org.jacoco.ant/0.8.5/org.jacoco.ant-0.8.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jacoco/org.jacoco.ant/0.8.5/org.jacoco.ant-0.8.5.pom",
+    "file_references": []
+}

@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-vertx-http-deployment-spi",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b8d7423c-4123-415d-b36b-2022dddbda2b",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-vertx-http-deployment-spi@2.13.7.Final?uuid=834e32c2-f3c1-43b7-be3b-ef63f43ce824",
+                "pkg:maven/io.quarkus/quarkus-vertx-http-deployment-spi@2.13.7.Final?classifier=sources&uuid=afd823f2-8d10-4a2f-8d93-3373f4c8b3ea"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Vert.x - HTTP - Deployment - SPI",
+    "release_date": "2023-01-19T10:11:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-vertx-http-deployment-spi/2.13.7.Final/quarkus-vertx-http-deployment-spi-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "51429584c2fb6fc4e7829a387bed4fae3f4ae321",
+    "sha256": "b54e66a035f7f8b68890aae7deee39fdc24f458303bba65337df2719cb13e181",
+    "sha512": "18578f2943a4d63698dd6e66fdf1eda83f03ae4e65e091e3117f031a8070df2d90504a74375ffba9088dba76b6b2486bcbb680d841b0151b7f5f1c334555f5dd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-vertx-http-deployment-spi@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-vertx-http-deployment-spi@2.13.7.Final?classifier=sources&uuid=afd823f2-8d10-4a2f-8d93-3373f4c8b3ea",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-vertx-http-deployment-spi@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

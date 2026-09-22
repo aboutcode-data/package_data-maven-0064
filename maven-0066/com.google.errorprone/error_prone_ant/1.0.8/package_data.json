@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "com.google.errorprone",
+    "name": "error_prone_ant",
+    "version": "1.0.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "90939aa8-15b7-44ca-aa32-a2a83335e3e5",
+            "packages": [
+                "pkg:maven/com.google.errorprone/error_prone_ant@1.0.8?uuid=7a81bd5a-61fe-4d5e-a1af-25c9ffbb4c6d",
+                "pkg:maven/com.google.errorprone/error_prone_ant@1.0.8?classifier=sources&uuid=3bdf9143-e55d-4799-af3a-b0c6865720de"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Ant build support",
+    "release_date": "2013-11-21T02:44:56Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_ant/1.0.8/error_prone_ant-1.0.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ff1b0394352e7f2423fa18571d7ecfcfd29f05f8",
+    "sha256": "bbaaf53c09dcb0d8bec74842a31151de18cca36efac031131ced47d54d36410e",
+    "sha512": "9ee3c065067e3e038418bdb78b0a5e5bb20de644b844e14c2e8195d9f0098e439755be05afcff2b6adac8b49b69c17941bcdb7686c077a178914521a97eabeca",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.errorprone/error_prone_ant@1.0.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.ant/ant@1.8.2",
+            "extracted_requirement": "1.8.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.errorprone/error_prone_ant@1.0.8?classifier=sources&uuid=3bdf9143-e55d-4799-af3a-b0c6865720de",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.errorprone/error_prone_ant@1.0.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_ant/1.0.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_ant/1.0.8/error_prone_ant-1.0.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_ant/1.0.8/error_prone_ant-1.0.8.pom",
+    "file_references": []
+}

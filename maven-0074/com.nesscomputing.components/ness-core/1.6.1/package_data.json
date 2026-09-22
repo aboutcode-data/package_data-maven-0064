@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.nesscomputing.components",
+    "name": "ness-core",
+    "version": "1.6.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ness-core\nNess base types component",
+    "release_date": "2013-04-12T20:25:32Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/nesscomputing/components/ness-core/1.6.1/ness-core-1.6.1.jar",
+    "size": 12064,
+    "md5": null,
+    "sha1": "746b1beca27342a1d55728a96cdb35d1421ad766",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.nesscomputing.components/ness-core@1.6.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.caliper/caliper",
+            "extracted_requirement": "0.5-rc1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit-dep",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.inject/guice",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.nesscomputing.components/ness-core@1.6.1?uuid=ec1dd9e8-d2d0-4d77-abfd-f55116d3c6c3",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.nesscomputing.components/ness-core@1.6.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/nesscomputing/components/ness-core/1.6.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/nesscomputing/components/ness-core/1.6.1/ness-core-1.6.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/nesscomputing/components/ness-core/1.6.1/ness-core-1.6.1.pom",
+    "file_references": []
+}

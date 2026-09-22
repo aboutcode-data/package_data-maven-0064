@@ -1,0 +1,55 @@
+{
+    "type": "maven",
+    "namespace": "io.lighty.resources",
+    "name": "start-script",
+    "version": "16.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bba1f8da-da0e-46c5-8024-4adb6102fe05",
+            "packages": [
+                "pkg:maven/io.lighty.resources/start-script@16.0.0?uuid=7ea91f43-e61a-4079-8a93-4e847ff14efb",
+                "pkg:maven/io.lighty.resources/start-script@16.0.0?classifier=sources&uuid=9d9ce035-0c12-4f14-87c0-9481a594bfe5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "io.lighty.resources:start-script",
+    "release_date": "2022-05-06T16:42:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/PANTHEONtech/lighty",
+    "download_url": "https://repo1.maven.org/maven2/io/lighty/resources/start-script/16.0.0/start-script-16.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9a292f973f8c2b8ef37701e8b66971d0cefe672b",
+    "sha256": "251c320888ec3cb737f697b7a864a826b8422d3fb9a3c0f6b7338a2d2b9a0821",
+    "sha512": "68ab7a3179c11f73e1f8a1a2a8ca1bd17e2010a26b25b38426908fc08e3cdf0870208ad2c1b8bb6a28bb95afdcc1aa06cb0a18f2ab9d2e33e3f310084526dafd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) PANTHEON.tech s.r.o.",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.lighty.resources/start-script@16.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/io.lighty.resources/start-script@16.0.0?classifier=sources&uuid=9d9ce035-0c12-4f14-87c0-9481a594bfe5",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.lighty.resources/start-script@16.0.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}
